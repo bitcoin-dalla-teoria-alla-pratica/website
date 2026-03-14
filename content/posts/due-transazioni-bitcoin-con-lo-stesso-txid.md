@@ -86,7 +86,7 @@ tac -rs ..
 </pre>
 <p>risultato:<br /><strong>e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468</strong></p>
 <p>Esatto, le due transazioni hanno lo stesso identico transaction data, ecco perchè hanno lo stesso <strong>txid</strong>!<br />Per evitare questo problema è stato introdotto il <a href="https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki" target="_blank" rel="noreferrer noopener">BIP-34</a>, che obbliga ad inserire l’altezza del blocco all’interno dello scriptSig, risolvendo così il problema.</p><p></p>
-<figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2019/04/Screenshot-2019-04-28-at-20.39.25-1024x763.png" alt="" />
+<figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2019/04/Screenshot-2019-04-28-at-20.39.25-1024x763.png" alt="Due transazioni con lo stesso txid" />
 <p> </p>
 <figcaption><a href="https://www.udemy.com/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?couponCode=WP_WORDPRESS" target="_blank" rel="noreferrer noopener" aria-label=" (si apre in una nuova scheda)">Slide del corso "</a><strong><a href="https://www.udemy.com/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?couponCode=WP_WORDPRESS" target="_blank" rel="noreferrer noopener" aria-label=" (si apre in una nuova scheda)">Bitcoin dalla teoria alla pratica — corso completo"</a></strong></figcaption>
 </figure>

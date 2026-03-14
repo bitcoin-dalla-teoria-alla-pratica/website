@@ -41,7 +41,7 @@ Il tascabile si chiama “<a href="https://www.amazon.it/dp/1098612639" target="
  	<li>E l’ultimo livello, chiamato <strong>Nerd Zone</strong> che contiene domande tecniche. Che cosa è lo ScriptPubKey? Che cosa è il Merkle root? Che cosa è la xpub?</li>
 </ul>
 Le domande e le risposte sono di poche righe.
-<figure><img src="https://cdn-images-1.medium.com/max/2400/1*GKoscXkl7_2t9W_6Mf-HGA.png" data-image-id="1*GKoscXkl7_2t9W_6Mf-HGA.png" data-width="2200" data-height="1500"><figcaption><a href="https://www.amazon.it/dp/1098612639" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1098612639">Bitcoin 199&nbsp;domande</a></figcaption></figure>
+<figure><img alt="Da dove inizio a studiare per imparare Bitcoin?" src="https://cdn-images-1.medium.com/max/2400/1*GKoscXkl7_2t9W_6Mf-HGA.png" data-image-id="1*GKoscXkl7_2t9W_6Mf-HGA.png" data-width="2200" data-height="1500"><figcaption><a href="https://www.amazon.it/dp/1098612639" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1098612639">Bitcoin 199&nbsp;domande</a></figcaption></figure>
 Ma se la domanda ci viene fatta da una persona tecnica, le risorse sono molteplici. Resta sempre valido il libro di <strong>Antonopoulos</strong> il quale però non offre del codice da provare. Ed è stato proprio questa la spinta che ci serviva per pensare a un qualcosa più pratico, che mettesse in pratica il protocollo stesso.
 
 Essendo io stesso un tecnico, ho bisogno di leggere errori, provare a rompere il software, e fare aaaaah! Ecco perchè!
@@ -55,7 +55,7 @@ Abbiamo approfittato del contenuto prodotto per fare il libro <a href="https://a
 Che cosa contiene il libro?
 
 Il libro analizza il funzionamento Bitcoin dal lato tecnico. Spiega come viene effettuata la generazione dei blocchi, scoprendo con la pratica il lavoro del miner. Spiega e dimostra come viene creato un wallet deterministico, partendo dalla seed phrase, le famose 12/24 parole. Analizza byte per byte la transazione P2PKH e lo stack.
-<figure><img src="https://cdn-images-1.medium.com/max/2400/1*9JVLiWGHuyoL6U8OTaXN_Q.png" data-image-id="1*9JVLiWGHuyoL6U8OTaXN_Q.png" data-width="2200" data-height="1500" data-is-featured="true">
+<figure><img alt="Da dove inizio a studiare per imparare Bitcoin?" src="https://cdn-images-1.medium.com/max/2400/1*9JVLiWGHuyoL6U8OTaXN_Q.png" data-image-id="1*9JVLiWGHuyoL6U8OTaXN_Q.png" data-width="2200" data-height="1500" data-is-featured="true">
 
 <figcaption><a href="https://amzn.to/2MOj1av" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2MOj1av">Bitcoin dalla teoria alla&nbsp;pratica</a></figcaption></figure>
 Il codice utilizzato è versionato nel nostro repository <a href="https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi" target="_blank" rel="noopener noreferrer" data-href="https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi">GitHub</a>
@@ -80,16 +80,16 @@ Ciao!
 —
 
 📖 <a href="https://amzn.to/2MOj1av" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a>
-📖 <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a>
+📖 <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a>
 
 📖 <a href="https://amzn.to/2MOj1av" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a>
 📖 <a href="https://amzn.to/2Ym4gz6" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2Ym4gz6">Book Bitcoin from theory to practice</a>
 —
 📖 <a href="https://www.amazon.it/dp/1098612639" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1098612639">Tascabile Bitcoin 199 domande (Amazon)</a>
-📖 <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a>
+📖 <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a>
 
 📖 <a href="https://amzn.to/3fB4Kbs" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/3fB4Kbs">Pocket Book Bitcoin 199 questions (Amazon)</a>
-📖 <a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Pocket </a><a href="https://www.amazon.it/dp/1078155585" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1078155585">Book </a><a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Bitcoin 199 questions (accept bitcoin)</a>
+📖 <a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Pocket </a><a href="https://www.amazon.it/dp/1078155585" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1078155585">Book </a><a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Bitcoin 199 questions (accept bitcoin)</a>
 —
 🎥 <a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noopener noreferrer" data-href="https://bit.ly/3cUJDyZ">Video Corso Bitcoin dalla teoria alla pratica</a>
 

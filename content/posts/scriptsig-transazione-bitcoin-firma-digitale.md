@@ -19,7 +19,7 @@ Abbiamo ricevuto una domanda da parte di Luca, che ci chiede.
 <blockquote>In alcuni video avete parlato di scriptSig, che cosa è?</blockquote>
 Bene Luca, lo <strong>scriptSig</strong> è parte della transazione di Bitcoin.
 Puoi immaginare la transazione <strong>non SegWit</strong> cosi strutturata.
-<figure><img src="https://cdn-images-1.medium.com/max/800/1*SyzHAwvw2nTMrL7W3IYG6w.png" data-image-id="1*SyzHAwvw2nTMrL7W3IYG6w.png" data-width="2232" data-height="1453" /><figcaption>Immagine estratta dal <a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noopener noreferrer" data-href="https://bit.ly/3cUJDyZ">videocorso</a> e dal libro<a href="https://amzn.to/2MOj1av" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2MOj1av"> Bitcoin dalla teoria alla pratica</a></figcaption></figure>
+<figure><img alt="Che cosa è lo scriptSig?" src="https://cdn-images-1.medium.com/max/800/1*SyzHAwvw2nTMrL7W3IYG6w.png" data-image-id="1*SyzHAwvw2nTMrL7W3IYG6w.png" data-width="2232" data-height="1453" /><figcaption>Immagine estratta dal <a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noopener noreferrer" data-href="https://bit.ly/3cUJDyZ">videocorso</a> e dal libro<a href="https://amzn.to/2MOj1av" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2MOj1av"> Bitcoin dalla teoria alla pratica</a></figcaption></figure>
 <ul>
  	<li>La versione della transazione</li>
  	<li>Il numero di input</li>
@@ -101,14 +101,14 @@ Spero che il video vi sia piaciuto, ciao e alla prossima
 🐙 GitHub:<a href="https://bit.ly/2Lj3yeY" target="_blank" rel="noopener noreferrer" data-href="https://bit.ly/2Lj3yeY"> https://bit.ly/2Lj3yeY</a>
 —
 📖 <a href="https://amzn.to/2MOj1av" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a>
-📖 <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a>
+📖 <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a>
 📖 <a href="https://amzn.to/2MOj1av" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a>
 📖 <a href="https://amzn.to/2Ym4gz6" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2Ym4gz6">Book Bitcoin from theory to practice</a>
 —
 📖 <a href="https://www.amazon.it/dp/1098612639" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1098612639">Tascabile Bitcoin 199 domande (Amazon)</a>
-📖 <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a>
+📖 <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a>
 📖 <a href="https://amzn.to/3fB4Kbs" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/3fB4Kbs">Pocket Book Bitcoin 199 questions (Amazon)</a>
-📖 <a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Pocket </a><a href="https://www.amazon.it/dp/1078155585" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1078155585">Book </a><a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Bitcoin 199 questions (accept bitcoin)</a>
+📖 <a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Pocket </a><a href="https://www.amazon.it/dp/1078155585" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1078155585">Book </a><a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Bitcoin 199 questions (accept bitcoin)</a>
 —
 🎥 <a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noopener noreferrer" data-href="https://bit.ly/3cUJDyZ">Video Corso Bitcoin dalla teoria alla pratica</a>
 —

@@ -113,17 +113,17 @@ https://www.youtube.com/watch?v=HaZCpfc7Vbg&amp;feature=emb_title
 
 <p>Se non vi ricordate che cosa contiene lo scriptSig, <a href="https://youtu.be/IPpSCOy3yHg" target="_blank" rel="noreferrer noopener">vi lascio il link nei video consigliati</a>.</p>
 
-<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_FPj1JmydHi0VZb_4LoW0ag.jpeg" alt="" class="wp-image-13450"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
+<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_FPj1JmydHi0VZb_4LoW0ag.jpeg" alt="Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?" class="wp-image-13450"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
 
 <p>Come puoi vedere stiamo analizzando una transazione Pay to public key hash.</p>
 
 <p>Successivamente viene inserito nello stack <strong>OP_DUP</strong> che ha il compito di estrarre il primo elemento dallo stack, di duplicarlo e di fare push del risultato.</p>
 
-<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_LjE9B3RU4qNm5kCFuCUg3g.jpeg" alt="" class="wp-image-13451"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
+<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_LjE9B3RU4qNm5kCFuCUg3g.jpeg" alt="Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?" class="wp-image-13451"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
 
 <p>Prossima operazione è <strong>OP_HASH160</strong>, la quale prende il primo elemento dello stack, quindi pop, e applica la funzione <strong>SHA256</strong> e <strong>RIPEMD160</strong> e fa push del risultato.</p>
 
-<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_NjY3JniSEMgxPk0yUY4sKQ.jpeg" alt="" class="wp-image-13452"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
+<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_NjY3JniSEMgxPk0yUY4sKQ.jpeg" alt="Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?" class="wp-image-13452"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
 
 <p>Vedendo con la pratica esegue:</p>
 
@@ -135,11 +135,11 @@ https://www.youtube.com/watch?v=HaZCpfc7Vbg&amp;feature=emb_title
 
 <p>Prossima operazione, push dell’elemento dello <strong>scriptPubKey</strong>, L’hash della chiave pubblica, ecco perché si chiama Pay to Public key hash.</p>
 
-<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_MAe0ZOkTyq7v9C-XSLl-Pw.jpeg" alt="" class="wp-image-13453"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
+<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_MAe0ZOkTyq7v9C-XSLl-Pw.jpeg" alt="Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?" class="wp-image-13453"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
 
 <p>Prossima operazione <strong>OP_EQUALVERIFY</strong>.</p>
 
-<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_D5G9xHJ_XgvIujt8JH7Ihw.jpeg" alt="" class="wp-image-13454"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
+<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_D5G9xHJ_XgvIujt8JH7Ihw.jpeg" alt="Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?" class="wp-image-13454"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
 
 <p>Esegue il pop dei due elementi in testa allo stack, li verifica, e se sono uguali non esegue nessun push nello stack, altrimenti fallisce.</p>
 
@@ -153,7 +153,7 @@ https://www.youtube.com/watch?v=HaZCpfc7Vbg&amp;feature=emb_title
 
 <p>Ed ecco che l’ultimo e unico valore dello stack è 1, validando la transazione.</p>
 
-<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_cp9Gh1FBBkFCs3fyEvyrIg.jpeg" alt="" class="wp-image-13455"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
+<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2020/11/1_cp9Gh1FBBkFCs3fyEvyrIg.jpeg" alt="Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?" class="wp-image-13455"/><figcaption><a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener">Slide del video corso Bitcoin dalla teoria alla pratica</a></figcaption></figure>
 
 <p>L’argomento della validazione dello stack, lo stack stesso e le operation code sono argomenti molto ampi e meritano dei video e delle spiegazioni più dettagliate che affrontiamo&nbsp;<a href="https://vimeo.com/r/2Lua/SGVxMVI5ZT" target="_blank" rel="noreferrer noopener"><strong>nel video corso che trovate su Vimeo</strong></a>&nbsp;a metà prezzo, quindi accattateville!</p>
 

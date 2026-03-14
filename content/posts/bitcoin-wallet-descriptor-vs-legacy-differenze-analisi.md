@@ -32,7 +32,7 @@ tags:
 
 <p>Inoltre, i Descriptor Wallets risolvono un problema critico legato alle chiavi non rinforzate. Precedentemente, un attaccante in possesso dell'extended public key (xpub) e di una chiave privata non rinforzata avrebbe potuto dedurre la chiave privata dell'extended public key, ottenendo così ogni chiave derivabile, sia rinforzata che non rinforzata.</p>
 
-<p>Per ulteriori dettagli su questo argomento, si consiglia la lettura del libro "<a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/">Bitcoin dalla Teoria alla Pratica</a>".</p>
+<p>Per ulteriori dettagli su questo argomento, si consiglia la lettura del libro "<a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Bitcoin dalla Teoria alla Pratica</a>".</p>
 
 <figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2019/06/bitcoin-teoria-pratica-front-1024x1024.png" alt="Esplora le differenze cruciali tra i wallet Bitcoin Descriptor e Legacy. Scopri come l'implementazione del Descriptor Wallet sta ridefinendo la sicurezza e la flessibilità, rendendo obsoleti i wallet legacy nel futuro della gestione delle chiavi." class="wp-image-13439"/></figure>
 

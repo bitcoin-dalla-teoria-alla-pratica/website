@@ -34,7 +34,7 @@ tags:
 
 <pre class="wp-block-syntaxhighlighter-code">   ./main.sh</pre>
 
-<p><strong>In Action!</strong><br>I nostri esempi sono sempre basati sulla regtest, sia in questo contesto che nei nostri libri "<a href="https://bit.ly/38RtF9x">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts</a>" e "<a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica</a>".</p>
+<p><strong>In Action!</strong><br>I nostri esempi sono sempre basati sulla regtest, sia in questo contesto che nei nostri libri "<a href="https://bit.ly/38RtF9x">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts</a>" e "<a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica</a>".</p>
 
 <p><em>Per ulteriori approfondimenti e per immergerti nel mondo di Bitcoin, visita il nostro <a href="https://linktr.ee/satoshiwantsyou">linktree</a>.</em></p>
 

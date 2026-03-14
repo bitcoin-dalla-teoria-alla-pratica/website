@@ -48,18 +48,18 @@ Io per farlo digito:</p>
 <pre class="graf graf--pre">$ bitcoin-qt</pre>
 <p class="graf graf--p">Dato che ho spostato l’eseguibile nel mio file $PATH. Se non sai come fare, guarda <a class="markup--anchor markup--p-anchor" href="https://youtu.be/keeEdwPigZs" target="_blank" rel="noopener noreferrer" data-href="https://youtu.be/keeEdwPigZs">questo video</a></p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*Ew9VRJsUSi0OMBrkjdhoUw.png" data-image-id="1*Ew9VRJsUSi0OMBrkjdhoUw.png" data-width="1816" data-height="959" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*Ew9VRJsUSi0OMBrkjdhoUw.png" data-image-id="1*Ew9VRJsUSi0OMBrkjdhoUw.png" data-width="1816" data-height="959" />
 <figcaption class="imageCaption">Bitcoin Core</figcaption></figure>
 <p class="graf graf--p">La regtest è vuota, quindi la blockchain contiene un solo blocco, il <strong class="markup--strong markup--p-strong">genesis block</strong>.
 Otteniamo le sue informazioni, così da prendere confidenza con la GUI. Selezionando Window -&gt; console, si aprirà una nuova finestra nella quale abbiamo la possibilità di eseguire dei comandi.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*75XsDPoLery9oj6ug-DfEw.png" data-image-id="1*75XsDPoLery9oj6ug-DfEw.png" data-width="418" data-height="490" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*75XsDPoLery9oj6ug-DfEw.png" data-image-id="1*75XsDPoLery9oj6ug-DfEw.png" data-width="418" data-height="490" />
 
 <figcaption class="imageCaption">Bitcoin Core – Window Console</figcaption></figure>
 <p class="graf graf--p">Digitando <strong class="markup--strong markup--p-strong">help</strong> abbiamo tutta la lista del comandi.
 Utilizzando <strong class="markup--strong markup--p-strong">getblockhash 0</strong> abbiamo la possibilità di ottenere l’hash del blocco genesi, e con il comando <strong class="markup--strong markup--p-strong">getblock 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206</strong> possiamo analizzarlo.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*mk5EaHjWlJ-3HYLOfglMgg.png" data-image-id="1*mk5EaHjWlJ-3HYLOfglMgg.png" data-width="744" data-height="424" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*mk5EaHjWlJ-3HYLOfglMgg.png" data-image-id="1*mk5EaHjWlJ-3HYLOfglMgg.png" data-width="744" data-height="424" />
 
 <figcaption class="imageCaption">Bitcoin-Core — Genesis Block</figcaption></figure>
 <p class="graf graf--p">Tutto molto simile alla versione bash ovviamente. L’unica differenza degna di nota è che si omette il comando <strong class="markup--strong markup--p-strong">bitcoin-cli</strong>.
@@ -88,7 +88,7 @@ Per avviarlo abbiamo bisogno di creare un’altro file di configurazione nel qua
 <pre class="graf graf--pre">$ bitcoind --conf=bitcoin.conf_2</pre>
 <p class="graf graf--p">Appena avviamo, vediamo che nell’interfaccia grafica si ha un nodo collegato.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*0DPzLULK8dYnx1cDYME7kg.png" data-image-id="1*0DPzLULK8dYnx1cDYME7kg.png" data-width="999" data-height="573" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*0DPzLULK8dYnx1cDYME7kg.png" data-image-id="1*0DPzLULK8dYnx1cDYME7kg.png" data-width="999" data-height="573" />
 
 <figcaption class="imageCaption">Bitcoin-core GUI con un nodo collegato</figcaption></figure>
 <p class="graf graf--p">Siamo noi!</p>
@@ -140,7 +140,7 @@ Per avviarlo abbiamo bisogno di creare un’altro file di configurazione nel qua
 <p class="graf graf--p">Il risultato che otteniamo è 211. Come posso verificare che la GUI sia <em class="markup--em markup--p-em">syncata</em>?</p>
 <p class="graf graf--p">Utilizzando Window-&gt;information troviamo una schermata che ci comunica i blocchi, che anche in questo caso risultano essere 211.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*GnPUqKWsanXVEt3ylPhy6w.png" data-image-id="1*GnPUqKWsanXVEt3ylPhy6w.png" data-width="1175" data-height="691" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*GnPUqKWsanXVEt3ylPhy6w.png" data-image-id="1*GnPUqKWsanXVEt3ylPhy6w.png" data-width="1175" data-height="691" />
 
 <figcaption class="imageCaption">Bitcoin-core Syncata</figcaption></figure>
 <p class="graf graf--p">Torniamo nel nodo2 e creiamo una transazione. Per prima cosa verifico il saldo con la chiamata getwalletinfo.</p>
@@ -168,7 +168,7 @@ Per avviarlo abbiamo bisogno di creare un’altro file di configurazione nel qua
 <pre class="graf graf--pre">5550.00000000</pre>
 <p class="graf graf--p">Inviamo 1 bitcoin all’address del nodo GUI, per prima cosa ottengo un nuovo address.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*3vxv5fXtQaybWuDRCzMsSA.png" data-image-id="1*3vxv5fXtQaybWuDRCzMsSA.png" data-width="1069" data-height="684" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*3vxv5fXtQaybWuDRCzMsSA.png" data-image-id="1*3vxv5fXtQaybWuDRCzMsSA.png" data-width="1069" data-height="684" />
 
 <figcaption class="imageCaption">Ottengo l’address dal nodo GUI</figcaption></figure>
 <p class="graf graf--p">Seleziono <strong class="markup--strong markup--p-strong">receive</strong> e clicco create a <em class="markup--em markup--p-em">new receive address</em>. Il software mi restituisce un address SegWit nativo.
@@ -182,7 +182,7 @@ Quale è stato il comando che ha eseguito? È stato <strong class="markup--stron
 <pre class="graf graf--pre">dde7dc0f4dca1c83fc86ac64a1c5522ecfeedb8f9c64bc013bf4cffce52cf4b7</pre>
 <p class="graf graf--p">La transazione è stata inviata, quindi adesso si trova nella <strong class="markup--strong markup--p-strong">mempool</strong>. Nella GUI, nella sezione transaction, possiamo verificare tutte le informazioni della transazione.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*YukiMmh7Er5mhYxkCypJig.png" data-image-id="1*YukiMmh7Er5mhYxkCypJig.png" data-width="1062" data-height="681" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*YukiMmh7Er5mhYxkCypJig.png" data-image-id="1*YukiMmh7Er5mhYxkCypJig.png" data-width="1062" data-height="681" />
 
 <figcaption class="imageCaption">Bitcoin Core — Mempool</figcaption></figure>
 <p class="graf graf--p">Come è possibile ottenere le stesse informazioni dal nodo2? Utilizzando la chiamata <strong class="markup--strong markup--p-strong">getrawtransaction</strong> specificando una risultato più verboso, utilizzando la <strong class="markup--strong markup--p-strong">txid</strong> ottenuta dalla chiamata sendtoaddress.</p>
@@ -243,19 +243,19 @@ Quale è stato il comando che ha eseguito? È stato <strong class="markup--stron
 <pre class="graf graf--pre">}</pre>
 <p class="graf graf--p">Questa chiamata restituisce molte più informazioni, nella GUI sono riportate solo quelle di interesse. Che cosa ci resta da fare? Minare dei blocchi! Utilizziamo la GUI per questo. Prima otteniamo un altro indirizzo.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*xvTcHcEfZMABcWVX43qkYA.png" data-image-id="1*xvTcHcEfZMABcWVX43qkYA.png" data-width="1069" data-height="686" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*xvTcHcEfZMABcWVX43qkYA.png" data-image-id="1*xvTcHcEfZMABcWVX43qkYA.png" data-width="1069" data-height="686" />
 
 <figcaption class="imageCaption">Bitcoin Core — Indirizzo Miner</figcaption></figure>
 <p class="graf graf--p">Questo indirizzo sarà il nostro miner. <strong class="markup--strong markup--p-strong">bcrt1qcad9r6cn037p3una2fum7v5jwgc2zgm8ssw7un</strong></p>
 <p class="graf graf--p">Utilizziamo ancora la console della GUI. Miniamo 10 blocchi con il comando <strong class="markup--strong markup--p-strong">generatetoaddress</strong>.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*YlB_EouKjkXK1RzQk7bv9g.png" data-image-id="1*YlB_EouKjkXK1RzQk7bv9g.png" data-width="1115" data-height="193" /></figure>
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*_ckpT1CBlNeKuWpZRZPtQg.png" data-image-id="1*_ckpT1CBlNeKuWpZRZPtQg.png" data-width="1113" data-height="590" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*YlB_EouKjkXK1RzQk7bv9g.png" data-image-id="1*YlB_EouKjkXK1RzQk7bv9g.png" data-width="1115" data-height="193" /></figure>
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*_ckpT1CBlNeKuWpZRZPtQg.png" data-image-id="1*_ckpT1CBlNeKuWpZRZPtQg.png" data-width="1113" data-height="590" />
 
 <figcaption class="imageCaption">Bitcoin Core — 10 blocchi minati</figcaption></figure>
 <p class="graf graf--p">Abbiamo minato 10 blocchi! Adesso mi aspetto di vedere il la transazione fatta dal nodo2 confermata!</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*LpdkvHi-vt1q04oOVy0ENQ.png" data-image-id="1*LpdkvHi-vt1q04oOVy0ENQ.png" data-width="1139" data-height="818" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*LpdkvHi-vt1q04oOVy0ENQ.png" data-image-id="1*LpdkvHi-vt1q04oOVy0ENQ.png" data-width="1139" data-height="818" />
 
 <figcaption class="imageCaption">Bitcoin Core — Transazione Confermata</figcaption></figure>
 <p class="graf graf--p">Esatto! la prima transazione è stata minata e ha 10 conferme. Nella schermata vediamo altri blocchi minati con dei reward. Nel primo blocco vediamo un reward un pò più <em class="markup--em markup--p-em">corposo</em>, perchè? Perchè è il blocco che contiene la nostra transazione. Ricorda che il <strong class="markup--strong markup--p-strong">reward</strong> del miner è composta, dal reward impostato dal protocollo che cambia ogni 210.000 blocchi e dalle fees.</p>
@@ -267,12 +267,12 @@ Quale è stato il comando che ha eseguito? È stato <strong class="markup--stron
 <pre class="graf graf--pre">bcrt1qtc00wzrcae86rvyacanwd5l9t6fek4h8a6vna4</pre>
 <p class="graf graf--p">Spostiamoci nella tab <em class="markup--em markup--p-em">send</em> e inseriamo i valori desiderati.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*fNd2Lpu9XlI0SvJMI6yWuA.png" data-image-id="1*fNd2Lpu9XlI0SvJMI6yWuA.png" data-width="1260" data-height="793" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*fNd2Lpu9XlI0SvJMI6yWuA.png" data-image-id="1*fNd2Lpu9XlI0SvJMI6yWuA.png" data-width="1260" data-height="793" />
 
 <figcaption class="imageCaption">Bitcoin Core — Transazione</figcaption></figure>
 <p class="graf graf--p">Ci viene proposto un popup per confermare la transazione</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*KyAcWa8ynO0qOF658GZvNQ.png" data-image-id="1*KyAcWa8ynO0qOF658GZvNQ.png" data-width="964" data-height="622" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*KyAcWa8ynO0qOF658GZvNQ.png" data-image-id="1*KyAcWa8ynO0qOF658GZvNQ.png" data-width="964" data-height="622" />
 
 <figcaption class="imageCaption">Bitcoin Core — Conferma</figcaption></figure>
 <p class="graf graf--p">Confermiamo.</p>
@@ -283,7 +283,7 @@ Dato che sappiamo che è prensente una sola transazione, possiamo utilizzare <st
 <pre class="graf graf--pre">[</pre>
 <pre class="graf graf--pre">"20f2b335d8775d1237523b1f6583ea809716f74e82773c5ad285cbb66a5b3e91"</pre>
 <pre class="graf graf--pre">]</pre>
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*72uwDX-QBJDen84eBFM3iA.png" data-image-id="1*72uwDX-QBJDen84eBFM3iA.png" data-width="1126" data-height="435" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*72uwDX-QBJDen84eBFM3iA.png" data-image-id="1*72uwDX-QBJDen84eBFM3iA.png" data-width="1126" data-height="435" />
 
 <figcaption class="imageCaption">Bitcoin Core GUI – Mempool</figcaption></figure>
 <p class="graf graf--p">Troviamo infatti corrispondenza con la GUI.</p>
@@ -306,12 +306,12 @@ Dato che sappiamo che è prensente una sola transazione, possiamo utilizzare <st
 <pre class="graf graf--pre"><strong class="markup--strong markup--pre-strong">$ </strong>bitcoin-cli --conf=bitcoin.conf_2 generatetoaddress 11 $(bitcoin-cli --conf=bitcoin.conf_2 getnewaddress "" "bech32") &gt;&gt; /dev/null</pre>
 <p class="graf graf--p">Facendo nuovamente doppio click sulla transazione possiamo leggere che la transazione è stata minata e confermata!</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*xWYCAZ6wlbqOm1ENPrhNAQ.png" data-image-id="1*xWYCAZ6wlbqOm1ENPrhNAQ.png" data-width="1121" data-height="333" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*xWYCAZ6wlbqOm1ENPrhNAQ.png" data-image-id="1*xWYCAZ6wlbqOm1ENPrhNAQ.png" data-width="1121" data-height="333" />
 
 <figcaption class="imageCaption">Bitcoin core – Transazione minata e confermata</figcaption></figure>
 <p class="graf graf--p">Verifichiamo l’homepage della GUI.</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*2qprT9XRLKsaJ3dffMuauA.png" data-image-id="1*2qprT9XRLKsaJ3dffMuauA.png" data-width="1139" data-height="657" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*2qprT9XRLKsaJ3dffMuauA.png" data-image-id="1*2qprT9XRLKsaJ3dffMuauA.png" data-width="1139" data-height="657" />
 
 <figcaption class="imageCaption">Bitcoin Core GUI — Homepage</figcaption></figure>
 <p class="graf graf--p">Abbiamo un saldo disponibile di 0.49 bitcoin e un 250 bitcoin + fees immaturi. A questo punto sappiamo perchè!</p>
@@ -319,7 +319,7 @@ Dato che sappiamo che è prensente una sola transazione, possiamo utilizzare <st
 La GUI facilita alcune operazioni ma ne nasconde altre, la riga di comando è sicuramente meno user friendly ma è molto più consigliata in quanto su ogni sistema che andrete a lavorare non vi sentirete spaesati!</p>
 <p class="graf graf--p">Ciao!</p>
 
-<figure class="graf graf--figure"><img class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*mFeOGVPcT3_CeHYzgoV2Dg.jpeg" data-image-id="1*mFeOGVPcT3_CeHYzgoV2Dg.jpeg" data-width="1600" data-height="900" />
+<figure class="graf graf--figure"><img alt="Bitcoin Core Gui Vs Cli ⚔️" class="graf-image" src="https://cdn-images-1.medium.com/max/1600/1*mFeOGVPcT3_CeHYzgoV2Dg.jpeg" data-image-id="1*mFeOGVPcT3_CeHYzgoV2Dg.jpeg" data-width="1600" data-height="900" />
 
 <figcaption class="imageCaption">📕 <a class="markup--anchor markup--figure-anchor" href="https://amzn.to/3pJcXj1" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/3pJcXj1">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)</a></figcaption></figure>
 </div>
@@ -344,16 +344,16 @@ La GUI facilita alcune operazioni ma ne nasconde altre, la riga di comando è si
 <p class="graf graf--p">📕 <a class="markup--anchor markup--p-anchor" href="https://bit.ly/38RtF9x" target="_blank" rel="noopener noreferrer" data-href="https://bit.ly/38RtF9x">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)</a></p>
 <p class="graf graf--p"> — –</p>
 <p class="graf graf--p">📒 <a class="markup--anchor markup--p-anchor" href="https://amzn.to/2MOj1av" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a>
-📒 <a class="markup--anchor markup--p-anchor" href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a>
+📒 <a class="markup--anchor markup--p-anchor" href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a>
 📒 <a class="markup--anchor markup--p-anchor" href="https://amzn.to/2Ym4gz6" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2Ym4gz6">Book Bitcoin from theory to practice (Amazon)</a></p>
 <p class="graf graf--p">📒 <a class="markup--anchor markup--p-anchor" href="https://bit.ly/3ijAyC4" target="_blank" rel="noopener noreferrer" data-href="https://bit.ly/3ijAyC4">Book Bitcoin from theory to practice (accept bitcoin)</a>
 —
 🎥 <a class="markup--anchor markup--p-anchor" href="https://bit.ly/3cUJDyZ" target="_blank" rel="noopener noreferrer" data-href="https://bit.ly/3cUJDyZ">Video Corso Bitcoin dalla teoria alla pratica</a></p>
 <p class="graf graf--p">—
 📙 <a class="markup--anchor markup--p-anchor" href="https://amzn.to/3ckIkJj" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/3ckIkJj">Tascabile Bitcoin 199 domande (Amazon)</a>
-📙 <a class="markup--anchor markup--p-anchor" href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a></p>
+📙 <a class="markup--anchor markup--p-anchor" href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a></p>
 <p class="graf graf--p">📙 <a class="markup--anchor markup--p-anchor" href="https://amzn.to/3fB4Kbs" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/3fB4Kbs">Pocket Book Bitcoin 199 questions (Amazon)</a>
-📙 <a class="markup--anchor markup--p-anchor" href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Pocket </a><a class="markup--anchor markup--p-anchor" href="https://www.amazon.it/dp/1078155585" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1078155585">Book </a><a class="markup--anchor markup--p-anchor" href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Bitcoin 199 questions (accept bitcoin)</a>
+📙 <a class="markup--anchor markup--p-anchor" href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Pocket </a><a class="markup--anchor markup--p-anchor" href="https://www.amazon.it/dp/1078155585" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1078155585">Book </a><a class="markup--anchor markup--p-anchor" href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Bitcoin 199 questions (accept bitcoin)</a>
 —
 ► ITA: <a class="markup--anchor markup--p-anchor" href="https://twitter.com/satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://twitter.com/satoshiwantsyou">Twitter</a> , <a class="markup--anchor markup--p-anchor" href="https://www.facebook.com/satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://www.facebook.com/satoshiwantsyou">Facebook</a>, <a class="markup--anchor markup--p-anchor" href="https://bitcoin-in-action.medium.com/" target="_blank" rel="noopener noreferrer" data-href="https://bitcoin-in-action.medium.com/">Medium</a>, <a class="markup--anchor markup--p-anchor" href="https://www.instagram.com/satoshiwantsyou/" target="_blank" rel="noopener noreferrer" data-href="https://www.instagram.com/satoshiwantsyou/">Instagram</a>, <a class="markup--anchor markup--p-anchor" href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>, <a class="markup--anchor markup--p-anchor" href="https://github.com/bitcoin-dalla-teoria-alla-pratica" target="_blank" rel="noopener noreferrer" data-href="https://github.com/bitcoin-dalla-teoria-alla-pratica">GitHub</a></p>
 <p class="graf graf--p">► ENG: <a class="markup--anchor markup--p-anchor" href="https://twitter.com/btc_in_action" target="_blank" rel="noopener noreferrer" data-href="https://twitter.com/btc_in_action">Twitter</a> , <a class="markup--anchor markup--p-anchor" href="https://www.facebook.com/bitcoininaction/" target="_blank" rel="noopener noreferrer" data-href="https://www.facebook.com/bitcoininaction/">Facebook</a>, <a class="markup--anchor markup--p-anchor" href="https://medium.com/@bitcoin_in_action" target="_blank" rel="noopener noreferrer" data-href="https://medium.com/@bitcoin_in_action">Medium</a>, <a class="markup--anchor markup--p-anchor" href="https://www.instagram.com/bitcoin_in_action/" target="_blank" rel="noopener noreferrer" data-href="https://www.instagram.com/bitcoin_in_action/">Instagram</a>, <a class="markup--anchor markup--p-anchor" href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>, <a class="markup--anchor markup--p-anchor" href="https://github.com/bitcoin-dalla-teoria-alla-pratica" target="_blank" rel="noopener noreferrer" data-href="https://github.com/bitcoin-dalla-teoria-alla-pratica">GitHub</a></p>

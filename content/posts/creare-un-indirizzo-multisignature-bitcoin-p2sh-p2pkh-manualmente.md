@@ -109,7 +109,7 @@ done</pre>
 
 <p>Nella fase successiva del nostro itinerario, procederemo all'applicazione degli hash SHA256 e RIPEMD160 al redeem script precedentemente creato. Questa fase riveste importanza cruciale nel processo di generazione di un indirizzo Bitcoin P2SH-P2PKH.</p>
 
-<figure class="wp-block-image size-full"><img src="https://www.corsobitcoin.com/wp-content/uploads/2024/01/image.png" alt="" class="wp-image-13768"/></figure>
+<figure class="wp-block-image size-full"><img src="https://www.corsobitcoin.com/wp-content/uploads/2024/01/image.png" alt="Creazione di un Indirizzo Multisignature P2SH-P2PKH Bitcoin: Guida Dettagliata" class="wp-image-13768"/></figure>
 
 <pre class="wp-block-syntaxhighlighter-code">ADDR_SHA=`printf $SCRIPT | xxd -r -p | openssl sha256| sed 's/^.* //'`
     ADDR_RIPEMD160=`printf $ADDR_SHA |xxd -r -p | openssl ripemd160 | sed 's/^.* //'`
@@ -155,7 +155,7 @@ done</pre>
 
 <p>Per esempi più approfonditi e dettagliati, ti invitiamo a unirti a noi nel nostro libro: 📕 "<a href="https://www.amazon.it/stores/author/B07SLZYLC4/allbooks">Bitcoin In Action - SegWit, Bitcoin Script e Smart Contracts</a>". Troverai ulteriori dettagli, spiegazioni approfondite e esempi pratici per approfondire la tua comprensione di SegWit, Bitcoin Script e Smart Contracts. </p>
 
-<figure class="wp-block-image size-full"><img src="https://www.corsobitcoin.com/wp-content/uploads/2024/01/image-1.png" alt="" class="wp-image-13769"/></figure>
+<figure class="wp-block-image size-full"><img src="https://www.corsobitcoin.com/wp-content/uploads/2024/01/image-1.png" alt="Creazione di un Indirizzo Multisignature P2SH-P2PKH Bitcoin: Guida Dettagliata" class="wp-image-13769"/></figure>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 

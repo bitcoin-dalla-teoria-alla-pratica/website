@@ -16,7 +16,7 @@ tags:
 
 <p></p>
 
-<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/04/maxresdefault-1-1024x576.jpg" alt="" data-id="13632" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/04/maxresdefault-1.jpg" data-link="https://www.corsobitcoin.com/?attachment_id=13632" class="wp-image-13632"/></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/04/maxresdefault-1-1024x576.jpg" alt="Come è costruito un address P2SH?" data-id="13632" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/04/maxresdefault-1.jpg" data-link="https://www.corsobitcoin.com/?attachment_id=13632" class="wp-image-13632"/></figure></li></ul></figure>
 
 <p>Entriamo nel vivo dell’address <strong>Pay to script Hash</strong>. Come dicevamo nel precedente <a href="https://youtu.be/Aa1pTzC67Io" rel="noreferrer noopener" target="_blank">video</a>, l’utente andrà a pagare ad un <strong>hash</strong> di uno script.</p>
 
@@ -34,7 +34,7 @@ tags:
 
 <p>Quindi abbiamo capito che è compito dell’utente gestire uno script custom, in più, se si utilizza uno script custom dovremo <strong>firmare manualmente la transazione</strong>, come spiegato nel libro <a href="https://bit.ly/38RtF9x" rel="noreferrer noopener" target="_blank">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts</a>.</p>
 
-<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/04/book-mockup2.jpg" alt="" class="wp-image-13633"/><figcaption><a href="https://bit.ly/38RtF9x" target="_blank" rel="noreferrer noopener"><a href="https://bit.ly/38RtF9x">Bitcoin In Action – SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)</a> </a></figcaption></figure>
+<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/04/book-mockup2.jpg" alt="Come è costruito un address P2SH?" class="wp-image-13633"/><figcaption><a href="https://bit.ly/38RtF9x" target="_blank" rel="noreferrer noopener"><a href="https://bit.ly/38RtF9x">Bitcoin In Action – SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)</a> </a></figcaption></figure>
 
 <p>Vediamo invece come è costruito un address <strong>P2SH-P2PK</strong>, ovvero un address che racchiude lo script <strong>P2PK</strong>. Facendo riferimento all’esempio di prima, nello scriptPubKey ci saranno le condizioni che abbiamo trovato nel <a href="https://youtu.be/iVWMaGO3m48" rel="noreferrer noopener" target="_blank">video P2PK</a>, ovvero: Public Key OP_CHECKSIG. Questo è conosciuto anche come <strong>redeem script</strong>.</p>
 
@@ -86,13 +86,13 @@ https://www.youtube.com/watch?v=SzlTMdp7txE
 
 <p id="4c21">— –</p>
 
-<p id="5d58">📒&nbsp;<a href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br>📒&nbsp;<a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a><br>📒&nbsp;<a href="https://amzn.to/2Ym4gz6">Book Bitcoin from theory to practice (Amazon)</a></p>
+<p id="5d58">📒&nbsp;<a href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br>📒&nbsp;<a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a><br>📒&nbsp;<a href="https://amzn.to/2Ym4gz6">Book Bitcoin from theory to practice (Amazon)</a></p>
 
 <p id="4dc1">📒&nbsp;<a href="https://bit.ly/3ijAyC4">Book Bitcoin from theory to practice (accept bitcoin)</a><br>—<br>🎥&nbsp;<a href="https://bit.ly/3cUJDyZ">Video Corso Bitcoin dalla teoria alla pratica</a></p>
 
-<p id="2c1d">—<br>📙&nbsp;<a href="https://amzn.to/3ckIkJj">Tascabile Bitcoin 199 domande (Amazon)</a><br>📙&nbsp;<a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a></p>
+<p id="2c1d">—<br>📙&nbsp;<a href="https://amzn.to/3ckIkJj">Tascabile Bitcoin 199 domande (Amazon)</a><br>📙&nbsp;<a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a></p>
 
-<p id="a02b">📙&nbsp;<a href="https://amzn.to/3fB4Kbs">Pocket Book Bitcoin 199 questions (Amazon)</a><br>📙&nbsp;<a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Pocket&nbsp;</a><a href="https://www.amazon.it/dp/1078155585">Book&nbsp;</a><a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Bitcoin 199 questions (accept bitcoin)</a><br>—<br>► ITA:&nbsp;<a href="https://twitter.com/satoshiwantsyou">Twitter</a>&nbsp;,&nbsp;<a href="https://www.facebook.com/satoshiwantsyou">Facebook</a>,&nbsp;<a href="https://bitcoin-in-action.medium.com/">Medium</a>,&nbsp;<a href="https://www.instagram.com/satoshiwantsyou/">Instagram</a>,&nbsp;<a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>,&nbsp;<a href="https://github.com/bitcoin-dalla-teoria-alla-pratica">GitHub</a></p>
+<p id="a02b">📙&nbsp;<a href="https://amzn.to/3fB4Kbs">Pocket Book Bitcoin 199 questions (Amazon)</a><br>📙&nbsp;<a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Pocket&nbsp;</a><a href="https://www.amazon.it/dp/1078155585">Book&nbsp;</a><a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Bitcoin 199 questions (accept bitcoin)</a><br>—<br>► ITA:&nbsp;<a href="https://twitter.com/satoshiwantsyou">Twitter</a>&nbsp;,&nbsp;<a href="https://www.facebook.com/satoshiwantsyou">Facebook</a>,&nbsp;<a href="https://bitcoin-in-action.medium.com/">Medium</a>,&nbsp;<a href="https://www.instagram.com/satoshiwantsyou/">Instagram</a>,&nbsp;<a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>,&nbsp;<a href="https://github.com/bitcoin-dalla-teoria-alla-pratica">GitHub</a></p>
 
 <p id="ac8c">► ENG:&nbsp;<a href="https://twitter.com/btc_in_action">Twitter</a>&nbsp;,&nbsp;<a href="https://www.facebook.com/bitcoininaction/">Facebook</a>,&nbsp;<a href="https://medium.com/@bitcoin_in_action">Medium</a>,&nbsp;<a href="https://www.instagram.com/bitcoin_in_action/">Instagram</a>,&nbsp;<a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>,&nbsp;<a href="https://github.com/bitcoin-dalla-teoria-alla-pratica">GitHub</a></p>
 

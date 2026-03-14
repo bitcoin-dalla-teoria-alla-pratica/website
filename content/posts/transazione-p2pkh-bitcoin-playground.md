@@ -12,7 +12,7 @@ tags:
 
 
 
-<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-2-1024x576.png" alt="" data-id="13537" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-2.png" data-link="https://www.corsobitcoin.com/?attachment_id=13537" class="wp-image-13537"/></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-2-1024x576.png" alt="Transazione P2PKH nel Bitcoin Playground!" data-id="13537" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-2.png" data-link="https://www.corsobitcoin.com/?attachment_id=13537" class="wp-image-13537"/></figure></li></ul></figure>
 
 <figure class="ip iq ir is it iu fb fc paragraph-image">
 <div class="iv iw ah ix w iy" tabindex="0" role="button">
@@ -73,15 +73,15 @@ tags:
 
 <pre class="wp-block-preformatted">$ bitcoin-cli getrawtransaction $TXID 2 | jq</pre>
 
-<p>‌Nel libro <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/" rel="noreferrer noopener" target="_blank">Libro Bitcoin dalla teoria alla pratica</a> e <a href="https://bit.ly/38RtF9x" rel="noreferrer noopener" target="_blank">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts</a>&nbsp;, spieghiamo byte per byte la transazione. Grazie al nostro docker, è possibile visualizzare la blockchain locale a anche la transazione che è in mempool.‌</p>
+<p>‌Nel libro <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" rel="noreferrer noopener" target="_blank">Libro Bitcoin dalla teoria alla pratica</a> e <a href="https://bit.ly/38RtF9x" rel="noreferrer noopener" target="_blank">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts</a>&nbsp;, spieghiamo byte per byte la transazione. Grazie al nostro docker, è possibile visualizzare la blockchain locale a anche la transazione che è in mempool.‌</p>
 
 <p>In questo caso la nostra transazione ha come ID <code>49021cb4a1ebb0c74feaa3a9df2ea7e3e74afeb50df9a630023e8822786add73</code>, inserendola nel campo di ricerca otteniamo un qualcosa di simile:</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*bN27G2JpbjEX9q8R" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*bN27G2JpbjEX9q8R" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>Enter a caption for this image (optional)</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*T39vSZow5NCYPzat" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*T39vSZow5NCYPzat" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>Enter a caption for this image (optional)</p>
 
@@ -95,29 +95,29 @@ tags:
 
 <p>In questo caso con step, si inserisce prima lo scriptSig, ovvero la firma e successivamente la chiave pubblica compressa.</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*-sLbsoN2loXlqKBD" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*-sLbsoN2loXlqKBD" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>I vostri valori saranno sicuramente diversi, ma la logica non cambia.‌</p>
 
 <p>Successivamente abbiamo lo scriptPubKey. Il primo elemento che inseriamo è <code>OP_DUP</code>, che come abbiamo visto nelle precedenti lezioni, duplica l'elemento on top, quindi la nostra chiave pubblica non compressa.</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*LuBMgRKdTVUj5RE3" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*LuBMgRKdTVUj5RE3" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>Successivamente, l’operazione che si effettua è <code>HASH160</code>, che ha il compito di prendere l'elemento on top e applicare la funzione crittografica <code>SHA256</code> e <code>RIPEMD160</code>.</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*t2_RmtsNIoDKcWTE" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*t2_RmtsNIoDKcWTE" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>‌Successivamente si inserisce l’hash della chiave pubblica compressa.</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*5E9nmNLjOesNnZeM" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*5E9nmNLjOesNnZeM" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>La prossima OP_CODE è <code>OP_EQUALVERIFY</code>, la quale ha il compito di verificare due elementi, e se sono uguale non inserire niente, altrimenti invalida lo stack.</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*WACV8rfFHnf4uW95" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*WACV8rfFHnf4uW95" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>In questo caso sono uguali, e quindi non viene inserito niente e lo stack è ancora valido. Ultimo OP_CODE, <code>OP_CHECKSIG</code>, come è facile intuire, controlla la firma confrontandola utilizzando la chiave pubblica corrispondente.</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*jrWlxNm4Iqi0DeVU" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*jrWlxNm4Iqi0DeVU" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>Se non ricordi come si verifica la firma digitale, <a href="https://www.youtube.com/watch?v=RU7LHPP4Lvk&amp;list=PLpPLK7SGHncab_so9rB7lY3aKe2-Mqs5y&amp;index=18" rel="noreferrer noopener" target="_blank">guarda questo video</a>.‌</p>
 
@@ -127,7 +127,7 @@ tags:
 
 <p>Di seguito è riportata la lavagna utilizzata durante quel video:</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*kJbcJz7xmccihlbU" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*kJbcJz7xmccihlbU" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>Che cosa ci rimane da fare?‌</p>
 
@@ -137,13 +137,13 @@ tags:
 
 <p>‌A questo punto, utilizzando il nostro <a href="http://localhost:8094/" rel="noreferrer noopener" target="_blank">explorer</a>, potete analizzare l’ultimo blocco minato, il quale conterrà 2 transazioni, la coinbase e la transazione appena creata.</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*Ist7i7jvWgtc2QMs" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/0*Ist7i7jvWgtc2QMs" alt="Transazione P2PKH nel Bitcoin Playground!"/></figure>
 
 <p>Se volete divertivi con il nostro playground, ecco il link! <a href="https://app.gitbook.com/@corsobitcoin/s/bitcoin-in-action-playground/" rel="noreferrer noopener" target="_blank">https://app.gitbook.com/@corsobitcoin/s/bitcoin-in-action-playground/</a></p>
 
 <p>Ciao alla Prossima!</p>
 
-<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/1*xJ46DzU4Jtgee-KGw6ezFA.jpeg" alt=""/><figcaption><a href="https://bit.ly/38RtF9x" rel="noreferrer noopener" target="_blank">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts</a> e <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/" rel="noreferrer noopener" target="_blank">Bitcoin dalla teoria alla&nbsp;pratica</a></figcaption></figure>
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/1*xJ46DzU4Jtgee-KGw6ezFA.jpeg" alt="Transazione P2PKH nel Bitcoin Playground!"/><figcaption><a href="https://bit.ly/38RtF9x" rel="noreferrer noopener" target="_blank">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts</a> e <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" rel="noreferrer noopener" target="_blank">Bitcoin dalla teoria alla&nbsp;pratica</a></figcaption></figure>
 
 <p>–––––</p>
 
@@ -163,13 +163,13 @@ tags:
 
 <p>–––</p>
 
-<p>📒 <a href="https://amzn.to/2MOj1av" rel="noreferrer noopener" target="_blank">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br>&nbsp;📒 <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/" rel="noreferrer noopener" target="_blank">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a><br>&nbsp;📒 <a href="https://amzn.to/2Ym4gz6" rel="noreferrer noopener" target="_blank">Book Bitcoin from theory to practice (Amazon)</a></p>
+<p>📒 <a href="https://amzn.to/2MOj1av" rel="noreferrer noopener" target="_blank">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br>&nbsp;📒 <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" rel="noreferrer noopener" target="_blank">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a><br>&nbsp;📒 <a href="https://amzn.to/2Ym4gz6" rel="noreferrer noopener" target="_blank">Book Bitcoin from theory to practice (Amazon)</a></p>
 
 <p>📒 <a href="https://bit.ly/3ijAyC4" rel="noreferrer noopener" target="_blank">Book Bitcoin from theory to practice (accept bitcoin)</a><br>&nbsp; — <br>&nbsp;🎥 <a href="https://bit.ly/3cUJDyZ" rel="noreferrer noopener" target="_blank">Video Corso Bitcoin dalla teoria alla pratica</a></p>
 
-<p>—&nbsp;<br>&nbsp;📙 <a href="https://amzn.to/3ckIkJj" rel="noreferrer noopener" target="_blank">Tascabile Bitcoin 199 domande (Amazon)</a><br>&nbsp;📙 <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande" rel="noreferrer noopener" target="_blank">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a></p>
+<p>—&nbsp;<br>&nbsp;📙 <a href="https://amzn.to/3ckIkJj" rel="noreferrer noopener" target="_blank">Tascabile Bitcoin 199 domande (Amazon)</a><br>&nbsp;📙 <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande" rel="noreferrer noopener" target="_blank">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a></p>
 
-<p>📙 <a href="https://amzn.to/3fB4Kbs" rel="noreferrer noopener" target="_blank">Pocket Book Bitcoin 199 questions (Amazon)</a><br>&nbsp;📙 <a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" rel="noreferrer noopener" target="_blank">Pocket </a><a href="https://www.amazon.it/dp/1078155585" rel="noreferrer noopener" target="_blank">Book </a><a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" rel="noreferrer noopener" target="_blank">Bitcoin 199 questions (accept bitcoin)</a><br>&nbsp; — <br>&nbsp;► ITA: <a href="https://twitter.com/satoshiwantsyou" rel="noreferrer noopener" target="_blank">Twitter</a>&nbsp;, <a href="https://www.facebook.com/satoshiwantsyou" rel="noreferrer noopener" target="_blank">Facebook</a>, <a href="https://bitcoin-in-action.medium.com/" rel="noreferrer noopener" target="_blank">Medium</a>, <a href="https://www.instagram.com/satoshiwantsyou/" rel="noreferrer noopener" target="_blank">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" rel="noreferrer noopener" target="_blank">Youtube</a>, <a href="https://github.com/bitcoin-dalla-teoria-alla-pratica" rel="noreferrer noopener" target="_blank">GitHub</a></p>
+<p>📙 <a href="https://amzn.to/3fB4Kbs" rel="noreferrer noopener" target="_blank">Pocket Book Bitcoin 199 questions (Amazon)</a><br>&nbsp;📙 <a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" rel="noreferrer noopener" target="_blank">Pocket </a><a href="https://www.amazon.it/dp/1078155585" rel="noreferrer noopener" target="_blank">Book </a><a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" rel="noreferrer noopener" target="_blank">Bitcoin 199 questions (accept bitcoin)</a><br>&nbsp; — <br>&nbsp;► ITA: <a href="https://twitter.com/satoshiwantsyou" rel="noreferrer noopener" target="_blank">Twitter</a>&nbsp;, <a href="https://www.facebook.com/satoshiwantsyou" rel="noreferrer noopener" target="_blank">Facebook</a>, <a href="https://bitcoin-in-action.medium.com/" rel="noreferrer noopener" target="_blank">Medium</a>, <a href="https://www.instagram.com/satoshiwantsyou/" rel="noreferrer noopener" target="_blank">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" rel="noreferrer noopener" target="_blank">Youtube</a>, <a href="https://github.com/bitcoin-dalla-teoria-alla-pratica" rel="noreferrer noopener" target="_blank">GitHub</a></p>
 
 <p>► ENG: <a href="https://twitter.com/btc_in_action" rel="noreferrer noopener" target="_blank">Twitter</a>&nbsp;, <a href="https://www.facebook.com/bitcoininaction/" rel="noreferrer noopener" target="_blank">Facebook</a>, <a href="https://medium.com/@bitcoin_in_action" target="_blank" rel="noreferrer noopener">Medium</a>, <a href="https://www.instagram.com/bitcoin_in_action/" rel="noreferrer noopener" target="_blank">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" rel="noreferrer noopener" target="_blank">Youtube</a>, <a href="https://github.com/bitcoin-dalla-teoria-alla-pratica" rel="noreferrer noopener" target="_blank">GitHub</a></p>
 
