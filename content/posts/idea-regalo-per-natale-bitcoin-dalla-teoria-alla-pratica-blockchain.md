@@ -1,0 +1,38 @@
+---
+title: "Idea regalo per Natale? Bitcoin!"
+date: 2019-12-07T19:20:38+01:00
+draft: false
+---
+
+
+
+
+<p><strong>Conoscenza</strong> e <strong>libertà</strong>! <br />Quest'anno avete l'opportunità di regalare le due cose più importanti per una persona!</p><p>Inserisci <b>satoshi2019 </b>durante l'acquisto per ottenere uno <b>sconto</b> del 30%</p>		
+							<figure>
+											<a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/" data-elementor-open-lightbox="" target="_blank" rel="noopener noreferrer">
+							<img width="1024" height="1024" src="http://www.corsobitcoin.com/wp-content/uploads/2019/10/Librone-copertina-rigida-1024x1024.jpg" alt="Libro Bitcoin dalla teoria alla pratica" srcset="https://i2.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/Librone-copertina-rigida.jpg?resize=1024%2C1024 1024w, https://i2.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/Librone-copertina-rigida.jpg?resize=150%2C150 150w, https://i2.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/Librone-copertina-rigida.jpg?resize=300%2C300 300w, https://i2.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/Librone-copertina-rigida.jpg?resize=768%2C768 768w, https://i2.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/Librone-copertina-rigida.jpg?resize=1232%2C1232 1232w, https://i2.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/Librone-copertina-rigida.jpg?resize=1080%2C1080 1080w, https://i2.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/Librone-copertina-rigida.jpg?resize=600%2C600 600w, https://i2.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/Librone-copertina-rigida.jpg?resize=100%2C100 100w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+											<figcaption>Bitcoin dalla teoria alla pratica</figcaption>
+										</figure>
+		<p><strong>Bitcoin dalla teoria alla pratica</strong> è un libro che spiega con esempi concreti il protocollo Bitcoin.</p><p>Affronta passo passo come si crea una transazione, come si generano le chiavi per un wallet, e molto altro ancora, tutto replicabile dal proprio computer.</p><p>A chi è destinato il regalo? <br />A una persona curiosa. diffidente che crede solo a quello che vede?</p><p>Questo è il regalo che stai cercando!</p>		
+			<a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/" role="button">
+						Ottieni la tua copia
+					</a>
+							<figure>
+											<a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande/" data-elementor-open-lightbox="">
+							<img width="1024" height="1024" src="http://www.corsobitcoin.com/wp-content/uploads/2019/10/199-copertina-rigida-1024x1024.jpg" alt="Copertina Libro Bitcoin 199 domande" srcset="https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/199-copertina-rigida.jpg?resize=1024%2C1024 1024w, https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/199-copertina-rigida.jpg?resize=150%2C150 150w, https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/199-copertina-rigida.jpg?resize=300%2C300 300w, https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/199-copertina-rigida.jpg?resize=768%2C768 768w, https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/199-copertina-rigida.jpg?resize=1232%2C1233 1232w, https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/199-copertina-rigida.jpg?resize=1079%2C1080 1079w, https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/199-copertina-rigida.jpg?resize=600%2C600 600w, https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/10/199-copertina-rigida.jpg?resize=100%2C100 100w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+											<figcaption>Bitcoin 199 domande</figcaption>
+										</figure>
+		<p>Bitcoin 199 domande è un tascabile che risponde con poche righe a domande comuni e non.</p><p>Si divide in 4 livelli, base, intermedio, avanzato e nerd.</p><p>A chi è destinato il regalo?<br />A una persona che non sa di che cosa stiamo parlando? A una persona che ha bisogno di aumentare la conoscenza sull'argomento?</p><p>Questo è il regalo che stai cercando</p><p>Disponibile anche in <b>Inglese.</b></p><p><b> </b></p>		
+			<a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande/" role="button">
+						Ottieni la tua copia
+					</a>
+							<figure>
+											<a href="https://www.udemy.com/course/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?couponCode=5879BB59505DFA0AC884" data-elementor-open-lightbox="">
+							<img width="750" height="422" src="http://www.corsobitcoin.com/wp-content/uploads/2019/03/copertina_corso_completo.png" alt="Bitcoin dalla teoria alla pratica - Corso Completo" srcset="https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/03/copertina_corso_completo.png?w=750 750w, https://i0.wp.com/www.corsobitcoin.com/wp-content/uploads/2019/03/copertina_corso_completo.png?resize=300%2C169 300w" sizes="(max-width: 750px) 100vw, 750px" />								</a>
+											<figcaption>Bitcoin dalla teoria alla pratica - videocorso</figcaption>
+										</figure>
+		<p>Il video corso disponibile su Udemy ripercorre quello che puoi trovare nel libro omonimo. </p><ul><li>7 ore di lezioni</li><li>Quiz dopo ogni lezione</li><li>Codice e immagini disponibili su github</li><li>Risorse scaricabili</li></ul>Puoi ottenere uno sconto del 30% <b><a href="https://www.udemy.com/course/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?couponCode=5879BB59505DFA0AC884">cliccando qui</a>.<br />Il codice coupon è: 5879BB59505DFA0AC884</b> 		
+			<a href="https://www.udemy.com/course/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?couponCode=5879BB59505DFA0AC884" role="button">
+						Ottieni il corso scontato
+					</a>
+		<p>► <a href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br />► <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (sito ufficiale con pagamento in bitcoin)</a><br /> — <br />► <a href="https://www.amazon.it/dp/1098612639">Tascabile Bitcoin 199 domande (Amazon)</a><br />► <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (sito ufficiale con pagamento in bitcoin)</a></p><p>► <a href="https://www.amazon.it/dp/1078155585">Pocket Book Bitcoin 199 questions (Amazon)</a><br />► <a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Pocket </a><a href="https://www.amazon.it/dp/1078155585">Book </a><a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Bitcoin 199 questions (official website — accept bitcoin)</a><br /> — <br /> ► <a href="https://www.udemy.com/course/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?referralCode=AAC8EB895142D8301C13">Video corso disponibile su Udemy</a></p><p>I nostri social:<br />► <a href="https://twitter.com/satoshiwantsyou">Twitter</a> , <a href="https://www.facebook.com/bitcoin.corso.completo/">Facebook</a>, <a href="https://www.linkedin.com/company/bitcoin-dalla-teoria-alla-pratica">Linkedin</a>, <a href="https://medium.com/@bitcoindallateoriallapratica">Medium</a>, <a href="https://www.instagram.com/BitcoinDallaTeoriaAllaPratica">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>, <a href="https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi">GitHub</a></p><p>Television isn’t a good idea (Radio Stations)<br />Email isn’t a good idea (Post offices)<br />Amazon isn’t a good idea (Retail stores)<br />Bitcoin isn’t a good idea (Central banks)</p><p>In <b>crypto</b> we trust</p>

@@ -1,0 +1,40 @@
+---
+title: "Bitcoin 199 questions"
+date: 2020-01-22T10:41:47+01:00
+draft: false
+
+
+tags:
+  - "Script"
+  - "Crittografia"
+---
+
+
+
+
+<h4>The pocket book that you were looking for!</h4><section>
+<hr>
+<p>Nowadays we hear a lot about Bitcoin and blockchain, but few people know how it works. It’s true that I don’t know how a car works but I use it anyway! But it’s also true that before using a car you should study to get your driving license.</p><p style="text-align: left;">For that reason we wrote two books.&nbsp;<br>The first one is “<a href="https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P/" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P/">Bitcoin dalla teoria alla pratica</a>” available in Italian language,(the English translation called “Bitcoin from theory to practice” is coming soon) where you can find the tech part of the Bitcoin protocol. For example you will be able to handle a transaction from scratch, know more about private and public keys and so on.&nbsp;<br>With the help of this book you can figure out how Bitcoin works using a real node.<br>Check this <a href="https://www.youtube.com/watch?v=mFmOo8m6wlU" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/watch?v=mFmOo8m6wlU">video</a> to understand what you can learn!</p>
+<figure>
+<p><a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/"><img src="https://cdn-images-1.medium.com/max/800/1*mJwJypYxRp-ooQl_NZKhsw.png" alt="Bitcoin dalla teoria alla pratica" width="800" height="1109" data-image-id="1*mJwJypYxRp-ooQl_NZKhsw.png" data-width="1020" data-height="1414"></a></p>
+</figure>
+<p style="text-align: left;">The second one is called <a href="https://www.amazon.it/Bitcoin-199-questions-Alessio-Barnini/dp/1078155585" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/Bitcoin-199-questions-Alessio-Barnini/dp/1078155585">Bitcoin 199 questions</a>. As you can image from the title, you will find a lot of answered questions&nbsp;:).<br>The book is made of 4 parts.</p>
+<p style="text-align: left;">- <strong>Entry level</strong>: In this section you can find the most common questions, like “What is Bitcoin?”, “What is a block?”, “What is an address?” and so on.</p>
+<p style="text-align: left;">- <strong>Intermediate Level</strong>: Ok, now you know the Bitcoin basics (or you just learnt them in the previous level) and you want to broaden your knowledge. Do you know what a <em>BIP </em>is? Who confirms the transactions?</p>
+<p style="text-align: left;">- <strong>Advanced Level: S</strong>o you like Bitcoin huh? In this section you can find deeper topics: “What is a <em>fork</em>?”, “What does <em>RPC </em>stand for and what is it?”, “What are the differences between <em>ECDSA</em> and <em>ECC</em>?”.</p>
+<p style="text-align: left;">- <strong>Nerd Level: </strong>My favourite level! Why does my address starts with the number 1? And why does it sometimes starts with the number 3? What is <em>P2PKH</em>?</p>
+<figure><a href="https://www.amazon.it/dp/1078155585"><img src="https://cdn-images-1.medium.com/max/800/1*hB85AL6hq4coFROUqatKUQ.png" alt="Bitcoin 199 questions" width="581" height="768" data-image-id="1*hB85AL6hq4coFROUqatKUQ.png" data-width="581" data-height="768" data-is-featured="true"></a><p></p>
+<figcaption></figcaption>
+<p>As you may imagine, we never talk about the price of bitcoin or technical analysis, for us the price doesn’t exist!</p></figure>
+<p style="text-align: left;">Good news: if you have A Kindle unlimited subscription, you can read our pocket book for free!</p>
+<p style="text-align: left;">
+</p>
+</section>
+<section>
+<hr>
+<p>► <a href="https://amzn.to/2MOj1av" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br>► <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (sito ufficiale con pagamento in bitcoin)</a><br> — <br>► <a href="https://www.amazon.it/dp/1098612639" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1098612639">Tascabile Bitcoin 199 domande (Amazon)</a><br>► <a href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/libro-bitcoin-199-domande">Tascabile Bitcoin 199 domande (sito ufficiale con pagamento in bitcoin)</a></p>
+<p>► <a href="https://www.amazon.it/dp/1078155585" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1078155585">Pocket Book Bitcoin 199 questions (Amazon)</a><br>► <a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Pocket </a><a href="https://www.amazon.it/dp/1078155585" target="_blank" rel="noopener noreferrer" data-href="https://www.amazon.it/dp/1078155585">Book </a><a href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/" target="_blank" rel="noopener noreferrer" data-href="https://www.corsobitcoin.com/prodotto/book-bitcoin-199-questions/">Bitcoin 199 questions (official website — accept bitcoin)</a><br> — <br>► <a href="https://www.udemy.com/course/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?referralCode=AAC8EB895142D8301C13" target="_blank" rel="noopener noreferrer" data-href="https://www.udemy.com/course/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?referralCode=AAC8EB895142D8301C13">Video corso disponibile su Udemy</a></p>
+<p>Our socials:<br>► <a href="https://twitter.com/satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://twitter.com/satoshiwantsyou">Twitter</a>&nbsp;, <a href="https://www.facebook.com/bitcoin.corso.completo/" target="_blank" rel="noopener noreferrer" data-href="https://www.facebook.com/bitcoin.corso.completo/">Facebook</a>, <a href="https://www.linkedin.com/company/bitcoin-dalla-teoria-alla-pratica" target="_blank" rel="noopener noreferrer" data-href="https://www.linkedin.com/company/bitcoin-dalla-teoria-alla-pratica">Linkedin</a>, <a href="https://medium.com/@bitcoindallateoriallapratica" target="_blank" rel="noopener noreferrer" data-href="https://medium.com/@bitcoindallateoriallapratica">Medium</a>, <a href="https://www.instagram.com/satoshiwantsyou/" target="_blank" rel="noopener noreferrer" data-href="https://www.instagram.com/satoshiwantsyou/">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>, <a href="https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi" target="_blank" rel="noopener noreferrer" data-href="https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi">GitHub</a></p>
+<p>Television isn’t a good idea (Radio Stations)<br>Email isn’t a good idea (Post offices)<br>Amazon isn’t a good idea (Retail stores)<br>Bitcoin isn’t a good idea (Central banks)</p>
+<p>In <strong>crypto</strong> we trust</p>
+</section>
