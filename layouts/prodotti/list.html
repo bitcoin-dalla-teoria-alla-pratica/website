@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ with .Content }}
+    <div class="index-content">
+      {{ . }}
+    </div>
+  {{ end }}
+  <div class="posts">
+    {{ range .Pages }}
+      <article class="post on-list">
+        <h2 class="post-title" style="margin-bottom:0px;">
+          <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </h2>
+        
+        <div class="post-meta" style="margin-bottom: 20px;">
+          Tipo: <strong>{{ .Params.tipo | default "Prodotto" }}</strong> | 
+          Uscita: <time>{{ .Date.Format "2006" }}</time>
+        </div>
+
+
+
+        <div class="post-content">
+            {{ .Summary }}
+        </div>
+
+        <div>
+           <a class="read-more button inline" href="{{ .RelPermalink }}">Scopri di più</a>
+        </div>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,62 @@
+baseURL = "/"
+languageCode = "it-it"
+title = "Il mio sito Hugo"
+theme = "terminal"
+pagination.pagerSize = 5
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 3
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = false
+  autoCover = true
+  showLastUpdated = false
+  homepageImage = "/img/bizantino.jpg"
+
+[languages]
+  [languages.it]
+    languageName = "Italiano"
+    title = "Corso Bitcoin"
+
+    [languages.it.params]
+      subtitle = "Il corso gratuito per imparare a usare Bitcoin"
+      owner = ""
+      keywords = ""
+      copyright = "© 2026 Bitcoin In Action"
+      menuMore = "Mostra altro"
+      readMore = "Leggi"
+      readOtherPosts = "Leggi altri articoli"
+      newerPosts = "Articoli più recenti"
+      olderPosts = "Articoli più vecchi"
+      missingContentMessage = "Pagina non trovata..."
+      missingBackButtonLabel = "Torna alla home"
+      minuteReadingTime = "min di lettura"
+      words = "parole"
+
+      [languages.it.params.logo]
+        logoText = "Corso Bitcoin"
+        logoHomeLink = "/"
+
+      [languages.it.menu]
+        [[languages.it.menu.main]]
+          identifier = "posts"
+          name = "Mempool"
+          url = "/posts"
+          weight = 1
+        [[languages.it.menu.main]]
+          identifier = "prodotti"
+          name = "UTXO"
+          url = "/prodotti"
+          weight = 2
+        [[languages.it.menu.main]]
+          identifier = "about"
+          name = "Genesis Block"
+          url = "/about"
+          weight = 3

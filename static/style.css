@@ -1,0 +1,34 @@
+/* Rimuoviamo la fastidiosa sottolineatura completa dai link */
+a {
+    text-decoration: none !important;
+}
+
+/* Stiliamo i link all'interno dei post in modo leggero e pulito, ma non i pulsanti */
+.post-content a:not(.button):not(.read-more) {
+    border-bottom: 1px solid var(--accent);
+    box-shadow: none !important;
+}
+
+/* Assicuriamoci che i pulsanti non abbiano sottolineature */
+.button, .read-more {
+    text-decoration: none !important;
+    border: none;
+}
+.post-content a.button, .post-content a.read-more {
+    border-bottom: none !important;
+}
+
+/* Fix per il menu a tendina in versione Desktop (mostra on hover invece di usare solo il JS) */
+.menu {
+    position: relative;
+}
+.menu:hover .menu__dropdown,
+.menu__trigger:hover + .menu__dropdown,
+.menu__dropdown:hover {
+    display: flex !important;
+}
+
+.menu__dropdown a, .navigation-menu a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}

@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Hugo
+# Generated site
+public/
+# Generated resources (some people prefer to commit this if they don't want to run PostCSS etc. on CI)
+resources/_gen/
+# Build lock file
+.hugo_build.lock
+
+# Node (if you use tools like PostCSS or Tailwind)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
