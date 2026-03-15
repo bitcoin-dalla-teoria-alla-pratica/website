@@ -12,7 +12,7 @@ tags:
 
 
 
-<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-2-1024x576.png" alt="Transazione P2PKH nel Bitcoin Playground!" data-id="13537" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-2.png" data-link="https://www.corsobitcoin.com/?attachment_id=13537" class="wp-image-13537"/></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="/img/transazione-p2pkh-nel-bitcoin-playground-1.png" alt="Transazione P2PKH nel Bitcoin Playground!" data-id="13537" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-2.png" data-link="https://www.corsobitcoin.com/?attachment_id=13537" class="wp-image-13537"/></figure></li></ul></figure>
 
 <figure class="ip iq ir is it iu fb fc paragraph-image">
 <div class="iv iw ah ix w iy" tabindex="0" role="button">

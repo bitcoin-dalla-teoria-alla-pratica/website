@@ -42,15 +42,27 @@ https://youtu.be/jvIynVRo8_8?si=_Kbb9QHQdF34yWck
 
 <p>Successivamente, cloniamo i repository necessari.</p>
 
-<pre class="wp-block-code"><code>git clone https://github.com/bitcoin-dalla-teoria-alla-pratica/Docker-bitcoin.git --depth 1<br>cd Docker-bitcoin</code></pre>
+
+```bash
+git clone https://github.com/bitcoin-dalla-teoria-alla-pratica/Docker-bitcoin.git --depth 1<br>cd Docker-bitcoin
+```
+
 
 <p>Quindi procediamo con il clonare gli esempi dei libri.</p>
 
-<pre class="wp-block-code"><code>git clone https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi.git --depth 1 &amp;&amp;<br>git clone https://github.com/bitcoin-dalla-teoria-alla-pratica/Bitcoin-in-action-book.git --depth 1</code></pre>
+
+```bash
+git clone https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi.git --depth 1 &&<br>git clone https://github.com/bitcoin-dalla-teoria-alla-pratica/Bitcoin-in-action-book.git --depth 1
+```
+
 
 <p>A questo punto, non ci resta che avviare Docker con:</p>
 
-<pre class="wp-block-code"><code>docker-compose up</code></pre>
+
+```bash
+docker-compose up
+```
+
 
 <p>Il comando <code>docker-compose up</code> viene utilizzato per avviare i container specificati nel file di configurazione <code>docker-compose.yml</code>.</p>
 
@@ -58,29 +70,49 @@ https://youtu.be/jvIynVRo8_8?si=_Kbb9QHQdF34yWck
 
 <p>Apriamo quindi un altro terminale e digitiamo:</p>
 
-<pre class="wp-block-code"><code>docker ps</code></pre>
+
+```bash
+docker ps
+```
+
 
 <p>Questo comando restituirà tutti i container in esecuzione, il che è di vitale importanza perché dobbiamo "entrare" all'interno del container ed eseguire gli esempi del libro.</p>
 
 <p>Ecco il risultato ottenuto utilizzando <code>docker ps</code>:</p>
 
-<pre class="wp-block-code"><code>CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
-f693d16b1961 docker-bitcoin-bitcoin-in-action "/entrypoint.sh" 2 hours ago Up 2 hours 0.0.0.0:18443-18444->18443-18444/tcp docker-bitcoin-bitcoin-in-action-1</code></pre>
+
+```bash
+CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+f693d16b1961 docker-bitcoin-bitcoin-in-action "/entrypoint.sh" 2 hours ago Up 2 hours 0.0.0.0:18443-18444->18443-18444/tcp docker-bitcoin-bitcoin-in-action-1
+```
+
 
 <p>Entriamo quindi dentro il container:</p>
 
-<pre class="wp-block-code"><code>docker exec -it docker-bitcoin-bitcoin-in-action-1 zsh</code></pre>
+
+```bash
+docker exec -it docker-bitcoin-bitcoin-in-action-1 zsh
+```
+
 
 <p>Immaginiamo di voler eseguire l'esempio del Capitolo 3.</p>
 
-<pre class="wp-block-code"><code>cd Bitcoin-in-action-book
+
+```bash
+cd Bitcoin-in-action-book
 cd "Capitolo 3"
 cd "P2SH - P2PK"
-./main.sh</code></pre>
+./main.sh
+```
+
 
 <p>Se vogliamo eseguire l'esempio utilizzando il debug, sarà sufficiente passare il parametro <code>DEBUG</code></p>
 
-<pre class="wp-block-code"><code>./main.sh DEBUG</code></pre>
+
+```bash
+./main.sh DEBUG
+```
+
 
 <p>E btcdeb sarà attivato!</p>
 

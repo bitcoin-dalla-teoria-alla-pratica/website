@@ -20,17 +20,29 @@ tags:
 
 <p>La struttura dello scriptPubKey sarà quindi: </p>
 
-<pre class="wp-block-code"><code>OP_HASH160 redeem script hash OP_EQUAL.</code></pre>
+
+```bash
+OP_HASH160 redeem script hash OP_EQUAL.
+```
+
 
 <p>Per quanto riguarda la parte relativa all'input, ossia lo scriptSig, conterrà le condizioni necessarie per rendere la transazione valida. Nel nostro caso, uno script 2-3 richiede almeno due firme. Il redeem script sarà formato da </p>
 
-<pre class="wp-block-code"><code>2 PB PB PB 3 OP_CHECKMULTISIG.</code></pre>
+
+```bash
+2 PB PB PB 3 OP_CHECKMULTISIG.
+```
+
 
 <p>Lo scriptSig sarà strutturato come segue: Signature Signature 2 PB PB PB 3 OP_CHECKMULTISIG, con PB che identifica le chiavi pubbliche coinvolte.</p>
 
 <p>Per affrontare un bug associato all'operation code OP_CHECKMULTISIG, aggiungeremo un elemento innocuo da estrarre dallo stack: OP_0. Lo scriptSig finale avrà quindi la forma: </p>
 
-<pre class="wp-block-code"><code>OP_0 Signature Signature 2 PB PB PB 3 OP_CHECKMULTISIG.</code></pre>
+
+```bash
+OP_0 Signature Signature 2 PB PB PB 3 OP_CHECKMULTISIG.
+```
+
 
 <figure class="wp-block-image size-full"><img src="https://www.corsobitcoin.com/wp-content/uploads/2023/12/image.png" alt="P2SH " class="wp-image-13741"/></figure>
 

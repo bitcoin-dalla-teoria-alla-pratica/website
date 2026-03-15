@@ -36,7 +36,11 @@ tags:
 
 <p>Analizzando la transazione <strong>P2PKH</strong> utilizzata nel video precedente, ricorderai che lo <strong>scriptPubKey</strong> è così formato:</p>
 
-<pre class="wp-block-code"><code>OP_DUP OP_HASH160  OP_EQUALVERIFY OP_CHECKSIG</code></pre>
+
+```bash
+OP_DUP OP_HASH160  OP_EQUALVERIFY OP_CHECKSIG
+```
+
 
 <p>Questo significa che nello scriptSig devono essere presenti degli elementi che devono soddisfare lo scriptPubKey, in modo tale che nello stack sia presente un unico e ultimo elemento con valore 1.</p>
 
@@ -50,11 +54,17 @@ https://www.youtube.com/watch?v=HaZCpfc7Vbg&amp;feature=emb_title
 
 <p>Prendiamo in esame la transazione utilizzata nel&nbsp;<a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener"><strong>video corso</strong></a>, così da sfruttarne le slide.</p>
 
-<pre class="wp-block-code"><code>$ bitcoin-cli getrawtransaction 3446bb5b86fa410d6c8676b0f93e665d06d4a18c97c7d0f2d80460d9696b2325 2</code></pre>
+
+```bash
+$ bitcoin-cli getrawtransaction 3446bb5b86fa410d6c8676b0f93e665d06d4a18c97c7d0f2d80460d9696b2325 2
+```
+
 
 <p>Analizziamo il primo elemento del&nbsp;<strong>vout</strong>, il quale “blocca” 20 bitcoins. Per estrarre solo quella porzione di risultato possiamo utilizzare jq.</p>
 
-<pre class="wp-block-code"><code>$ bitcoin-cli getrawtransaction 3446bb5b86fa410d6c8676b0f93e665d06d4a18c97c7d0f2d80460d9696b2325 2 | jq -r ‘.vout&#91;0]’
+
+```bash
+$ bitcoin-cli getrawtransaction 3446bb5b86fa410d6c8676b0f93e665d06d4a18c97c7d0f2d80460d9696b2325 2 | jq -r ‘.vout[0]’
 {
 “value”: 20,
 “n”: 0,
@@ -63,41 +73,51 @@ https://www.youtube.com/watch?v=HaZCpfc7Vbg&amp;feature=emb_title
 “hex”: “76a9145c9fcd1d188f8f5ebcbb2cd8b52f11290f44d63488ac”,
 “reqSigs”: 1,
 “type”: “pubkeyhash”,
-“addresses”: &#91;
+“addresses”: [
 “19SkbqGT3u82TkdyRQJZjTcwPeEoXBiwgs”
 ]
 }
-}</code></pre>
+}
+```
+
 
 <p>Lo scriptPubKey è quello che si legge in&nbsp;<strong>asm</strong>, o in&nbsp;<strong>hex</strong>. Sono equivalenti, in hex abbiamo&nbsp;<strong>l’esadecimale</strong>&nbsp;corrispondente delle op_code.</p>
 
 <p>Prima di passare alle slide per spiegare nel dettaglio lo script, recuperiamo anche la transazione che ha consumato tale output.</p>
 
-<pre class="wp-block-code"><code>$ bitcoin-cli getrawtransaction 7408ac2f0230e779946e03911300dc39c4a48d39327aeb6c2cb13e1670c36371 2
+
+```bash
+$ bitcoin-cli getrawtransaction 7408ac2f0230e779946e03911300dc39c4a48d39327aeb6c2cb13e1670c36371 2
 {
 “txid”: “3446bb5b86fa410d6c8676b0f93e665d06d4a18c97c7d0f2d80460d9696b2325”,
 “vout”: 0,
 “scriptSig”: {
-“asm”: “304502200f45eb016b79bbc87208096034f2b037be247194e5a7e466103ca694a36cc1ae0221008fbb9067c2e1cdb0832e732062a63c9627bb597ce991d68d75e3aed144984691&#91;ALL] 04ddd9f1b0ec593795d802cd27c442f3dd3db562b331616e554a88dddff62bba572bd535c853d5ef195db0cba621255669a5569caaaeae3802066c70fb2463b89e”,
+“asm”: “304502200f45eb016b79bbc87208096034f2b037be247194e5a7e466103ca694a36cc1ae0221008fbb9067c2e1cdb0832e732062a63c9627bb597ce991d68d75e3aed144984691[ALL] 04ddd9f1b0ec593795d802cd27c442f3dd3db562b331616e554a88dddff62bba572bd535c853d5ef195db0cba621255669a5569caaaeae3802066c70fb2463b89e”,
 “hex”: “48304502200f45eb016b79bbc87208096034f2b037be247194e5a7e466103ca694a36cc1ae0221008fbb9067c2e1cdb0832e732062a63c9627bb597ce991d68d75e3aed144984691014104ddd9f1b0ec593795d802cd27c442f3dd3db562b331616e554a88dddff62bba572bd535c853d5ef195db0cba621255669a5569caaaeae3802066c70fb2463b89e”
 },
 “sequence”: 4294967295
-},</code></pre>
+},
+```
+
 
 <p>Come faccio a sapere che l’elemento da prendere in considerazione è il secondo elemento dell’array?</p>
 
 <p>Nella transazione, all’interno all’interno di vin trovo l’identificativo della UTXO di riferimento, ovvero la txid di riferimento.</p>
 
-<pre class="wp-block-code"><code>$ bitcoin-cli getrawtransaction 7408ac2f0230e779946e03911300dc39c4a48d39327aeb6c2cb13e1670c36371 2 | jq -r '.vin&#91;1]'
+
+```bash
+$ bitcoin-cli getrawtransaction 7408ac2f0230e779946e03911300dc39c4a48d39327aeb6c2cb13e1670c36371 2 | jq -r '.vin[1]'
 {
 "txid": "3446bb5b86fa410d6c8676b0f93e665d06d4a18c97c7d0f2d80460d9696b2325",
 "vout": 0,
 "scriptSig": {
-"asm": "304502200f45eb016b79bbc87208096034f2b037be247194e5a7e466103ca694a36cc1ae0221008fbb9067c2e1cdb0832e732062a63c9627bb597ce991d68d75e3aed144984691&#91;ALL] 04ddd9f1b0ec593795d802cd27c442f3dd3db562b331616e554a88dddff62bba572bd535c853d5ef195db0cba621255669a5569caaaeae3802066c70fb2463b89e",
+"asm": "304502200f45eb016b79bbc87208096034f2b037be247194e5a7e466103ca694a36cc1ae0221008fbb9067c2e1cdb0832e732062a63c9627bb597ce991d68d75e3aed144984691[ALL] 04ddd9f1b0ec593795d802cd27c442f3dd3db562b331616e554a88dddff62bba572bd535c853d5ef195db0cba621255669a5569caaaeae3802066c70fb2463b89e",
 "hex": "48304502200f45eb016b79bbc87208096034f2b037be247194e5a7e466103ca694a36cc1ae0221008fbb9067c2e1cdb0832e732062a63c9627bb597ce991d68d75e3aed144984691014104ddd9f1b0ec593795d802cd27c442f3dd3db562b331616e554a88dddff62bba572bd535c853d5ef195db0cba621255669a5569caaaeae3802066c70fb2463b89e"
 },
 "sequence": 4294967295
-}</code></pre>
+}
+```
+
 
 <p>Passiamo alle slide del&nbsp;<a href="https://bit.ly/3cUJDyZ" target="_blank" rel="noreferrer noopener"><strong>video corso</strong></a>&nbsp;che sicuramente ci aiutano.</p>
 
@@ -127,7 +147,11 @@ https://www.youtube.com/watch?v=HaZCpfc7Vbg&amp;feature=emb_title
 
 <p>Vedendo con la pratica esegue:</p>
 
-<pre class="wp-block-code"><code>printf $(echo 04ddd9f1b0ec593795d802cd27c442f3dd3db562b331616e554a88dddff62bba572bd535c853d5ef195db0cba621255669a5569caaaeae3802066c70fb2463b89e | xxd -r -p | openssl sha256| sed ‘s/^.* //’) |xxd -r -p | openssl ripemd160 | sed ‘s/^.* //’</code></pre>
+
+```bash
+printf $(echo 04ddd9f1b0ec593795d802cd27c442f3dd3db562b331616e554a88dddff62bba572bd535c853d5ef195db0cba621255669a5569caaaeae3802066c70fb2463b89e | xxd -r -p | openssl sha256| sed ‘s/^.* //’) |xxd -r -p | openssl ripemd160 | sed ‘s/^.* //’
+```
+
 
 <p>Nota bene, l’operazione è fatta sulla chiave pubblica dello scriptSig.</p>
 

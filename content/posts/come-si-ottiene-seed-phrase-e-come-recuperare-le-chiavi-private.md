@@ -44,27 +44,43 @@ tags:
 										</figure>
 <p>Partiamo dall’entropia</p>
 <p><!-- HTML generated using hilite.me --></p>
-<pre style="margin: 0; line-height: 125%;">0168071cf29dbdf232de82fa34acb933
-</pre>
+
+```bash
+0168071cf29dbdf232de82fa34acb933
+```
+
 <p> </p>
 <p>applichiamo quindi lo SHA256 e prendiamo il primo carattere del digest.</p>
 <p><!-- HTML generated using hilite.me --></p>
-<pre style="margin: 0; line-height: 125%;">printf 0168071cf29dbdf232de82fa34acb933 | xxd -r -p | sha256sum -b | head -c 1
-&gt; 3</pre>
+
+```bash
+printf 0168071cf29dbdf232de82fa34acb933 | xxd -r -p | sha256sum -b | head -c 1
+> 3
+```
+
 <p> </p>
 <p>Il <strong>3</strong> è il checksum che dobbiamo appendere all’entropia, e poi convertire in base2.</p>
 <p><!-- HTML generated using hilite.me --></p>
-<pre style="margin: 0; line-height: 125%;">echo "ibase=16; obase=2; $(echo 0168071cf29dbdf232de82fa34acb9333  | tr '[:lower:]' '[:upper:]') " | bc| tr -d 'n'
-&gt; 10110100000000111000111001111001010011101101111011111001000110010110111101000001011111010001101001010110010111001001100110011
-</pre>
+
+```bash
+echo "ibase=16; obase=2; $(echo 0168071cf29dbdf232de82fa34acb9333  | tr '[:lower:]' '[:upper:]') " | bc| tr -d 'n'
+> 10110100000000111000111001111001010011101101111011111001000110010110111101000001011111010001101001010110010111001001100110011
+```
+
 <p><br />Convertendo il primo risultato in base10</p>
 <p><!-- HTML generated using hilite.me --></p>
-<pre style="margin: 0; line-height: 125%;">echo "ibase=2; 00000001011" | bc
-</pre>
+
+```bash
+echo "ibase=2; 00000001011" | bc
+```
+
 <p><br />Otteniamo il risultato </p>
 <p><!-- HTML generated using hilite.me --></p>
-<pre style="margin: 0; line-height: 125%;">11
-</pre>
+
+```bash
+11
+```
+
 <p>Possiamo verificare che parola è mappata all’indice 11 <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt" target="_blank" rel="noreferrer noopener">https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt.</a><br />La parola che troviamo all’indice 11 è <strong>accident</strong>.</p>
 <p><strong>Attenzione</strong>, la lista parte da 1, quindi l’elemento è n+1.</p>
 <p>Abbiamo la possibilità di verificare il nostro risultato utilizzando il sito <a href="https://iancoleman.io/bip39/#english" target="_blank" rel="noreferrer noopener">https://iancoleman.io/bip39/</a> ed inserire l’entropia che abbiamo utilizzato</p>

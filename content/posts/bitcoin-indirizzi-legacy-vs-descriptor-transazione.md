@@ -27,12 +27,20 @@ tags:
 <ol><li>Clona il nostro repository.</li>
 </ol>
 
-<pre class="wp-block-syntaxhighlighter-code">   docker exec -it bitcoin-in-action-youtube zsh</pre>
+
+```bash
+docker exec -it bitcoin-in-action-youtube zsh
+```
+
 
 <ol start="2"><li>Entra nel container e spostati nella cartella "Video 13 - P2PKH legacy vs P2PKH descriptor".</li>
 </ol>
 
-<pre class="wp-block-syntaxhighlighter-code">   ./main.sh</pre>
+
+```bash
+./main.sh
+```
+
 
 <p><strong>In Action!</strong><br>I nostri esempi sono sempre basati sulla regtest, sia in questo contesto che nei nostri libri "<a href="https://bit.ly/38RtF9x">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts</a>" e "<a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica</a>".</p>
 
@@ -40,11 +48,19 @@ tags:
 
 <p>Dopo aver avviato Docker Compose con il comando <code>docker-compose up</code>, entra nel container mediante:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">docker exec -it bitcoin-in-action-youtube bash</pre>
+
+```bash
+docker exec -it bitcoin-in-action-youtube bash
+```
+
 
 <p>Per prima cosa, arresta e pulisci completamente la regtest eseguendo il seguente comando:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">bitcoin-cli stop &amp;&amp; sleep 5 &amp;&amp; rm -Rf $HOME/.bitcoin/regtest &amp;&amp; bitcoind -deprecatedrpc=create_bdb &amp;&amp; sleep 5</pre>
+
+```bash
+bitcoin-cli stop && sleep 5 && rm -Rf $HOME/.bitcoin/regtest && bitcoind -deprecatedrpc=create_bdb && sleep 5
+```
+
 
 <p>L'avvio con <code>bitcoind -deprecatedrpc=create_bdb</code> è necessario per abilitare l'uso dei comandi legacy.</p>
 
@@ -52,83 +68,135 @@ tags:
 
 <p>Iniziamo effettuando la transazione dal Descriptor al Legacy:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">bitcoin-cli -named createwallet wallet_name="biaDescriptor"
+
+```bash
+bitcoin-cli -named createwallet wallet_name="biaDescriptor"
 bitcoin-cli -named createwallet wallet_name="biaLegacy" descriptors="false"
 
 ADDR_DESC=`bitcoin-cli -rpcwallet="biaDescriptor" getnewaddress "" "legacy"`
-ADDR_LEGACY=`bitcoin-cli -rpcwallet="biaLegacy" getnewaddress "" "legacy"`</pre>
+ADDR_LEGACY=`bitcoin-cli -rpcwallet="biaLegacy" getnewaddress "" "legacy"`
+```
+
 
 <p>Da notare che il termine "legacy" si riferisce agli indirizzi legacy e non ai portafogli legacy. Gli indirizzi legacy iniziano con 1 nella mainnet e con m/n nella testnet/regtest.</p>
 
 <p>Successivamente, miniamo 101 blocchi per ottenere un reward da spendere:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">bitcoin-cli generatetoaddress 101 $ADDR_DESC >> /dev/null</pre>
+
+```bash
+bitcoin-cli generatetoaddress 101 $ADDR_DESC >> /dev/null
+```
+
 
 <p>Recuperiamo le UTXO dall'indirizzo associato al portafoglio descriptor:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">UTXO=`bitcoin-cli -rpcwallet="biaDescriptor" listunspent 1 101 '["'$ADDR_DESC'"]'`</pre>
+
+```bash
+UTXO=`bitcoin-cli -rpcwallet="biaDescriptor" listunspent 1 101 '["'$ADDR_DESC'"]'`
+```
+
 
 <p>Quando si gestiscono più portafogli, specifica con <code>-rpcwallet</code> a quale portafoglio ti stai riferendo. Immagazzina la lista degli UTXO nella variabile d'ambiente UTXO.</p>
 
 <p>A questo punto, con Jq, memorizziamo le informazioni necessarie per effettuare la transazione:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">TXID=$(echo $UTXO | jq -r '.[0].txid')
+
+```bash
+TXID=$(echo $UTXO | jq -r '.[0].txid')
 VOUT=$(echo $UTXO | jq -r '.[0].vout')
 AMOUNT=$(echo $UTXO | jq -r '.[0].amount-0.009')
 TOTAL_UTXO_AMOUNT=$(echo $UTXO | jq -r '.[0].amount')
-TXIN=`bitcoin-cli getrawtransaction $TXID`</pre>
+TXIN=`bitcoin-cli getrawtransaction $TXID`
+```
+
 
 <p>Ora che abbiamo i dati necessari, creiamo la transazione utilizzando il nuovo metodo introdotto con l'aggiornamento descriptor:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">TX_DATA=$(bitcoin-cli createrawtransaction '[{"txid":"'$TXID'","vout":'$VOUT'}]' '[{"'$ADDR_LEGACY'":'$AMOUNT'}]')</pre>
+
+```bash
+TX_DATA=$(bitcoin-cli createrawtransaction '[{"txid":"'$TXID'","vout":'$VOUT'}]' '[{"'$ADDR_LEGACY'":'$AMOUNT'}]')
+```
+
 
 <p>Il metodo "signrawtransactionwithwallet" è stato inserito con l'aggiornamento descriptor. Ora firmiamo la transazione:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">TX_SIGNED=$(bitcoin-cli -rpcwallet="biaDescriptor" signrawtransactionwithwallet $TX_DATA | jq -r '.hex')</pre>
+
+```bash
+TX_SIGNED=$(bitcoin-cli -rpcwallet="biaDescriptor" signrawtransactionwithwallet $TX_DATA | jq -r '.hex')
+```
+
 
 <p>In questo caso, non forniamo la chiave privata direttamente; sarà il metodo <code>signrawtransactionwithwallet</code> a occuparsi della firma. Il risultato viene memorizzato in <code>TX_SIGNED</code>.</p>
 
 <p>Infine, inviamo la transazione:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">bitcoin-cli sendrawtransaction $TX_SIGNED</pre>
+
+```bash
+bitcoin-cli sendrawtransaction $TX_SIGNED
+```
+
 
 <p>Ora eseguiamo l'operazione inversa, dal legacy al descriptor. Poiché abbiamo già dei bitcoin spendibili grazie alla transazione appena creata, l'operazione sarà più veloce.</p>
 
 <p>Recuperiamo le informazioni necessarie per creare la transazione:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">UTXO=`bitcoin-cli -rpcwallet="biaLegacy" listunspent 1 101 '["'$ADDR_LEGACY'"]'`
+
+```bash
+UTXO=`bitcoin-cli -rpcwallet="biaLegacy" listunspent 1 101 '["'$ADDR_LEGACY'"]'`
 TXID=$(echo $UTXO | jq -r '.[0].txid')
 VOUT=$(echo $UTXO | jq -r '.[0].vout')
 AMOUNT=$(echo $UTXO | jq -r '.[0].amount-0.009')
 TOTAL_UTXO_AMOUNT=$(echo $UTXO | jq -r '.[0].amount')
 SCRIPTPUBKEY=$(echo $UTXO | jq -r '.[0].scriptPubKey')
-TXIN=`bitcoin-cli getrawtransaction $TXID`</pre>
+TXIN=`bitcoin-cli getrawtransaction $TXID`
+```
+
 
 <p>Usiamo <code>-rpcwallet="biaLegacy"</code> in questo caso. Successivamente, otteniamo la chiave privata con il comando <code>dumpprivkey</code>:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">PK=$(bitcoin-cli -rpcwallet="biaLegacy" dumpprivkey $ADDR_LEGACY)</pre>
+
+```bash
+PK=$(bitcoin-cli -rpcwallet="biaLegacy" dumpprivkey $ADDR_LEGACY)
+```
+
 
 <p>Ora siamo pronti a creare la transazione:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">TX_DATA=$(bitcoin-cli createrawtransaction '[{"txid":"'$TXID'","vout":'$VOUT'}]' '[{"'$ADDR_DESC'":'$AMOUNT'}]')</pre>
+
+```bash
+TX_DATA=$(bitcoin-cli createrawtransaction '[{"txid":"'$TXID'","vout":'$VOUT'}]' '[{"'$ADDR_DESC'":'$AMOUNT'}]')
+```
+
 
 <p>Firmiamo la transazione con la chiave privata e aggiungiamo lo <code>scriptPubKey</code>:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">TX_SIGNED=$(bitcoin-cli signrawtransactionwithkey $TX_DATA '["'$PK'"]' '[{"txid":"'$TXID'","vout":'$VOUT',"scriptPubKey":"'$SCRIPTPUBKEY'"}]' | jq -r '.hex')</pre>
+
+```bash
+TX_SIGNED=$(bitcoin-cli signrawtransactionwithkey $TX_DATA '["'$PK'"]' '[{"txid":"'$TXID'","vout":'$VOUT',"scriptPubKey":"'$SCRIPTPUBKEY'"}]' | jq -r '.hex')
+```
+
 
 <p>Infine, inviamo la transazione in broadcast:</p>
 
-<pre class="wp-block-syntaxhighlighter-code">TXSPENT=$(bitcoin-cli sendrawtransaction $TX_SIGNED)</pre>
+
+```bash
+TXSPENT=$(bitcoin-cli sendrawtransaction $TX_SIGNED)
+```
+
 
 <p>Le due differenze principali sono:</p>
 
 <ol><li>Non è più possibile ottenere la chiave privata tramite <code>dumpprivkey</code> dal portafoglio descriptor, che è ora la configurazione predefinita in Bitcoin. Tentare di eseguire il dump restituirà un errore:</li>
 </ol>
 
-<pre class="wp-block-syntaxhighlighter-code">   bitcoin-cli -rpcwallet="biaDescriptor" dumpprivkey $ADDR_DESC
+
+```bash
+bitcoin-cli -rpcwallet="biaDescriptor" dumpprivkey $ADDR_DESC
    error code: -4
    error message:
-   Only legacy wallets are supported by this command</pre>
+   Only legacy wallets are supported by this command
+```
+
 
 <ol start="2"><li>La seconda differenza riguarda il metodo per firmare la transazione: da <code>signrawtransactionwithkey</code> a <code>signrawtransactionwithwallet</code>.</li>
 </ol>

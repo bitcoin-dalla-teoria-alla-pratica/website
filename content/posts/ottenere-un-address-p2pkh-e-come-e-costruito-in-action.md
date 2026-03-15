@@ -12,7 +12,7 @@ tags:
 
 
 
-<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-1-1024x576.png" alt="Ottenere un address P2PKH e come è costruito (In Action!)" data-id="13532" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-1.png" data-link="https://www.corsobitcoin.com/?attachment_id=13532" class="wp-image-13532"/></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="/img/ottenere-un-address-p2pkh-e-come--costruito-in-action-1.png" alt="Ottenere un address P2PKH e come è costruito (In Action!)" data-id="13532" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-1.png" data-link="https://www.corsobitcoin.com/?attachment_id=13532" class="wp-image-13532"/></figure></li></ul></figure>
 
 <figure class="ip iq ir is it iu fb fc paragraph-image">
 <div class="iv iw ah ix w iy" tabindex="0" role="button">

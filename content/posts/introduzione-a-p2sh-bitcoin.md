@@ -14,7 +14,7 @@ tags:
 
 <h2 id="6583">Pay to Public Key</h2>
 
-<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/03/maxresdefault-1024x576.jpg" alt="Introduzione a P2SH" data-id="13623" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/maxresdefault.jpg" data-link="https://www.corsobitcoin.com/?attachment_id=13623" class="wp-image-13623"/></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="/img/introduzione-a-p2sh-1.jpg" alt="Introduzione a P2SH" data-id="13623" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/maxresdefault.jpg" data-link="https://www.corsobitcoin.com/?attachment_id=13623" class="wp-image-13623"/></figure></li></ul></figure>
 
 <p id="a0cc">Lo&nbsp;<strong>P2PKH&nbsp;</strong>si presenta così:</p>
 

@@ -12,7 +12,7 @@ tags:
 
 
 
-<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/02/maxresdefault-1024x576.jpg" alt="P2PK, il padre di tutti gli Address Bitcoin" class="wp-image-13523"/></figure>
+<figure class="wp-block-image size-large"><img src="/img/p2pk-il-padre-di-tutti-gli-address-bitcoin-1.jpg" alt="P2PK, il padre di tutti gli Address Bitcoin" class="wp-image-13523"/></figure>
 
 <p>In questo ultimo articolo affronteremo con la teoria come si ottiene la chiave privata e come si deriva la chiave pubblica.</p>
 <p id="b4dc" class="hx hy fp av b gm jp hz ia gp jq ib ic id jr ie if ig js ih ii ij jt ik il in dc ee" data-selectable-paragraph="">Come già spiegato nei <a class="bq jo" href="https://bitcoin-in-action.medium.com/come-si-riconosce-la-firma-digitale-in-bitcoin-c6fb09a43722" rel="noopener">precedenti articoli</a>, per lo script <strong class="av ju">P2PK</strong>, non esiste un <strong class="av ju">address specifico</strong>. È molto importante comprendere come il protocollo Bitcoin si è evoluto per arrivare ad ottenere gli address che utilizziamo oggi.</p>

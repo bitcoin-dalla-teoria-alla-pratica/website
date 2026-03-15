@@ -18,16 +18,24 @@ tags:
 <p>Il blocco genesi è il primo blocco della blockchain, ed è <em>hardcodato</em> cioè inserito manualmente. </p>
 <p>All’interno della <strong>coinbase </strong>possiamo leggere la famosa frase.</p>
 <!-- HTML generated using hilite.me -->
-<pre style="margin: 0; line-height: 125%;">04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73
-</pre>
+
+```bash
+04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73
+```
+
 <p>Tale frase ha un duplice significato, testimoniare la data del primo blocco, e la nascita di un nuovo sistema monetario indipendente.</p>
 <p>Ma che cosa c’è scritto in questo esadecimale? <br />Come è possibile recuperarlo ed interpretarlo?</p>
 <!-- HTML generated using hilite.me -->
-<pre style="margin: 0; line-height: 125%;">bitcoin-cli getblock 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f 2
-</pre>
+
+```bash
+bitcoin-cli getblock 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f 2
+```
+
 <p>Analizzando l’output ottenuto, possiamo leggere <strong>coinbase</strong>, seguito dal suo valore in esadecimale.</p>
 <!-- HTML generated using hilite.me -->
-<pre style="margin: 0; line-height: 125%;">{
+
+```bash
+{
   "hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
   "confirmations": 574888,
   "strippedsize": 285,
@@ -79,10 +87,14 @@ tags:
   "nTx": 1,
   "nextblockhash": "00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048"
 }
-</pre>
+```
+
 <p>Adesso possiamo convertire l’esadecimale in ASCII.</p>
 <!-- HTML generated using hilite.me -->
-<pre style="margin: 0; line-height: 125%;">echo 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73 | xxd -r -p
-</pre>
+
+```bash
+echo 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73 | xxd -r -p
+```
+
 <p>Ottenendo così il titolo de “The Times” del 3 gennaio 2009.</p>
 <figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2019/05/satoshi-nakamoto-the-times-bitcoin-corso-italiano-791x1024.jpg" alt="Il titolo de 'The Times' nella blockchain Bitcoin." width="396" height="512" /></figure>

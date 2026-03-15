@@ -22,7 +22,11 @@ tags:
 
 <p>Il nostro compito è avviare il file sh con il comando:</p>
 
-<pre class="wp-block-code"><code>$ ./main.sh debug=1</code></pre>
+
+```bash
+$ ./main.sh debug=1
+```
+
 
 <p>Il codice è disponibile nel nostro repository e nel libro "Bitcoin In Action - SegWit, Bitcoin Script e Smart Contracts".</p>
 

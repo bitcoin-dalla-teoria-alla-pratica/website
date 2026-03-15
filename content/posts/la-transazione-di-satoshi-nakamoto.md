@@ -14,7 +14,7 @@ tags:
 
 <h4>Come è stata validata?</h4>
 
-<figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/01/Youtube-1024x576.png" alt="La transazione di Satoshi Nakamoto" class="wp-image-13511"/><figcaption><a href="https://www.youtube.com/watch?v=iVWMaGO3m48">Come si valida una transazione P2PK?</a><br></figcaption></figure>
+<figure class="wp-block-image size-large"><img src="/img/la-transazione-di-satoshinakamoto-1.png" alt="La transazione di Satoshi Nakamoto" class="wp-image-13511"/><figcaption><a href="https://www.youtube.com/watch?v=iVWMaGO3m48">Come si valida una transazione P2PK?</a><br></figcaption></figure>
 
 <p id="ae9d" class="ia ib fm av b ic id ie if ig ih ii ij ik il im in io ip iq ir is it iu iv iw dd ef" data-selectable-paragraph=""><a class="bq hz" href="https://bitcoin-in-action.medium.com/come-si-valida-una-transazione-p2pk-92dcafb8dae2" rel="noopener">Nell’articolo precedente</a> abbiamo spiegato con la teoria come viene validata una transazione P2PK, adesso con l’aiuto del tool <a class="bq hz" href="https://github.com/bitcoin-core/btcdeb" rel="noopener nofollow">btcdeb</a>, analizziamolo con la pratica. Vogliamo quindi analizzare la transazione avvenuta nel blocco 170, tra Hal Finney e Satoshi Nakamoto.</p>
 <p id="3dfe" class="ia ib fm av b ic id ie if ig ih ii ij ik il im in io ip iq ir is it iu iv iw dd ef" data-selectable-paragraph="">Se non siamo a conoscenza dell’esadecimale della transazione è necessario recuperarlo dal suo blocco. e dato che non sappiamo neanche l’hash del blocco, lo recuperiamo tramite la sua altezza.</p>

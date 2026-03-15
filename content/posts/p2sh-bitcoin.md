@@ -16,7 +16,7 @@ tags:
 
 <p></p>
 
-<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/04/maxresdefault-1-1024x576.jpg" alt="Come è costruito un address P2SH?" data-id="13632" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/04/maxresdefault-1.jpg" data-link="https://www.corsobitcoin.com/?attachment_id=13632" class="wp-image-13632"/></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="/img/come--costruito-un-address-p2sh-1.jpg" alt="Come è costruito un address P2SH?" data-id="13632" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/04/maxresdefault-1.jpg" data-link="https://www.corsobitcoin.com/?attachment_id=13632" class="wp-image-13632"/></figure></li></ul></figure>
 
 <p>Entriamo nel vivo dell’address <strong>Pay to script Hash</strong>. Come dicevamo nel precedente <a href="https://youtu.be/Aa1pTzC67Io" rel="noreferrer noopener" target="_blank">video</a>, l’utente andrà a pagare ad un <strong>hash</strong> di uno script.</p>
 

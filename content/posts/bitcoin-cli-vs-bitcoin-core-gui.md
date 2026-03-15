@@ -12,7 +12,7 @@ tags:
 
 
 
-<img class="aligncenter wp-image-13476 size-large" src="https://www.corsobitcoin.com/wp-content/uploads/2020/12/Youtube_c64-1024x576.png" alt="Bitcoin Cli VS GUI" width="640" height="360" />
+<img class="aligncenter wp-image-13476 size-large" src="/img/bitcoin-core-gui-vs-cli-1.png" alt="Bitcoin Cli VS GUI" width="640" height="360" />
 <p class="graf graf--p">Ciao,</p>
 <p class="graf graf--p">Oggi rispondiamo a Roberto che durante una nostra chiacchierata mi ha suggerito di far vedere la GUI di bitcoin-core.</p>
 <p class="graf graf--p">Non avevo mai utilizzato la parte grafica, ma mi rendo conto che alcune persone potrebbero preferire la GUI.</p>

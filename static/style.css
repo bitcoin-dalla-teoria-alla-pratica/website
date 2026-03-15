@@ -32,3 +32,22 @@ a {
     text-decoration: none !important;
     border-bottom: none !important;
 }
+
+/* Mostra i link orizzontali anche su mobile al posto dell'hamburger menu */
+@media (max-width: 684px) {
+  .menu--desktop {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+  .menu--mobile {
+    display: none !important;
+  }
+  .navigation-menu__inner {
+    flex-direction: row !important;
+  }
+  .navigation-menu__inner > li {
+    margin-right: 15px !important;
+    margin-bottom: 5px !important;
+  }
+}
