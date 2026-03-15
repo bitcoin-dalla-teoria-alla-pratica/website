@@ -14,20 +14,12 @@ categories:
   - "Bitcoin"
 ---
 
----
-
 ### **Introduzione a P2SH** #### Pay to Public Key
-
-![](/img/posts/introduzione-a-p2sh-bitcoin-2.webp)
-
 Dopo aver analizzato gli script **P2PK** (Pay to Public key) e **P2PKH** (Pay to Public key Hash) siamo arrivato al P2SH (Pay to script hash), gli address che iniziano con il numero 3.
 
 Come la parola stessa ci suggerisce, andiamo a pagare alla *vista* di un hash di uno script.
 
 Questo tipo di script è affrontato in modo molto dettagliato nel libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](prodotti/bitcoin-in-action/).
-
-![Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts.](/img/posts/introduzione-a-p2sh-bitcoin-2.webp)
-*Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts.*
 
 Andiamo per gradi.
 
