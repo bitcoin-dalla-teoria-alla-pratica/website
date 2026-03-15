@@ -26,3 +26,5 @@ yarn-error.log*
 medium_to_hugo.py
 download_images.py
 cleanup_images.py
+convert_img.sh
+CLAUDE.md 
