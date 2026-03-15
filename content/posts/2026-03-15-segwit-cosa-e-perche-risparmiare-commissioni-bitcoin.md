@@ -19,6 +19,8 @@ Se bazzicate un po' nel mondo Bitcoin, vi sarà sicuramente capitato di sentire 
 
 Il problema di partenza era semplice: un blocco Bitcoin non può pesare più di 1 megabyte. Con questo limite, la rete reggeva al massimo 3-7 transazioni al secondo — pochissime. Aumentare la dimensione dei blocchi d'un colpo avrebbe richiesto hardware sempre più potente e minacciato la decentralizzazione. Bisognava trovare un'altra strada.
 
+![segwit-evoluzione-della-scalabilit-in-bitcoin](/img/posts/segwit-evoluzione-della-scalabilit-in-bitcoin.webp)
+
 ## La firma si sposta, e tutto cambia
 
 L'idea di SegWit è questa: prendere le firme digitali — il "testimone" che prova che quei Bitcoin sono tuoi — e spostarle in un campo separato chiamato `txinwitness`. I vecchi nodi non aggiornati vedono la transazione senza firme ma la considerano valida lo stesso, e ci guadagnano spazio. In più, la firma non influenza più il TXID della transazione: il bug della *transaction malleability*, risolto.
@@ -26,6 +28,8 @@ L'idea di SegWit è questa: prendere le firme digitali — il "testimone" che pr
 Con SegWit nasce anche una nuova unità di misura, il **Block Weight**, che può arrivare a 4 megabyte virtuali. I dati classici pesano 4 unità, i dati SegWit (le firme) pesano solo 1. Risultato: lo spazio reale medio di un blocco è salito a circa **2,3 MB**, con più transazioni per blocco.
 
 ## Meno commissioni, indirizzi che iniziano con bc1
+
+![segregated-witness-levoluzione-di-bitcoin](/img/posts/segregated-witness-levoluzione-di-bitcoin.webp)
 
 Le commissioni Bitcoin si calcolano sulla *vsize* (virtual size), ottenuta dividendo il peso totale per 4. Dato che le firme SegWit pesano un quarto rispetto al formato legacy, la transazione risulta più leggera ai fini del calcolo. Il risparmio usando indirizzi nativi SegWit va dal **39% al 58%**.
 
