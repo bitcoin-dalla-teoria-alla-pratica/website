@@ -1,9 +1,15 @@
-baseURL = "/"
+baseURL = "https://corsobitcoin.com/"
 languageCode = "it-it"
 title = "Il mio sito Hugo"
 theme = "terminal"
 pagination.pagerSize = 5
 summaryLength = 70
+
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
 
 [markup.highlight]
   noClasses = false
@@ -20,6 +26,7 @@ summaryLength = 70
   autoCover = true
   showLastUpdated = false
   homepageImage = "/img/bizantino.jpg"
+  defaultTheme = "dark"
 
 [languages]
   [languages.it]
@@ -27,7 +34,7 @@ summaryLength = 70
     title = "Corso Bitcoin"
 
     [languages.it.params]
-      subtitle = "Il corso gratuito per imparare a usare Bitcoin"
+      subtitle = "Libri, articoli e risorse tecniche su Bitcoin"
       owner = ""
       keywords = ""
       copyright = "© 2026 Bitcoin In Action"
@@ -61,3 +68,4 @@ summaryLength = 70
           name = "Genesis Block"
           url = "/about"
           weight = 3
+          
