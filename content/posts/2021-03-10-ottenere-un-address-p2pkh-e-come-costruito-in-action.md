@@ -26,7 +26,7 @@ Nel libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (A
 ![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)](/img/posts/ottenere-un-address-p2pkh-e-come-costruito-in-action-2.webp)
 *📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)*
 
-Per prima cosa avviamo il nostro nodo regtest. (Se non sai come installarlo [guarda questo articolo](https://bitcoin-in-action.medium.com/come-si-utilizza-un-nodo-bitcoin-ff0e0a785886))
+Per prima cosa avviamo il nostro nodo regtest. (Se non sai come installarlo [guarda questo articolo](/posts/come-si-utilizza-un-nodo-bitcoin/))
 
 ```bash
 $ bitcoind

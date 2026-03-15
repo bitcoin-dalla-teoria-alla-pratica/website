@@ -19,7 +19,7 @@ categories:
 
 #### L’arte del nascondere
 
-Dopo aver analizzato la [prima parte della crittografia](https://medium.com/@bitcoindallateoriallapratica/come-nasce-la-crittografia-fino-al-bitcoin-parte-prima-68756d6715a9), andiamo più in profondità.
+Dopo aver analizzato la [prima parte della crittografia](/posts/crittografia-pt-i/), andiamo più in profondità.
 
 > Lo scopo della **crittografia** non è quello di nascondere il messaggio, MA di **nascondere il suo significato**!
 

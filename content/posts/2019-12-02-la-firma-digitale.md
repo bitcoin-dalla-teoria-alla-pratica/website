@@ -20,7 +20,7 @@ categories:
 
 #### Che cosa è e come si ottiene?
 
-Negli articoli precedenti abbiamo percorso la [storia della crittografia](https://medium.com/@bitcoindallateoriallapratica/crittografia-pt-viii-rsa-firma-digitale-bitcoin-blockchain-4f13445bfff3), capendo la differenza tra stenografia e la crittografia stessa.
+Negli articoli precedenti abbiamo percorso la [storia della crittografia](/posts/crittografia-pt-viii/), capendo la differenza tra stenografia e la crittografia stessa.
 
 > Steganòs = coperto 
 > gràphein = scrivere

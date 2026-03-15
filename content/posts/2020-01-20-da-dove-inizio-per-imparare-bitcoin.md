@@ -24,7 +24,7 @@ Molte persone vorrebbero imparare a utilizzare il protocollo Bitcoin, oppure vor
 
 Noi siamo sempre stati convinti che per capire realmente una qualsiasi tecnologia dobbiamo metterla in pratica.
 
-Abbiamo già scritto una guida per permettere di sincronizzare l’intera blockchain in un dispositivo esterno come [Raspberry](https://medium.com/@bitcoindallateoriallapratica/tutorial-fullnode-raspberry-bitcoin-blockchain-9c8de546657f), ma per prove più “quick and dirty” vi consigliamo di utilizzare la [**regtest**](https://bitcoin.org/en/glossary/regression-test-mode).
+Abbiamo già scritto una guida per permettere di sincronizzare l’intera blockchain in un dispositivo esterno come [Raspberry](/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi/), ma per prove più “quick and dirty” vi consigliamo di utilizzare la [**regtest**](https://bitcoin.org/en/glossary/regression-test-mode).
 
 ![La sandbox, dove puoi fare le tue prove senza farti male :)](/img/posts/da-dove-inizio-per-imparare-bitcoin-2.webp)
 *La sandbox, dove puoi fare le tue prove senza farti male :)*
@@ -63,7 +63,7 @@ bitcoin-0.19.0.1-osx64.tar.gz: OKsha256sum: WARNING: 20 lines are improperly for
 
 Scarichiamo anche le relative firme per verificare l’integrità del pacchetto.
 
-> [Se non sei pratico di PGP, guarda questo articolo!](https://medium.com/@bitcoindallateoriallapratica/verifica-signature-bitcoin-core-pgp-628bee490767)
+> [Se non sei pratico di PGP, guarda questo articolo!](/posts/pretty-good-privacy/)
 
 ```python
 $ wget https://bitcoincore.org/bin/bitcoin-core-0.19.0.1/SHA256SUMS.asc$ wget https://bitcoin.org/laanwj-releases.asc$ gpg --import laanwj-releases.asc$ gpg --verify SHA256SUMS.asc

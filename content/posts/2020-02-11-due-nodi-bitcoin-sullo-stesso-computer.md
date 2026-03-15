@@ -22,7 +22,7 @@ Durante lo studio di [**Bitcoin dalla teoria alla pratica**](prodotti/bitcoin-da
 
 Uno di questi è far comunicare due o più nodi sullo stesso computer.
 
-Facendo riferimento all’articolo [precedente](https://medium.com/@bitcoindallateoriallapratica/tutorial-creare-una-transazione-in-bitcoin-467c94fad754?source=---------2------------------), utilizziamo un nuovo demone e cerchiamo di farli comunicare.
+Facendo riferimento all’articolo [precedente](/posts/transazioni-in-regtest/?source=---------2------------------), utilizziamo un nuovo demone e cerchiamo di farli comunicare.
 
 Sappiamo che di default le porte del demone di Bitcoin sono **18444** e la **18443**, per quanto riguarda l’ambiente di **regtest**.
 
@@ -125,7 +125,7 @@ avremo a disposizione due nodi sullo stesso computer.
 
 > questo percorso sarà diverso nel vostro computer /Users/barno/Documents/bizantino/Bitcoin_2.
 
-Lanciamo quindi il demone di *default *(quello che abbiamo configurato nel precedente [tutorial](https://medium.com/@bitcoindallateoriallapratica/tutorial-creare-una-transazione-in-bitcoin-467c94fad754?source=---------2------------------)) e il secondo demone
+Lanciamo quindi il demone di *default *(quello che abbiamo configurato nel precedente [tutorial](/posts/transazioni-in-regtest/?source=---------2------------------)) e il secondo demone
 
 ```bash
 $ bitcoind $ bitcoind -conf=$PWD/bitcoin_nodo2.conf

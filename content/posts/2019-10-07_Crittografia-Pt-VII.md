@@ -21,7 +21,7 @@ I computer iniziano ad entrare nelle case delle persone comuni. Siamo intorno ag
 
 > Nel 1977 viene presentato [Apple II](https://en.wikipedia.org/wiki/Apple_II_series)
 
-Così anche la crittografia comincia a mutare e a spostarsi sui computer, anche perchè tutte le forme che [abbiamo affrontato](https://medium.com/@bitcoindallateoriallapratica/crittografia-pt-vi-alan-turing-enigma-guerra-mondiale-apple-bitcoin-dalla-teoria-alla-pratica-85a4464ca5ce) fino ad adesso erano estremamente lente anche se sicure. 
+Così anche la crittografia comincia a mutare e a spostarsi sui computer, anche perchè tutte le forme che [abbiamo affrontato](/posts/crittografia-pt-vi/) fino ad adesso erano estremamente lente anche se sicure. 
 Aumentiamo di nuovo il nostro vocabolario, con delle sigle che iniziano a essere familiari con il periodo attuale in cui viviamo.
 
 --- **DES**: Data Encryption Standard. **3-DES**: Triple Des. **AES**: Advanced Encryption Standard.

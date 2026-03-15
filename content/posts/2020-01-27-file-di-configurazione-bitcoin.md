@@ -17,7 +17,7 @@ categories:
 
 #### Cerchiamo di mantenere pulito
 
-Nell’[articolo precedente](https://medium.com/@bitcoindallateoriallapratica/da-dove-inizio-per-imparare-bitcoin-e103dc219eec?source=your_stories_page---------------------------) abbiamo installato il nodo Bitcoin sul proprio computer e abbiamo passato come parametro -regtest per interagire in locale.
+Nell’[articolo precedente](/posts/da-dove-inizio-per-imparare-bitcoin/?source=your_stories_page---------------------------) abbiamo installato il nodo Bitcoin sul proprio computer e abbiamo passato come parametro -regtest per interagire in locale.
 
 Un parametro non è cosi scomodo da passare ogni volta che vogliamo fare delle chiamate, ma quando il comando da eseguire diventa
 
@@ -58,7 +58,7 @@ $ bitcoin-cli getblockcount
 ```
 
 
-Otteniamo lo stesso risultato del [tutorial precedente](https://medium.com/@bitcoindallateoriallapratica/da-dove-inizio-per-imparare-bitcoin-e103dc219eec?source=your_stories_page---------------------------).
+Otteniamo lo stesso risultato del [tutorial precedente](/posts/da-dove-inizio-per-imparare-bitcoin/?source=your_stories_page---------------------------).
 
 Nel prossimo tutorial vedremo come far comunicare due o più nodi sullo stesso computer!
 

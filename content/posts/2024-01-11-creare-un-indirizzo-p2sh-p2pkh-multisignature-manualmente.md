@@ -33,7 +33,8 @@ for i in 1 2 3do printf "\n \e[31m ######### Create private key and public key $
 ```
 
 
-#### **Creazione delle Chiavi: Un Mondo da Esplorare** Il codice mostrato sopra ha generato con successo tre chiavi private e le rispettive chiavi pubbliche. Se siete curiosi di capire come vengono create le chiavi private e come derivano le chiavi pubbliche, non perdetevi l’ [articolo](https://bitcoin-in-action.medium.com/come-si-ottiene-laddress-p2pk-34a47c30bbfe) completo e il nostro libro “[Bitcoin dalla teoria alla pratica](https://amzn.to/2MOj1av)”.
+#### **Creazione delle Chiavi: Un Mondo da Esplorare** 
+Il codice mostrato sopra ha generato con successo tre chiavi private e le rispettive chiavi pubbliche. Se siete curiosi di capire come vengono create le chiavi private e come derivano le chiavi pubbliche, non perdetevi l’ [articolo](/posts/come-si-ottiene-l-address-p2pk/) completo e il nostro libro “[Bitcoin dalla teoria alla pratica](https://amzn.to/2MOj1av)”.
 
 Ora, entriamo nella parte successiva della nostra esplorazione: la creazione del redeem script.
 
@@ -70,7 +71,8 @@ printf $SCRIPT > redeem_script.txt
 ```
 
 
-#### **Redeem Script: Applicazione di SHA256 e RIPEMD160** In una fase successiva del nostro percorso, applicheremo l’hash SHA256 e RIPEMD160 al redeem script che abbiamo creato. Questa è una parte cruciale del processo di creazione di un indirizzo Bitcoin P2SH-P2PKH.
+#### **Redeem Script: Applicazione di SHA256 e RIPEMD160** 
+In una fase successiva del nostro percorso, applicheremo l’hash SHA256 e RIPEMD160 al redeem script che abbiamo creato. Questa è una parte cruciale del processo di creazione di un indirizzo Bitcoin P2SH-P2PKH.
 
 ![P2SH — Guarda il video completo sul canale Youtube Bitcoin in Action](/img/posts/creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente-1.webp)
 *P2SH — Guarda il video completo sul canale Youtube Bitcoin in Action*
@@ -87,21 +89,18 @@ In questo blocco di codice:
 
 Questo ci porterà allo **scriptPubKey**, che è essenziale per ottenere l’indirizzo Bitcoin P2SH-P2PKH.
 
-Se vuoi seguire passo dopo passo questo processo, ti suggerisco di dare un’occhiata all’articolo dettagliato su [https://bitcoin-in-action.medium.com/come-si-ottiene-address-bitcoin-p2sh-f009f28206b7](https://bitcoin-in-action.medium.com/come-si-ottiene-address-bitcoin-p2sh-f009f28206b7).
+Se vuoi seguire passo dopo passo questo processo, ti suggerisco di dare un’occhiata all’articolo dettagliato su [/posts/introduzione-a-p2sh-bitcoin/](/posts/introduzione-a-p2sh-bitcoin/).
 
 Infine, applicheremo il “Version Prefix” e il processo di Base58Check per ottenere il nostro indirizzo Bitcoin P2SH-P2PKH. Per la regtest e testnet, il “Version Prefix” è 0xC4.
 
-> `ADDR` contiene l'indirizzo Bitcoin P2SH-P2PKH ottenuto applicando il "Version Prefix" e il processo di Base58Check all'hash RIPEMD160.
+- `ADDR` contiene l'indirizzo Bitcoin P2SH-P2PKH ottenuto applicando il "Version Prefix" e il processo di Base58Check all'hash RIPEMD160.
 
 Concludiamo così la creazione manuale dell’indirizzo Bitcoin P2SH-P2PKH. L’indirizzo è ora pronto per essere utilizzato nella rete regtest o testnet.
 
-> Base58 evita di utilizzare caratteri ambigui come lo 0 (zero) e O.
-
-> 123456789
-
-> ABCDEFGHJKLMNPQRSTUVWXYZ
-
-> abcdefghijkmnopqrstuvwxyz
+- Base58 evita di utilizzare caratteri ambigui come lo 0 (zero) e O.
+- 123456789
+- ABCDEFGHJKLMNPQRSTUVWXYZ
+- abcdefghijkmnopqrstuvwxyz
 
 Da notare che il nostro indirizzo inizierà con il numero 2, una caratteristica specifica dei P2SH nelle reti regtest/testnet.
 
@@ -118,14 +117,3 @@ Per esempi più approfonditi, unisciti a noi nel nostro libro:
 
 ![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](/img/posts/creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente-2.webp)
 *📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts*
-
----
-
-📌 [https://linktr.ee/satoshiwantsyou](https://linktr.ee/satoshiwantsyou)
-
-Television isn’t a good idea (Radio Stations) 
-Email isn’t a good idea (Post offices) 
-Amazon isn’t a good idea (Retail stores) 
-Bitcoin isn’t a good idea (Central banks)
-
-In **crypto** we trust

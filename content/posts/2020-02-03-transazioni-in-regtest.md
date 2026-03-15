@@ -20,7 +20,7 @@ categories:
 
 #### Come posso creare una transazioni tra due nodi?
 
-[Nel tutorial precedente](https://medium.com/@bitcoindallateoriallapratica/utilizzare-i-file-di-configurazione-bitcoin-d93c6f9ac353) abbiamo visto come sia possibile far comunicare due nodi sullo stesso computer e come si sincronizzano quando dei blocchi vengono minati.
+[Nel tutorial precedente](/posts/file-di-configurazione-bitcoin/) abbiamo visto come sia possibile far comunicare due nodi sullo stesso computer e come si sincronizzano quando dei blocchi vengono minati.
 
 Q: Quindi possiamo fare anche una transazione e vedere che essa sia propagata e capire tutti i passaggi che subisce prima che faccia parte della blockchain? 
 R: Si.
@@ -49,7 +49,7 @@ stessa operazione per il nodo di default il cui percorso (default) nel mio compu
 
 
 Avviamo di nuovo entrambi i nodi. 
-Se avete cancellato la cartella regtest (come me), dovete seguire i passaggi del [tutorial precedente](https://medium.com/@bitcoindallateoriallapratica/utilizzare-i-file-di-configurazione-bitcoin-d93c6f9ac353) così da avere a disposizione 50 bitcoin su un’indirizzo. 
+Se avete cancellato la cartella regtest (come me), dovete seguire i passaggi del [tutorial precedente](/posts/file-di-configurazione-bitcoin/) così da avere a disposizione 50 bitcoin su un’indirizzo. 
 *Già 50 bitcoin, nessun halving era ancora stato fatto.*
 
 Ottengo quindi 3 indirizzi, 2 dal nodo di default (bizantino) e 1 dal nodo2.
@@ -68,7 +68,7 @@ $ bitcoin-cli generatetoaddress 101 $ADDR
 ```
 
 
-Adesso entrambi i nodi devono avere 101 blocchi, se così non fosse torna al [tutorial precedente](https://medium.com/@bitcoindallateoriallapratica/utilizzare-i-file-di-configurazione-bitcoin-d93c6f9ac353).
+Adesso entrambi i nodi devono avere 101 blocchi, se così non fosse torna al [tutorial precedente](/posts/file-di-configurazione-bitcoin/).
 
 Con il comando **listunpsent** otteniamo tutte le UTXO disponibili.
 

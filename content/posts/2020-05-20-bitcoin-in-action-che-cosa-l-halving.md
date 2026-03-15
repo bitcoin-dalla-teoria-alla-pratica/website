@@ -27,12 +27,14 @@ Oggi (11 maggio 2020) è un giorno importante per Bitcoin, oggi avviene il cosid
 
 L’halving e’ un evento ricorrente in Bitcoin: ogni quattro anni il reward che i miner ottengono tramite la coinbase viene dimezzato.
 
-Per la precisione il reward si dimezza ogni 210000 blocchi. 
+Per la precisione il reward si dimezza ogni 210000 blocchi.
+
 Un blocco viene minato ogni 10 minuti quindi 210000 blocchi corrispondono a 1458 giorni che equivalgono a 3.99 anni!
 
 In questo momento il numero di blocchi minati è 629992, quando arriveremo al blocco numero 630000 saranno ufficialmente passati 12 anni dal primo blocco minato, dunque il reward passerà da 12.5 a 6.25 bitcoin.
 
-Ricapitolando, attualmente, i miners stanno ricevendo 12.5 bitcoins per ogni blocco che riescono a minare. 
+Ricapitolando, attualmente, i miners stanno ricevendo 12.5 bitcoins per ogni blocco che riescono a minare.
+
 Tra poco, intorno alle 21:22, questo reward passerà a 6.25 bitcoins.
 
 Bando alle ciance, entriamo nel dettaglio e vediamo con precisione cosa succederà!

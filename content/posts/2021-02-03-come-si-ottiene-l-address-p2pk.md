@@ -23,7 +23,7 @@ In questo ultimo articolo affronteremo con la teoria come si ottiene la chiave p
 ![Video disponibile nel canale Bitcoin in Action](/img/posts/come-si-ottiene-l-address-p2pk-1.webp)
 *Video disponibile nel canale Bitcoin in Action*
 
-Come già spiegato nei [precedenti articoli](https://bitcoin-in-action.medium.com/come-si-riconosce-la-firma-digitale-in-bitcoin-c6fb09a43722), per lo script **P2PK**, non esiste un **address specifico**.
+Come già spiegato nei [precedenti articoli](/posts/come-si-riconosce-la-firma-digitale-in-bitcoin/), per lo script **P2PK**, non esiste un **address specifico**.
 
 È molto importante comprendere come il protocollo Bitcoin si è evoluto per arrivare ad ottenere gli address che utilizziamo oggi.
 
@@ -68,7 +68,7 @@ Applicando un byte ( **01** ), in coda alla chiave, si ottiene la chiave privata
 Ad oggi si utilizza prevalentemente la chiave privata compressa.
 
 Dalla chiave privata si deriva la chiave pubblica, compressa e non compressa.  
-La chiave pubblica non compressa è quella che abbiamo analizzato negli articoli [**precedenti dedicati al P2PK**](https://bitcoin-in-action.medium.com/come-si-valida-una-transazione-p2pk-92dcafb8dae2), la riconosciamo perchè inizia sempre con il byte **04** ed è lunga **130** caratteri esadecimali
+La chiave pubblica non compressa è quella che abbiamo analizzato negli articoli [**precedenti dedicati al P2PK**](/posts/come-si-valida-una-transazione-p2pk/), la riconosciamo perchè inizia sempre con il byte **04** ed è lunga **130** caratteri esadecimali
 
 La chiave pubblica compressa si ottiene applicando un **version prefix**, verificando l’ultimo byte e applicando la funzione crittografica **RIPEMD160**.
 
@@ -79,4 +79,4 @@ Le **fees** si pagano in base a quanto è *pesante* la transazione in termini di
 
 Come ormai sappiamo, la chiave privata **non deve essere assolutamente condivisa**, perchè è in grado di generare quella firma digitale comprovabile dalla corrispondete chiave pubblica, che ovviamente è stata possibile derivare solo ed esclusivamente da quella chiave privata.
 
-Se ti stai chiedendo perchè è importante la firma,[guarda gli articoli precedenti](https://bitcoin-in-action.medium.com/chiave-privata-firma-digitale-bitcoin-in-action-ef2b470d0227).
+Se ti stai chiedendo perchè è importante la firma,[guarda gli articoli precedenti](/posts/bitcoin-in-action-perch-cos-importante-la-chiave-privata/).

@@ -67,15 +67,13 @@ $ sh main.sh
 ```
 
 
-lo script scaricherà la versione di riferimento, effettuerà il controllo della firma [PGP](https://medium.com/@satoshiwantsyou/verifica-signature-bitcoin-core-pgp-628bee490767), e ci chiederà se spostare gli elementi appena scaricati in /usr/local/bin, percorso che solitamente fa parte del $PATH in modo tale da rendere il demone globale.
+lo script scaricherà la versione di riferimento, effettuerà il controllo della firma [PGP](/posts/pretty-good-privacy/), e ci chiederà se spostare gli elementi appena scaricati in /usr/local/bin, percorso che solitamente fa parte del $PATH in modo tale da rendere il demone globale.
 
 Ci viene quindi chiesta la password del nostro computer.
 
 Una volta inserita, il software viene installato.
 
 Potrebbe essere necessario installare PGP per il controllo delle chiavi.
-
-Se non sai che cosa è PGP cerca il nostro articolo sul nostro sito [corsobitcoin.com](http://corsobitcoin.com) o il [nostro blog su Medium](https://medium.com/@satoshiwantsyou/verifica-signature-bitcoin-core-pgp-628bee490767).
 
 Per verificare che tutto sia andato a buon fine, possiamo digitare:
 
@@ -202,7 +200,7 @@ Come spiegato nel video precedente, il libro non utilizza la mainnet o la testne
 
 Dobbiamo quindi creare il file di configurazione per comunicare a Bitcoin core che vogliamo utilizzare tale ambiente.
 
-Come spiegato nel libro Bitcoin dalla teoria alla pratica, possiamo utilizzare o i parametri da riga di comando quando avviamo il demone, oppure utilizzare un [file di configurazione](https://medium.com/@satoshiwantsyou/utilizzare-i-file-di-configurazione-bitcoin-d93c6f9ac353).
+Come spiegato nel libro Bitcoin dalla teoria alla pratica, possiamo utilizzare o i parametri da riga di comando quando avviamo il demone, oppure utilizzare un [file di configurazione](/posts/file-di-configurazione-bitcoin/).
 
 Noi preferiamo quest’ultima soluzione.
 

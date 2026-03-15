@@ -18,8 +18,8 @@ categories:
 
 ### Come si riconosce la firma digitale in Bitcoin?
 
-![https://youtu.be/kussfH_U6Ow](/img/posts/come-si-riconosce-la-firma-digitale-in-bitcoin-4.webp)
-*https://youtu.be/kussfH_U6Ow*
+![Come si riconosce la firma digitale in Bitcoin?](/img/posts/come-si-riconosce-la-firma-digitale-in-bitcoin-4.webp)
+*Come si riconosce la firma digitale in Bitcoin?*
 
 Nel [video precedente](https://youtu.be/SMDeoY9x3HY), abbiamo analizzato con la pratica come la transazione viene **P2PK** viene validata.
 
@@ -105,7 +105,7 @@ $ echo "obase=16;52" | bc34
 
 ---
 
-Arriviamo quindi al momento di analizzare la transazione dell’[articolo precedente](https://bitcoin-in-action.medium.com/transazione-p2pk-bitcoin-e9bc4dc7870d):
+Arriviamo quindi al momento di analizzare la transazione dell’[articolo precedente](/posts/come-viene-validata-la-transazione-p2pk/):
 
 ```bash
 $ bitcoin-cli getrawtransaction f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16 2 | jq
@@ -195,8 +195,8 @@ Quindi viene inserito nello stack.
 
 Successivamente, come abbiamo affrontato nel [precedente video](https://youtu.be/SMDeoY9x3HY), lo stack viene validato.
 
-![Estratto dell’articolohttps://bitcoin-in-action.medium.com/transazione-p2pk-bitcoin-e9bc4dc7870d](/img/posts/come-si-riconosce-la-firma-digitale-in-bitcoin-4.webp)
-*Estratto dell’articolohttps://bitcoin-in-action.medium.com/transazione-p2pk-bitcoin-e9bc4dc7870d*
+![Estratto dell’articolo](/img/posts/come-si-riconosce-la-firma-digitale-in-bitcoin-4.webp)
+*Estratto dell’articolo*
 
 ![I nostri libri disponibili su corsobitcoin.com](/img/posts/come-si-riconosce-la-firma-digitale-in-bitcoin-5.webp)
 *I nostri libri disponibili su corsobitcoin.com*

@@ -44,7 +44,7 @@ Vediamo con un esempio l’address P2PKH. Ad un certo punto vi lancio una sfida,
 
 > In action
 
-Per questo esempio utilizzeremo l’ambiente mainnet.Se non hai [un nodo guarda questo articolo](https://medium.com/@satoshiwantsyou/come-si-utilizza-un-nodo-bitcoin-ff0e0a785886)
+Per questo esempio utilizzeremo l’ambiente mainnet.Se non hai [un nodo guarda questo articolo](/posts/come-si-utilizza-un-nodo-bitcoin/)
 
 Utilizzo il metodo **getnewaddress**:
 

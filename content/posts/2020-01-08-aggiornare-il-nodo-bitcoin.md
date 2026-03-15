@@ -22,7 +22,7 @@ categories:
 
 Siamo all’inizio dell’Hanno 2020 (la H sta per Halving 😉) e tra i buoni propositi c’è sempre quello di fare un pò di pulizia, di aggiornare i software e di incrementare le nostre capacità.
 
-Se avete seguito il nostro [tutorial per avere un nodo Raspberry](https://medium.com/@bitcoindallateoriallapratica/tutorial-fullnode-raspberry-bitcoin-blockchain-9c8de546657f) e non avete ancora aggiornato il vostro nodo, avrete la versione 0.18.0 di Bitcoin Core.
+Se avete seguito il nostro [tutorial per avere un nodo Raspberry](/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi/) e non avete ancora aggiornato il vostro nodo, avrete la versione 0.18.0 di Bitcoin Core.
 
 A novembre 2019 è stato rilasciato l’aggiornamento [0.19.0.1](https://bitcoin.org/en/release/v0.19.0.1), che introduce dei miglioramenti a livello di performance, delle nuove chiamate RPC e rende deprecate delle altre.  
 Tutti i changelogs sono presenti anche sul [repository ufficiale Github](https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-0.19.0.1.md).
@@ -59,7 +59,7 @@ $ wget https://bitcoincore.org/bin/bitcoin-core-0.19.0.1/SHA256SUMS.asc$ wget ht
 ```
 
 
-Effettuiamo la verifica come mostrato nel [tutorial iniziale del Raspberry](https://medium.com/@bitcoindallateoriallapratica/tutorial-fullnode-raspberry-bitcoin-blockchain-9c8de546657f).
+Effettuiamo la verifica come mostrato nel [tutorial iniziale del Raspberry](/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi/).
 
 ```bash
 $ sha256sum --check SHA256SUMS.asc --ignore-missing
@@ -127,7 +127,7 @@ $ bitcoin-cli stop
 ```
 
 
-Aspettiamo qualche secondo, dato che abbiamo impostato un [servizio](https://medium.com/@bitcoindallateoriallapratica/tutorial-fullnode-raspberry-bitcoin-blockchain-9c8de546657f) che rimette in esecuzione il demone se questo per qualche motivo dovesse interrompersi.
+Aspettiamo qualche secondo, dato che abbiamo impostato un [servizio](/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi/) che rimette in esecuzione il demone se questo per qualche motivo dovesse interrompersi.
 
 Proviamo quindi a lanciare un nuovo comando, ad esempio
 

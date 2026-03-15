@@ -15,7 +15,7 @@ categories:
 
 ### Crittografia Pt III
 
-#### L’arte del nascondere — **monoalfabetica vs polialfabetica** Nell’[articolo precedente](https://medium.com/@bitcoindallateoriallapratica/come-nasce-la-crittografia-parte-seconda-giulio-cesare-crittoanalisi-maria-stuarda-bitcoin-blockchain-605637f0b68e) abbiamo affrontato il tema degli alfabeti.  
+#### L’arte del nascondere — **monoalfabetica vs polialfabetica** Nell’[articolo precedente](/posts/crittografia-pt-ii/) abbiamo affrontato il tema degli alfabeti.  
 In particolare sostituzione **monoalfabetica** e **polialfabetica**. Aumentiamo ancora il nostro vocabolario, sfruttando Wikipedia.
 
 --- **monoalfabetica** è un sistema crittografico che utilizza un alfabeto per il testo in chiaro e una permutazione dello stesso per il testo cifrato. **polialfabetica** è un sistema crittografico che fa uso di un numero più o meno grande di *alfabeti* per sostituire le lettere del messaggio.

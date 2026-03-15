@@ -46,7 +46,7 @@ R: Puoi recuperare la chiave pubblica dal sito di riferimento o utilizzando dei 
 
 Ok sono pronto a scaricare e a verificare il pacchetto Bitcoin!
 
-[https://medium.com/@satoshiwantsyou/verifica-signature-bitcoin-core-pgp-628bee490767](https://medium.com/@satoshiwantsyou/verifica-signature-bitcoin-core-pgp-628bee490767)
+[/posts/pretty-good-privacy/](/posts/pretty-good-privacy/)
 
 Prima di tutto è necessario installare [GPG](https://blog.ghostinthemachines.com/2015/03/01/how-to-use-gpg-command-line/). 
 Una volta installato potete verificare la versione in uso.
@@ -93,7 +93,7 @@ Dobbiamo quindi utilizzare la chiave pubblica che verifica la firma.
 
 ---
 
-> [*Se hai bisogno di una rinfrescata sulla crittografia, guarda qui*](https://medium.com/@bitcoindallateoriallapratica/firma-digitale-bitcoin-ecdsa-ecc-blockchain-guida-blockchain-b7278ac4bad1?source=your_stories_page---------------------------)* 👀*
+> [*Se hai bisogno di una rinfrescata sulla crittografia, guarda qui*](/posts/la-firma-digitale/?source=your_stories_page---------------------------)* 👀*
 
 ---
 

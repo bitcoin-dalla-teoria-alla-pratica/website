@@ -30,7 +30,7 @@ Non avevo mai utilizzato la parte grafica, ma mi rendo conto che alcune persone 
 
 > L’ **interfaccia grafica**, nota anche come **GUI** (dall’[inglese](https://it.wikipedia.org/wiki/Lingua_inglese) *Graphical User Interface*), in [informatica](https://it.wikipedia.org/wiki/Informatica) è un tipo di [interfaccia utente](https://it.wikipedia.org/wiki/Interfaccia_utente) che consente l’[interazione uomo-macchina](https://it.wikipedia.org/wiki/Interazione_uomo-computer) in modo visuale utilizzando rappresentazioni grafiche
 
-Tuttavia il mio consiglio è quello di prendere confidenza con il terminale, perchè se installiamo, ad esempio, un nodo su un [raspberry](https://bitcoin-in-action.medium.com/tutorial-fullnode-raspberry-bitcoin-blockchain-9c8de546657f?source=your_stories_page-------------------------------------) molto probabilmente ci connetteremo in SSH.
+Tuttavia il mio consiglio è quello di prendere confidenza con il terminale, perchè se installiamo, ad esempio, un nodo su un [raspberry](/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi/) molto probabilmente ci connetteremo in SSH.
 
 In questo articolo metteremo in comunicazione la GUI e la riga di comando, così da creare una mini blockchain sul nostro computer.  
 Per questo esempio utilizzeremo la regtest.

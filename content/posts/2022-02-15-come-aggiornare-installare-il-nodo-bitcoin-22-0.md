@@ -29,7 +29,7 @@ In questo articolo ci concentriamo sull’aggiornamento di un nodo su OSX, lo st
 Per aggiornarlo in altri sistemi operativi sarà sufficiente cambiare il pacchetto da scaricare.
 
 Aggiorneremo il nodo direttamente da terminale, perchè? 
-Così se avete la necessità di aggiornare un nodo [raspberry](https://bitcoin-in-action.medium.com/tutorial-fullnode-raspberry-bitcoin-blockchain-9c8de546657f), avete una traccia da seguire.
+Così se avete la necessità di aggiornare un nodo [raspberry](/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi/), avete una traccia da seguire.
 
 ![Cliccami per un nodo su raspberry](/img/posts/come-aggiornare-installare-il-nodo-bitcoin-22-0-1.webp)
 *Cliccami per un nodo su raspberry*

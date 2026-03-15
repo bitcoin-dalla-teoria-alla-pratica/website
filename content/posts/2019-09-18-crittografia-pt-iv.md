@@ -18,7 +18,7 @@ categories:
 
 #### L’arte del nascondere — Guerra fredda e Che Guevara
 
-Ancora non è stato spiegato [nei passati articoli](https://medium.com/@bitcoindallateoriallapratica/https-medium-com-bitcoindallateoriallapratica-come-nasce-la-crittografia-parte-terza-monoalfabetico-b3bd155367b8), ma come si può facilmente immaginare, la crittografia è stata materia di studio per scopi bellici. 
+Ancora non è stato spiegato [nei passati articoli](/posts/crittografia-pt-iii/), ma come si può facilmente immaginare, la crittografia è stata materia di studio per scopi bellici. 
 Era infatti molto importante comunicare con l’alleato senza far capire al nemico il proprio piano d’azione. 
 A partire dal 1700 ogni potenza europea aveva la sua **camera nera**, un centro per la **decifratura** dei messaggi in codice.  
 Questo portò velocemente a sviluppare nuovi sistemi **polialfabetici** e mandare in pensione quelli **monoalfabetici**.

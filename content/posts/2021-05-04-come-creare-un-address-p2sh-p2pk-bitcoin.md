@@ -21,7 +21,7 @@ categories:
 ![Come creare un address P2SH–P2PK](/img/posts/come-creare-un-address-p2sh-p2pk-bitcoin-1.webp)
 *Come creare un address P2SH–P2PK*
 
-Nell’[articolo precedente](https://bitcoin-in-action.medium.com/come-si-ottiene-address-bitcoin-p2sh-f009f28206b7) abbiamo analizzato ad alto livello come è costruito l’address P2SH, che cosa è il redeem script, che cosa è il redeem script hash e dove è posizionato per la generazione dell’address.
+Nell’[articolo precedente](/posts/introduzione-a-p2sh-bitcoin/) abbiamo analizzato ad alto livello come è costruito l’address P2SH, che cosa è il redeem script, che cosa è il redeem script hash e dove è posizionato per la generazione dell’address.
 
 In questo articolo andiamo più nel dettaglio ed iniziamo a mettere il primo mattoncino per la generazione di un address P2SH-P2PK
 

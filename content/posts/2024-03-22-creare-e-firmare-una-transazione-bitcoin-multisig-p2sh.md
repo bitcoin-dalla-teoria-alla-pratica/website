@@ -18,20 +18,20 @@ categories:
 
 ### Creare e Firmare una Transazione Bitcoin Multisig P2SH
 
-Nel precedente articolo abbiamo visto come creare un [address P2SH Multisig](https://bitcoin-in-action.medium.com/creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente-f946a225a586), in questo articolo vedremo come firmarlo
+Nel precedente articolo abbiamo visto come creare un [address P2SH Multisig](/posts/creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente/), in questo articolo vedremo come firmarlo
 
 Come sempre utilizziamo l’ambiente di [Docker](https://github.com/bitcoin-dalla-teoria-alla-pratica/bitcoin-in-action-youtube-docker) che abbiamo a disposizione
 
 > in Action
 
-Utilizzeremo i [wallet descriptor come spiegato in questo articolo](https://bitcoin-in-action.medium.com/wallet-bitcoin-differenze-tra-wallet-legacy-vs-wallet-descriptor-513b0faa4dd4), qiundi avvio la regtest completamente pulita e creo il wallet
+Utilizzeremo i [wallet descriptor come spiegato in questo articolo](/posts/wallet-legacy-vs-wallet-descriptor/), qiundi avvio la regtest completamente pulita e creo il wallet
 
 ```bash
 bitcoin-cli stop && sleep 5 && rm -Rf $HOME/.bitcoin/regtest && bitcoind && sleep 5bitcoin-cli -named createwallet wallet_name="bitcoin in action"
 ```
 
 
-Successivamente recupero l’address che avevamo creato [nell’articolo precedente](https://bitcoin-in-action.medium.com/creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente-f946a225a586) e mino 101 blocchi cosi da avere 50 bitcoin a disposizione
+Successivamente recupero l’address che avevamo creato [nell’articolo precedente](/posts/creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente/) e mino 101 blocchi cosi da avere 50 bitcoin a disposizione
 
 ```bash
 ADDR_MITT=`bitcoin-cli getnewaddress "mittente" "legacy"`#Get P2SH addressADDR_DEST=`cat address_P2SH.txt`#Mint 101 blocks and get reward to spendbitcoin-cli generatetoaddress 101 $ADDR_MITT >> /dev/null

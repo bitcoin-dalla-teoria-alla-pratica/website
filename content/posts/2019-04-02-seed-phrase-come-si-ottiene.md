@@ -24,7 +24,7 @@ Vi siete mai domandati come si ottiene il [seed phrase](https://en.bitcoin.it/wi
 
 Quindi se qualcuno trova il seed phrase, va da se che ha a disposizione tutte le nostre chiave e di conseguenza i nostri bitcoin.
 
-#### **Quindi conservatelo in un posto sicuro !** Il [**BIP39**](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) definisce la creazione del mnemonic code e del seed.
+**Quindi conservatelo in un posto sicuro !** Il [**BIP39**](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) definisce la creazione del mnemonic code e del seed.
 
 > mnemonic code, **mnemonic phrase, mnemonic recovery phrase, mnemonic seed**, seed phrase. Sono tutti sinonimi :)
 

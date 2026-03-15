@@ -31,7 +31,8 @@ Oggi 2 Agosto 2018 la testnet *pesa circa 25 *gigabytes.
 
 A questo [indirizzo](https://bitinfocharts.com/) potete trovare informazioni interessanti per la mainnet, e a oggi sono all’incirca 270 gigabytes.
 
-#### **Componenti** I componenti che ho usato non sono miei, quindi non ho nessun interesse a pubblicizzarli. Elenco semplicemente il mio setup.
+#### **Componenti**
+I componenti che ho usato non sono miei, quindi non ho nessun interesse a pubblicizzarli. Elenco semplicemente il mio setup.
 
 - [Raspberry Pi 3 B+](https://www.amazon.it/Raspberry-Modello-Piastra-base-verde/dp/B07BFH96M3/ref=sr_1_7?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Raspberry+Pi+b%2B&qid=1564738413&s=gateway&sr=8-7)
 - [MicroSd 16 gigabytes](https://www.amazon.it/Kingston-SDCS-16GB-Velocit%C3%A0-Adattatore/dp/B079H6PDCK/ref=asc_df_B079H6PDCK/?tag=googshopit-21&linkCode=df0&hvadid=85509081743&hvpos=1o2&hvnetw=g&hvrand=5967796253327298423&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008664&hvtargid=pla-429048381826&psc=1)
@@ -514,7 +515,8 @@ sudo apt install git build-essential libtool autotools-dev automake pkg-config l
 ```
 
 
-#### **È il momento di installare Bitcoin Core**! Bene è arrivato il momento! 
+#### È il momento di installare Bitcoin Core**! 
+Bene è arrivato il momento! 
 Loggato come **pi** creiamo la cartella download che ospiterà il software.
 
 ```bash

@@ -21,7 +21,7 @@ categories:
 #### [Bitcoin dalla teoria alla pratica](prodotti/bitcoin-dalla-teoria-alla-pratica) e [Bitcoin 199 domande](https://www.amazon.it/dp/1098612639)
 
 In questo articolo non vogliamo parlare di **Bitcoin**, ma vogliamo raccontarvi la storia di come sono nati i nostri due libri, così da aiutare chi volesse scriverne uno proprio. 
-Come già raccontato in [qualche articolo precedente](https://medium.com/@bitcoindallateoriallapratica/come-%C3%A8-nato-bitcoin-dalla-teoria-alla-pratica-eaff77556ea8) abbiamo prima fatto il [videocorso](https://www.udemy.com/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?couponCode=MEDIUM) e poi abbiamo riordinato i copioni per creare un libro. 
+Come già raccontato in [qualche articolo precedente](/posts/come-nato-bitcoin-dalla-teoria-alla-pratica/) abbiamo prima fatto il [videocorso](https://www.udemy.com/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?couponCode=MEDIUM) e poi abbiamo riordinato i copioni per creare un libro. 
 Ma dietro la frase “riordinato i copioni” c’è un mondo.
 
 #### Vuoi scrivere un libro? Questi appunti potrebbero interessarti. **Problema n°1: dove scrivere il libro**. Dobbiamo collaborare quindi utilizziamo Google doc.  

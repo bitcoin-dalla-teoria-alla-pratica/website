@@ -26,7 +26,7 @@ Dopo [Bitcoin dalla teoria alla pratica](https://amzn.to/2MOj1av) e [Bitcoin 199
 ![Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts](/img/posts/bitcoin-in-action-7.webp)
 *Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts*
 
-Per seguire questo nuovo testo è indispensabile il primo libro, [Bitcoin dalla teoria alla pratica](https://amzn.to/2MOj1av), proprio perchè non saranno spiegati concetti già affrontati precedentemente, come ad esempio il mining, quindi la [proof of work](https://medium.com/@satoshiwantsyou/che-cosa-e-la-proof-of-work-e-il-mining-bitcoin-8401c0d3c149), il problema dei generai bizantini o la blockchain, quindi hard fork e soft fork, ma abbiamo deciso di andare giù nella buca del Bianconiglio 🐰.
+Per seguire questo nuovo testo è indispensabile il primo libro, [Bitcoin dalla teoria alla pratica](https://amzn.to/2MOj1av), proprio perchè non saranno spiegati concetti già affrontati precedentemente, come ad esempio il mining, quindi la [proof of work](/posts/che-cosa-la-proof-of-work-come-si-mina-un-blocco/), il problema dei generai bizantini o la blockchain, quindi hard fork e soft fork, ma abbiamo deciso di andare giù nella buca del Bianconiglio 🐰.
 
 L’obiettivo del libro è quello di spiegare, sempre utilizzando la **pratica**, gli aggiornamenti più corposi del protocollo Bitcoin, analizzando prima le problematiche.
 

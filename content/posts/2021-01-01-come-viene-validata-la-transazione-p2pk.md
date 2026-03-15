@@ -18,7 +18,7 @@ categories:
 ### **La transazione di Satoshi Nakamoto**![https://www.youtube.com/watch?v=SMDeoY9x3HY](/img/posts/come-viene-validata-la-transazione-p2pk-1.webp)
 *https://www.youtube.com/watch?v=SMDeoY9x3HY*
 
-[Nell’articolo precedente](https://bitcoin-in-action.medium.com/come-si-valida-una-transazione-p2pk-92dcafb8dae2) abbiamo spiegato con la teoria come viene validata una transazione P2PK, adesso con l’aiuto del tool [btcdeb](https://github.com/bitcoin-core/btcdeb), analizziamolo con la pratica.
+[Nell’articolo precedente](/posts/come-si-valida-una-transazione-p2pk/) abbiamo spiegato con la teoria come viene validata una transazione P2PK, adesso con l’aiuto del tool [btcdeb](https://github.com/bitcoin-core/btcdeb), analizziamolo con la pratica.
 
 Vogliamo quindi analizzare la transazione avvenuta nel blocco 170, tra Hal Finney e Satoshi Nakamoto.
 
