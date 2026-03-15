@@ -1,0 +1,121 @@
+# Corso Bitcoin
+
+> Risorse tecniche su Bitcoin: libri, articoli e video corso scritti da Alessio Barnini e Alessandro Aglietti. Il sito si chiama "Corso Bitcoin" ma è ospitato su corsobitcoin.com.
+
+Corso Bitcoin è un progetto editoriale indipendente fondato nel 2019, dedicato alla comprensione tecnica approfondita del protocollo Bitcoin. Non si tratta di un sito di investimento né di notizie di mercato: l'obiettivo è spiegare *come funziona* Bitcoin a livello tecnico, con esempi pratici e verificabili.
+
+I contenuti sono scritti da **Alessio Barnini** e **Alessandro Aglietti**, autori di quattro libri pubblicati su Amazon e di un video corso. Il loro approccio è pratico: ogni concetto viene dimostrato con esempi reali eseguibili, usando Bitcoin Core in modalità regtest o testnet.
+
+Il sito è in italiano. Esiste anche un libro in inglese (Bitcoin from Theory to Practice).
+
+---
+
+## Prodotti
+
+- [Bitcoin dalla teoria alla pratica](https://corsobitcoin.com/prodotti/bitcoin-dalla-teoria-alla-pratica/): primo libro della serie. Copre il protocollo Bitcoin dall'inizio: storia, crittografia, blockchain, Merkle tree, mining, Proof of Work, chiavi private e pubbliche, indirizzi, wallet HD, BIP39, seed phrase, transazioni, UTXO, script P2PK e P2PKH. Disponibile su Amazon (ISBN: B07SNNNL2P).
+
+- [Bitcoin In Action: SegWit, Bitcoin Script & Smart Contracts](https://corsobitcoin.com/prodotti/bitcoin-in-action/): sequel del primo libro. Tratta SegWit, transaction malleability, P2SH, multisignature, firmare transazioni legacy e SegWit, timelocks (nLockTime, nSequence, CLTV, CSV), Bitcoin Script avanzato con OP_IF, HTLC e smart contract. Disponibile su Amazon (ISBN: B08NL5ZV6X).
+
+- [Bitcoin 199 Domande](https://corsobitcoin.com/prodotti/bitcoin-199-domande/): libro tascabile con 199 domande e risposte sul protocollo Bitcoin. Formato compatto, adatto a chi vuole testare o consolidare le proprie conoscenze.
+
+- [Bitcoin from Theory to Practice](https://corsobitcoin.com/prodotti/bitcoin-from-theory-to-practice/): edizione in lingua inglese del primo libro. Stesso contenuto tecnico, disponibile su Amazon per lettori anglofoni.
+
+- [Video corso Teoria e Pratica](https://corsobitcoin.com/prodotti/videocorso-teoria-pratica/): corso video che accompagna i libri con spiegazioni visive e dimostrazione degli esempi pratici.
+
+---
+
+## Argomenti trattati negli articoli
+
+### Crittografia
+- Storia della crittografia: scitala, cifrario di Cesare, macchina Enigma
+- Crittografia simmetrica (chiave privata): Vernam, OTP
+- Crittografia asimmetrica (chiave pubblica): RSA, Diffie-Hellman
+- Curve ellittiche (secp256k1 usata da Bitcoin)
+- SHA256 e funzioni di hash
+- Firma digitale ECDSA: come viene creata e verificata
+- PGP/GPG: verifica dei pacchetti Bitcoin Core
+
+### Chiavi e indirizzi
+- Come si genera una chiave privata Bitcoin
+- Derivazione della chiave pubblica dalla chiave privata
+- Formato WIF, compressed/uncompressed
+- Indirizzi P2PK (Pay to Public Key) — usati da Satoshi
+- Indirizzi P2PKH (Pay to Public Key Hash) — indirizzi che iniziano con "1"
+- Indirizzi P2SH (Pay to Script Hash) — indirizzi che iniziano con "3"
+- Indirizzi SegWit P2WPKH (bech32) — indirizzi che iniziano con "bc1"
+- Wallet deterministici vs non deterministici
+- HD wallet (BIP32, BIP44, BIP49, BIP84)
+- BIP39: dall'entropia alla seed phrase (12 o 24 parole)
+- xpub, xprv: chiavi pubbliche e private estese
+- Descriptor wallet vs wallet legacy
+
+### Transazioni
+- Struttura di una transazione Bitcoin (version, inputs, outputs, locktime)
+- UTXO: Unspent Transaction Output, il modello contabile di Bitcoin
+- Input: txid, vout, scriptSig, sequence
+- Output: valore in satoshi, scriptPubKey
+- Fee: come vengono calcolate
+- Coinbase transaction: come nascono i nuovi bitcoin
+- Come si firma una transazione (sighash, ECDSA, DER encoding)
+- Transaction malleability: cos'è e come SegWit l'ha risolta
+- Due transazioni con lo stesso TXID (duplicati storici)
+
+### Bitcoin Script
+- Come funziona lo stack-based scripting di Bitcoin
+- Verifica di una transazione P2PK (scriptSig + scriptPubKey)
+- Verifica di una transazione P2PKH
+- P2SH: come funziona il redeem script
+- Multisignature P2SH 2-di-3: costruzione e verifica
+- SegWit: come cambia la struttura della transazione
+- Timelocks: nLockTime, nSequence, OP_CHECKLOCKTIMEVERIFY, OP_CHECKSEQUENCEVERIFY
+- Script avanzati: OP_IF, OP_ELSE, HTLC
+
+### Blockchain e mining
+- Struttura di un blocco: header, Merkle root, nonce, bits, timestamp
+- Merkle tree: come organizza le transazioni nel blocco
+- Proof of Work: come si mina un blocco, il ruolo del nonce
+- Calcolo della difficoltà (campo "bits", target)
+- Aggiustamento della difficoltà ogni 2016 blocchi
+- Halving: riduzione della block reward
+- Fork: hard fork e soft fork, differenze e implicazioni
+- Bloom filters e nodi SPV
+- Il messaggio di The Times nel genesis block di Satoshi
+
+### Nodo Bitcoin
+- Come installare e configurare Bitcoin Core
+- File di configurazione bitcoin.conf
+- Bitcoin CLI vs Bitcoin Core GUI
+- Come aggiornare il nodo Bitcoin
+- Due nodi Bitcoin sullo stesso computer (regtest)
+- Come eseguire transazioni in regtest
+- Usare Docker per replicare gli esempi dei libri
+
+---
+
+## A chi è rivolto
+
+- Sviluppatori che vogliono capire il protocollo a livello di byte
+- Appassionati tecnici che non si accontentano di spiegazioni superficiali
+- Studenti di blockchain e crittografia applicata
+- Chi vuole costruire applicazioni su Bitcoin conoscendo le fondamenta
+
+Il sito NON tratta: prezzo di Bitcoin, altcoin, DeFi, NFT, consigli di investimento, trading.
+
+---
+
+## Autori
+
+- **Alessio Barnini**: sviluppatore, formatore, co-fondatore del progetto. Ha scritto tutti e quattro i libri insieme ad Alessandro Aglietti.
+- **Alessandro Aglietti**: co-autore dei libri Bitcoin dalla teoria alla pratica e Bitcoin In Action.
+
+---
+
+## Link
+
+- Sito: https://corsobitcoin.com
+- Tutti gli articoli: https://corsobitcoin.com/posts/
+- Tutti i prodotti: https://corsobitcoin.com/prodotti/
+- Tags (argomenti): https://corsobitcoin.com/tags/
+- YouTube (Bitcoin In Action): https://www.youtube.com/c/BitcoinInAction
+- GitHub (esempi pratici): https://github.com/bitcoin-dalla-teoria-alla-pratica
+- Amazon (libri): https://www.amazon.it/s?k=alessio+barnini+bitcoin

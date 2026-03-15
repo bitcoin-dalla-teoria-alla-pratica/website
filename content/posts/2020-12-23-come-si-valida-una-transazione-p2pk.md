@@ -29,7 +29,7 @@ In realtà è sbagliato dire l’address P2PK, proprio perchè non esiste nessun
 Analizzando la prima transazione nel blocco 170, molti [explorer](https://btc.bitaps.com/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) riportano l’address: [1Q2TWHE3GMdB6BZKafqwxXtWAWgFt5Jvm3](https://btc.bitaps.com/1Q2TWHE3GMdB6BZKafqwxXtWAWgFt5Jvm3) ma in realtà non è corretto.
 
 L’address che si vede è un address P2PKH, mentre lo script P2PK non ha nessun address specifico. A quell’epoca si pagava a uno scriptPubKey e non a un address- 
-  
+  
 Andiamo quindi per gradi, cercando di capire funzionava, ai tempi del buon Hal Finney e di Satoshi Nakamoto, il P2PK.
 
 ```bash
@@ -96,6 +96,7 @@ Andiamo quindi per gradi, cercando di capire funzionava, ai tempi del buon Hal F
 ],
 ```
 
+
 Come per tutti le derivazioni, il punto di partenza è sempre la generazione della chiave privata utilizzando la curva ellittica secp256k1 utilizzata in Bitcoin.
 
 Una delle parti fondamentali della generazione della chiave privata è l’entropia, più l’entropia è casuale più sicura sarà la chiave privata.
@@ -124,7 +125,7 @@ Ora è più chiaro? Nello scriptPubKey ci dovrà essere quindi la chiave pubblic
 
 Che compito ha OP_CHECKSIG? Il suo compito è quello di fare due volte la funzione di **pop**, quindi estrarre **i primi due valori on top** dallo stack e verificare se la firma è valida, se è valida, esegue il push del valore 1, altrimenti 0.
 
-![Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48](https://cdn-images-1.medium.com/max/1200/1*DV72p9lsHS2bNwOi5CsG0A.png)
+![Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48](/img/posts/come-si-valida-una-transazione-p2pk-4.webp)
 *Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48*
 
 ![Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48](/img/posts/come-si-valida-una-transazione-p2pk-3.webp)

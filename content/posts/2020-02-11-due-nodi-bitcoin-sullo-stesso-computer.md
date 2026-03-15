@@ -32,6 +32,7 @@ Ambiente: Porta - Porta RPC
 Mainnet:8333 - 8332Testnet:18333 - 18332Regtest:18444 - 18443
 ```
 
+
 Quello che dobbiamo fare è creare un altro file di configurazione per il **secondo nodo** con un **datadir** differente e far comunicare i due nodi.
 
 Passiamo alla action!
@@ -46,6 +47,7 @@ $ pwd
 /Users/barno/Documents/bizantino
 ```
 
+
 Al suo interno ho due cartelle, una un collegamento alla cartella di default di Bitcoin e l’altra è una cartella vuota pronta ad ospitare il secondo nodo.
 
 ```bash
@@ -57,6 +59,7 @@ lrwxr-xr-x 1 barno staff 48 Jan 13 16:30 Bitcoin -> /Users/barno/Library/Applica
 
 drwxr-xr-x 4 barno staff 128 Jan 13 17:23 Bitcoin_2
 ```
+
 
 All’interno della cartella **Bitcoin_2** creo un file **bitcoin_nodo2.conf** e inserisco questa configurazione.
 
@@ -86,12 +89,14 @@ rpcport=28443
 addnode=localhost:18444
 ```
 
-Come vedete sono stati cambiati la **porta** e la **rpcport**.  
+
+Come vedete sono stati cambiati la **porta** e la **rpcport**.  
 Senza il file di configurazione sarebbe stato molto più prolisso e soggetto ad errori, come si può vedere dall’esempio sotto.
 
 ```bash
 bitcoind -datadir=$PWD/regtest2 -regtest -debug=1 -rpcport=28443 -port=28444 -addnode=localhost:18444
 ```
+
 
 Per avere informazioni sui parametri da utilizzare, potete sempre utilizzare **bitcoind -help** ---
 
@@ -115,6 +120,7 @@ Passeremo al secondo nodo l’informazione necessaria per caricare il file di co
 -conf=/Users/barno/Documents/bizantino/Bitcoin_2/bitcoin_nodo2.conf
 ```
 
+
 avremo a disposizione due nodi sullo stesso computer.
 
 > questo percorso sarà diverso nel vostro computer /Users/barno/Documents/bizantino/Bitcoin_2.
@@ -125,6 +131,7 @@ Lanciamo quindi il demone di *default *(quello che abbiamo configurato nel prece
 $ bitcoind $ bitcoind -conf=$PWD/bitcoin_nodo2.conf
 ```
 
+
 *NB: utilizzo $PWD perchè sono nella stessa cartella del file bitcoin_nodo2.conf.* 
 Per utilizzare il client del secondo demone devo passare sempre il parametro
 
@@ -132,11 +139,13 @@ Per utilizzare il client del secondo demone devo passare sempre il parametro
 -conf
 ```
 
+
 Ehi vi vedete?
 
 ```bash
 $ bitcoin-cli -conf=$PWD/bitcoin_nodo2.conf getconnectioncount1
 ```
+
 
 Sì si vedono, infatti il comando che conta le connessioni ha come risultato 1! 
 Adesso facciamo la grande prova, miniamo 101 blocchi sul nodo di default e verifichiamo se sul nodo 2 sono visibili.
@@ -146,6 +155,7 @@ Per prima cosa dobbiamo ottenere un address nel nodo di default.
 ```bash
 $ ADDR=`bitcoin-cli getnewaddress`
 ```
+
 
 Lo salvo direttamente nella variabile d’ambiente **ADDR** così da agevolare la scrittura dei comandi successivi.
 
@@ -157,11 +167,13 @@ $ echo $ADDR
 2N6yRwpVGdFsD1gBBhGTE8ijVmNwiVz6myZ
 ```
 
+
 Miniamo!
 
 ```bash
 $ bitcoin-cli generatetoaddress 101 $ADDR
 ```
+
 
 Otteniamo così un output molto corposo, ovvero 101 block header hash. 
 Per verificare che i blocchi si siano propagati correttamente, conto il numero di blocchi sul secondo nodo.
@@ -172,7 +184,8 @@ $ bitcoin-cli -conf=$PWD/bitcoin_nodo2.conf getblockcount
 101
 ```
 
-Si! Stanno parlando e sono perfettamente sincronizzati.  
+
+Si! Stanno parlando e sono perfettamente sincronizzati.  
 Dove sono salvate le relative blockchain? 
 Nel demone di default troviamo i blocchi nel percorso predefinito:
 
@@ -180,14 +193,16 @@ Nel demone di default troviamo i blocchi nel percorso predefinito:
 /Users/barno/Library/Application Support/Bitcoin/regtest
 ```
 
+
 Il secondo demone utilizza la -datadir specificata nel file di conf.
 
 ```bash
 /Users/barno/Documents/bizantino/Bitcoin_2/regtest
 ```
 
+
 Potrebbe essere interessante iniziare a fare delle transazioni tra due nodi? 
 Direi di si!
 
-![Bitcoin dalla teoria alla pratica](/img/posts/due-nodi-bitcoin-sullo-stesso-computer-1.webp)
-*Bitcoin dalla teoria alla pratica*
+![Bitcoin dalla teoria alla pratica](/img/posts/due-nodi-bitcoin-sullo-stesso-computer-1.webp)
+*Bitcoin dalla teoria alla pratica*

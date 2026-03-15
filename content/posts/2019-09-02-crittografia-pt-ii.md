@@ -15,7 +15,7 @@ categories:
 
 ---
 
-### Crittografia Pt II
+### Crittografia Pt II
 
 #### L’arte del nascondere
 
@@ -35,8 +35,8 @@ Era un metodo veramente semplice, si trattava di traslare le lettere di 3 posti 
 
 Quindi la A diventava la D, la B diventava la E, la Z diventava la C, proprio perchè “riniziare” l’alfabeto.
 
-![Cifrario di cesare](/img/posts/crittografia-pt-ii-2.webp)
-*Cifrario di cesare*
+![Cifrario di cesare](/img/posts/crittografia-pt-ii-2.webp)
+*Cifrario di cesare*
 
 Quindi il mio diminutivo **BARNO** si tramutava in **EDUQR**.
 
@@ -53,8 +53,8 @@ Si crea una matrice 5x5 e in ogni casella si inserisce una lettera.
 
 Spesso la I e la J sono nella stessa casella.
 
-![Cifrario di Polibio.](/img/posts/crittografia-pt-ii-3.webp)
-*Cifrario di Polibio.*
+![Cifrario di Polibio.](/img/posts/crittografia-pt-ii-3.webp)
+*Cifrario di Polibio.*
 
 Cosi per scrivere BARNO si prendono le coordinate della riga e della colonna e si ottiene il risultato 12 11 42 33 34. 
 E perchè un telegrafo ottico? Il messaggero era dotato di 5 torce per mano e alzava il giusto numero di torce in base al messaggio da comunicare. 
@@ -70,8 +70,8 @@ Nell’esempio BITCOIN (forse a quei tempi c’erano i sesterzi?), il messaggero
 
 ---
 
-Ed ecco gli arabi che oltre ad inventare diverse tecniche di crittografia inventarono anche la [**crittoanalisi**](https://it.wikipedia.org/wiki/Crittoanalisi), cioè interpretare il messaggio senza conoscere la chiave.  
-La chiave, nell’esempio del cifrario di Giulio Cesare, è 3 posizioni avanti dell’alfabeto.  
+Ed ecco gli arabi che oltre ad inventare diverse tecniche di crittografia inventarono anche la [**crittoanalisi**](https://it.wikipedia.org/wiki/Crittoanalisi), cioè interpretare il messaggio senza conoscere la chiave.  
+La chiave, nell’esempio del cifrario di Giulio Cesare, è 3 posizioni avanti dell’alfabeto.  
 Qui anche l’ **Italia** si fa avanti, con [**Giovanni Soro**](https://it.wikipedia.org/wiki/Giovanni_Soro), il primo importante decrittatore Europeo, e con l’architetto [**Leon Battista Alberti**](https://it.wikipedia.org/wiki/Leon_Battista_Alberti) che proponeva le cifrature **polialfabetiche**, ovvero utilizzare non uno ma **più alfabeti** con l’obiettivo di offuscare maggiormente il messaggio. 
 La crittografia **monoalfabetica** non era così forte, infatti una crittoanalisi di un messaggio di [Maria Stuarda](https://it.wikipedia.org/wiki/Maria_Stuarda) fu decodificato.
 
@@ -82,5 +82,5 @@ Lo scopriremo nella prossima puntata!
 
 ---
 
-![Cifrario di Giulio Cesare](/img/posts/crittografia-pt-ii-1.webp)
-*Cifrario di Giulio Cesare*
+![Cifrario di Giulio Cesare](/img/posts/crittografia-pt-ii-1.webp)
+*Cifrario di Giulio Cesare*

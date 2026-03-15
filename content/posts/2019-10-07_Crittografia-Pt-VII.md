@@ -13,13 +13,13 @@ categories:
   - "Bitcoin"
 ---
 
-### Crittografia Pt VII
+### Crittografia Pt VII
 
 #### Hello computer.
 
 I computer iniziano ad entrare nelle case delle persone comuni. Siamo intorno agli anni 70 e il loro prezzo diventa accessibile permettendo l’inizio della diffusione di massa.
 
-> Nel 1977 viene presentato [Apple II](https://en.wikipedia.org/wiki/Apple_II_series)
+> Nel 1977 viene presentato [Apple II](https://en.wikipedia.org/wiki/Apple_II_series)
 
 Così anche la crittografia comincia a mutare e a spostarsi sui computer, anche perchè tutte le forme che [abbiamo affrontato](https://medium.com/@bitcoindallateoriallapratica/crittografia-pt-vi-alan-turing-enigma-guerra-mondiale-apple-bitcoin-dalla-teoria-alla-pratica-85a4464ca5ce) fino ad adesso erano estremamente lente anche se sicure. 
 Aumentiamo di nuovo il nostro vocabolario, con delle sigle che iniziano a essere familiari con il periodo attuale in cui viviamo.
@@ -40,7 +40,7 @@ Questo evento portò prima alla nascita del **3-DES** e successivamente di un nu
 
 Tutti i sistemi di cifratura affrontati (DES, 3-DES, AES) fino ad adesso, dalla scitala all’algoritmo di Rijndael avevano un funzionamento **simmetrico**, chiamato anche **cifratura a chiave privata**.
 
-![Cifratura simmetrica](https://cdn-images-1.medium.com/max/1200/0*DI-DsTV4lvJEZqp-.jpg)
+![Cifratura simmetrica](/img/posts/crittografia-pt-vii-2.webp)
 
 *Cifratura simmetrica*
 
@@ -49,9 +49,9 @@ Quali sono i suoi problemi noti?
 Il problema principale è che la chiave cifrante è anche la chiave che decifra, quindi una possibile intercettazione della chiave porta a poter leggere il messaggio in chiaro a insaputa del mittente e del destinatario. 
 Abbiamo un problema di **distribuzione** della chiave su un canale non sicuro.
 
-> Se ci fosse un canale sicuro non sarebbe necessaria la crittografia :)
+> Se ci fosse un canale sicuro non sarebbe necessaria la crittografia :)
 
-Come può avvenire quindi lo scambio delle chiavi?  
+Come può avvenire quindi lo scambio delle chiavi?  
 Preventivamente tra tutti i soggetti della *rete, *sempre che il numero non cambi durante le comunicazioni e se è *comodo *distribuire la chiave.
 
 Se io sono italiano e il mio collega è giapponese la comodità e la sicurezza viene già meno.

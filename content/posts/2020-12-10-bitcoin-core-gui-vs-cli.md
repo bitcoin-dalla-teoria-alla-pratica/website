@@ -32,19 +32,20 @@ Non avevo mai utilizzato la parte grafica, ma mi rendo conto che alcune persone 
 
 Tuttavia il mio consiglio è quello di prendere confidenza con il terminale, perchè se installiamo, ad esempio, un nodo su un [raspberry](https://bitcoin-in-action.medium.com/tutorial-fullnode-raspberry-bitcoin-blockchain-9c8de546657f?source=your_stories_page-------------------------------------) molto probabilmente ci connetteremo in SSH.
 
-In questo articolo metteremo in comunicazione la GUI e la riga di comando, così da creare una mini blockchain sul nostro computer.  
+In questo articolo metteremo in comunicazione la GUI e la riga di comando, così da creare una mini blockchain sul nostro computer.  
 Per questo esempio utilizzeremo la regtest.
 
 #### In Action
 
 Ho già installato il nodo sul mio computer, se hai bisogno di installare bitcoin-core, fai riferimento a [questo video](https://youtu.be/dyFDDH0IOnU).
 
-Prima di avviare Bitcoin-core, specifico di voler utilizzare la **regtest**. Mi sposto nella cartella di default del mac e creo o modifico il file di configurazione.  
+Prima di avviare Bitcoin-core, specifico di voler utilizzare la **regtest**. Mi sposto nella cartella di default del mac e creo o modifico il file di configurazione.  
 Se voi non avete la cartella di default Bitcoin, potete crearla, il percorso predefinito del mac è:
 
 ```bash
 $ cd $HOME/Library/Application\ Support/Bitcoin
 ```
+
 
 Per gli altri sistemi operativi, fare rifermineto [alla wiki di Bitcoin](https://en.bitcoin.it/wiki/Data_directory).
 
@@ -70,29 +71,31 @@ txindex=1
 [regtest]
 ```
 
-Eliminiamo la cartella regtest, se esiste, così da partire da una blockchain vuota. Avviamo quindi Bitcoin-core versione grafica.  
+
+Eliminiamo la cartella regtest, se esiste, così da partire da una blockchain vuota. Avviamo quindi Bitcoin-core versione grafica.  
 Io per farlo digito:
 
 ```bash
 $ bitcoin-qt
 ```
 
+
 Dato che ho spostato l’eseguibile nel mio file $PATH. Se non sai come fare, guarda [questo video](https://youtu.be/keeEdwPigZs)
 
 ![Bitcoin Core](/img/posts/bitcoin-core-gui-vs-cli-2.webp)
 *Bitcoin Core*
 
-La regtest è vuota, quindi la blockchain contiene un solo blocco, il **genesis block**.  
+La regtest è vuota, quindi la blockchain contiene un solo blocco, il **genesis block**.  
 Otteniamo le sue informazioni, così da prendere confidenza con la GUI. Selezionando Window -> console, si aprirà una nuova finestra nella quale abbiamo la possibilità di eseguire dei comandi.
 
-![Bitcoin Core – Window Console](https://cdn-images-1.medium.com/max/1200/1*75XsDPoLery9oj6ug-DfEw.png)
-*Bitcoin Core – Window Console*
+![Bitcoin Core – Window Console](/img/posts/bitcoin-core-gui-vs-cli-6.webp)
+*Bitcoin Core – Window Console*
 
 Digitando **help** abbiamo tutta la lista del comandi. 
 Utilizzando **getblockhash 0** abbiamo la possibilità di ottenere l’hash del blocco genesi, e con il comando **getblock 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206** possiamo analizzarlo.
 
-![Bitcoin-Core — Genesis Block](https://cdn-images-1.medium.com/max/1200/1*mk5EaHjWlJ-3HYLOfglMgg.png)
-*Bitcoin-Core — Genesis Block*
+![Bitcoin-Core — Genesis Block](/img/posts/bitcoin-core-gui-vs-cli-15.webp)
+*Bitcoin-Core — Genesis Block*
 
 Tutto molto simile alla versione bash ovviamente. L’unica differenza degna di nota è che si omette il comando **bitcoin-cli**. 
 Avviamo un secondo nodo, questa volta da terminale. Per prima cosa creo un’altra cartella sempre nel percorso di default, che chiamerò **regtest-cli**.
@@ -100,6 +103,7 @@ Avviamo un secondo nodo, questa volta da terminale. Per prima cosa creo un’alt
 ```bash
 $ mkdir regtest-cli
 ```
+
 
 Questa cartella ospiterà la blockchain e tutti i dati del **secondo nodo**. 
 Per avviarlo abbiamo bisogno di creare un’altro file di configurazione nel quale dichiariamo la **datadir**, le **porte** differenti, e aggiungeremo l’ip e la porta del nodo con l’interfaccia grafica.
@@ -132,6 +136,7 @@ port=28444
 addnode=localhost:18444
 ```
 
+
 > Le porte di default della regtest sono 18444 e 18443 che al momento sono occupate dalla versione grafica.
 
 Avviamo il demone bash
@@ -140,9 +145,10 @@ Avviamo il demone bash
 $ bitcoind --conf=bitcoin.conf_2
 ```
 
+
 Appena avviamo, vediamo che nell’interfaccia grafica si ha un nodo collegato.
 
-![Bitcoin-core GUI con un nodo collegato](https://cdn-images-1.medium.com/max/1200/1*0DPzLULK8dYnx1cDYME7kg.png)
+![Bitcoin-core GUI con un nodo collegato](/img/posts/bitcoin-core-gui-vs-cli-8.webp)
 *Bitcoin-core GUI con un nodo collegato*
 
 Siamo noi!
@@ -154,6 +160,7 @@ $ bitcoin-cli —-conf=bitcoin.conf_2 getconnectioncount
 
 1
 ```
+
 
 Siamo connessi a un nodo, alla GUI.
 
@@ -187,6 +194,7 @@ $ bitcoin-cli --conf=bitcoin.conf_2 getaddednodeinfo
 ]
 ```
 
+
 Ma come funziona il bootstrap di un nodo Bitcoin? Nella modalità mainnet i nodi si collegano ad altri nodi con questa logica:
 
 - Address database (peers.dat)
@@ -203,6 +211,7 @@ Miniamo 211 blocchi dal nodo2.
 $ bitcoin-cli --conf=bitcoin.conf_2 generatetoaddress 211 $(bitcoin-cli --conf=bitcoin.conf_2 getnewaddress "" "bech32") >> /dev/null
 ```
 
+
 Per sapere quanti blocchi contiene la blockchain possiamo utilizzare la chiamata getblockcount
 
 ```bash
@@ -211,11 +220,12 @@ $ bitcoin-cli --conf=bitcoin.conf_2 getblockcount
 211
 ```
 
+
 Il risultato che otteniamo è 211. Come posso verificare che la GUI sia *syncata*?
 
 Utilizzando Window->information troviamo una schermata che ci comunica i blocchi, che anche in questo caso risultano essere 211.
 
-![Bitcoin-core Syncata](https://cdn-images-1.medium.com/max/1200/1*GnPUqKWsanXVEt3ylPhy6w.png)
+![Bitcoin-core Syncata](/img/posts/bitcoin-core-gui-vs-cli-9.webp)
 *Bitcoin-core Syncata*
 
 Torniamo nel nodo2 e creiamo una transazione. Per prima cosa verifico il saldo con la chiamata getwalletinfo.
@@ -256,6 +266,7 @@ $ bitcoin-cli --conf=bitcoin.conf_2 getwalletinfo
 }
 ```
 
+
 La chiamata restituisce anche i bitcoin *non maturi*, ovvero quelli che non hanno ancora passato la [coinbase_maturity, ovvero 101 conferme](https://github.com/bitcoin/bitcoin/blob/78dae8caccd82cfbfd76557f1fb7d7557c7b5edb/src/consensus/consensus.h#L19).
 
 Per avere il balance confermato, possiamo utilizzare la chiamata **getbalance**.
@@ -266,12 +277,13 @@ $ bitcoin-cli --conf=bitcoin.conf_2 getbalance
 5550.00000000
 ```
 
+
 Inviamo 1 bitcoin all’address del nodo GUI, per prima cosa ottengo un nuovo address.
 
-![Ottengo l’address dal nodo GUI](https://cdn-images-1.medium.com/max/1200/1*3vxv5fXtQaybWuDRCzMsSA.png)
-*Ottengo l’address dal nodo GUI*
+![Ottengo l’address dal nodo GUI](/img/posts/bitcoin-core-gui-vs-cli-10.webp)
+*Ottengo l’address dal nodo GUI*
 
-Seleziono **receive** e clicco create a *new receive address*. Il software mi restituisce un address SegWit nativo.  
+Seleziono **receive** e clicco create a *new receive address*. Il software mi restituisce un address SegWit nativo.  
 Quale è stato il comando che ha eseguito? È stato **getnewaddres**. Replichiamolo nel nodo2.
 
 ```bash
@@ -279,6 +291,7 @@ $ bitcoin-cli --conf=bitcoin.conf_2 getnewaddress "" "bech32"
 
 bcrt1qg887l3jc0q3wmn9ldwtamn5cqhz63gyw4vy84g
 ```
+
 
 Ed ecco ottenuto l’address anche con il nodo2, che ovviamente è diverso dal nodo GUI.
 
@@ -289,6 +302,7 @@ $ bitcoin-cli --conf=bitcoin.conf_2 sendtoaddress bcrt1qfak36m9lmm3uup9s4v2rkd0y
 
 dde7dc0f4dca1c83fc86ac64a1c5522ecfeedb8f9c64bc013bf4cffce52cf4b7
 ```
+
 
 La transazione è stata inviata, quindi adesso si trova nella **mempool**. Nella GUI, nella sezione transaction, possiamo verificare tutte le informazioni della transazione.
 
@@ -407,25 +421,26 @@ $ bitcoin-cli --conf=bitcoin.conf_2 getrawtransaction dde7dc0f4dca1c83fc86ac64a1
 }
 ```
 
+
 Questa chiamata restituisce molte più informazioni, nella GUI sono riportate solo quelle di interesse.
 
 Che cosa ci resta da fare? Minare dei blocchi! Utilizziamo la GUI per questo.
 
 Prima otteniamo un altro indirizzo.
 
-![Bitcoin Core — Indirizzo Miner](https://cdn-images-1.medium.com/max/1200/1*xvTcHcEfZMABcWVX43qkYA.png)
+![Bitcoin Core — Indirizzo Miner](/img/posts/bitcoin-core-gui-vs-cli-11.webp)
 *Bitcoin Core — Indirizzo Miner*
 
 Questo indirizzo sarà il nostro miner. **bcrt1qcad9r6cn037p3una2fum7v5jwgc2zgm8ssw7un** Utilizziamo ancora la console della GUI. Miniamo 10 blocchi con il comando **generatetoaddress**.
 
-![](https://cdn-images-1.medium.com/max/1200/1*YlB_EouKjkXK1RzQk7bv9g.png)
+![](/img/posts/bitcoin-core-gui-vs-cli-12.webp)
 
-![Bitcoin Core — 10 blocchi minati](/img/posts/bitcoin-core-gui-vs-cli-11.webp)
-*Bitcoin Core — 10 blocchi minati*
+![Bitcoin Core — 10 blocchi minati](/img/posts/bitcoin-core-gui-vs-cli-11.webp)
+*Bitcoin Core — 10 blocchi minati*
 
 Abbiamo minato 10 blocchi! Adesso mi aspetto di vedere il la transazione fatta dal nodo2 confermata!
 
-![Bitcoin Core — Transazione Confermata](https://cdn-images-1.medium.com/max/1200/1*LpdkvHi-vt1q04oOVy0ENQ.png)
+![Bitcoin Core — Transazione Confermata](/img/posts/bitcoin-core-gui-vs-cli-13.webp)
 *Bitcoin Core — Transazione Confermata*
 
 Esatto! la prima transazione è stata minata e ha 10 conferme.
@@ -448,14 +463,15 @@ $ bitcoin-cli --conf=bitcoin.conf_2 getnewaddress "barno" "bech32"
 bcrt1qtc00wzrcae86rvyacanwd5l9t6fek4h8a6vna4
 ```
 
+
 Spostiamoci nella tab *send* e inseriamo i valori desiderati.
 
-![Bitcoin Core — Transazione](https://cdn-images-1.medium.com/max/1200/1*fNd2Lpu9XlI0SvJMI6yWuA.png)
+![Bitcoin Core — Transazione](/img/posts/bitcoin-core-gui-vs-cli-14.webp)
 *Bitcoin Core — Transazione*
 
 Ci viene proposto un popup per confermare la transazione
 
-![Bitcoin Core — Conferma](https://cdn-images-1.medium.com/max/1200/1*KyAcWa8ynO0qOF658GZvNQ.png)
+![Bitcoin Core — Conferma](/img/posts/bitcoin-core-gui-vs-cli-15.webp)
 *Bitcoin Core — Conferma*
 
 Confermiamo.
@@ -473,8 +489,9 @@ bitcoin-cli --conf=bitcoin.conf_2 getrawmempool
 ]
 ```
 
-![Bitcoin Core GUI – Mempool](https://cdn-images-1.medium.com/max/1200/1*72uwDX-QBJDen84eBFM3iA.png)
-*Bitcoin Core GUI – Mempool*
+
+![Bitcoin Core GUI – Mempool](/img/posts/bitcoin-core-gui-vs-cli-16.webp)
+*Bitcoin Core GUI – Mempool*
 
 Troviamo infatti corrispondenza con la GUI.
 
@@ -508,15 +525,17 @@ $ bitcoin-cli --conf=bitcoin.conf_2 listreceivedbyaddress 0
 ]
 ```
 
+
 Non ci resta che minare! Mineremo utilizzando il nodo2.
 
 ```bash
 $ bitcoin-cli --conf=bitcoin.conf_2 generatetoaddress 11 $(bitcoin-cli --conf=bitcoin.conf_2 getnewaddress "" "bech32") >> /dev/null
 ```
 
+
 Facendo nuovamente doppio click sulla transazione possiamo leggere che la transazione è stata minata e confermata!
 
-![Bitcoin core – Transazione minata e confermata](https://cdn-images-1.medium.com/max/1200/1*xWYCAZ6wlbqOm1ENPrhNAQ.png)
+![Bitcoin core – Transazione minata e confermata](/img/posts/bitcoin-core-gui-vs-cli-17.webp)
 *Bitcoin core – Transazione minata e confermata*
 
 Verifichiamo l’homepage della GUI.
@@ -531,6 +550,6 @@ La GUI facilita alcune operazioni ma ne nasconde altre, la riga di comando è si
 
 Ciao!
 
-![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)](https://cdn-images-1.medium.com/max/1200/1*mFeOGVPcT3_CeHYzgoV2Dg.jpeg)
+![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)](/img/posts/bitcoin-core-gui-vs-cli-18.webp)
 *📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)*
 

@@ -20,7 +20,7 @@ categories:
 ### Come si utilizza un nodo 
 Bitcoin?
 
-#### Seguici sul canale youtube — [Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
+#### Seguici sul canale youtube — [Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
 
 ![](/img/posts/come-si-utilizza-un-nodo-bitcoin-1.webp)
 
@@ -48,6 +48,7 @@ Copio il link e utilizzo wget per scaricare il pacchetto.
 $ wget https://bitcoincore.org/bin/bitcoin-core-0.19.1/bitcoin-0.19.1-osx64.tar.gz
 ```
 
+
 Utilizzo wget perchè il vostro nodo potrebbe essere su un raspberry senza interfaccia grafica.
 
 Scarico anche le relative firme per verificare l’integrità del pacchetto.
@@ -56,11 +57,13 @@ Scarico anche le relative firme per verificare l’integrità del pacchetto.
 $ wget https://bitcoincore.org/bin/bitcoin-core-0.19.1/SHA256SUMS.asc$ wget https://bitcoin.org/laanwj-releases.asc
 ```
 
+
 Verifichiamo l’integrità del pacchetto
 
 ```bash
 $ sha256sum — check SHA256SUMS.asc — ignore-missing
 ```
+
 
 Con il comando **shasum** verifichiamo l’integrità e l’autenticità del file controllando il suo **checksum** creato con l’algoritmo SHA.
 
@@ -70,11 +73,13 @@ Controlliamo anche le chiavi.
 $ gpg — import./laanwj-releases.asc$ gpg — refresh-keys$ gpg — verify SHA256SUMS.asc
 ```
 
+
 ```sql
 gpg: Good signature from “Wladimir J. van der Laan …”
 
 Primary key fingerprint: 01EA 5486 DE18 A882 D4C2 6845 90C8 019E 36C2 E964
 ```
+
 
 Il controllo della firma è andato a buon fine e sappiamo di aver scaricato il file voluto.
 
@@ -86,17 +91,22 @@ Possiamo finalmente installarlo.
 $ tar -xvf bitcoin-0.19.1-osx64.tar.gz
 ```
 
+
 Decomprimiamo l’archivio e spostiamo i file bin all’interno di /usr/local/bin cosi da renderlo globale.
 
 ```bash
 $ mv bitcoin-0.19.1/bin/* /usr/local/bin
 ```
 
+
 Se utilizzate un raspberry, il comando potrebbe è quello riportato qui sotto
 
 ```bash
 $ sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-0.19.1/bin/*
-``` **/usr/local/bin** deve far parte del $PATH. Il Path nei sistemi UNIX comunica in quali cartelle cercare dei file eseguibili
+```
+
+
+**/usr/local/bin** deve far parte del $PATH. Il Path nei sistemi UNIX comunica in quali cartelle cercare dei file eseguibili
 
 Per verificare che tutto sia andato a buon fine, possiamo eseguire il comando
 
@@ -104,11 +114,13 @@ Per verificare che tutto sia andato a buon fine, possiamo eseguire il comando
 $ bitcoind --version
 ```
 
+
 Se adesso lanciamo il demone, ovvero bitcoind, inizierà la sincronizzazione con la mainnet, e la datadir sarà posizionata all’interno Application support, proprio perchè io sto usando macOS
 
 ```bash
 $ cd /Users/$USER/Library/Application\ Support/Bitcoin
 ```
+
 
 Se il vostro obiettivo è fare delle prove con il protocollo, vi consiglio di utilizzare la regtest.
 
@@ -118,7 +130,8 @@ Per far questo o passate come opzione -regtest al demone, o più comodamente cre
 regtest=1txindex=1
 ```
 
-regtest=1 indica che di default voglio usare la regtest senza doverla specificare.  
+
+regtest=1 indica che di default voglio usare la regtest senza doverla specificare.  
 txindex=1 che voglio che tutte le transazione siano indicizzate.
 
 Per avere una lista completa delle opzioni è possibile utilizzare
@@ -126,6 +139,7 @@ Per avere una lista completa delle opzioni è possibile utilizzare
 ```bash
 $ bitcoind --help
 ```
+
 
 possiamo nuovamente accendere il demone.
 
@@ -140,6 +154,7 @@ $ bitcoin-cli getblockchaininfo
 
 …}
 ```
+
 
 Abbiamo tutto a disposizione per utilizzare il nostro nodo.
 

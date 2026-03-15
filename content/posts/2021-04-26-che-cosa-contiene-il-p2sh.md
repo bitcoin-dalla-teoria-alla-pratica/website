@@ -16,7 +16,7 @@ categories:
 
 ---
 
-### **Che cosa contiene il P2SH**? #### [Video completo sul nostro canale YouTube – Bitcoin in Action!](https://www.youtube.com/BitcoinInAction)
+### **Che cosa contiene il P2SH**? #### [Video completo sul nostro canale YouTube – Bitcoin in Action!](https://www.youtube.com/BitcoinInAction)
 
 ![P2SH: Come è costruito?](/img/posts/che-cosa-contiene-il-p2sh-1.webp)
 *P2SH: Come è costruito?*
@@ -48,7 +48,7 @@ Alice deve essere in grado di accorgersi di tale cambiamento.
 
 Quindi abbiamo capito che è compito dell’utente gestire uno script custom, in più, se si utilizza uno script custom dovremo **firmare manualmente la transazione**, come spiegato nel libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](https://bit.ly/38RtF9x).
 
-![Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](https://cdn-images-1.medium.com/max/1200/1*5_3dnFLsXLct77_oX8kfcQ.png)
+![Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](/img/posts/che-cosa-contiene-il-p2sh-2.webp)
 *Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts*
 
 Vediamo invece come è costruito un address **P2SH-P2PK**, ovvero un address che racchiude lo script **P2PK**.
@@ -71,8 +71,8 @@ In questo modo è possibile ottenere un P2SH che wrappa, un P2PK.
 
 Come si ottiene un P2SH che Wrappa un P2PKH?
 
-![P2SH — Guarda il video completo sul canale Youtube Bitcoin in Action](https://cdn-images-1.medium.com/max/1200/1*rE5iKriU-nhH4Ukt-PMBCA.png)
-*P2SH — Guarda il video completo sul canale Youtube Bitcoin in Action*
+![P2SH — Guarda il video completo sul canale Youtube Bitcoin in Action](/img/posts/che-cosa-contiene-il-p2sh-3.webp)
+*P2SH — Guarda il video completo sul canale Youtube Bitcoin in Action*
 
 Il Redeem script sarà composto dallo script del P2PKH: OP_DUP OP_HASH160 <PubKHash> OP_EQUALVERIFY OP_CHECKSIG e successivamente applicate le stesse funzioni crittografiche e di encoding al fine di ottenere l’address.
 

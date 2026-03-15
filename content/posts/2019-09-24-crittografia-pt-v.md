@@ -15,7 +15,7 @@ categories:
 
 ---
 
-### Crittografia Pt V
+### Crittografia Pt V
 
 #### L’arte del nascondere. Enigma.
 
@@ -35,7 +35,7 @@ Come si può vedere dall’immagine il cifrario è basato su un numero arbitrari
 
 I dischi si possono muovere in maniera indipendente. 
 Come funzionava? 
-Chi cifrava il messaggio formava il testo in chiaro e poi comunicava la **parola cifrata** che si era formata su un’altra colonna e la chiave, formata dall’ordine di come i dischi venivano impilati.  
+Chi cifrava il messaggio formava il testo in chiaro e poi comunicava la **parola cifrata** che si era formata su un’altra colonna e la chiave, formata dall’ordine di come i dischi venivano impilati.  
 Facciamo un esempio concreto sfruttando la tabella di [Wikipedia](https://it.wikipedia.org/wiki/Rullo_di_Jefferson).
 
 Questo sistema presuppone che anche il destinatario abbia lo stesso Wheel cypher e gli stessi dischi. 
@@ -45,11 +45,13 @@ La parola da comunicare è sempre **BARNO**. I dischi si presentono così:
 1: < ZWAXJGDLUBVIQHKYPNTCRMOSFE < 2: < KPBELNACZDTRXMJQOYHGVSFUWI < 3: < BDMAIZVRNSJUWFHTEQGYXPLOCK < 4: < RPLNDVHGFCUKTEBSXQYIZMJWAO < 5: < IHFRLABEUOTSGJVDKCPMNZQWXY < 6: < AMKGHIWPNYCJBFZDRUSLOQXVET < 7: < GWTHSPYBXIZULVKMRAFDCEONJQ < 8: < NOZUTWDCVRJLXKISEFAPMYGHBQ < 9: < XPLTDSRFHENYVUBMCQWAOIKZGJ < 10: < UDNAJFBOWTGVRSCZQKELMXYIHP <
 ```
 
+
 Il compito del mittente è scrivere il messaggio, comunicare la parola cifrata e la chiave, ovvero l’ordine dei dischi.
 
 ```bash
 7: < B NOZUTWDCVRJ L XKISEFAPMYGHQ < 1: < A XPLTDSRFHEN Y VUBMCQWOIKZGJ < 10:< R AMKGHIWPNYC J BFZDUSLOQXVET < 4: < N RPLDVHGFCUK T EBSXQYIZMJWAO < 2: < O ZWAXJGDLUBV I QHKYPNTCRMSFE < 6: < W AMKGHIPNYCJ B FZDRUSLOQXVET < 5: < K GWTHSPYBXIZ U LVMRAFDCEONJQ < 8: < X NOZUTWDCVRJ L KISEFAPMYGHBQ < 9: < W XPLTDSRFHEN Y VUBMCQAOIKZGJ < 3: < W UDNAJFBOTGV R SCZQKELMXYIHP <
 ```
+
 
 Il mittente quindi comunicherà come chiave **7,1,10,4,2,6,5,8,9,3** e come parola cifrata **LYJTIBULYR**.
 
@@ -58,8 +60,8 @@ Il destinatario avrà il compito di mettere i dischi nella giusta sequenza (la c
 
 ---
 
-![La macchina Enigma](/img/posts/crittografia-pt-v-1.webp)
-*La macchina Enigma* **Enigma**, inventata nel 1918 di [Arthur Scherbius](https://it.wikipedia.org/wiki/Arthur_Scherbius), appariva come una macchina da scrivere ed era divisa in tre parti collegate tramite fili elettrici. 
+![La macchina Enigma](/img/posts/crittografia-pt-v-1.webp)
+*La macchina Enigma* **Enigma**, inventata nel 1918 di [Arthur Scherbius](https://it.wikipedia.org/wiki/Arthur_Scherbius), appariva come una macchina da scrivere ed era divisa in tre parti collegate tramite fili elettrici. 
 - Una tastiera per scrivere il messaggio in chiaro 
 - Un’unità di scambio (rotore) 
 - Una parte formata da una serie di lampadine che illuminava la lettera cifrata. 
@@ -67,8 +69,8 @@ Il mittente per ottenere il testo cifrato, doveva semplicemente scrivere il test
 
 Le lettere si illuminavano grazie ai collegamenti elettrici all’interno del rotore stesso.
 
-![Rotore della macchina Enigma](/img/posts/crittografia-pt-v-3.webp)
-*Rotore della macchina Enigma*
+![Rotore della macchina Enigma](/img/posts/crittografia-pt-v-3.webp)
+*Rotore della macchina Enigma*
 
 Una delle parti fondamentali della macchina **Enigma** erano i rotori, che possiamo immaginare come a degli ingranaggi, i quali potevano assumere 26 posizioni (lettere dell’alfabeto) e, ad ogni lettera premuta, il primo rotore faceva un “passo”, ovvero cambiava posizione.
 
@@ -84,8 +86,8 @@ I soldati tedeschi ricevano insieme alla macchina Enigma anche un cifrario e un 
 Proprio grazie a delle fotografie di questi manuali che vendette [Hans Thilo Schmidt](https://en.wikipedia.org/wiki/Hans-Thilo_Schmidt) che Enigma cominciò a essere decodificata. 
 Prima di utilizzare Enigma l’operatore doveva impostare la chiave di cifratura dei tre rotori attenendosi alla chiave giornaliera e posizionare gli spinotti frontali per la permutazione delle lettere.
 
-![La chiave di Enigma](/img/posts/crittografia-pt-v-4.webp)
-*La chiave di Enigma*
+![La chiave di Enigma](/img/posts/crittografia-pt-v-4.webp)
+*La chiave di Enigma*
 
 L’addetto alla decodifica, riceveva il messaggio crittato in [codice morse](https://it.wikipedia.org/wiki/Codice_Morse).
 

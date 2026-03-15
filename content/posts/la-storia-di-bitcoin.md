@@ -4,7 +4,7 @@ date: 2019-03-09T10:00:00+01:00
 slug: "la-storia-di-bitcoin"
 draft: false
 author: "Alessio Barnini"
-description: "Da dove inizia la rivoluzione Bitcoin ?"
+description: "Da dove inizia la rivoluzione Bitcoin ?"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -19,7 +19,7 @@ categories:
 
 ---
 
-### La storia di Bitcoin
+### La storia di Bitcoin
 
 Quest’anno (2019) abbiamo festeggiato 10 anni di Bitcoin, ovvero dal suo primo blocco creato da** Satoshi Nakamoto**.
 
@@ -29,12 +29,13 @@ Nella** coinbase** si può leggere il titolo del Times del 3 Gennaio 2009
 echo 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73 | xxd -r -p
 ```
 
+
 *The Times 03/Jan/2009 Chancellor on brink of second bailout for banks*
 
 Ma prima di quella data storica che cosa è successo?
 
-![40 anni di ricerca](/img/posts/la-storia-di-bitcoin-1.webp)
-*40 anni di ricerca*
+![40 anni di ricerca](/img/posts/la-storia-di-bitcoin-1.webp)
+*40 anni di ricerca*
 
 Ho trovato in rete questa bellissima immagine che ripercorre dal 1973 al 2009 le tappe fondamentali del protocollo Bitcoin.
 
@@ -60,14 +61,14 @@ Un movimento molto ambizioso.
 
 ---
 
-![David Chaum—DigiCash Inc](https://cdn-images-1.medium.com/max/1200/1*eH4HmNQTdMA_k3x3JzMz8A.png)
-*David Chaum—DigiCash Inc*
+![David Chaum—DigiCash Inc](/img/posts/la-storia-di-bitcoin-6.webp)
+*David Chaum—DigiCash Inc*
 
 *Security without Identification: Transaction Systems to Make Big Brother Obsolete*, cosi [**David Chaum**](https://en.wikipedia.org/wiki/David_Chaum), pubblicò il suo pensiero.
 
 Chaum nel** 1989** crea una società [**DigiCash Inc**](https://en.wikipedia.org/wiki/DigiCash)a quale aveva come obiettivo quello di portare le sue “monete” nel mondo bancario.
 
-Era una forma di pagamento elettronico anticipato, infatti l’utente doveva prelevare banconote dalla banca ed assegnare chiavi (pubblica e privata) da inviare al destinatarion questo modo sarebbe stato impossibile per le banche e per i governi rintracciare gli utenti , dato che gli utenti erano identificati con una stringa alfanumerica…ricorda qualcosa?
+Era una forma di pagamento elettronico anticipato, infatti l’utente doveva prelevare banconote dalla banca ed assegnare chiavi (pubblica e privata) da inviare al destinatarion questo modo sarebbe stato impossibile per le banche e per i governi rintracciare gli utenti , dato che gli utenti erano identificati con una stringa alfanumerica…ricorda qualcosa?
 
 Purtroppo questo soffriva di centralizzazione in quanto la banca doveva rilasciare un nullaosta per utilizzarle, e dopo innumerevoli tentativi di colmare questo gap, la società andò in fallimento.
 
@@ -90,7 +91,7 @@ Rendendo la vita difficile agli spammers, il cui obiettivo è quello di mandare 
 
 Mentre in questo modo il destinatario poteva verificare che il mittente avesse effettivamente fatto il PoW e quindi filtrare più facilmente.
 
-Questo algoritmo suona famigliare ?
+Questo algoritmo suona famigliare ?
 
 ---
 
@@ -137,13 +138,13 @@ Una valuta digitale basata su RPoW.
 
 Bit gold proponeva un sistema decentralizzato, dove gli utenti grazie alla loro coppia di chiavi, firmavano la transazione, ovvero utilizzavano la firma digitale.
 
-Anche se** BitGold** non ha mai visto luce, è da molti considerato il** precursore del Bitcoin**, anche perchè introduceva argomenti come [Byzantine fault-tolerant](https://en.wikipedia.org/wiki/Byzantine_fault) , il timestamping e la risoluzione di puzzle criptografici da parte degli utenti.
+Anche se** BitGold** non ha mai visto luce, è da molti considerato il** precursore del Bitcoin**, anche perchè introduceva argomenti come [Byzantine fault-tolerant](https://en.wikipedia.org/wiki/Byzantine_fault) , il timestamping e la risoluzione di puzzle criptografici da parte degli utenti.
 
 A differenza di bitcoin, questa moneta non avrebbe avuto una supply
 
 ---
 
-![](https://cdn-images-1.medium.com/max/1200/1*WULseEL7GwZUkuJKkbe4vA.png)
+![](/img/posts/la-storia-di-bitcoin-7.webp)
 
 Si arriva quindi al 2008, proprio durante la crisi finanziaria nasce [**Bitcoin**](https://bitcoin.org/bitcoin.pdf).
 

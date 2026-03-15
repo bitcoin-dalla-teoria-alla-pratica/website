@@ -5,7 +5,7 @@ slug: "ottenere-un-address-p2pkh-e-come-costruito-in-action"
 draft: false
 author: "Alessio Barnini"
 description: "Negli articoli precedenti abbiamo visto come un address P2PKH viene generato e come una transazione viene validata. È arrivato il momento…"
-cover: "https://cdn-images-1.medium.com/max/1200/1*yGricoohTXDxTqZrN3VRlA.jpeg"
+cover: "/img/posts/ottenere-un-address-p2pkh-e-come-costruito-in-action-2.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -16,21 +16,22 @@ categories:
 
 ---
 
-### **Ottenere un address P2PKH e come è costruito (In Action!)** Negli articoli precedenti abbiamo visto come un address P2PKH viene generato e come una transazione viene validata. È arrivato il momento di fare sul serio, creeremo un address P2PKH e analizzeremo step by step la transazione e come questa viene validata.
+### **Ottenere un address P2PKH e come è costruito (In Action!)** Negli articoli precedenti abbiamo visto come un address P2PKH viene generato e come una transazione viene validata. È arrivato il momento di fare sul serio, creeremo un address P2PKH e analizzeremo step by step la transazione e come questa viene validata.
 
 Vi ricordo velocemente che l’address P2PKH (pay to public key hash) ha nel suo scriptPubKey, l’hash della sua chiave pubblica compressa.
 
-Nel libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)](https://amzn.to/3pJcXj1) analizziamo e creiamo un address P2PKH manualmente, partendo dalla generazione della chiave privata.  
- In questo esempio, invece, utilizzeremo il metodo getnewaddress per ottenere un address dal nostro nodo di regtest.
+Nel libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)](https://amzn.to/3pJcXj1) analizziamo e creiamo un address P2PKH manualmente, partendo dalla generazione della chiave privata.  
+ In questo esempio, invece, utilizzeremo il metodo getnewaddress per ottenere un address dal nostro nodo di regtest.
 
-![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)](https://cdn-images-1.medium.com/max/1200/1*yGricoohTXDxTqZrN3VRlA.jpeg)
-*📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)*
+![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)](/img/posts/ottenere-un-address-p2pkh-e-come-costruito-in-action-2.webp)
+*📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)*
 
 Per prima cosa avviamo il nostro nodo regtest. (Se non sai come installarlo [guarda questo articolo](https://bitcoin-in-action.medium.com/come-si-utilizza-un-nodo-bitcoin-ff0e0a785886))
 
 ```bash
 $ bitcoind
 ```
+
 
 Richiediamo quindi un address P2PKH, utilizzando il comando getnewsaddress. Per sapere che parametri accetta, è possibile utilizzare il comando **help**.
 
@@ -40,6 +41,7 @@ $ bitcoin-cli help getnewaddress
 getnewaddress ( "label" "address_type" )
 ```
 
+
 Bene, accetta come parametri una label, facoltativa, e il tipo di address voluto. Il P2PKH è un address legacy, per questo utilizzeremo il comando:
 
 ```bash
@@ -47,6 +49,7 @@ $ bitcoin-cli getnewaddress "P2PKH bitcoin in action" "legacy"
 
 mfXmGhk1qovdUdtyWbuA5MKdpTiC4Ybz4C
 ```
+
 
 Abbiamo ottenuto un address che inizia o con N o con M, nel mio caso con M.
 
@@ -62,6 +65,7 @@ Analizziamo meglio l’address. Per comodità salvo l’address nella variabile 
 ADDR=mfXmGhk1qovdUdtyWbuA5MKdpTiC4Ybz4C
 ```
 
+
 Per poi verificare il contenuto di ADDR, utilizzo il comando echo, richiamando la variabile preceduta dal simbolo del dollaro.
 
 ```bash
@@ -70,13 +74,15 @@ $ echo $ADDR
 mfXmGhk1qovdUdtyWbuA5MKdpTiC4Ybz4C
 ```
 
+
 Per comodità salvo anche l’address prefix del P2PKH per l’ambiente di regtest.
 
 ```bash
 PREFIX=6F
 ```
 
-Adesso possiamo utilizzare il metodo getaddressinfo , che come è facile intuire, restituisce una serie di informazioni relative all’address.
+
+Adesso possiamo utilizzare il metodo getaddressinfo , che come è facile intuire, restituisce una serie di informazioni relative all’address.
 
 ```bash
 $ bitcoin-cli getaddressinfo $ADDR
@@ -130,6 +136,7 @@ $ bitcoin-cli getaddressinfo $ADDR
 }
 ```
 
+
 La chiamata restituisce un pò di informazioni, noi ci concentreremo su, scriptPubKey e Public Key.
 
 Come abbiamo analizzato nei video precedenti, sappiamo che nello scriptPubKey, c’è l’hash160 della chiave pubblica compressa.
@@ -140,7 +147,7 @@ Vi ricordate come si ottiene l’address P2PKH? Ecco la lavagna di qualche lezio
 
 ![](/img/posts/ottenere-un-address-p2pkh-e-come-costruito-in-action-2.webp)
 
-Adesso abbiamo a disposizione, , l’address prefix e la chiave pubblica compressa. Applicando la funzione crittografica
+Adesso abbiamo a disposizione, , l’address prefix e la chiave pubblica compressa. Applicando la funzione crittografica
 
 hash160, che include lo SHA256 e successivamente il RIPEMD160. saremo in grado di ottenere il nostro address!
 
@@ -150,11 +157,13 @@ Per fare questo, utilizziamo ancora una variabile d’ambiente, ad esempio PB, p
 PB=03844e497f4b43968c90a493fafcc33ecedcd49ff94e2a534143761d3040a54991
 ```
 
+
 Oppure per prenderla in maniera dinamica, possiamo anche utilizzare Jq.
 
 ```bash
 PB=$(bitcoin-cli getaddressinfo $ADDR | jq -r '.pubkey')
 ```
+
 
 Applichiamo la funzione crittografica SHA256
 
@@ -164,6 +173,7 @@ ADDR_SHA=`printf $PB | xxd -r -p | openssl sha256| sed 's/^.* //'`
 echo "digest SHA256 "$ADDR_SHA
 ```
 
+
 Al digest ottenuto, applichiamo la funzione crittografica ripemd160
 
 ```bash
@@ -171,6 +181,7 @@ ADDR_RIPEMD160=`printf $ADDR_SHA |xxd -r -p | openssl ripemd160 | sed 's/^.* //'
 
 echo "digest RIPEMD160 "$ADDR_RIPEMD160
 ```
+
 
 Come vedete, per comodità ho utilizzato delle variabili d’ambiente.
 
@@ -184,6 +195,7 @@ $ echo $ADDR_2
 mfXmGhk1qovdUdtyWbuA5MKdpTiC4Ybz4C
 ```
 
+
 L’address che ottengo è lo stesso che ho ottenuto con la chiamata getnewsaddress.
 
 Vi ricordate che cosa contiene lo scriptPubKey?
@@ -196,6 +208,7 @@ $ echo $ADDR_RIPEMD160
 002736d4bb3c8a6bed4957a92047a46acbcc5aa9
 ```
 
+
 Analizziamo nuovamente la chiamata getaddressinfo sfruttando jq
 
 ```bash
@@ -203,6 +216,7 @@ $ bitcoin-cli getaddressinfo $ADDR | jq -r '.scriptPubKey'
 
 76a914002736d4bb3c8a6bed4957a92047a46acbcc5aa988ac
 ```
+
 
 Infatti troviamo corrispondenza! 
 Nel prossimo video vedremo come creare una transazione e come questa viene validata!

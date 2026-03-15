@@ -16,14 +16,14 @@ categories:
 
 ---
 
-### Libro Bitcoin 199 domande
+### Libro Bitcoin 199 domande
 
-#### Il tascabile delle risposte Bitcoin
+#### Il tascabile delle risposte Bitcoin
 
 Abbiamo ricevuto tanti commenti sul nostro primo libro [**Bitcoin dalla teoria alla pratica**](prodotti/bitcoin-dalla-teoria-alla-pratica), sia positivi che negativi, ma costruttivi. 
 Dato che spiega il protocollo tramite esempi reali e concreti, non permette un approccio universale. 
 Ci siamo accorti che per iniziare a usare e capire **Bitcoin** dobbiamo rispondere a delle domande ricorrenti, quindi abbiamo pensato: “Perché non facciamo un manuale tascabile con domande e risposte di poche righe? Questo aiuterebbe molte persone a chiarirsi le idee! Anzi creiamo un percorso di domande così da accompagnare il lettore da un livello base a un livello avanzato.” 
-Chi non ricorda il Bignami de “I Promessi sposi”? Anche tu lo usavi sotto il banco velocemente? :) 
+Chi non ricorda il Bignami de “I Promessi sposi”? Anche tu lo usavi sotto il banco velocemente? :) 
 L’idea è venuta proprio dalla nostra adolescenza, quel piccolo libro che spesso ci ha aiutato durante una verifica.
 
 ![](/img/posts/libro-bitcoin-199-domande-1.webp)
@@ -37,5 +37,5 @@ Il libro infatti si divide in 4 sezioni:
 
 La sfida è stata quella di rispondere esaustivamente a domande anche tecniche utilizzando poche righe, siamo però consapevoli che alcune domande necessitano risposte più approfondite, per questa esigenza consigliamo [Bitcoin dalla teoria alla pratica](prodotti/bitcoin-dalla-teoria-alla-pratica).
 
-Il tascabile è disponibile su [Amazon](https://www.amazon.it/dp/1098612639), in formato digitale e cartaceo.  
+Il tascabile è disponibile su [Amazon](https://www.amazon.it/dp/1098612639), in formato digitale e cartaceo.  
 È possibile leggerlo **gratuitamente** se si è membri del [kindle unlimited](https://www.amazon.it/dp/B07TXZP8GS). 

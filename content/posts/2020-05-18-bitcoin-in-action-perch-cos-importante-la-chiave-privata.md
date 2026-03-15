@@ -16,12 +16,12 @@ categories:
 
 ---
 
-### Bitcoin in action — Perché è così importante la chiave privata?
+### Bitcoin in action — Perché è così importante la chiave privata?
 
-#### [Scoprilo su Youtube — Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
+#### [Scoprilo su Youtube — Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
 
-![Perché è così importante la chiave privata?](/img/posts/bitcoin-in-action-perch-cos-importante-la-chiave-privata-1.webp)
-*Perché è così importante la chiave privata?*
+![Perché è così importante la chiave privata?](/img/posts/bitcoin-in-action-perch-cos-importante-la-chiave-privata-1.webp)
+*Perché è così importante la chiave privata?*
 
 Benvenuto nel canale youtube [**Bitcoin in Action**](https://www.youtube.com/BitcoinInAction?sub_confirmation=1), io sono [Alessio](https://www.linkedin.com/in/alessiobarnini/), ma per tutti Barno.
 

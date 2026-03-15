@@ -16,7 +16,7 @@ categories:
 
 ---
 
-### Che cosa sono i bloom filters ?
+### Che cosa sono i bloom filters ?
 
 Personalmente sono rimasto molto affascinato da questa **struttura dati probabilistica** creata da [Burton Howard Bloom](https://en.wikipedia.org/wiki/Bloom_filter) nel 1970.
 
@@ -95,7 +95,7 @@ E così via.
 
 Lo scenario ottenuto è quello riportato qui sotto.
 
-![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](https://cdn-images-1.medium.com/max/1200/1*_DAG5yPd8pwQzL0ijmnaXg.gif)
+![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/bloom-filters-2.webp)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*
 
 Ricorda che, non c’è sicuramente si, ma *solo*, sicuramente no.

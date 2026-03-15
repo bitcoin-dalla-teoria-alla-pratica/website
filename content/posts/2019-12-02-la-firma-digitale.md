@@ -16,9 +16,9 @@ categories:
 
 ---
 
-### La firma digitale
+### La firma digitale
 
-#### Che cosa è e come si ottiene?
+#### Che cosa è e come si ottiene?
 
 Negli articoli precedenti abbiamo percorso la [storia della crittografia](https://medium.com/@bitcoindallateoriallapratica/crittografia-pt-viii-rsa-firma-digitale-bitcoin-blockchain-4f13445bfff3), capendo la differenza tra stenografia e la crittografia stessa.
 
@@ -30,17 +30,17 @@ Negli articoli precedenti abbiamo percorso la [storia della crittografia](https:
 
 La firma digitale come si posiziona nello scenario della crittografia?
 
-Per spiegarla utilizzeremo la **crittografia asimmetrica** la quale permette di avere due chiavi distinte ma legate matematicamente.  
+Per spiegarla utilizzeremo la **crittografia asimmetrica** la quale permette di avere due chiavi distinte ma legate matematicamente.  
 Le due chiavi prendono il nome di, **chiave privata** e **chiave pubblica**.
 
-Come suggerisce il nome, la chiave privata deve rimanere tale, mentre la chiave pubblica può essere distribuita senza problemi.  
+Come suggerisce il nome, la chiave privata deve rimanere tale, mentre la chiave pubblica può essere distribuita senza problemi.  
 La chiave pubblica si deriva dalla chiave privata e **non è possibile** fare l’operazione inversa.
 
 Siamo proprio sicuri che sia impossibile?
 
 In realtà è possibile derivare la chiave privata partendo dalla chiave pubblica, utilizzando un attacco informatico che prende il nome di [brute force](https://en.wikipedia.org/wiki/Brute-force_attack).
 
-Dobbiamo anche dire che è come trovare un atomo nell’universo.  
+Dobbiamo anche dire che è come trovare un atomo nell’universo.  
 Per dare un’idea di grandezza stiamo parlando di 1 su 150,000 miliardi miliardi miliardi miliardi miliardi miliardi miliardi miliardi.
 
 ![](/img/posts/la-firma-digitale-2.webp)
@@ -65,11 +65,13 @@ All’interno della cartella di Alice, genero la chiave privata utilizzando **EC
 openssl ecparam -genkey -name secp256k1 -rand /dev/urandom -noout -out private.pem
 ```
 
+
 Abbiamo ottenuto **private.pem**, la chiave privata che utilizzeremo per derivare la chiave pubblica, utilizzando il seguente comando.
 
 ```bash
 openssl ec -in private.pem -pubout -out public.pem
 ```
+
 
 Bene, abbiamo ottenuto anche la chiave pubblica (public.pem). 
 Creiamo un messaggio da inviare a **Bob** e lo salviamo dentro messaggio_amore.txt.
@@ -77,6 +79,7 @@ Creiamo un messaggio da inviare a **Bob** e lo salviamo dentro messaggio_amore.t
 ```bash
 echo “Bob ti Amo! By la tua Alice” > messaggio_amore.txt
 ```
+
 
 Abbiamo tutto il necessario per creare la firma digitale. **La chiave privata e il messaggio**. 
 
@@ -92,13 +95,15 @@ Adesso possiamo inviare la firma, il messaggio e la nostra chiave pubblica a Bob
 cp./{public.pem,signature.bin,messaggio_amore.txt}../Bob && cd../Bob
 ```
 
+
 Bob può verificare se il messaggio d’amore sia stato veramente inviato dalla sua dolce metà, utilizzando la chiave pubblica di Alice, il messaggio e la firma.
 
 ```bash
 openssl dgst -sha256 -verify public.pem -signature signature.bin messaggio_amore.txt
 ```
 
-**Verifica confermata**! Bob adesso è sicuro che il mittente sia proprio Alice!  
+
+**Verifica confermata**! Bob adesso è sicuro che il mittente sia proprio Alice!  
 Perchè? 
 Perchè Alice è l’unica che può fornire una firma che sia comprovata dalla sua chiave pubblica!
 

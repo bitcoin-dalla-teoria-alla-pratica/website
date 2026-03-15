@@ -16,15 +16,15 @@ categories:
 
 ---
 
-### **Da dove inizio a studiare per imparare Bitcoin**? #### Visita il nostro[canale youtube](https://www.youtube.com/BitcoinInAction)!
+### **Da dove inizio a studiare per imparare Bitcoin**? #### Visita il nostro[canale youtube](https://www.youtube.com/BitcoinInAction)!
 
-![Dai subito un’occhiata al nostrocanale youtube!](https://cdn-images-1.medium.com/max/2560/1*1uvPleuP14oAwBOq_qBq7A.png)
-*Dai subito un’occhiata al nostrocanale youtube!*
+![Dai subito un’occhiata al nostrocanale youtube!](/img/posts/da-dove-inizio-a-studiare-per-imparare-bitcoin-3.webp)
+*Dai subito un’occhiata al nostrocanale youtube!*
 
 Ciao a tutti,
 
-oggi rispondiamo a una domanda che riceviamo frequentemente. **Da dove inizio a studiare per imparare Bitcoin**? La risposta non è assolutamente banale.  
- Per prima cosa dobbiamo capire chi ci sta facendo questa domanda, se una persona con un background tecnico o un curioso senza competenze informatiche.
+oggi rispondiamo a una domanda che riceviamo frequentemente. **Da dove inizio a studiare per imparare Bitcoin**? La risposta non è assolutamente banale.  
+ Per prima cosa dobbiamo capire chi ci sta facendo questa domanda, se una persona con un background tecnico o un curioso senza competenze informatiche.
 
 La seconda cosa, dobbiamo capire quanta voglia ha veramente e quanto in profondità vuole andare per conoscere la tecnologia.
 
@@ -49,8 +49,8 @@ Il tascabile si chiama “[Bitcoin 199 domande](https://www.amazon.it/dp/1098612
 
 Le domande e le risposte sono di poche righe.
 
-![Bitcoin 199 domande](/img/posts/da-dove-inizio-a-studiare-per-imparare-bitcoin-3.webp)
-*Bitcoin 199 domande*
+![Bitcoin 199 domande](/img/posts/da-dove-inizio-a-studiare-per-imparare-bitcoin-3.webp)
+*Bitcoin 199 domande*
 
 Ma se la domanda ci viene fatta da una persona tecnica, le risorse sono molteplici.
 
@@ -76,8 +76,8 @@ Spiega e dimostra come viene creato un wallet deterministico, partendo dalla see
 
 Analizza byte per byte la transazione P2PKH e lo stack.
 
-![Bitcoin dalla teoria alla pratica](/img/posts/da-dove-inizio-a-studiare-per-imparare-bitcoin-1.webp)
-*Bitcoin dalla teoria alla pratica*
+![Bitcoin dalla teoria alla pratica](/img/posts/da-dove-inizio-a-studiare-per-imparare-bitcoin-1.webp)
+*Bitcoin dalla teoria alla pratica*
 
 Il codice utilizzato è versionato nel nostro repository [GitHub](https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi)
 
@@ -87,8 +87,8 @@ Spiega come viene effettuata la generazione dei blocchi, scoprendo con la pratic
 
 Spiega e dimostra come viene creato un wallet deterministico, partendo dalla seed phrase, le famose 12/24 parole.
 
-Analizza byte per byte la transazione P2PKH e lo stack.  
- Il codice utilizzato è versionato nel nostro repository [GitHub](https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi).
+Analizza byte per byte la transazione P2PKH e lo stack.  
+ Il codice utilizzato è versionato nel nostro repository [GitHub](https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi).
 
 Quindi se preferisci avere un video corso, puoi andare a vedere che cosa abbiamo combinato su [Udemy](/prodotti/videocorso-teoria-pratica].
 

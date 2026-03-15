@@ -16,23 +16,23 @@ categories:
 
 ---
 
-### **Pizza day in SegWit** #### Scopri il video su youtube — Bitcoin in Action
+### **Pizza day in SegWit** #### Scopri il video su youtube — Bitcoin in Action
 
-![Scopri il video su Bitcoin in Action](/img/posts/pizza-day-in-segwit-1.webp)
-*Scopri il video su Bitcoin in Action*
+![Scopri il video su Bitcoin in Action](/img/posts/pizza-day-in-segwit-1.webp)
+*Scopri il video su Bitcoin in Action*
 
 Oggi, 22 Maggio 2020, è il 10° anniversario del pizza day.
 
 Di che cosa si tratta? L’utente Laszlo scrisse su [bitcoin talk](https://bitcointalk.org/index.php?topic=137.msg1141) che avrebbe pagato 10.000 bitcoin per chi gli avesse consegnato 2 pizze belle grandi, così da mangiarla anche il giorno dopo.
 
-![Post originale di Laszlo](/img/posts/pizza-day-in-segwit-2.webp)
-*Post originale di Laszlo*
+![Post originale di Laszlo](/img/posts/pizza-day-in-segwit-2.webp)
+*Post originale di Laszlo*
 
 Il messaggio “provocatorio” fu accettato da un utente, che noi chiameremo Luigi, stereotipo del pizzaiolo italiano all’estero.
 
 Spesso si sente parlare che Laszlo ha pagato più di 90 milioni di dollari per una pizza! Certo convertiti al giorno d’oggi è esattamente così, ma che cosa dire per le fee?
 
-Analizzando la transazione con un qualsiasi [explorer](https://btc.bitaps.com/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) possiamo vedere che le fee ammontano a quasi 0.99 bitcoin, quasi 9 mila dollari al tasso attuale !
+Analizzando la transazione con un qualsiasi [explorer](https://btc.bitaps.com/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) possiamo vedere che le fee ammontano a quasi 0.99 bitcoin, quasi 9 mila dollari al tasso attuale !
 
 Quindi ci siamo chiesti, quando avrebbe speso di fee se Laszlo avesse usato segwit?
 

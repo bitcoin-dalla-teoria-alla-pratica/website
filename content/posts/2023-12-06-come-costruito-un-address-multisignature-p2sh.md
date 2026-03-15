@@ -5,7 +5,7 @@ slug: "come-costruito-un-address-multisignature-p2sh"
 draft: false
 author: "Alessio Barnini"
 description: "Ciao,"
-cover: "https://cdn-images-1.medium.com/max/1200/1*MDt92rabXRQfxc96rDzXdQ.png"
+cover: "/img/posts/come-costruito-un-address-multisignature-p2sh-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -30,9 +30,9 @@ Che cosa significa un address 2–3?
 
 Significa che, una transazione per essere valida deve avere almeno **due firme**, le quali possono essere comprovate **su tre chiavi pubbliche**.
 
-Vi ricordate dove vengono inserite le condizioni da soddisfare?  
+Vi ricordate dove vengono inserite le condizioni da soddisfare?  
 Le condizioni da soddisfare sono inserite nel **redeem script** durante la generazione dell’address. 
-  
+  
 Cerchiamo quindi di dare forma al **redeem script**. **Il nostro obiettivo è avere la prova che due firme digitali siano valide, provandole su tre chiavi pubbliche**.
 
 Quindi il mio script avrà sicuramente 3 chiavi pubbliche: 🔑 🔑 🔑.
@@ -56,7 +56,7 @@ Nello script P2PK, il controllo da fare è **OP_CHECKSIG**, nello script P2PKH i
 In questo caso non possiamo utilizzare OP_CHECKSIG perchè il suo compito è quello di verificare la firma digitale su una chiave pubblica e inserire 1 se la firma è verificata e 0 se la verifica non va a buon fine.
 
 In questo modo però andremo a verificare una sola firma, il nostro compito invece è verificare 2 firme su 3 chiavi pubbliche. 
-  
+  
 Leggendo la [documentazione](https://en.bitcoin.it/wiki/Script) troviamo l’operazione **OP_CHECKMULTISIG**.
 
 Questa operazione controlla la firma ECDSA, ovvero la firma ottenuta dalla crittografia a curva ellittica sulle chiavi pubbliche messe a disposizione.
@@ -69,7 +69,7 @@ I Passaggi successivi sono quelli che abbiamo analizzato negli articoli preceden
 
 Ovvero SHA256 RIPEMD160, Version Prefix e base58 checksum, per ottenere finalmente l’address, che inizierà con il numero 3 nell’ambiente di Mainnet, o con il numero 2 nell’ambiente di Testnet/Regtest
 
-![📒Libro Bitcoin dalla teoria alla pratica (Amazon)📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)](https://cdn-images-1.medium.com/max/1200/1*MDt92rabXRQfxc96rDzXdQ.png)
+![📒Libro Bitcoin dalla teoria alla pratica (Amazon)📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)](/img/posts/come-costruito-un-address-multisignature-p2sh-1.webp)
 *📒Libro Bitcoin dalla teoria alla pratica (Amazon)📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)*
 
 

@@ -16,9 +16,9 @@ categories:
 
 ---
 
-### Bitcoin in Action
+### Bitcoin in Action
 
-#### Il nuovo canale youtube
+#### Il nuovo canale youtube
 
 In occasione del **terzo halving di Bitcoin**, abbiamo deciso di aprire il canale youtube “[Bitcoin in Action](https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA/?sub_confirmation=1)”.
 
@@ -34,5 +34,5 @@ Oltre a una piccola spiegazione, abbiamo messo in pratica il dimezzamento del re
 
 Tutti gli esempi sono replicabili, potete scaricare il codice sorgente dal nostro repository [GitHub](https://github.com/bitcoin-dalla-teoria-alla-pratica/Bitcoin-in-Action)! **Che dire, seguiteci in questa nuova avventura** 🚀
 
-![Canale youtube —Bitcoin in Action](/img/posts/bitcoin-in-action-4.webp)
-*Canale youtube —Bitcoin in Action*
+![Canale youtube —Bitcoin in Action](/img/posts/bitcoin-in-action-4.webp)
+*Canale youtube —Bitcoin in Action*

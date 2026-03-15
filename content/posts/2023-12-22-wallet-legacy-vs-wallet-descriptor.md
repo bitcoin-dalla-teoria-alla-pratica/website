@@ -5,7 +5,7 @@ slug: "wallet-legacy-vs-wallet-descriptor"
 draft: false
 author: "Alessio Barnini"
 description: "In questo articolo, ci immergeremo nell’analisi delle differenze tra i wallet legacy e i wallet descriptor di Bitcoin. Potresti non…"
-cover: "https://cdn-images-1.medium.com/max/1200/0*gmKbASHkI79mPZaa.jpg"
+cover: "/img/posts/wallet-legacy-vs-wallet-descriptor-2.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -20,9 +20,9 @@ In questo articolo, ci immergeremo nell’analisi delle differenze tra i wallet 
 
 Potresti non essertene accorto, ma a partire da **Bitcoin Core 0.17.0 nel 2018**, è stata implementata questa significativa funzionalità, destinata a rendere obsoleti i wallet legacy nel prossimo futuro.
 
-![](https://cdn-images-1.medium.com/max/1200/0*gmKbASHkI79mPZaa.jpg)
+![](/img/posts/wallet-legacy-vs-wallet-descriptor-2.webp)
 
-#### Un Aggiornamento Silenzioso, Ma Cruciale
+#### Un Aggiornamento Silenzioso, Ma Cruciale
 
 L’avvento dei wallet descriptor è stato un aggiornamento silenzioso per gli utenti, ma la sua influenza si riflette in una maggiore sicurezza e flessibilità.
 
@@ -34,7 +34,7 @@ Una delle differenze chiave tra i Legacy Wallets e i nuovi Descriptor Wallets è
 
 Questi ultimi sono progettati per supportare il linguaggio Bitcoin Script, mentre i Legacy Wallets sono stati concepiti basandosi sul concetto di chiavi.
 
-#### Cambiamenti nei Comandi RPC
+#### Cambiamenti nei Comandi RPC
 
 Con l’avvento dei Descriptor Wallets, sono stati apportati cambiamenti significativi ai comandi RPC.
 
@@ -54,10 +54,10 @@ Ciò implicava la possibilità di ottenere ogni chiave derivabile da essa, sia h
 
 Per ulteriori approfondimenti sulla tematica hardned e non hardned, si consiglia di libro [Bitcoin dalla Teoria alla Pratica](https://amzn.to/2Ldym0F)
 
-![Bitcoin dalla Teoria alla Pratica](/img/posts/wallet-legacy-vs-wallet-descriptor-2.webp)
-*Bitcoin dalla Teoria alla Pratica*
+![Bitcoin dalla Teoria alla Pratica](/img/posts/wallet-legacy-vs-wallet-descriptor-2.webp)
+*Bitcoin dalla Teoria alla Pratica*
 
-#### Il Futuro dei Wallet Bitcoin
+#### Il Futuro dei Wallet Bitcoin
 
 L’avvento dei Descriptor Wallets rappresenta un passo avanti cruciale nella creazione di portafogli più sicuri e flessibili.
 

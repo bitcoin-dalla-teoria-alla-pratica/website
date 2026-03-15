@@ -5,7 +5,7 @@ slug: "come-si-ottiene-l-address-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "O per meglio dire la chiave privata e la chiave pubblica?"
-cover: "https://cdn-images-1.medium.com/max/1200/1*H3Q8jIKujYwdD6lz7cvFOQ.jpeg"
+cover: "/img/posts/come-si-ottiene-l-address-p2pk-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -20,15 +20,15 @@ categories:
 
 In questo ultimo articolo affronteremo con la teoria come si ottiene la chiave privata e come si deriva la chiave pubblica.
 
-![Video disponibile nel canale Bitcoin in Action](https://cdn-images-1.medium.com/max/1200/1*H3Q8jIKujYwdD6lz7cvFOQ.jpeg)
-*Video disponibile nel canale Bitcoin in Action*
+![Video disponibile nel canale Bitcoin in Action](/img/posts/come-si-ottiene-l-address-p2pk-1.webp)
+*Video disponibile nel canale Bitcoin in Action*
 
 Come già spiegato nei [precedenti articoli](https://bitcoin-in-action.medium.com/come-si-riconosce-la-firma-digitale-in-bitcoin-c6fb09a43722), per lo script **P2PK**, non esiste un **address specifico**.
 
 È molto importante comprendere come il protocollo Bitcoin si è evoluto per arrivare ad ottenere gli address che utilizziamo oggi.
 
-> **Il tutto parte dalla chiave privata**.![SPOILER P2PKH! 👀 — La parte iniziale è identica al P2PK](https://cdn-images-1.medium.com/max/1200/0*bCoJWPyBDlqVK2vG)
-*SPOILER P2PKH! 👀 — La parte iniziale è identica al P2PK*
+> **Il tutto parte dalla chiave privata**.![SPOILER P2PKH! 👀 — La parte iniziale è identica al P2PK](/img/posts/come-si-ottiene-l-address-p2pk-2.webp)
+*SPOILER P2PKH! 👀 — La parte iniziale è identica al P2PK*
 
 La chiave privata è una sequenza di byte ottenuti applicando l’algoritmo [**secp256k1**](https://en.bitcoin.it/wiki/Secp256k1), i valori che otteniamo devono *ricadere* all’interno del range di tale algoritmo.
 
@@ -47,6 +47,7 @@ xxxxx
 -----END EC PRIVATE KEY-----
 ```
 
+
 Sulla chiave viene aggiunto [un prefisso](https://en.bitcoin.it/wiki/List_of_address_prefixes) per identificare se la chiave privata è destinata all’ambiente di **main** o per l’ambiente di **test**.
 
 Da qui si ottiene la chiave privata in formato **WIF**, acronimo di **Wallet Import Format**.
@@ -57,15 +58,16 @@ Se vogliamo importare una chiave privata nel nostro wallet utilizzeremo la chiav
 $ bitcoin-cli help importprivkey
 ```
 
+
 Quando firmiamo la transazione utilizziamo la chiave privata **PEM**, come mostrato nel libro [Bitcoin In Action – SegWit, Bitcoin Script & Smart Contracts](prodotti/bitcoin-in-action/)
 
-![Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts](https://cdn-images-1.medium.com/max/1200/1*5_3dnFLsXLct77_oX8kfcQ.png)
+![Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts](/img/posts/come-si-ottiene-l-address-p2pk-3.webp)
 *Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts*
 
-Applicando un byte ( **01** ), in coda alla chiave, si ottiene la chiave privata **WIF** **compressa**, altrimenti si ha la chiave WIF non compressa.  
+Applicando un byte ( **01** ), in coda alla chiave, si ottiene la chiave privata **WIF** **compressa**, altrimenti si ha la chiave WIF non compressa.  
 Ad oggi si utilizza prevalentemente la chiave privata compressa.
 
-Dalla chiave privata si deriva la chiave pubblica, compressa e non compressa.  
+Dalla chiave privata si deriva la chiave pubblica, compressa e non compressa.  
 La chiave pubblica non compressa è quella che abbiamo analizzato negli articoli [**precedenti dedicati al P2PK**](https://bitcoin-in-action.medium.com/come-si-valida-una-transazione-p2pk-92dcafb8dae2), la riconosciamo perchè inizia sempre con il byte **04** ed è lunga **130** caratteri esadecimali
 
 La chiave pubblica compressa si ottiene applicando un **version prefix**, verificando l’ultimo byte e applicando la funzione crittografica **RIPEMD160**.

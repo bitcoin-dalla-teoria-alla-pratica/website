@@ -14,21 +14,21 @@ categories:
 
 ---
 
-### Libri 2.0 su Bitcoin.
+### Libri 2.0 su Bitcoin.
 
-#### [Libro Bitcoin dalla teoria alla pratica](https://www.amazon.it/gp/product/B07SNNNL2P/) e il [tascabile Bitcoin 199 domande](https://www.amazon.it/dp/1098612639)
+#### [Libro Bitcoin dalla teoria alla pratica](https://www.amazon.it/gp/product/B07SNNNL2P/) e il [tascabile Bitcoin 199 domande](https://www.amazon.it/dp/1098612639)
 
-No, non intendiamo il formato digitale, quello sappiamo che c’è già da molto tempo. :) 
+No, non intendiamo il formato digitale, quello sappiamo che c’è già da molto tempo. :) 
 Il libro [**Bitcoin dalla teoria alla pratica**](https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P/) è disponibile sia in formato **cartaceo** (consigliato) sia in formato **Kindle**.
 
-Perché consigliamo il cartaceo? Contiene del codice e siamo convinti che averlo su carta permetta di fruirlo in maniera migliore.  
+Perché consigliamo il cartaceo? Contiene del codice e siamo convinti che averlo su carta permetta di fruirlo in maniera migliore.  
 Ma sappiamo che non tutti la pensano come noi, ecco perchè diamo anche la possibilità di acquistarlo in formato Kindle.
 
 Anche il [tascabile **Bitcoin 199 domande**](https://www.amazon.it/dp/1098612639) è disponibile in **cartaceo** e in formato **Kindle**.
 
 Anzi chi possiede l’abbonamento kindle unlimited può leggerlo **gratuitamente**!
 
-#### Ma quindi perchè è 2.0?
+#### Ma quindi perchè è 2.0?
 
 Abbiamo deciso di utilizzare [GitHub](https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi) per segnalare l’errata corrige tramite delle issue, oppure se vuoi contribuire a migliorare i contenuti di questo libro.
 
@@ -47,7 +47,7 @@ Per i tascabili [Bitcoin 199 domande](https://www.amazon.it/dp/1098612639) e [Bi
 
 [https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi/tree/master/errata/199](https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi/tree/master/errata/199)
 
-#### 2.0 perchè è possibile segnalare le issue su Github?
+#### 2.0 perchè è possibile segnalare le issue su Github?
 
 Si e no, la vera novità è che Amazon offre la possibilità di aggiornare i libri con le modifiche che ci avete proposto, in questo modo chi ha acquistato prima di tali modifiche può avere uno storico su Github, chi invece acquista dopo, può avere un libro migliorato grazie ai vostri interventi!
 

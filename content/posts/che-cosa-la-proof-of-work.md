@@ -16,11 +16,11 @@ categories:
 
 ---
 
-### Che cosa è la Proof of Work?
+### Che cosa è la Proof of Work?
 
 Una delle parti fondamentali di Bitcoin è la Proof of Work (PoW).
 
-In che cosa consiste la PoW ?
+In che cosa consiste la PoW ?
 
 La proof of work è il processo con il quale il miner inserisce le transazioni all’interno del blocco e riesce ad ottenere un** block header hash** minore della difficoltà (**target**) imposta in quel momento storico dalla rete, aggiudicandosi così un *posto* nella blockchain, ed il reward.
 
@@ -49,16 +49,16 @@ Se il miner non riesce ad ottenere l’hash più basso del target, deve provare 
 
 Diventa di fondamentale importanza il** nonce**, valore all’interno di ogni blocco, in particolar modo nel block header.
 
-Perchè è cosi importante?   
+Perchè è cosi importante?   
 Perchè se il miner usasse sempre lo stesso input otterrebbe sempre lo stesso output, o meglio, lo stesso digest.
 
 Quindi cambia il valore del nonce per fare una nuova prova e cercare di vincere la** PoW.**
 
 Se due input diversi dessero lo stesso output, saremmo davanti ad un problema chiamato** collisione**
 
-> In crittografia, una collisione hash è una situazione che avviene quando due diversi input producono lo stesso output tramite una funzione hash.
+> In crittografia, una collisione hash è una situazione che avviene quando due diversi input producono lo stesso output tramite una funzione hash.
 
-Quali sono i valori che il miner utilizza per fare il** PoW** ?
+Quali sono i valori che il miner utilizza per fare il** PoW** ?
 
 Il miner fa il doppio** SHA256** di tutti gli elementi del block header.
 

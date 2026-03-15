@@ -4,7 +4,7 @@ date: 2019-04-29T10:00:00+01:00
 slug: "due-transazioni-con-lo-stesso-txid"
 draft: false
 author: "Alessio Barnini"
-description: "Un pò di tempo fa il protocollo Bitcoin fece nascere due transazioni con lo stesso identificativo. 
+description: "Un pò di tempo fa il protocollo Bitcoin fece nascere due transazioni con lo stesso identificativo. 
 Cercando la transazione con id…"
 cover: "/img/posts/due-transazioni-con-lo-stesso-txid-1.jpeg"
 tags:
@@ -17,17 +17,18 @@ categories:
 
 ---
 
-### Due transazioni con lo stesso txid
+### Due transazioni con lo stesso txid
 
-![Two bad — master of the universe](/img/posts/due-transazioni-con-lo-stesso-txid-1.jpeg)
-*Two bad — master of the universe*
+![Two bad — master of the universe](/img/posts/due-transazioni-con-lo-stesso-txid-1.jpeg)
+*Two bad — master of the universe*
 
-Un pò di tempo fa il protocollo **Bitcoin** fece *nascere* due transazioni con lo stesso identificativo.  
+Un pò di tempo fa il protocollo **Bitcoin** fece *nascere* due transazioni con lo stesso identificativo.  
 Cercando la transazione con id e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468:
 
 ```bash
 bitcoin-cli getrawtransaction e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468 true
 ```
+
 
 Risultato:
 
@@ -39,6 +40,7 @@ Risultato:
  "blockhash": "00000000000743f190a18c5577a3c2d2a1f610ae9601ac046a38084ccb7cd721", "confirmations": 481756, "time": 1289781379, "blocktime": 1289781379}
 ```
 
+
 Otteniamo l’hash del blocco che contiene la transazione. 
 Analizziamo un altro blocco.
 
@@ -46,11 +48,13 @@ Analizziamo un altro blocco.
 bitcoin-cli getblock 00000000000271a2dc26e7667f8419f2e15416dc6955e5a6c6cdf3f2574dd08e
 ```
 
+
 Risultato:
 
 ```bash
 { “hash”: “00000000000271a2dc26e7667f8419f2e15416dc6955e5a6c6cdf3f2574dd08e”,... “tx”: [ “e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468” ],...}
 ```
+
 
 Come è possibile che una transazione sia inclusa dentro a due blocchi? Siamo davanti al tanto temuto **double spending**? No. 
 Partiamo dicendo che il protocollo Bitcoin non vieta la possibilità di creare due transazioni con lo stesso **txid**, ma sicuramente non porta benefici.
@@ -58,7 +62,7 @@ Partiamo dicendo che il protocollo Bitcoin non vieta la possibilità di creare d
 - Il primo indizio è che la transazione che stiamo esaminando è una **coinbase**. - Il secondo indizio è che è stato lo stesso miner a risolvere entrambi i blocchi.
 - Il terzo indizio è che entrambi i reward erano di 50 bitcoin.
 
-Come si forma la transaction id?  
+Come si forma la transaction id?  
 Applicando la funzione crittografica SHA256 per due volte sulla transaction data e girando l’ordine dei bytes in little-endian. La transaction data è formata da:
 
 - La version della transazione
@@ -74,6 +78,7 @@ La transaction data della txid che stiamo esaminando è la seguente:
 01000000010000000000000000000000000000000000000000000000000000000000000000ffffffff060456720e1b00ffffffff0100f2052a01000000434104124b212f5416598a92ccec88819105179dcb2550d571842601492718273fe0f2179a9695096bff94cd99dcccdea7cd9bd943bfca8fea649cac963411979a33e9ac00000000
 ```
 
+
 Facendo il doppio SHA256 e girando l’ordine dei bytes in little endian, otteniamo la txid incriminata.
 
 ```bash
@@ -81,6 +86,7 @@ printf `printf 01000000010000000000000000000000000000000000000000000000000000000
 
 risultato:e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468
 ```
+
 
 Esatto, le due transazioni hanno lo stesso identico transaction data, ecco perchè hanno lo stesso txid! 
 Per evitare questo problema è stato introdotto il [BIP-34](https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki), che obbliga ad inserire l’altezza del blocco all’interno dello scriptSig, risolvendo così il problema.

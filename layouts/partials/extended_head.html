@@ -6,14 +6,114 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-K6NXLRPJ');</script>
 <!-- End Google Tag Manager -->
 
+<!-- Schema: WebSite + Organization (ogni pagina) -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "{{ $.Site.BaseURL }}#website",
+    "name": "{{ $.Site.Title }}",
+    "url": "{{ $.Site.BaseURL }}",
+    "description": "{{ $.Site.Params.subtitle }}",
+    "inLanguage": "it-IT",
+    "publisher": { "@id": "{{ $.Site.BaseURL }}#organization" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "{{ $.Site.BaseURL }}#organization",
+    "name": "Corso Bitcoin",
+    "description": "Risorse tecniche su Bitcoin: libri, articoli e video corso scritti da Alessio Barnini e Alessandro Aglietti.",
+    "url": "{{ $.Site.BaseURL }}",
+    "foundingDate": "2019",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ "img/bizantino.jpg" | absURL }}",
+      "width": 512,
+      "height": 512
+    },
+    "sameAs": [
+      "https://www.youtube.com/c/BitcoinInAction",
+      "https://github.com/bitcoin-dalla-teoria-alla-pratica",
+      "https://www.amazon.it/s?k=alessio+barnini+bitcoin"
+    ]
+  }
+]
+</script>
+
 {{ if .IsPage }}
+
+<!-- Schema: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ $.Site.BaseURL }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ .Section | title }}",
+      "item": "{{ $.Site.BaseURL }}{{ .Section }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ .Title | replaceRE `"` `\"` }}",
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+
+{{ if eq .Type "prodotti" }}
+<!-- Schema: Book (pagine prodotto) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "{{ .Title | replaceRE `"` `\"` }}",
+  "url": "{{ .Permalink }}",
+  {{ if .Params.cover }}
+  "image": "{{ .Params.cover | absURL }}",
+  {{ end }}
+  "description": "{{ if .Description }}{{ .Description | plainify | replaceRE `"` `\"` }}{{ else }}{{ .Summary | plainify | replaceRE `"` `\"` }}{{ end }}",
+  "inLanguage": "it-IT",
+  "author": {
+    "@type": "Organization",
+    "@id": "{{ $.Site.BaseURL }}#organization"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "{{ $.Site.BaseURL }}#organization"
+  }
+  {{ with .Params.price }},
+  "offers": {
+    "@type": "Offer",
+    "price": "{{ . | replaceRE `[€$£]` `` | replaceRE `,` `.` | strings.TrimSpace }}",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  }
+  {{ end }}
+}
+</script>
+
+{{ else }}
+<!-- Schema: Article (post) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": "{{ .Permalink }}#article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "{{ .Permalink | safeURL }}"
+    "@id": "{{ .Permalink }}"
   },
   "headline": "{{ .Title | replaceRE `"` `\"` }}",
   {{ if .Params.cover }}
@@ -21,12 +121,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {{ end }}
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
   "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "inLanguage": "it-IT",
+  "wordCount": {{ .WordCount }},
+  {{ with .Params.tags }}
+  "keywords": "{{ delimit . ", " }}",
+  {{ end }}
   "author": {
     "@type": "Organization",
-    "name": "Corso Bitcoin"
+    "@id": "{{ $.Site.BaseURL }}#organization"
   },
   "publisher": {
     "@type": "Organization",
+    "@id": "{{ $.Site.BaseURL }}#organization",
     "name": "Corso Bitcoin",
     "logo": {
       "@type": "ImageObject",
@@ -36,4 +142,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "description": "{{ if .Description }}{{ .Description | plainify | replaceRE `"` `\"` }}{{ else }}{{ .Summary | plainify | replaceRE `"` `\"` }}{{ end }}"
 }
 </script>
+{{ end }}
+
 {{ end }}

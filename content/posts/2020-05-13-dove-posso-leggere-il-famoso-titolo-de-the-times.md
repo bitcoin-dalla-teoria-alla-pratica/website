@@ -16,7 +16,7 @@ categories:
 
 ---
 
-### **Dove posso leggere il famoso titolo de The Times**? #### Seguici su [Bitcoin in Action](https://www.youtube.com/BitcoinInAction?sub_confirmation=1).
+### **Dove posso leggere il famoso titolo de The Times**? #### Seguici su [Bitcoin in Action](https://www.youtube.com/BitcoinInAction?sub_confirmation=1).
 
 Oggi rispondo a una domanda che mi ha fatto Alberto che chiede: *Il primo blocco generato da Bitcoin è collegato a un famoso titolo del giornale * ***The Times** * *, testimoniando anche la data della sua nascita.
 
@@ -44,6 +44,7 @@ Possiamo identificare il blocco o tramite la sua altezza o tramite il suo hash, 
 bitcoin-cli getblockhash 0
 ```
 
+
 Quindi utilizziamo la chiamata getblockhash e otteniamo il suo hash.
 
 Adesso che abbiamo il suo hash possiamo ottenere più dettagli con la chiamata **getblock**. 
@@ -51,11 +52,13 @@ Adesso che abbiamo il suo hash possiamo ottenere più dettagli con la chiamata *
 bitcoin-cli getblock 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 ```
 
+
 Nell’array tx vediamo che c’è una sola transazione, cerchiamo di ottenere più informazioni con la chiamata **getrawtransaction**.
 
 ```bash
 bitcoin-cli getrawtransaction 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b 2
 ```
+
 
 Questa chiamata restituisce un errore, essendo una transazione particolare.
 
@@ -65,11 +68,13 @@ Il metodo getblock mi permette di esplorare il blocco ancora più a fondo, per c
 bitcoin-cli getblock 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f 2
 ```
 
+
 Abbiamo la possibilità di leggere l’esadecimale della coinbase, convertiamolo in ASCII usando il comando xxd.
 
 ```bash
 echo 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73 | xxd -r -p
 ```
+
 
 Il risultato che otteniamo è il titolo del Times con tanto di data.
 
@@ -83,6 +88,7 @@ Recuperiamo l’hash del blocco
 bitcoin-cli getblockhash 629999
 ```
 
+
 Una volta ottenuto l’hash del blocco, utilizziamo la chiamata getblock 
 con l’hash appena ottenuto
 
@@ -90,11 +96,13 @@ con l’hash appena ottenuto
 bitcoin-cli getblock 0000000000000000000d656be18bb095db1b23bd797266b0ac3ba720b1962b1e
 ```
 
+
 Recuperiamo la prima transazione, che sappiamo essere sempre la coinbase, utilizziamo la chiamata getrawtransaction richiedendo un risultato più verboso
 
 ```bash
 bitcoin-cli getrawtransaction aed3754889f65dff83504fd0a8b78e1b69fc22c5396c67df23b0e607bf4e0d67 2 |jq
 ```
+
 
 identifichiamo quindi la coinbase e convertiamo l’esadecimale in Ascii con il comando usato precedentemente
 
@@ -103,6 +111,7 @@ $ printf 03ef9c0952f09f909f4e5954696d65732030392f4170722f32303230205769746820243
 
 ? R🐟NYTimes 09/Apr/2020 With $2.3T Injection, Fed’s Plan Far Exceeds 2008 Rescue Mined?^H
 ```
+
 
 Ecco il messaggio che ogni full node possiede all’interno del proprio hard-disk. È un chiaro riferimento a un sistema economico fallimentare. Si potrebbe tradurre così: Con un’iniezione di 2.3 trilioni di dollari, il piano della FED supera di molto il salvataggio del 2008
 
@@ -114,5 +123,5 @@ Abbiamo utilizzato [#IPFS](https://www.youtube.com/results?search_query=%23IPFS)
 
 Ciao alla prossima
 
-![A destra il titolo storico del The Times — a sinistra Il giornale 10 anni dopo.](/img/posts/dove-posso-leggere-il-famoso-titolo-de-the-times-1.webp)
-*A destra il titolo storico del The Times — a sinistra Il giornale 10 anni dopo.*
+![A destra il titolo storico del The Times — a sinistra Il giornale 10 anni dopo.](/img/posts/dove-posso-leggere-il-famoso-titolo-de-the-times-1.webp)
+*A destra il titolo storico del The Times — a sinistra Il giornale 10 anni dopo.*

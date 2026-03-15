@@ -5,7 +5,7 @@ slug: "come-validata-una-transazione-p2sh-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "Ciao,"
-cover: "https://cdn-images-1.medium.com/max/1200/0*__hAs5XcMI8LHyl-.jpeg"
+cover: "/img/posts/come-validata-una-transazione-p2sh-p2pk-3.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -42,6 +42,7 @@ Il nostro compito è semplicemente avviare il file sh, con il comando.
 $./main.sh debug=1
 ```
 
+
 Il codice lo potete trovare nel nostro repository e nel nostro libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](prodotti/bitcoin-in-action/).
 
 Lo script si fermerà esattamente prima dell’invio della transazione in broadcast, cosi da poter verificare la sua validità.
@@ -55,7 +56,7 @@ Se vi ricordate l’articolo precedente, nello scriptSig ci troviamo
 - la firma digitale
 - il redeem script in “chiaro”.
 
-![Frame del video Bitcoin in Action — Come è formata una transazione P2SH-P2PK](https://cdn-images-1.medium.com/max/1200/0*__hAs5XcMI8LHyl-.jpeg)
+![Frame del video Bitcoin in Action — Come è formata una transazione P2SH-P2PK](/img/posts/come-validata-una-transazione-p2sh-p2pk-3.webp)
 *Frame del video Bitcoin in Action — Come è formata una transazione P2SH-P2PK*
 
 Ci sono sempre questi elementi nello scriptSig?
@@ -64,7 +65,7 @@ No, dipende dallo script che si vuole utilizzare o che si crea. Per essere più 
 
 In questo caso sarà sufficiente la firma digitale perchè è l’elemento che servirà per soddisfare la nostra transazione.
 
-![](https://cdn-images-1.medium.com/max/1200/1*fgTLQmzMNN_qH1d8sIxpMQ.png)
+![](/img/posts/come-validata-una-transazione-p2sh-p2pk-4.webp)
 
 Come riportato nella foto, sono stati inseriti nello stack la firma digitale e il redeem script.
 
@@ -72,10 +73,10 @@ Successivamente, si “passa” ad inserire gli elementi dello scriptPubKey, ins
 
 Il risultato viene inserito nello stack.
 
-Vi ricordate come viene ottenuto il redeem script Hash?  
+Vi ricordate come viene ottenuto il redeem script Hash?  
 Viene ottenuto applicando lo SHA256 e il RIPEMD160, esattamente la stessa operazione dell’HASH160.
 
-![](https://cdn-images-1.medium.com/max/1200/1*7tj6fHP9Uf1hmeCJH3t-aA.png)
+![](/img/posts/come-validata-una-transazione-p2sh-p2pk-5.webp)
 
 Successivamente viene pushato il redeem script hash, contenuto nello scriptPubKey.
 
@@ -95,7 +96,7 @@ Se tuto va a buon fine, vedremo uno 01, ovvero il risultato ottenuto da OP_EQUAL
 
 Verrà quindi confrontata la firma digitale con la chiave pubblica fornita, grazie all’operation code OP_CHECKSIG
 
-![](https://cdn-images-1.medium.com/max/1200/1*35gRlmG7ERLp-okAgirnRQ.png)
+![](/img/posts/come-validata-una-transazione-p2sh-p2pk-6.webp)
 
 Il processo può sembrare macchinoso e difficile da capire, ma se si conosce la natura degli script, come ad esempio il P2PK e il P2PKH, il processo risulterà lineare
 

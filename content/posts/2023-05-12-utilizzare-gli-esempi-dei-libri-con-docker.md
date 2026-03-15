@@ -17,7 +17,7 @@ categories:
 
 ---
 
-### Utilizzare gli esempi dei libri con Docker
+### Utilizzare gli esempi dei libri con Docker
 
 Ciao a tutti, 
 abbiamo pensato di creare un **repository per facilitare** gli esempi che troviamo nei due nostri libri, [Bicoin dalla teoria alla pratica](https://amzn.to/2MOj1av) e [Bitcoin in Action](https://amzn.to/3pJcXj1).
@@ -27,7 +27,7 @@ Per questo andremo ad utilizzare Docker!
 ![Il nostro Repositoryhttps://github.com/bitcoin-dalla-teoria-alla-pratica/Docker-bitcoin](/img/posts/utilizzare-gli-esempi-dei-libri-con-docker-1.webp)
 *Il nostro Repositoryhttps://github.com/bitcoin-dalla-teoria-alla-pratica/Docker-bitcoin*
 
-#### Che cosa è Docker?
+#### Che cosa è Docker?
 
 > Docker è una piattaforma open source per la creazione, distribuzione e gestione di applicazioni in container. I container Docker sono degli ambienti virtuali isolati che includono tutto il necessario per eseguire un’applicazione, tra cui il codice, le librerie e le dipendenze.
 
@@ -47,17 +47,20 @@ Successivamente cloniamo i repository necessari.
 git clone https://github.com/bitcoin-dalla-teoria-alla-pratica/Docker-bitcoin.git --depth 1cd Docker-bitcoin
 ```
 
+
 Cloniamo quindi gli esempi dei libri.
 
 ```bash
 git clone https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi.git --depth 1 &&git clone https://github.com/bitcoin-dalla-teoria-alla-pratica/Bitcoin-in-action-book.git --depth 1
 ```
 
+
 A questo punto non ci resta che avviare docker con
 
 ```bash
 docker-compose up
 ```
+
 
 > Il comando `docker-compose up` viene utilizzato per avviare i container specificati in un file di configurazione `docker-compose.yml`.
 
@@ -69,6 +72,7 @@ Apriamo quindi un altro terminale, e digitiamo
 docker ps
 ```
 
+
 Il quale restituisce tutti i container che sono in esecuzione. Questo è di vitale importanza, perchè dobbiamo “entrare” all’interno del container ed eseguire l’esempi del libro.
 
 Questo è il risultato che ottengo utilizzando `docker ps`
@@ -77,11 +81,13 @@ Questo è il risultato che ottengo utilizzando `docker ps`
 CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMESf693d16b1961 docker-bitcoin-bitcoin-in-action "/entrypoint.sh" 2 hours ago Up 2 hours 0.0.0.0:18443-18444->18443-18444/tcp docker-bitcoin-bitcoin-in-action-1
 ```
 
+
 Entro quindi dentro il container
 
 ```bash
 docker exec -it docker-bitcoin-bitcoin-in-action-1 zsh
 ```
+
 
 Immaginiamo di voler eseguire l’esempio del Capitolo 3.
 
@@ -89,17 +95,19 @@ Immaginiamo di voler eseguire l’esempio del Capitolo 3.
 cd Bitcoin-in-action-bookcd Capitolo\ 3cd P2SH\ -\ P2PK./main.sh
 ```
 
+
 Se vogliamo eseguire l’esempio utilizzando il debug, niente di più facile, sarà necessario passare il parametro DEBUG=1
 
 ```bash
 ./main.sh DEBUG
 ```
 
+
 e btcdeb sarà attivato!
 
 ---
 
-![](https://cdn-images-1.medium.com/max/1200/0*cDXJsJpPljxYbQAo.jpeg)
+![](/img/posts/utilizzare-gli-esempi-dei-libri-con-docker-2.webp)
 
 
 

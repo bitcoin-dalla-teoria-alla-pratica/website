@@ -5,7 +5,7 @@ slug: "multisignature-p2sh-su-bitcoin-come-costruita-la-transazione"
 draft: false
 author: "Alessio Barnini"
 description: "Ciao,"
-cover: "https://cdn-images-1.medium.com/max/1200/1*cq7lzrOb0ERo4u8QnISjKA.jpeg"
+cover: "/img/posts/multisignature-p2sh-su-bitcoin-come-costruita-la-transazione-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -26,11 +26,11 @@ Come accennato in articoli precedenti, nello scriptPubKey della UTXO, troviamo l
 
 Attraverso le operazioni OP_HASH160 e OP_EQUAL, ottimizziamo il processo verificando l’hash prima di interpretare il redeem script.
 
-![](https://cdn-images-1.medium.com/max/1200/1*cq7lzrOb0ERo4u8QnISjKA.jpeg)
+![](/img/posts/multisignature-p2sh-su-bitcoin-come-costruita-la-transazione-1.webp)
 
 Il formato dello scriptPubKey è il seguente: OP_HASH160 redeem script hash OP_EQUAL
 
-![](https://cdn-images-1.medium.com/max/1200/1*yxyumxd3-_p5IUZnbRrZIw.png)
+![](/img/posts/multisignature-p2sh-su-bitcoin-come-costruita-la-transazione-2.webp)
 
 La sezione di input, lo scriptSig, conterrà le condizioni necessarie per validare la transazione.
 

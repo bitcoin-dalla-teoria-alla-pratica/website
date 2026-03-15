@@ -7,7 +7,7 @@ author: "Alessio Barnini"
 description: "Ciao!
 Oggi vediamo come aggiornare o installare il nodo Bitcoin versione 22.0.
 Questa verisone porta diversi cambiamenti che potete leggere…"
-cover: "https://cdn-images-1.medium.com/max/1200/1*dMhLMdoHDWxi0rilipr6lQ.png"
+cover: "/img/posts/come-aggiornare-installare-il-nodo-bitcoin-22-0-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -18,7 +18,7 @@ categories:
 
 ---
 
-### Come aggiornare/installare il nodo Bitcoin 22.0
+### Come aggiornare/installare il nodo Bitcoin 22.0
 
 Ciao! 
 Oggi vediamo come aggiornare o installare il nodo Bitcoin versione 22.0. 
@@ -31,7 +31,7 @@ Per aggiornarlo in altri sistemi operativi sarà sufficiente cambiare il pacchet
 Aggiorneremo il nodo direttamente da terminale, perchè? 
 Così se avete la necessità di aggiornare un nodo [raspberry](https://bitcoin-in-action.medium.com/tutorial-fullnode-raspberry-bitcoin-blockchain-9c8de546657f), avete una traccia da seguire.
 
-![Cliccami per un nodo su raspberry](https://cdn-images-1.medium.com/max/1200/1*dMhLMdoHDWxi0rilipr6lQ.png)
+![Cliccami per un nodo su raspberry](/img/posts/come-aggiornare-installare-il-nodo-bitcoin-22-0-1.webp)
 *Cliccami per un nodo su raspberry*
 
 Per praticità utilizzo due variabili d’ambiente, cosi che questo tutorial possa avere lunga vita!
@@ -42,11 +42,13 @@ $ VERSION=22.0
 $ SO=osx64
 ```
 
+
 Il passo successivo è scaricare il pacchetto desiderato.
 
 ```bash
 wget https://bitcoincore.org/bin/bitcoin-core-$VERSION/bitcoin-$VERSION-$SO.tar.gz
 ```
+
 
 Scarico i relativi SHA256 dei pacchetti che mi serviranno a verificare l’integrità del pacchetto che ho scaricato
 
@@ -54,11 +56,13 @@ Scarico i relativi SHA256 dei pacchetti che mi serviranno a verificare l’integ
 $ wget https://bitcoincore.org/bin/bitcoin-core-$VERSION/SHA256SUMS
 ```
 
+
 Scarico le firme PGP
 
 ```bash
 $ wget https://bitcoincore.org/bin/bitcoin-core-$VERSION/SHA256SUMS.asc
 ```
+
 
 Successivamente le importo e verifo le firme sul pacchetto scaricato
 
@@ -66,11 +70,13 @@ Successivamente le importo e verifo le firme sul pacchetto scaricato
 $ gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
+
 Posso finalmente scompattare l’archivio
 
 ```bash
 $ tar -xvf bitcoin-$VERSION-$SO.tar.gz
 ```
+
 
 Sposto i file all’interno di un percorso eseguibile, in questo caso /usr/local/bin/ Se vuoi conoscere i percorsi eseguibili: echo $PATH
 
@@ -78,11 +84,13 @@ Sposto i file all’interno di un percorso eseguibile, in questo caso /usr/local
 $ sudo cp bitcoin-$VERSION/bin/bitcoin* /usr/local/bin/.
 ```
 
+
 Se tutto è andato a buon fine, dovresti vedere la nuova versione scaricata utilizzando il comando:
 
 ```bash
 $ bitcoind -versionBitcoin Core version v22.0.0
 ```
+
 
 Per sapere il percorso del tuo demone
 
@@ -90,13 +98,15 @@ Per sapere il percorso del tuo demone
 $ which bitcoind/usr/local/bin/bitcoind
 ```
 
+
 Non ti resta che avviare nuovamente demone
 
 ```bash
 bitcoind
 ```
 
-![Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)](https://cdn-images-1.medium.com/max/1200/1*QEtHp79sQp20Unu0JtfTYg.png)
+
+![Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)](/img/posts/come-aggiornare-installare-il-nodo-bitcoin-22-0-2.webp)
 *Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)*
 
 

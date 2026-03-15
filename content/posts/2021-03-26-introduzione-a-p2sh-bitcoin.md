@@ -5,7 +5,7 @@ slug: "introduzione-a-p2sh-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Pay to Public Key"
-cover: "https://cdn-images-1.medium.com/max/1200/1*onMS1jDT-JnfSzISNd59hw.jpeg"
+cover: "/img/posts/introduzione-a-p2sh-bitcoin-2.webp"
 tags:
   - "BIP"
   - "Bitcoin"
@@ -16,9 +16,9 @@ categories:
 
 ---
 
-### **Introduzione a P2SH** #### Pay to Public Key
+### **Introduzione a P2SH** #### Pay to Public Key
 
-![](https://cdn-images-1.medium.com/max/1200/1*onMS1jDT-JnfSzISNd59hw.jpeg)
+![](/img/posts/introduzione-a-p2sh-bitcoin-2.webp)
 
 Dopo aver analizzato gli script **P2PK** (Pay to Public key) e **P2PKH** (Pay to Public key Hash) siamo arrivato al P2SH (Pay to script hash), gli address che iniziano con il numero 3.
 
@@ -47,7 +47,7 @@ Lo **P2SH** è invece formato in questo modo:
 - Lo scriptSig è formato da signatures {serialized script}
 - Lo scriptPubKey è formato da OP_HASH160 [20-byte-hash-value] OP_EQUAL
 
-![](https://cdn-images-1.medium.com/max/1200/1*p7w35Sdwp8xs4j0BgI3Y9Q.png)
+![](/img/posts/introduzione-a-p2sh-bitcoin-3.webp)
 
 Che cosa sono il serialized Script e 20-byte hash?
 
@@ -59,7 +59,7 @@ Questo è conosciuto anche come **redeem script**.
 
 Il suo hash è ottenuto dall’op_code HASH160, ovvero il digest della funzione crittografica SHA256 e RIPEMD160, è posizionato nello scriptPubKey.
 
-Che cosa può contenere il redeem script? Può contenere qualsiasi cosa, come scritto in precedenza, anche script custom.  
+Che cosa può contenere il redeem script? Può contenere qualsiasi cosa, come scritto in precedenza, anche script custom.  
 Ci sono dei template *standard, *che vengono riconosciuti da Bitcoin core al momento della firma, tra questi troviamo i vari Wrap di P2PK, P2PKH, Multisig e SegWit (non nativo).
 
 La cosa interessante da sottolineare è che, quando andiamo a pagare a un address P2SH, se questo non ha mai fatto nessuna transazione, non sapremo mai che condizioni sono necessarie per sbloccare il suo UTXO, proprio perchè nel suo ScriptPubKey troviamo l’hash del redeem script.

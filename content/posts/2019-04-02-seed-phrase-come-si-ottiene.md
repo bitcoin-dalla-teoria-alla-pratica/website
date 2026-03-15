@@ -16,7 +16,7 @@ categories:
 
 ---
 
-### Seed Phrase, come si ottiene?
+### Seed Phrase, come si ottiene?
 
 Vi siete mai domandati come si ottiene il [seed phrase](https://en.bitcoin.it/wiki/Seed_phrase)?
 
@@ -24,19 +24,19 @@ Vi siete mai domandati come si ottiene il [seed phrase](https://en.bitcoin.it/wi
 
 Quindi se qualcuno trova il seed phrase, va da se che ha a disposizione tutte le nostre chiave e di conseguenza i nostri bitcoin.
 
-#### **Quindi conservatelo in un posto sicuro !** Il [**BIP39**](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) definisce la creazione del mnemonic code e del seed.
+#### **Quindi conservatelo in un posto sicuro !** Il [**BIP39**](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) definisce la creazione del mnemonic code e del seed.
 
-> mnemonic code, **mnemonic phrase, mnemonic recovery phrase, mnemonic seed**, seed phrase. Sono tutti sinonimi :)
+> mnemonic code, **mnemonic phrase, mnemonic recovery phrase, mnemonic seed**, seed phrase. Sono tutti sinonimi :)
 
 La sequenza di queste parole sono sufficienti per ricreare il **seed**, e da qui ricreare il wallet HD e le chiavi derivate.
 
-> Seed Phrase -> Seed-> Chiavi Master -> Chiavi
+> Seed Phrase -> Seed-> Chiavi Master -> Chiavi
 
 Se si usa lo standard mnemonic, abbiamo a disposizione [un dizionario di 2048 parole](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt), con **2048¹²** combinazioni.
 
 Tali parole sono selezionate con **cura** per non essere simili tra loro e non sbagliare a scriverle.
 
-### Gli steps da seguire
+### Gli steps da seguire
 
 Partiamo da 128 bits, 32 caratteri esadecimali, che rappresentano l’entropia.
 
@@ -61,11 +61,13 @@ Partiamo dall’entropia
 0168071cf29dbdf232de82fa34acb933
 ```
 
+
 applichiamo quindi lo SHA256 e prendiamo il primo carattere del digest.
 
 ```bash
 printf 0168071cf29dbdf232de82fa34acb933 | xxd -r -p | sha256sum -b | head -c 1> 3
 ```
+
 
 Il **3** è il checksum che dobbiamo appendere all’entropia, e poi convertire in base2.
 
@@ -75,6 +77,7 @@ echo "ibase=16; obase=2; $(echo 0168071cf29dbdf232de82fa34acb9333 | tr '[:lower:
 > 10110100000000111000111001111001010011101101111011111001000110010110111101000001011111010001101001010110010111001001100110011
 ```
 
+
 Ottenendo così codice binario da “incasellare”.
 
 ```bash
@@ -82,6 +85,7 @@ printf 1011010000000011100011100111100101001110110111101111100100011001011011110
 
 > 10110100000000111000111001111001010011101101111011111001000110010110111101000001011111010001101001010110010111001001100110011
 ```
+
 
 Come vediamo non abbiamo delle caselle da 11 bits ciascuna, per renderle omogenee dobbiamo aggiungere 7 bits di zeri all’inizio
 
@@ -91,11 +95,13 @@ printf 0000000101101000000001110001110011110010100111011011110111110010001100101
 > 000000010110100000000111000111001111001010011101101111011111001000110010110111101000001011111010001101001010110010111001001100110011
 ```
 
+
 Convertendo il primo risultato in base10
 
 ```bash
 echo "ibase=2; 00000001011" | bc
 ```
+
 
 Otteniamo il risultato
 
@@ -103,7 +109,8 @@ Otteniamo il risultato
 11
 ```
 
-Possiamo nel dizionario [https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) che parole è mappata all’indice 11.  
+
+Possiamo nel dizionario [https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) che parole è mappata all’indice 11.  
 La parola che troviamo è **accident**. **Attenzione**, la lista parte da 1, quindi l’elemento è n+1.
 
 Abbiamo la possibilità di verificare il nostro risultato utilizzando il sito [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/#english) ed inserire l’entropia che abbiamo utilizzato

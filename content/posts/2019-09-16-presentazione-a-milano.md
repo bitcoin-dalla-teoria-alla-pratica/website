@@ -16,16 +16,16 @@ categories:
 
 ---
 
-### Presentazione a Milano
+### Presentazione a Milano
 
-#### **Blockchain Devs & Crafted Software** Prima presentazione del libro “[Bitcoin dalla teoria alla pratica](https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P/)” e del tascabile “[Bitcoin 199 domande](https://www.amazon.it/dp/1098612639)” a Milano presso Mikamai, **meetup** organizzato da **Blockchain Devs & Crafted Software**.
+#### **Blockchain Devs & Crafted Software** Prima presentazione del libro “[Bitcoin dalla teoria alla pratica](https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P/)” e del tascabile “[Bitcoin 199 domande](https://www.amazon.it/dp/1098612639)” a Milano presso Mikamai, **meetup** organizzato da **Blockchain Devs & Crafted Software**.
 
 Siamo molto contenti di come sia andata la serata e speriamo che sia la prima di una lunga serie!
 
 Slide: [http://bit.ly/2k80t7m](https://t.co/iZtMp28Jjl?amp=1)
 
-![Merkle TreeBitcoin dalla teoria alla pratica](/img/posts/presentazione-a-milano-1.webp)
-*Merkle TreeBitcoin dalla teoria alla pratica*
+![Merkle TreeBitcoin dalla teoria alla pratica](/img/posts/presentazione-a-milano-1.webp)
+*Merkle TreeBitcoin dalla teoria alla pratica*
 
-![Child key derivationBitcoin dalla teoria alla pratica](/img/posts/presentazione-a-milano-2.webp)
-*Child key derivationBitcoin dalla teoria alla pratica*
+![Child key derivationBitcoin dalla teoria alla pratica](/img/posts/presentazione-a-milano-2.webp)
+*Child key derivationBitcoin dalla teoria alla pratica*

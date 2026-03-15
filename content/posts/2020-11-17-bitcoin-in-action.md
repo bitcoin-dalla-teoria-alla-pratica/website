@@ -16,11 +16,11 @@ categories:
 
 ---
 
-### Bitcoin in Action
+### Bitcoin in Action
 
 #### *Segwit, Bitcoin script & smart contracts*
 
-Ciao!  
+Ciao!  
 Dopo [Bitcoin dalla teoria alla pratica](https://amzn.to/2MOj1av) e [Bitcoin 199 Domande](https://amzn.to/3ckIkJj), abbiamo completato la nostra terza fatica – [**Bitcoin in Action** * SegWit, Bitcoin script & Smart Contracts*](https://amzn.to/3pJcXj1).
 
 ![Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts](/img/posts/bitcoin-in-action-7.webp)
@@ -30,8 +30,8 @@ Per seguire questo nuovo testo è indispensabile il primo libro, [Bitcoin dalla 
 
 L’obiettivo del libro è quello di spiegare, sempre utilizzando la **pratica**, gli aggiornamenti più corposi del protocollo Bitcoin, analizzando prima le problematiche.
 
-Infatti il primo capitolo è dedicato alla [transaction malleability](https://youtu.be/uFnRcQzjr74), la quale viene risolta con l’aggiornamento SegWit.  
-  
+Infatti il primo capitolo è dedicato alla [transaction malleability](https://youtu.be/uFnRcQzjr74), la quale viene risolta con l’aggiornamento SegWit.  
+  
 L’argomento SegWit è affrontato nel dettaglio con più di 100 pagine, su un totale di 440 circa.
 
 Spiegheremo gli address, o per meglio dire gli script, non affrontati nel precedente libro, quali:
@@ -76,8 +76,8 @@ Come fare a replicarli quindi?
 
 Semplice, si clonerà il repository, si seguiranno le istruzioni descritte nel libro, o nel video tutorial che trovate nel nostro [canale YouTube](https://www.youtube.com/BitcoinInAction), e con l’avvio di un semplice file, replicherete tutto l’esempio.
 
-![Come replicare gli esempi del libro con un semplice file sh](/img/posts/bitcoin-in-action-3.webp)
-*Come replicare gli esempi del libro con un semplice file sh*
+![Come replicare gli esempi del libro con un semplice file sh](/img/posts/bitcoin-in-action-3.webp)
+*Come replicare gli esempi del libro con un semplice file sh*
 
 Spenderai dei bitcoin per replicare l’esempio?
 
@@ -86,5 +86,5 @@ Sì, e sarai anche miner! 🚀
 Infatti utilizzeremo sempre l’ambiente di **regtest**, in modo tale da poter replicare gli esempi immediatamente!
 
 Il libro è disponibile su [Amazon](https://amzn.to/3pJcXj1) e su [corsobitcoin.com](prodotti/bitcoin-in-action/) con la possibilità di acquistarlo tramite bitcoin. 
-  
- Ciao!
+  
+ Ciao!

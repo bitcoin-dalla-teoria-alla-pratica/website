@@ -16,10 +16,10 @@ categories:
 
 ---
 
-#### Video completo nel [canale youtube Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
+#### Video completo nel [canale youtube Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
 
-![Video completo nelcanale youtube Bitcoin in Action](/img/posts/posso-scrivere-nella-blockchain-1.webp)
-*Video completo nelcanale youtube Bitcoin in Action*
+![Video completo nelcanale youtube Bitcoin in Action](/img/posts/posso-scrivere-nella-blockchain-1.webp)
+*Video completo nelcanale youtube Bitcoin in Action*
 
 Ciao, 
 Oggi rispondiamo a Luca che ci domanda. 
@@ -47,6 +47,7 @@ $ bitcoin-cli getnewaddress “” “bech32”
 tb1qrggdlvezgd4uy9mntz50mpmwd6l4vk9rm4ft3d
 ```
 
+
 Otteniamo quindi dei bitcoin dal servizio faucet [https://bitcoinfaucet.uo1.net/send.php](https://bitcoinfaucet.uo1.net/send.php)
 
 Possiamo verificare che la txid sia in mempool con la chiamata:
@@ -54,6 +55,7 @@ Possiamo verificare che la txid sia in mempool con la chiamata:
 ```bash
 $ bitcoin-cli getrawmempool | grep c5ce66d638f1b8ca702dfb8f7d1da7a6707d9c6497212dc66829c99f69b28b9a
 ```
+
 
 dove c5ce66d638f1b8ca702dfb8f7d1da7a6707d9c6497212dc66829c99f69b28b9a rappresenta la mia txid ottenuta dal servizio faucet.
 
@@ -93,6 +95,7 @@ $ bitcoin-cli listunspent 1 101 ‘[“tb1qrggdlvezgd4uy9mntz50mpmwd6l4vk9rm4ft3
 ]
 ```
 
+
 Dopo di che recupero la chiave privata del mio indirizzo, indispensabile per firmare la transazione.
 
 ```bash
@@ -100,6 +103,7 @@ $ bitcoin-cli dumpprivkey tb1qrggdlvezgd4uy9mntz50mpmwd6l4vk9rm4ft3d
 
 cPHTHs7ERe6jDYiitj9eLVswsX3RpeKMB19eXYjpLb4CkEHd7drq
 ```
+
 
 Generiamo il messaggio che vogliamo inserire nella blockchain, ad esempio [corsocompleto.bitcoininaction.com](http://corsocompleto.bitcoininaction.com) nel suo formato esadecimale.
 
@@ -109,17 +113,20 @@ $ printf “corsocompleto.bitcoininaction.com” | xxd -ps
 636f72736f636f6d706c65746f2e626974636f696e696e616374696f6e2e636f6d
 ```
 
+
 Per creare la transazione devo usare il metodo createrawtransaction. Utilizzando help possiamo analizzare tutti i parametri a nostra disposizione.
 
 ```bash
 $ bitcoin-cli help createrawtransaction
 ```
 
+
 Il destinatario della transazione è l’address del faucet
 
 ```bash
 2NGZrVvZG92qGYqzTLjCAewvPZ7JE8S8VxE
 ```
+
 
 Ho tutto il necessario per creare la mia transazione utilizzando la chiamata createrawtransaction.
 
@@ -130,6 +137,7 @@ $ bitcoin-cli createrawtransaction ‘[{“txid”:”c5ce66d638f1b8ca702dfb8f7d
 
 02000000019a8bb2699fc92968c62d2197649c7d70a6a71d7d8ffb2d70cab8f138d666cec50100000000ffffffff02b88201000000000017a914ffd0dbb44402d5f8f12d9ba5b484a2c1bb47da42870000000000000000236a21636f72736f636f6d706c65746f2e626974636f696e696e616374696f6e2e636f6d00000000
 ```
+
 
 In questo caso effettuo una sola transazione nella quale sposto tutto il mio input, non necessito quindi di un change address, ovvero di un indirizzo di resto, dato che il resto non è presente.
 
@@ -149,6 +157,7 @@ $ bitcoin-cli signrawtransactionwithkey 02000000019a8bb2699fc92968c62d2197649c7d
 }
 ```
 
+
 La transazione è stata firmata con successo, possiamo adesso inviare la transazione, utilizzando il metodo sendrawtransaction.
 
 ```bash
@@ -156,6 +165,7 @@ $ bitcoin-cli sendrawtransaction 020000000001019a8bb2699fc92968c62d2197649c7d70a
 
 edee419f93521f43259b763ffb42e4b882504534494381b7e18057015a27c548
 ```
+
 
 Ottenendo cosi la transaction id.
 

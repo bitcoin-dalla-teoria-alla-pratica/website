@@ -16,7 +16,7 @@ categories:
 
 ---
 
-#### The pocket-sized paperback book on Bitcoin answers.
+#### The pocket-sized paperback book on Bitcoin answers.
 
 We received many comments on our first book [Bitcoin from theory to practice](https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P/) (shortly available in English), both positive and negative, all constructive.
 

@@ -16,14 +16,14 @@ categories:
 
 ---
 
-### Merkle tree Bitcoin
+### Merkle tree Bitcoin
 
-#### Lo sprint che serviva per il [libro Bitcoin dalla teoria alla pratica](prodotti/bitcoin-dalla-teoria-alla-pratica)
+#### Lo sprint che serviva per il [libro Bitcoin dalla teoria alla pratica](prodotti/bitcoin-dalla-teoria-alla-pratica)
 
 Durante lo studio di Bitcoin ci siamo imbattuti nel **Merkle tree** e dopo esser riusciti a capirlo e a replicarlo, abbiamo raggiunto il nostro obiettivo.
 
-![Le prime prove (sbagliate) di “ricorstruzione” del merkle tree.](/img/posts/merkle-tree-bitcoin-2.webp)
-*Le prime prove (sbagliate) di “ricorstruzione” del merkle tree.*
+![Le prime prove (sbagliate) di “ricorstruzione” del merkle tree.](/img/posts/merkle-tree-bitcoin-2.webp)
+*Le prime prove (sbagliate) di “ricorstruzione” del merkle tree.*
 
 Ma vediamo che cosa è il **Merkle tree**. ---
 
@@ -50,8 +50,8 @@ Vediamo un caso base per capire di cosa stiamo parlando.
 
 > Estratto del capitolo 4 di Bitcoin dalla teoria alla pratica
 
-![Figura 4.1 — Merkle tree — Bitcoin dalla teoria alla pratica](/img/posts/merkle-tree-bitcoin-3.webp)
-*Figura 4.1 — Merkle tree — Bitcoin dalla teoria alla pratica*
+![Figura 4.1 — Merkle tree — Bitcoin dalla teoria alla pratica](/img/posts/merkle-tree-bitcoin-3.webp)
+*Figura 4.1 — Merkle tree — Bitcoin dalla teoria alla pratica*
 
 Immaginiamo di avere un merkle tree con 4 foglie, che rappresentano 4 transazioni (figura 4.1).
 
@@ -61,7 +61,7 @@ Quindi uniremo “Ha” con “Hb”.
 Con “uniremo” si intende concatenare le stringhe. 
 Quindi applicheremo la funzione **SHA256** per due volte alla stringa concatenata.
 
-Perché due volte?  
+Perché due volte?  
 Non c’è una spiegazione certa, ma il protocollo Bitcoin lavora così.
 
 La stessa procedura viene effettuata per le foglie “Hc” e “Hd”. 
@@ -82,5 +82,5 @@ Dobbiamo cambiare l’ordine dei bytes in **little endian**, e infine cambiare n
 
 Possiamo tranquillamente dire che dal Merkle root è nato il nostro progetto!
 
-![Bitcoin dalla teoria alla pratica](/img/posts/merkle-tree-bitcoin-1.webp)
-*Bitcoin dalla teoria alla pratica*
+![Bitcoin dalla teoria alla pratica](/img/posts/merkle-tree-bitcoin-1.webp)
+*Bitcoin dalla teoria alla pratica*

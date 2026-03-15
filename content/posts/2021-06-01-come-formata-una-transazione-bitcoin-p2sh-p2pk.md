@@ -16,7 +16,7 @@ categories:
 
 ---
 
-#### Video disponibile sul canale [YouTube Bitcoin in Action](https://youtu.be/wMvFm2GJtcI)
+#### Video disponibile sul canale [YouTube Bitcoin in Action](https://youtu.be/wMvFm2GJtcI)
 
 Ciao,
 
@@ -29,7 +29,7 @@ Nell’immagine della lavagna è riportata una simil transazione, ovvero come po
 
 Nello **scriptSig**, ovvero la parte dell’input della transazione, troviamo le condizioni necessarie per soddisfare lo **scriptPubKey** della **UTXO** di riferimento.
 
-Avendo preso come riferimento un [**P2SH–P2PK**](https://youtu.be/SzlTMdp7txE) nello scriptSig è presente la firma digitale e il redeem script in chiaro.  
+Avendo preso come riferimento un [**P2SH–P2PK**](https://youtu.be/SzlTMdp7txE) nello scriptSig è presente la firma digitale e il redeem script in chiaro.  
 Esatto, il redeem script, è posizionato nello **scriptSig**, gli stessi elementi che sono stati utilizzati per [creare l’address](https://bitcoin-in-action.medium.com/come-creare-un-address-p2sh-p2pk-bitcoin-2ed875f9fd7e) negli articoli precedenti.
 
 Nello scriptPubKey è invece presente l’operation code OP_HASH160 il redeem script hash e l’operation code OP_EQUAL.

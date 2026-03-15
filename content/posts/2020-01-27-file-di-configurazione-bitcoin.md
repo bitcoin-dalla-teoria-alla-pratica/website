@@ -25,6 +25,7 @@ Un parametro non è cosi scomodo da passare ogni volta che vogliamo fare delle c
 bitcoind -datadir=$PWD/regtest2 -regtest -debug=1 -rpcport=28443 -port=28444 -addnode=localhost:18444
 ```
 
+
 non è il massimo.
 
 Fortunatamente possiamo utilizzare un file di configurazione per gestire uno o più nodi sullo stesso computer.
@@ -47,6 +48,7 @@ regtest=1# Options only for mainnet
 [regtest]
 ```
 
+
 Adesso possiamo utilizzare il client senza passare nessun parametro.
 
 ```bash
@@ -54,6 +56,7 @@ $ bitcoin-cli getblockcount
 
 0
 ```
+
 
 Otteniamo lo stesso risultato del [tutorial precedente](https://medium.com/@bitcoindallateoriallapratica/da-dove-inizio-per-imparare-bitcoin-e103dc219eec?source=your_stories_page---------------------------).
 

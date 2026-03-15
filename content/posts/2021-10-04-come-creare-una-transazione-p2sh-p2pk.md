@@ -34,6 +34,7 @@ Abbiamo già il nostro address, che abbiamo ottenuto con i passaggi spiegati con
 sh create_p2sh_address_p2pk.sh
 ```
 
+
 Se avete bisogno di approfondire tematiche quali **Redeem script**, **redeem script hash**, vi consiglio l’articolo precedente.
 
 Andiamo nel vivo della transazione.
@@ -46,7 +47,8 @@ L’address ottenuto dal wallet sarà il destinatario, mentre l’address P2SH-P
 $ bitcoin-cli createwallet "bia"
 ```
 
-Associamo anche il nome **bia** al wallet, ovvero Bitcoin In Action, fantasia mostruosa :).
+
+Associamo anche il nome **bia** al wallet, ovvero Bitcoin In Action, fantasia mostruosa :).
 
 Successivamente per comodità salviamo in variabile d’ambiente il mittente-miner, ovvero l’address P2SH e il destinatario, che in questo caso è un address legacy, un normale P2PKH, affrontato nei articoli precedenti.
 
@@ -56,6 +58,7 @@ $ ADDR_P2SH=`cat address_P2SH.txt`
 $ ADDR_DEST=`bitcoin-cli getnewaddress "" "legacy"`
 ```
 
+
 Miniamo quindi 101 blocchi, per ottenere 50 bitcoin di reward da utilizzare per il nostro esempio.
 
 Per comodità, ogni esempio che andiamo a replicare, utilizziamo una **regtest** vuota, in modo tale da poter creare transazioni più facilmente.
@@ -63,6 +66,7 @@ Per comodità, ogni esempio che andiamo a replicare, utilizziamo una **regtest**
 ```bash
 $ bitcoin-cli generatetoaddress 101 $ADDR_P2SH >> /dev/null
 ```
+
 
 Il passo successivo è importare l’address P2SH nel nodo con il comando importaddress.
 
@@ -72,17 +76,20 @@ Perché questa operazione? Dato che l’address non è ottenuto dal wallet del n
 $ bitcoin-cli importaddress $ADDR_P2SH
 ```
 
+
 Utilizzando il comando listuspent possiamo analizzare le UTXO dell’address selezionato, ovvero il P2SH.
 
 ```bash
 $ UTXO=`bitcoin-cli listunspent 1 101 '["'$ADDR_P2SH'"]'`
 ```
 
+
 Il risultato di tale chiamata viene inserito nella variabile d’ambiente UTXO. Per analizzare il suo contenuto possiamo utilizzare il comando echo.
 
 ```bash
 $ echo $UTXO
 ```
+
 
 Per creare una transazione ho bisogno di:
 
@@ -112,6 +119,7 @@ $ REDEEM=`cat redeem_script.txt`
 $ SCRIPTPUBKEY="A914"`cat scriptPubKey.txt`"87"
 ```
 
+
 Dove:
 
 - A9 corrisponde a OP_HASH160
@@ -124,6 +132,7 @@ Siamo pronti per creare la transazione.
 TX_DATA=$(bitcoin-cli createrawtransaction '[{"txid":"'$TXID'","vout":'$VOUT'}]' '[{"'$ADDR_DEST'":'$AMOUNT'}]')
 ```
 
+
 Il risultato viene salvato nella variabile d’ambiente TX_DATA. grazie al comando echo è possibile visualizzare il contenuto.
 
 $TX_DATA sarà argomento della prossima funzione, ovvero signrawtransactionwithkey.
@@ -134,6 +143,7 @@ Per firmarla utilizzando, a differenza del P2PKH, anche il redeem script e il re
 TX_SIGNED=$(bitcoin-cli signrawtransactionwithkey $TX_DATA '["'$PK'"]' '[{"txid":"'$TXID'","vout":'$VOUT',"scriptPubKey":"'$SCRIPTPUBKEY'","redeemScript":"'$REDEEM'"}]' | jq -r '.hex')
 ```
 
+
 Anche in questo caso abbiamo salvato nella variabile d’ambiente il risultato restituito dalla funzione signrawtransactionwithkey.
 
 Non ci resta che inviarla in broadcast, utilizzando la funzione sendrawtransaction.
@@ -142,15 +152,16 @@ Non ci resta che inviarla in broadcast, utilizzando la funzione sendrawtransacti
 $ bitcoin-cli sendrawtransaction $TX_SIGNED
 ```
 
-E tutto è andato a buon fine!  
+
+E tutto è andato a buon fine!  
 Ma come viene validata?
 
 Nel prossimo articolo andremo, step by step nella validazione, il codice è disponibile nel [GitHub](https://github.com/bitcoin-dalla-teoria-alla-pratica/Bitcoin-in-action-book) del libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](prodotti/bitcoin-in-action/).
 
 Ciao e alla prossima!
 
-![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)](/img/posts/come-creare-una-transazione-p2sh-p2pk-1.webp)
-*📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)*
+![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)](/img/posts/come-creare-una-transazione-p2sh-p2pk-1.webp)
+*📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)*
 
 
 

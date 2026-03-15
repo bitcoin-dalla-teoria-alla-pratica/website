@@ -16,12 +16,12 @@ categories:
 
 ---
 
-### Bitcoin in Action — Che cosa è L’ halving?
+### Bitcoin in Action — Che cosa è L’ halving?
 
-#### [Scoprilo su Youtube – Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
+#### [Scoprilo su Youtube – Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
 
-![Che cosa è l’halving? — Bitcoin in Action](/img/posts/bitcoin-in-action-che-cosa-l-halving-1.webp)
-*Che cosa è l’halving? — Bitcoin in Action*
+![Che cosa è l’halving? — Bitcoin in Action](/img/posts/bitcoin-in-action-che-cosa-l-halving-1.webp)
+*Che cosa è l’halving? — Bitcoin in Action*
 
 Oggi (11 maggio 2020) è un giorno importante per Bitcoin, oggi avviene il cosiddetto halving.
 

@@ -16,25 +16,25 @@ categories:
 
 ---
 
-#### The pocket book that you were looking for!
+#### The pocket book that you were looking for!
 
 Nowadays we hear a lot about Bitcoin and blockchain, but few people know how it works.
 
 It’s true that I don’t know how a car works but I use it anyway! But it’s also true that before using a car you should study to get your driving license.
 
-For that reason we wrote two books.  
+For that reason we wrote two books.  
 The first one is “[Bitcoin dalla teoria alla pratica](https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P/)” available in Italian language,(the English translation called “Bitcoin from theory to practice” is coming soon) where you can find the tech part of the Bitcoin protocol.
 
-For example you will be able to handle a transaction from scratch, know more about private and public keys and so on.  
+For example you will be able to handle a transaction from scratch, know more about private and public keys and so on.  
 With the help of this book you can figure out how Bitcoin works using a real node. 
 Check this [video](https://www.youtube.com/watch?v=mFmOo8m6wlU) to understand what you can learn!
 
-![Bitcoin dalla teoria alla pratica](/img/posts/bitcoin-199-questions-3.webp)
-*Bitcoin dalla teoria alla pratica*
+![Bitcoin dalla teoria alla pratica](/img/posts/bitcoin-199-questions-3.webp)
+*Bitcoin dalla teoria alla pratica*
 
 The second one is called [Bitcoin 199 questions](https://www.amazon.it/Bitcoin-199-questions-Alessio-Barnini/dp/1078155585).
 
-As you can image from the title, you will find a lot of answered questions :). 
+As you can image from the title, you will find a lot of answered questions :). 
 The book is made of 4 parts.
 
 - **Entry level**: In this section you can find the most common questions, like “What is Bitcoin?”, “What is a block?”, “What is an address?” and so on.

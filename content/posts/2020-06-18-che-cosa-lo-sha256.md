@@ -5,7 +5,7 @@ slug: "che-cosa-lo-sha256"
 draft: false
 author: "Alessio Barnini"
 description: "Scopri il video sul canale Bitcoin in Action!"
-cover: "https://cdn-images-1.medium.com/max/1200/1*zU6Md7J1cTqpbZ13EYnPAw.png"
+cover: "/img/posts/che-cosa-lo-sha256-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -16,12 +16,12 @@ categories:
 
 ---
 
-### Che cosa è lo SHA256?
+### Che cosa è lo SHA256?
 
-#### [Scopri il video sul canale Bitcoin in Action!](https://www.youtube.com/BitcoinInAction?sub_confirmation=1)
+#### [Scopri il video sul canale Bitcoin in Action!](https://www.youtube.com/BitcoinInAction?sub_confirmation=1)
 
-![Scopri il video sul canale Bitcoin in Action](https://cdn-images-1.medium.com/max/1200/1*zU6Md7J1cTqpbZ13EYnPAw.png)
-*Scopri il video sul canale Bitcoin in Action*
+![Scopri il video sul canale Bitcoin in Action](/img/posts/che-cosa-lo-sha256-1.webp)
+*Scopri il video sul canale Bitcoin in Action*
 
 Ciao,
 
@@ -49,6 +49,7 @@ $ printf bitcoininaction | openssl dgst -sha256
 (stdin)= b76b7041106a75de9fa4fbf880b3886cc114cbfd570e1a17adb58b937afee351
 ```
 
+
 Dal digest è quindi impossibile capire che il messaggio in chiaro fosse bitcoininaction.
 
 Che cosa succede se applico nuovamente la funzione crittografica SHA256 a [bitcoininaction](http://bitcoininaction.com)?
@@ -61,6 +62,7 @@ $ printf bitcoininaction | openssl dgst -sha256
 (stdin)= b76b7041106a75de9fa4fbf880b3886cc114cbfd570e1a17adb58b937afee351
 ```
 
+
 Che cosa succede se cambio leggermente il messaggio in chiaro, ad esempio [bitcoininaction.com](http://bitcoininaction.com/)?
 
 ```bash
@@ -68,6 +70,7 @@ $ printf bitcoininaction.com | openssl dgst -sha256
 
 (stdin)= 41dbcc447756ddd2c32ac99c76ef6f090fa0a63da5a6ecfda3311936f85daa85
 ```
+
 
 Ottengo un digest completamente diverso. È per questo motivo che è molto veloce verificare un digest se si è in possesso del messaggio in chiaro. Ogni messaggio in chiaro su cui è applicato l’algoritmo SHA256 produce un digest unico. Se due messaggi diversi producessero lo stesso digest avremo un fenomeno chiamato collisione.
 
@@ -102,6 +105,7 @@ $ bitcoin-cli getrawtransaction edee419f93521f43259b763ffb42e4b882504534494381b7
 }
 ```
 
+
 L’hash è **12cf1e132b1d775f5403a875592b447a825f493c0eecdf6bbaa8f5e759c1c71d** ed è quella che noi dobbiamo ottenere. Dobbiamo applicare l’algoritmo SHA256 per due volte e ottenere la sua rappresentazione in little endian.
 
 Ottengo il primo digest.
@@ -112,6 +116,7 @@ $ printf 020000000001019a8bb2699fc92968c62d2197649c7d70a6a71d7d8ffb2d70cab8f138d
 33bf8e3e54327c84758e3442ccea54cfef3621ee4d7276cc1bdcde301d4c4796
 ```
 
+
 Applichiamo nuovamente lo SHA256 al digest ottenuto, per ottenere il secondo digest.
 
 ```bash
@@ -120,6 +125,7 @@ $ printf 33bf8e3e54327c84758e3442ccea54cfef3621ee4d7276cc1bdcde301d4c4796 | xxd 
 1dc7c159e7f5a8ba6bdfec0e3c495f827a442b5975a803545f771d2b131ecf12
 ```
 
+
 Ed infine otteniamo la sua rappresentazione in little endian
 
 ```bash
@@ -127,6 +133,7 @@ $ printf 1dc7c159e7f5a8ba6bdfec0e3c495f827a442b5975a803545f771d2b131ecf12 | tac 
 
 12cf1e132b1d775f5403a875592b447a825f493c0eecdf6bbaa8f5e759c1c71d
 ```
+
 
 Il risultato coincide!
 

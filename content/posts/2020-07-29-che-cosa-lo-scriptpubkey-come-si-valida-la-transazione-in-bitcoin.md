@@ -16,10 +16,10 @@ categories:
 
 ---
 
-### **Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin**? #### Video completo nel nostro canale youtube [Bitcoin in Action](https://www.youtube.com/watch?v=HaZCpfc7Vbg&feature=youtu.be)
+### **Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin**? #### Video completo nel nostro canale youtube [Bitcoin in Action](https://www.youtube.com/watch?v=HaZCpfc7Vbg&feature=youtu.be)
 
-![Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-3.webp)
-*Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?*
+![Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-3.webp)
+*Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?*
 
 Ciao,
 
@@ -51,13 +51,14 @@ La risposta più semplice è inserire nello scriptSig il numero 4.
 
 Come puoi immaginare, queste condizioni sono un pò “facili” chiunque può sbloccare questa UTXO.
 
-Trovami un numero uguale a 4…non ci bloccherei 1 bitcoin :), ecco perchè si utilizza la [firma digitale](https://youtu.be/RU7LHPP4Lvk) per bloccare in sicurezza bitcoin nella UTXO.
+Trovami un numero uguale a 4…non ci bloccherei 1 bitcoin :), ecco perchè si utilizza la [firma digitale](https://youtu.be/RU7LHPP4Lvk) per bloccare in sicurezza bitcoin nella UTXO.
 
 Analizzando la transazione **P2PKH** utilizzata nel video precedente, ricorderai che lo **scriptPubKey** è così formato:
 
 ```bash
 OP_DUP OP_HASH160 <public key> OP_EQUALVERIFY OP_CHECKSIG
 ```
+
 
 Questo significa che nello scriptSig devono essere presenti degli elementi che devono soddisfare lo scriptPubKey, in modo tale che nello stack sia presente un unico e ultimo elemento con valore 1.
 
@@ -70,6 +71,7 @@ Prendiamo in esame la transazione utilizzata nel [**video corso**](/prodotti/vid
 ```bash
 $ bitcoin-cli getrawtransaction 3446bb5b86fa410d6c8676b0f93e665d06d4a18c97c7d0f2d80460d9696b2325 2
 ```
+
 
 Analizziamo il primo elemento del **vout**, il quale “blocca” 20 bitcoins. Per estrarre solo quella porzione di risultato possiamo utilizzare jq.
 
@@ -103,6 +105,7 @@ $ bitcoin-cli getrawtransaction 3446bb5b86fa410d6c8676b0f93e665d06d4a18c97c7d0f2
 }
 ```
 
+
 Lo scriptPubKey è quello che si legge in **asm**, o in **hex**. Sono equivalenti, in hex abbiamo **l’esadecimale** corrispondente delle op_code.
 
 Prima di passare alle slide per spiegare nel dettaglio lo script, recuperiamo anche la transazione che ha consumato tale output.
@@ -128,6 +131,7 @@ $ bitcoin-cli getrawtransaction 7408ac2f0230e779946e03911300dc39c4a48d39327aeb6c
 
 },
 ```
+
 
 Come faccio a sapere che l’elemento da prendere in considerazione è il secondo elemento dell’array?
 
@@ -155,6 +159,7 @@ $ bitcoin-cli getrawtransaction 7408ac2f0230e779946e03911300dc39c4a48d39327aeb6c
 }
 ```
 
+
 Passiamo alle slide del [**video corso**](/prodotti/videocorso-teoria-pratica) che sicuramente ci aiutano.
 
 Bitcoin utilizza lo Stack per validare le transazioni.
@@ -169,20 +174,20 @@ Push Public Key
 
 Se non vi ricordate che cosa contiene lo scriptSig, [vi lascio il link nei video consigliati](https://youtu.be/IPpSCOy3yHg).
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*FPj1JmydHi0VZb_4LoW0ag.jpeg)
-*Slide del video corso Bitcoin dalla teoria alla pratica*
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-6.webp)
+*Slide del video corso Bitcoin dalla teoria alla pratica*
 
 Come puoi vedere stiamo analizzando una transazione Pay to public key hash.
 
 Successivamente viene inserito nello stack **OP_DUP** che ha il compito di estrarre il primo elemento dallo stack, di duplicarlo e di fare push del risultato
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-3.webp)
-*Slide del video corso Bitcoin dalla teoria alla pratica*
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-3.webp)
+*Slide del video corso Bitcoin dalla teoria alla pratica*
 
 Prossima operazione è **OP_HASH160**, la quale prende il primo elemento dello stack, quindi pop, e applica la funzione **SHA256** e **RIPEMD160** e fa push del risultato.
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*NjY3JniSEMgxPk0yUY4sKQ.jpeg)
-*Slide del video corso Bitcoin dalla teoria alla pratica*
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-6.webp)
+*Slide del video corso Bitcoin dalla teoria alla pratica*
 
 Vedendo con la pratica esegue:
 
@@ -190,19 +195,20 @@ Vedendo con la pratica esegue:
 printf $(echo 04ddd9f1b0ec593795d802cd27c442f3dd3db562b331616e554a88dddff62bba572bd535c853d5ef195db0cba621255669a5569caaaeae3802066c70fb2463b89e | xxd -r -p | openssl sha256| sed ‘s/^.* //’) |xxd -r -p | openssl ripemd160 | sed ‘s/^.* //’
 ```
 
+
 Nota bene, l’operazione è fatta sulla chiave pubblica dello scriptSig.
 
 Ma guarda un pò, il risultato è esattamente lo stesso di quello della UTXO.
 
 Prossima operazione, push dell’elemento dello **scriptPubKey**, L’hash della chiave pubblica, ecco perchè si chiama Pay to Public key hash.
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-6.webp)
-*Slide del video corso Bitcoin dalla teoria alla pratica*
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-6.webp)
+*Slide del video corso Bitcoin dalla teoria alla pratica*
 
 Prossima operazione **OP_EQUALVERIFY**.
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-7.webp)
-*Slide del video corso Bitcoin dalla teoria alla pratica*
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-7.webp)
+*Slide del video corso Bitcoin dalla teoria alla pratica*
 
 Esegue il pop dei due elementi in testa allo stack, li verifica, e se sono uguali non esegue nessun push nello stack, altrimenti fallisce.
 
@@ -216,8 +222,8 @@ Pop di due elementi dallo stack, verifica della firma, e se è la firma è valid
 
 Ed ecco che l’ultimo e unico valore dello stack è 1, validando la transazione.
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-8.webp)
-*Slide del video corso Bitcoin dalla teoria alla pratica*
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-8.webp)
+*Slide del video corso Bitcoin dalla teoria alla pratica*
 
 ---
 
@@ -227,8 +233,8 @@ Spero comunque di aver risposto alla tua domanda
 
 Ciao alla prossima!
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-8.webp)
-*Slide del video corso Bitcoin dalla teoria alla pratica*
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-8.webp)
+*Slide del video corso Bitcoin dalla teoria alla pratica*
 
-![Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-9.webp)
-*Bitcoin dalla teoria alla pratica*
+![Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-9.webp)
+*Bitcoin dalla teoria alla pratica*

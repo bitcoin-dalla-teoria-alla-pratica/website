@@ -5,7 +5,7 @@ slug: "transazione-p2pkh-nel-bitcoin-playground"
 draft: false
 author: "Alessio Barnini"
 description: "Dopo alcuni articoli di teoria, siamo arrivati alla pratica. In questo video analizzeremo come sia possibile creare una transazione P2PKH…"
-cover: "https://cdn-images-1.medium.com/max/1200/1*z7ismtgHXw2TVJziHX2KjQ.png"
+cover: "/img/posts/transazione-p2pkh-nel-bitcoin-playground-7.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -18,7 +18,7 @@ categories:
 
 Dopo alcuni articoli di teoria, siamo arrivati alla pratica. In questo video analizzeremo come sia possibile creare una transazione P2PKH utilizzando un nodo bitcoin in modalità Regtest.
 
-![](https://cdn-images-1.medium.com/max/1200/1*z7ismtgHXw2TVJziHX2KjQ.png)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-7.webp)
 
 Per questo esempio utilizzeremo un progetto che stiamo portando avanti io a Alessandro, ovvero un [playground](https://app.gitbook.com/@corsobitcoin/s/bitcoin-in-action-playground/).
 
@@ -28,7 +28,7 @@ Se volete replicare l’esempio che stiamo per vedere, potete creare il vostro a
 
 Creeremo una transazione P2PKH utilizzando il nodo **Bitcoin** con la versione 0.21.0 e analizzeremo come la transazione è validata.‌
 
-Per rendere le cose più semplici da spiegare, partiremo da una blockchain *vuota*, quindi prima di lanciare i container, utilizzo il comando `./regtest-delete.sh`, e successivamente avvio i container con `docker-compose up`.
+Per rendere le cose più semplici da spiegare, partiremo da una blockchain *vuota*, quindi prima di lanciare i container, utilizzo il comando `./regtest-delete.sh`, e successivamente avvio i container con `docker-compose up`.
 
 Il prossimo passaggio è sarà quello di entrare nel container di hansel, ovvero di un nodo:
 
@@ -36,17 +36,20 @@ Il prossimo passaggio è sarà quello di entrare nel container di hansel, ovvero
 $ docker exec -ti hansel bash‌
 ```
 
+
 e verificare che la blockchain abbia 0 blocchi, utilizzando il comando:
 
 ```bash
 $ bitcoin-cli getblockcount
 ```
 
+
 ‌La prima operazione che vado a fare è creare un wallet, con il comando:
 
 ```bash
 $ bitcoin-cli createwallet "hansel"‌
 ```
+
 
 Successivamente creo l’address del mittente e l’address del destinatario. Utilizzerò delle variabili d’ambiente per salvare il contenuto.
 
@@ -56,11 +59,13 @@ $ ADDR_MITT=$(bitcoin-cli getnewaddress 'mitt' 'legacy')
 $ ADDR_DEST=$(bitcoin-cli getnewaddress 'dest' 'legacy')‌
 ```
 
+
 In questo momento i miei wallet non hanno nessuna UTXO, ovvero non hanno nessun bitcoin disponibile, quindi mineremo 101 blocchi (in modo tale da soddisfare la `COINBASE_MATURITY`) utilizzando l'address `$ADDR_MITT`.
 
 ```bash
 $ bitcoin-cli generatetoaddress 101 $ADDR_MITT > /dev/null
 ```
+
 
 ‌Adesso ho dei bitcoin a disposizione, o meglio delle UTXO, per visualizzarli posso usare la chiamata `listunspent`, la quale mi mostra tutte i saldi a disposizione.
 
@@ -72,11 +77,13 @@ Utilizzo anche il Json Parser, JQ, per aiutarmi a estrapolare solamente le infor
 $ UTXO=$(bitcoin-cli listunspent | jq -r.[0])‌
 ```
 
+
 Successivamente creo la transazione utilizzando la chiamata sendtoaddress, utilizzando una fee_rate e decidendo di sottrarre le fees direttamente dall’amount.
 
 ```bash
 $ TXID=$(bitcoin-cli -named sendtoaddress address="$ADDR_DEST" amount=$(echo $UTXO | jq -r.amount) fee_rate=25 subtractfeefromamount=true)
 ```
+
 
 ‌Adesso possiamo finalmente analizzare la nostra transazione, la quale si troverà nella mempool, e quindi in attesa di essere minata.
 
@@ -86,7 +93,8 @@ $ TXID=$(bitcoin-cli -named sendtoaddress address="$ADDR_DEST" amount=$(echo $UT
 $ bitcoin-cli getrawtransaction $TXID 2 | jq
 ```
 
-‌Nel libro [Libro Bitcoin dalla teoria alla pratica](prodotti/bitcoin-dalla-teoria-alla-pratica) e [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](https://bit.ly/38RtF9x) , spieghiamo byte per byte la transazione.
+
+‌Nel libro [Libro Bitcoin dalla teoria alla pratica](prodotti/bitcoin-dalla-teoria-alla-pratica) e [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](https://bit.ly/38RtF9x) , spieghiamo byte per byte la transazione.
 
 Grazie al nostro docker, è possibile visualizzare la blockchain locale a anche la transazione che è in mempool.‌
 
@@ -108,11 +116,12 @@ Enter a caption for this image (optional)
 $ btcdeb --tx=$(bitcoin-cli getrawtransaction $TXID) --txin=$(bitcoin-cli getrawtransaction $(echo $UTXO | jq -r.txid))‌
 ```
 
+
 Al momento dell’avvio lo stack è vuoto, e premendo e digitando step, si effettua l’operazione successiva.‌
 
 In questo caso con step, si inserisce prima lo scriptSig, ovvero la firma e successivamente la chiave pubblica compressa.
 
-![](https://cdn-images-1.medium.com/max/1200/0*-sLbsoN2loXlqKBD)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-8.webp)
 
 I vostri valori saranno sicuramente diversi, ma la logica non cambia.‌
 
@@ -124,7 +133,7 @@ Il primo elemento che inseriamo è `OP_DUP`, che come abbiamo visto nelle preced
 
 Successivamente, l’operazione che si effettua è `HASH160`, che ha il compito di prendere l'elemento on top e applicare la funzione crittografica `SHA256` e `RIPEMD160`.
 
-![](https://cdn-images-1.medium.com/max/1200/0*t2_RmtsNIoDKcWTE)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-9.webp)
 
 ‌Successivamente si inserisce l’hash della chiave pubblica compressa.
 
@@ -132,13 +141,13 @@ Successivamente, l’operazione che si effettua è `HASH160`, che ha il compito 
 
 La prossima OP_CODE è `OP_EQUALVERIFY`, la quale ha il compito di verificare due elementi, e se sono uguale non inserire niente, altrimenti invalida lo stack.
 
-![](https://cdn-images-1.medium.com/max/1200/0*WACV8rfFHnf4uW95)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-10.webp)
 
 In questo caso sono uguali, e quindi non viene inserito niente e lo stack è ancora valido.
 
 Ultimo OP_CODE, `OP_CHECKSIG`, come è facile intuire, controlla la firma confrontandola utilizzando la chiave pubblica corrispondente.
 
-![](https://cdn-images-1.medium.com/max/1200/0*jrWlxNm4Iqi0DeVU)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-11.webp)
 
 Se non ricordi come si verifica la firma digitale, [guarda questo video](https://www.youtube.com/watch?v=RU7LHPP4Lvk&list=PLpPLK7SGHncab_so9rB7lY3aKe2-Mqs5y&index=18).‌
 
@@ -158,16 +167,17 @@ Minare!
 $ bitcoin-cli generatetoaddress 1 $ADDR_MITT
 ```
 
+
 ‌A questo punto, utilizzando il nostro [explorer](http://localhost:8094/), potete analizzare l’ultimo blocco minato, il quale conterrà 2 transazioni, la coinbase e la transazione appena creata.
 
-![](https://cdn-images-1.medium.com/max/1200/0*Ist7i7jvWgtc2QMs)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-12.webp)
 
 Se volete divertivi con il nostro playground, ecco il link! [https://app.gitbook.com/@corsobitcoin/s/bitcoin-in-action-playground/](https://app.gitbook.com/@corsobitcoin/s/bitcoin-in-action-playground/)
 
 Ciao alla Prossima!
 
-![Bitcoin In Action — SegWit, Bitcoin Script e Smart ContractseBitcoin dalla teoria alla pratica](/img/posts/transazione-p2pkh-nel-bitcoin-playground-12.webp)
-*Bitcoin In Action — SegWit, Bitcoin Script e Smart ContractseBitcoin dalla teoria alla pratica*
+![Bitcoin In Action — SegWit, Bitcoin Script e Smart ContractseBitcoin dalla teoria alla pratica](/img/posts/transazione-p2pkh-nel-bitcoin-playground-12.webp)
+*Bitcoin In Action — SegWit, Bitcoin Script e Smart ContractseBitcoin dalla teoria alla pratica*
 
 –––––
 

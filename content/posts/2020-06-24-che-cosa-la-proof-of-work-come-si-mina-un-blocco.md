@@ -16,12 +16,12 @@ categories:
 
 ---
 
-### Che cosa è la Proof of work? Come si mina un blocco?
+### Che cosa è la Proof of work? Come si mina un blocco?
 
-#### Video completo su [Bitcoin in Action](https://youtu.be/XEMpnRrL6S4)!
+#### Video completo su [Bitcoin in Action](https://youtu.be/XEMpnRrL6S4)!
 
-![Video completo suBitcoin in Action!](/img/posts/che-cosa-la-proof-of-work-come-si-mina-un-blocco-1.webp)
-*Video completo suBitcoin in Action!*
+![Video completo suBitcoin in Action!](/img/posts/che-cosa-la-proof-of-work-come-si-mina-un-blocco-1.webp)
+*Video completo suBitcoin in Action!*
 
 Ciao,
 
@@ -137,6 +137,7 @@ $ bitcoin-cli getblock $(bitcoin-cli getblockhash 1773164)
 }
 ```
 
+
 Come vedete il blocco contiene un pò di informazioni, ma non tutte sono utilizzate per provare a vincere la corsa del Pow.
 
 Il miner ha dovuto trovare un numero minore di quello riportato in bits.
@@ -151,6 +152,7 @@ Con il metodo getblocktemplate è possibile recuperare il candidate block attual
 $ bitcoin-cli getblocktemplate ‘{“rules”: [“segwit”]}’
 ```
 
+
 E per trovare il target attuale è possibile filtrare il risultato con l’aiuto della libreria jq
 
 ```bash
@@ -158,6 +160,7 @@ $ bitcoin-cli getblocktemplate ‘{“rules”: [“segwit”]}’ | jq -r ‘.t
 
 00000000000001a5f20000000000000000000000000000000000000000000000
 ```
+
 
 In questo momento il miner deve trovare un numero che deve stare sotto all’esadecimale appena estratto.
 
@@ -178,11 +181,13 @@ Salviamo nella variabile d’ambiente ver, il versionhex nella sua rappresentazi
 $ ver=`printf 20800000 | tac -rs..| tr -d ‘\n’`
 ```
 
+
 Salviamo nella variabile d’ambiente prev, il previous blockhash nella sua rappresentazione little endian.
 
 ```bash
 $ prev=`printf 00000000000001249b9a4e000135acecec2dcd7385eba54639ff962f3883e861 | tac -rs.. | tr -d ‘\n’`
 ```
+
 
 Salviamo nella variabile d’ambiente mkl, il merkle root hash nella sua rappresentazione little endian.
 
@@ -190,11 +195,13 @@ Salviamo nella variabile d’ambiente mkl, il merkle root hash nella sua rappres
 $ mkl=`printf 75870dd46a503862af6fcf700be5e02e008db4521d96713bda51607ed05e2a18 | tac -rs.. | tr -d ‘\n’`
 ```
 
+
 Salviamo nella variabile d’ambiente time, il time nella sua rappresentazione esadecimale e little endian.
 
 ```bash
 $ time=`printf ‘%x\n’ 1592919152 | tac -rs.. | tr -d ‘\n’`
 ```
+
 
 Salviamo nella variabile d’ambiente bits, il bits nella sua rappresentazione little endian.
 
@@ -202,17 +209,20 @@ Salviamo nella variabile d’ambiente bits, il bits nella sua rappresentazione l
 $ bits=`echo 1a01a5f2 | tac -rs.. | tr -d ‘\n’`
 ```
 
+
 Salviamo nella variabile d’ambiente nonce, il nonce nella sua rappresentazione esadecimale e little endian.
 
 ```bash
 $ nonce=`printf ‘%x\n’ 3940145976 | tac -rs.. | tr -d ‘\n’`
 ```
 
+
 Otteniamo quindi il digest della concatenazione dei valori che abbiamo salvato nelle variabili d’ambiente, applicando per due volte la funzione crittografica SHA256
 
 ```bash
 $ printf $ver$prev$mkl$time$bits$nonce | xxd -r -p | sha256sum -b | xxd -r -p | sha256sum -b
 ```
+
 
 Otteniamo quindi la sua rappresentazione in little endian
 
@@ -221,6 +231,7 @@ $ printf efa0e7bd9f48633781088b3a3e633df270d79435b896d074eb00000000000000 | tac 
 
 00000000000000eb74d096b83594d770f23d633e3a8b08813763489fbde7a0ef
 ```
+
 
 Il risultato ottenuto è il numero che soddisfava la difficoltà dell’epoca. Come facciamo ad esserne sicuri? Convertiamo in base 10 sia l’hash ottenuto che il bits.
 
@@ -232,6 +243,7 @@ Dato il bits:
 1a01a5f2
 ```
 
+
 il coefficiente è 0x1a il quale ci comunica la lunghezza dell’esponente.
 
 In questo caso 26 byte, perchè 1a in base 10 è 26.
@@ -242,16 +254,18 @@ $ echo ‘ibase=16; 1A’ | bc
 26
 ```
 
+
 Il coefficiente è la parte rimanente del bits, ovvero 01a5f2.
 
-Dobbiamo quindi avere una stringa lunga 52 caratteri esadecimali compreso l’esponente.  
- Ricorda che 1byte può essere rappresentato da due caratteri esadecimali.
+Dobbiamo quindi avere una stringa lunga 52 caratteri esadecimali compreso l’esponente.  
+ Ricorda che 1byte può essere rappresentato da due caratteri esadecimali.
 
 Otteniamo quindi
 
 ```bash
 01a5f20000000000000000000000000000000000000000000000
 ```
+
 
 Verifichiamo di aver scritto la lunghezza giusta
 
@@ -261,11 +275,13 @@ $ printf 01a5f20000000000000000000000000000000000000000000000 | wc -c
 52
 ```
 
+
 Ottimo, convertiamolo in base 10 e salviamolo nella variabile d’ambiente BITS_10
 
 ```bash
 $ BITS_10=”$(echo “obase=10; ibase=16; -u; $(echo 01a5f20000000000000000000000000000000000000000000000 | tr ‘[:lower:]’ ‘[:upper:]’)” |bc | sed -n 2p)”
 ```
+
 
 Esaminiamo il risultato ottenuto
 
@@ -275,11 +291,13 @@ $ echo $BITS_10
 2648593653332025323234430866859553558338063400000453437554688
 ```
 
+
 Convertiamo in base 10 anche l’hash ottenuto precedentemente e salviamolo nella variabile d’ambiente TARGET.
 
 ```bash
 $ TARGET=”$(echo “obase=10; ibase=16; -u; $(echo 00000000000000eb74d096b83594d770f23d633e3a8b08813763489fbde7a0ef | tr ‘[:lower:]’ ‘[:upper:]’)” |bc | sed -n 2p)”
 ```
+
 
 Adesso $TARGET deve essere minore di $BITS_10, ovvero della difficoltà imposta dal protocollo in quel momento storico.
 
@@ -288,6 +306,7 @@ $ echo “$TARGET<$BITS_10”|bc
 
 1
 ```
+
 
 Otteniamo come risultato 1, quindi true, il miner ha risolto con successo il problema matematico.
 
@@ -300,6 +319,7 @@ I più attenti avranno notato che il risultato ottenuto è l’hash del blocco.
 ```bash
 $ test 00000000000000eb74d096b83594d770f23d633e3a8b08813763489fbde7a0ef = $(bitcoin-cli getblockhash 1773164) && echo sono uguali || echo sono diversi
 ```
+
 
 Sono uguali!
 

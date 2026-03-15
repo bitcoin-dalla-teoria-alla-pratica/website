@@ -5,7 +5,7 @@ slug: "bitcoin-blockchain-fork"
 draft: false
 author: "Alessio Barnini"
 description: "Forse vi potrà sorprendere che la blockchain Bitcoin subisce dei fork molto frequentemente."
-cover: "https://cdn-images-1.medium.com/max/1200/1*Gi8vxZkxEiGQtqqmqE_SsA.png"
+cover: "/img/posts/bitcoin-blockchain-fork-2.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -36,7 +36,7 @@ Il loro compito è creare blocchi di transazioni valide e risolvere il PoW dietr
 
 ---
 
-> Per adesso possiamo dire che i Miners a differenza dei fullnode creano blocchi.
+> Per adesso possiamo dire che i Miners a differenza dei fullnode creano blocchi.
 
 Come sappiamo la blockchain è un sistema decentralizzato e come dicevamo i nodi hanno al suo interno la replica esatta della blockchain.
 
@@ -44,7 +44,7 @@ Essendo un sistema decentralizzato può essere che il nodo A abbia ricevuto il**
 
 Il miner per creare il blocco deve risolvere il** Proof Of Work.**(PoW)
 
-![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](https://cdn-images-1.medium.com/max/1200/1*WcOEWrYoZFhTQj7nWz3d_g.gif)
+![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/bitcoin-blockchain-fork-3.webp)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*
 
 Bene il miner con i capelli verdi è Alessio, il miner con i capelli neri è Marco.
@@ -85,5 +85,5 @@ Quindi possiamo affermare che il ramo più lungo vince, diventando la main chain
 
 ---
 
-![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](https://cdn-images-1.medium.com/max/1200/1*Gi8vxZkxEiGQtqqmqE_SsA.png)
+![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/bitcoin-blockchain-fork-2.webp)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*

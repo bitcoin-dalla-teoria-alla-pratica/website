@@ -16,9 +16,9 @@ categories:
 
 ---
 
-### Perché il mio address inizia con 1?
+### Perché il mio address inizia con 1?
 
-#### Video completo disponibile su [youtube](https://youtu.be/--oq3SbK2xQ).
+#### Video completo disponibile su [youtube](https://youtu.be/--oq3SbK2xQ).
 
 ![](/img/posts/perch-il-mio-address-inizia-con-1-1.webp)
 
@@ -53,6 +53,7 @@ $ bitcoin-cli getnewaddress “” “legacy”
 
 1ExUh5vqcUjuuocAgnSyAJ74iBiRHBwnAU
 ```
+
 
 Ottengo così un address P2PKH.
 
@@ -112,7 +113,8 @@ $ bitcoin-cli getaddressinfo 1ExUh5vqcUjuuocAgnSyAJ74iBiRHBwnAU
 }
 ```
 
-il quale restituisce un pò di informazioni, tra cui la chiave pubblica compressa , la derivation path e lo scriptPubKey.
+
+il quale restituisce un pò di informazioni, tra cui la chiave pubblica compressa , la derivation path e lo scriptPubKey.
 
 Nello **scriptPubKey** è possibile trovare lo script da soddisfare per sbloccare la UTXO di riferimento. Per **UTXO** si intente la Unspent transaction output.
 
@@ -160,6 +162,7 @@ $ bitcoin-cli decodescript 76a9149917a0e372343fde946253d1c60c7f479925b1e288ac
 }
 ```
 
+
 Le informazioni che otteniamo sono molto interessanti.
 
 Abbiamo i diversi tipi di address, quindi **P2SH**, **Wrapped Segwit** e **SegWit** nativo.
@@ -182,11 +185,13 @@ Quindi con l’aiuto di variabili d’ambiente, salvo il digest dello **SHA256**
 $ ADDR_SHA=`printf 02413df2a3977bb663c4fc7418e7e004129c5cfc2d3d2bb6c9210ea8ee13769610 | xxd -r -p | openssl sha256| sed ‘s/^.* //’`
 ```
 
+
 Utilizzo il **digest** appena ottenuto per ottenere il digest della funzione crittografica **ripemd160** 
 
 ```bash
 $ ADDR_RIPEMD160=`printf $ADDR_SHA |xxd -r -p | openssl ripemd160 | sed ‘s/^.* //’`
 ```
+
 
 ed infine ottengo l’address, utilizzando **base58** comprensivo di checksum. **Base58** non è una funzione crittografica ma un encoding.
 
@@ -195,6 +200,7 @@ $ printf 00$ADDR_RIPEMD160 | xxd -p -r | base58 -c
 
 1ExUh5vqcUjuuocAgnSyAJ74iBiRHBwnAU
 ```
+
 
 Ottenendo l’address **mainnet**.
 

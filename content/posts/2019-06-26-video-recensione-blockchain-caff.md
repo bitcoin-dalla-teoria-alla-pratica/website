@@ -15,13 +15,13 @@ categories:
 
 ---
 
-#### Marco Crotta presenta il [libro Bitcoin dalla teoria alla pratica](https://www.amazon.it/gp/product/B07SNNNL2P/).
+#### Marco Crotta presenta il [libro Bitcoin dalla teoria alla pratica](https://www.amazon.it/gp/product/B07SNNNL2P/).
 
 Chi non conosce [Marco Crotta](https://www.blockchaincaffe.it/) e il suo canale youtube [Blockchain Caffè](https://www.youtube.com/channel/UC45fFhSPMzXN2TRqgkGLPsw)? 
 Personalmente è stato uno dei primi talk che ho seguito sull’argomento Bitcoin, ricordo ancora l’esempio della prima moneta di pietra e di come riuscì a collegarla alla criptomoneta bitcoin facendo capire alla platea (me compreso) l’idea di possesso. 
 L’ultima volta che ho partecipato ad un suo talk è stato a Firenze, dove a fine intervento si è trattenuto per rispondere a ogni tipo di domanda senza dare niente per scontato. 
 Persona preparata e disponibile, siamo quindi veramente **molto** orgogliosi delle parole che ha speso verso di noi e verso il libro. 
-Non nascondiamo che i primi giorni lo abbiamo guardato in loop! :)
+Non nascondiamo che i primi giorni lo abbiamo guardato in loop! :)
 
 ---
 

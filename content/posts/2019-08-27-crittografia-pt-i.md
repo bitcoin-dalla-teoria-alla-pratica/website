@@ -16,7 +16,7 @@ categories:
 
 ---
 
-### Crittografia Pt I
+### Crittografia Pt I
 
 #### L’arte del nascondere
 
@@ -25,12 +25,12 @@ Ma quali sono state le tappe fondamentali che la storia ha percorso per arrivare
 
 La prima volta che ho avuto a che fare con la **cifratura** e la **decifratura** è stato da piccolo, a mia insaputa, durante il caricamento di [Monkey Island](https://www.youtube.com/watch?v=GGCzZdmZgIw), o ancora durante il gioco [Indiana Jones and the Fate of Atlantis](https://youtu.be/LZZXJ3zCRDQ?t=9585).
 
-![Guarda, dietro di te!!! una scimmia a tre teste!!!](/img/posts/crittografia-pt-i-1.webp)
-*Guarda, dietro di te!!! una scimmia a tre teste!!!*
+![Guarda, dietro di te!!! una scimmia a tre teste!!!](/img/posts/crittografia-pt-i-1.webp)
+*Guarda, dietro di te!!! una scimmia a tre teste!!!*
 
 Entrambi ricordano la tecnica utilizzata da [Enea il tattico](https://it.wikipedia.org/wiki/Enea_Tattico) che utilizzava un sistema meccanico di dischi forati.
 
-Ma andiamo per ordine, dando delle definizioni ai termini base.  
+Ma andiamo per ordine, dando delle definizioni ai termini base.  
 *Il vocabolario delle parole chiave aumenterà strada facendo.*
 
 --- **Messaggio in chiaro**: testo che non ha subito cifrature, interpretabile da chiunque. **Cifrare**: Trasformare un messaggio in chiaro in un messaggio 
@@ -89,8 +89,8 @@ In questo modo anche se veniva intercettato da un nemico, quest’ultimo non era
 Solo il destinatario con la scitala identica al mittente poteva decifrarlo. 
 Possiamo paragonarla alla crittografia **simmetrica** dei giorni nostri. Geniale.
 
-![Cifrario di Enea il tattico.](/img/posts/crittografia-pt-i-3.webp)
-*Cifrario di Enea il tattico.*
+![Cifrario di Enea il tattico.](/img/posts/crittografia-pt-i-3.webp)
+*Cifrario di Enea il tattico.*
 
 Altra tecnica menzionata all’inizio di questo articolo è quella utilizzata da **Enea il tattico**.
 

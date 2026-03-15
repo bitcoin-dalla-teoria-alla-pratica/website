@@ -20,7 +20,7 @@ categories:
 
 Abbiamo spesso sentito che un titolo del celebre giornale “The Times” è inserito dentro la blockchain **Bitcoin**.
 
-Ma esattamente dove è inserito?  
+Ma esattamente dove è inserito?  
 Come è stato possibile?
 
 È una storia romantica se vogliamo, infatti **Satoshi Nakamoto**, il creatore di **Bitcoin**, ha lasciato un messaggio nel blocco genesi della blockchain Bitcoin.
@@ -33,7 +33,7 @@ All’interno della **coinbase** possiamo leggere la famosa frase.
 
 Tale frase ha un duplice significato, testimoniare la data del primo blocco, e la nascita di un nuovo sistema monetario indipendente.
 
-Ma che cosa c’è scritto in questo esadecimale?  
+Ma che cosa c’è scritto in questo esadecimale?  
 Come è possibile recuperarlo ed interpretarlo? 
 Utilizzando il comando **RPC** getblock e l’hash del blocco genesi, richiedendo un risultato più verboso aggiungendo 2 in fondo.
 
