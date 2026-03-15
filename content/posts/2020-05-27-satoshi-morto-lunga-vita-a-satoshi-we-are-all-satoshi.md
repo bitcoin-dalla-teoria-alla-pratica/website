@@ -23,7 +23,7 @@ categories:
 
 Il 24 Maggio 2020, non il 25 come molte testate hanno riportato, è stato pubblicato un messaggio anonimo su [Debian Pastezone](https://web.archive.org/web/20200525113513/https://paste.debian.net/1148565).
 
-![](https://cdn-images-1.medium.com/max/1200/1*QDSHPE0c4owyHXm3odRVKg.jpeg)
+![](/img/posts/satoshi-morto-lunga-vita-a-satoshi-we-are-all-satoshi-4.webp)
 
 La traduzione in italiano del messaggio è: “Craig Steven Wright è un bugiardo e un truffatore.
 
@@ -49,7 +49,7 @@ Il contesto è alquanto articolato e la storia si prolunga per anni quindi non p
 
 Vi consigliamo di leggere il capitolo dedicato alla questione all’interno del libro “[La vita segreta](https://amzn.to/2XuRq08)”.
 
-![Capitolo “L’affaire Satoshi” a p.121](https://cdn-images-1.medium.com/max/1200/1*M8mESxONJ0sSlc8rdCuMvQ.jpeg)
+![Capitolo “L’affaire Satoshi” a p.121](/img/posts/satoshi-morto-lunga-vita-a-satoshi-we-are-all-satoshi-5.webp)
 *Capitolo “L’affaire Satoshi” a p.121*
 
 ### Non ha le chiavi usate per firmare questo messaggio. **Perché sono importanti le chiavi usate per firmare questo messaggio**? Sono importanti perchè risultano essere le stesse chiavi per le quali CSW ha dichiarato, in [sede legale](https://www.courtlistener.com/recap/gov.uscourts.flsd.521536/gov.uscourts.flsd.521536.268.19.pdf%20/) tramite l’allegato [EXHIBIT 7](https://www.courtlistener.com/recap/gov.uscourts.flsd.521536/gov.uscourts.flsd.521536.512.7.pdf) , di possederne le corrispettive chiavi private. Le UTXO associate a queste chiavi, secondo CSW, risultano essere parte di un accordo, chiamato “Tulip Trust” fra CSW e Dave Kleiman. Dave è un altro early-adopter di Bitcoin sul quale vi consigliamo di [documentarvi](https://en.wikipedia.org/wiki/Dave_Kleiman#Alleged_Bitcoin_involvement).
@@ -83,7 +83,7 @@ Si riferisce al contenuto di una mail, purtroppo senza firma PGP, inviata da Sat
 
 We are all Satoshi.](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-December/011936.html)”
 
-![“I am not Craig Wright. We are all Satoshi.”](https://cdn-images-1.medium.com/max/1200/1*oeFs0Ew47zeIjy4KXqPQVA.jpeg)
+![“I am not Craig Wright. We are all Satoshi.”](/img/posts/satoshi-morto-lunga-vita-a-satoshi-we-are-all-satoshi-6.webp)
 *“I am not Craig Wright. We are all Satoshi.”*
 
 > **Adesso basta filosofia vogliamo vedere con la pratica se realmente** 1. Gli indirizzi in questione sono quelli citati da CSW in sede legale
@@ -97,7 +97,7 @@ Iniziamo confrontando il PDF “[EXHIBIT 7](https://www.courtlistener.com/recap/
 
 Cerchiamo il primo indirizzo nel file PDF trovando corrispondenza.
 
-![](https://cdn-images-1.medium.com/max/1200/1*GqWaqslTbyoSgpMMpcOziA.png)
+![](/img/posts/satoshi-morto-lunga-vita-a-satoshi-we-are-all-satoshi-5.webp)
 
 Come possiamo verificare la firma fornita nel Debian Pastezone e l’indirizzo? Nel primo [video del canale Bitcoin in Action](https://www.youtube.com/watch?v=RU7LHPP4Lvk) è stata spiegata proprio la firma digitale, per verificarla è necessario, la chiave pubblica, il messaggio e la firma digitale.
 
@@ -145,7 +145,7 @@ eseguiamolo
 sh satoshi.sh
 ``` **La verifiche sono andate tutte a buon fine**. Bene, in questo appuntamento abbiamo approfondito un pò narrativa della community Bitcoin ed abbiamo provato con mano come sia possibile dichiarare la proprietà delle UTXO e di messaggi associati off-chain.
 
-![https://twitter.com/adam3us/status/1264940026326061057](https://cdn-images-1.medium.com/max/1200/1*JkMvkU14eHstXuRmZuwpPQ.png)
+![https://twitter.com/adam3us/status/1264940026326061057](/img/posts/satoshi-morto-lunga-vita-a-satoshi-we-are-all-satoshi-6.webp)
 *https://twitter.com/adam3us/status/1264940026326061057*
 
 Alla prossima!

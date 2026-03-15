@@ -19,7 +19,7 @@ enableRobotsTXT = true
 
 [params]
   contentTypeName = "posts"
-  showMenuItems = 3
+  showMenuItems = 4
   showLanguageSelector = false
   fullWidthTheme = false
   centerTheme = false
@@ -68,4 +68,8 @@ enableRobotsTXT = true
           name = "Genesis Block"
           url = "/about"
           weight = 3
-          
+        [[languages.it.menu.main]]
+          identifier = "tags"
+          name = "Tags"
+          url = "/tags"
+          weight = 4

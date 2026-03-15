@@ -5,7 +5,7 @@ slug: "transazioni-in-regtest"
 draft: false
 author: "Alessio Barnini"
 description: "Come posso creare una transazioni tra due nodi?"
-cover: "https://cdn-images-1.medium.com/max/1200/1*EdeMc64B2AWgAXx2ODJNsw.png"
+cover: "/img/posts/transazioni-in-regtest-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -37,7 +37,7 @@ Inseriamo in entrambi i nodi l’opzione txindex=1 in modo tale da avere tutta l
 $ vim bitcoin_nodo2.conf
 ```
 
-![Configurazione nodo 2](https://cdn-images-1.medium.com/max/1200/1*rRinDepzLOWMv7d0lbjScw.png)
+![Configurazione nodo 2](/img/posts/transazioni-in-regtest-2.webp)
 *Configurazione nodo 2*
 
 stessa operazione per il nodo di default il cui percorso (default) nel mio computer è:
@@ -138,7 +138,7 @@ Che cosa succede adesso? La transazione è stata inviata ma non è ancora stata 
 Nella mempool! 
 Dobbiamo essere in grado di verificare la sua presenza in entrambi i nodi.
 
-![Estratto dellibroecorsoBitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*EdeMc64B2AWgAXx2ODJNsw.png)
+![Estratto dellibroecorsoBitcoin dalla teoria alla pratica](/img/posts/transazioni-in-regtest-1.webp)
 *Estratto dellibroecorsoBitcoin dalla teoria alla pratica*
 
 ```bash

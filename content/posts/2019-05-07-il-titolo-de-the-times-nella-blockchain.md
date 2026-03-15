@@ -5,7 +5,7 @@ slug: "il-titolo-de-the-times-nella-blockchain"
 draft: false
 author: "Alessio Barnini"
 description: "Abbiamo spesso sentito che un titolo del celebre giornale “The Times” è inserito dentro la blockchain Bitcoin."
-cover: "https://cdn-images-1.medium.com/max/1200/0*GUPMgH6fiEInMGs4"
+cover: "/img/posts/il-titolo-de-the-times-nella-blockchain-1.jpg"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -43,4 +43,4 @@ Adesso possiamo convertire l’esadecimale in ASCII.
 
 Ottenendo così il titolo de “The Times” del 3 gennaio 2009.
 
-![](https://cdn-images-1.medium.com/max/1200/0*GUPMgH6fiEInMGs4)
+![Il Titolo De The Times Nella Blockchain](/img/posts/il-titolo-de-the-times-nella-blockchain-1.jpg)

@@ -5,7 +5,7 @@ slug: "bitcoin-199-questions"
 draft: false
 author: "Alessio Barnini"
 description: "The pocket-sized paperback book on Bitcoin answers."
-cover: "https://cdn-images-1.medium.com/max/1200/1*omENmYhCjBhBcE5ydevDuQ.png"
+cover: "/img/posts/bitcoin-199-questions-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -29,7 +29,7 @@ Who does not remember the **Cliff’s Notes**? Did you also try to quickly sneak
 
 Those little books helped us many times and we wanted to create something similar.
 
-![Bitcoin 199 questions](https://cdn-images-1.medium.com/max/1200/1*omENmYhCjBhBcE5ydevDuQ.png)
+![Bitcoin 199 questions](/img/posts/bitcoin-199-questions-1.webp)
 *Bitcoin 199 questions*
 
 The book is divided into 4 sections: **Basic level**: it explains more general, but still fundamental concepts, such as “Who issues the new bitcoins?” or “Why is the blockchain immutable?”. **Intermediate level**: it provides answers to questions with a higher degree of difficulty, such as “How do you identify a block?” or “What is a reward?” **Advanced level**: it includes more technical questions, such as “What is a digital signature?” or “What is a nonce?” **Nerd zone**: the most technical level.

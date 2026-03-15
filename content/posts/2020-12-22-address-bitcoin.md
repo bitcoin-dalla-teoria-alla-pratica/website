@@ -52,7 +52,7 @@ Senza andare troppo nel dettaglio, vediamo un esempio.
 
 L’operazione che vogliamo fare è una somma 2 + 2, quindi secondo l’annotazione polacca prima mettiamo 22 e poi l’operazione somma, OP_ADD.
 
-![](https://cdn-images-1.medium.com/max/1200/1*FSsyaz5zQak6TJQFRbeWpg.png)
+![](/img/posts/address-bitcoin-2.webp)
 
 ![](https://cdn-images-1.medium.com/max/1200/1*4tcl_pEcUI2CZ1WRgZOSHQ.png)
 

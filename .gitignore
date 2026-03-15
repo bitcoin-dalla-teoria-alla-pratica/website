@@ -24,3 +24,4 @@ yarn-error.log*
 *.swo
 
 medium_to_hugo.py
+download_images.py

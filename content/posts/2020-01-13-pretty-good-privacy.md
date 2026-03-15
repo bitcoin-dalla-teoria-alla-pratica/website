@@ -5,7 +5,7 @@ slug: "pretty-good-privacy"
 draft: false
 author: "Alessio Barnini"
 description: "PGP/GPG come verificare i pacchetti Bitcoin e Electrum."
-cover: "https://cdn-images-1.medium.com/max/1200/0*O0l-9eGBSVdJVL99.jpg"
+cover: "/img/posts/pretty-good-privacy-1.webp"
 tags:
   - "Bitcoin"
   - "Chiave Pubblica"
@@ -26,7 +26,7 @@ Ecco il primo pensiero che ci viene in mente quando scarichiamo un software.
 
 > Warning: Electrum versions older than 3.3.4 are susceptible to [phishing](https://github.com/spesmilo/electrum/issues/4968). Do not download Electrum from another source than electrum.org, **and learn to verify GPG signatures**.
 
-![Don’t trust, verify!](https://cdn-images-1.medium.com/max/1200/0*O0l-9eGBSVdJVL99.jpg)
+![Don’t trust, verify!](/img/posts/pretty-good-privacy-1.webp)
 *Don’t trust, verify!*
 
 Q: Che cosa significa PGP? 

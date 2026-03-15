@@ -5,7 +5,7 @@ slug: "come-si-valida-una-transazione-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "I 3 concetti base da conoscere"
-cover: "https://cdn-images-1.medium.com/max/1200/1*yeFVeMUJlY8jeHJMFYmmzg.jpeg"
+cover: "/img/posts/come-si-valida-una-transazione-p2pk-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -18,7 +18,7 @@ categories:
 
 #### I 3 concetti base da conoscere
 
-![Come si valida una transazione P2PK?](https://cdn-images-1.medium.com/max/1200/1*yeFVeMUJlY8jeHJMFYmmzg.jpeg)
+![Come si valida una transazione P2PK?](/img/posts/come-si-valida-una-transazione-p2pk-1.webp)
 *Come si valida una transazione P2PK?*
 
 Nel [video precedente](https://www.youtube.com/watch?v=gJgavv8wIYs)abbiamo introdotto lo **Stack** e abbiamo capito che viene utilizzato per validare la transazione. 
@@ -127,8 +127,8 @@ Che compito ha OP_CHECKSIG? Il suo compito è quello di fare due volte la funzio
 ![Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48](https://cdn-images-1.medium.com/max/1200/1*DV72p9lsHS2bNwOi5CsG0A.png)
 *Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48*
 
-![Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48](https://cdn-images-1.medium.com/max/1200/1*htlIJ-QVw0XAmoDMVXuksQ.png)
+![Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48](/img/posts/come-si-valida-una-transazione-p2pk-3.webp)
 *Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48*
 
-![Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48](https://cdn-images-1.medium.com/max/1200/1*zi78pygLASkw9AZMQEw6hw.png)
+![Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48](/img/posts/come-si-valida-una-transazione-p2pk-4.webp)
 *Estratti del videohttps://www.youtube.com/watch?v=iVWMaGO3m48*

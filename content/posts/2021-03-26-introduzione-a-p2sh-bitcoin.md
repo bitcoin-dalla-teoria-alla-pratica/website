@@ -26,7 +26,7 @@ Come la parola stessa ci suggerisce, andiamo a pagare alla *vista* di un hash di
 
 Questo tipo di script è affrontato in modo molto dettagliato nel libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](prodotti/bitcoin-in-action/).
 
-![Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts.](https://cdn-images-1.medium.com/max/1200/1*vwLdbuAnleMzZqJtzejOeg.jpeg)
+![Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts.](/img/posts/introduzione-a-p2sh-bitcoin-2.webp)
 *Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts.*
 
 Andiamo per gradi.

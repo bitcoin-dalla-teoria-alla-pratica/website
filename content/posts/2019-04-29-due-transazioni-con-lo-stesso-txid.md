@@ -6,7 +6,7 @@ draft: false
 author: "Alessio Barnini"
 description: "Un pò di tempo fa il protocollo Bitcoin fece nascere due transazioni con lo stesso identificativo. 
 Cercando la transazione con id…"
-cover: "https://cdn-images-1.medium.com/max/1200/1*bJPPcNzZUvTdh3qJrcOgCA.jpeg"
+cover: "/img/posts/due-transazioni-con-lo-stesso-txid-1.jpeg"
 tags:
   - "BIP"
   - "Bitcoin"
@@ -19,7 +19,7 @@ categories:
 
 ### Due transazioni con lo stesso txid
 
-![Two bad — master of the universe](https://cdn-images-1.medium.com/max/1200/1*bJPPcNzZUvTdh3qJrcOgCA.jpeg)
+![Two bad — master of the universe](/img/posts/due-transazioni-con-lo-stesso-txid-1.jpeg)
 *Two bad — master of the universe*
 
 Un pò di tempo fa il protocollo **Bitcoin** fece *nascere* due transazioni con lo stesso identificativo.  
@@ -85,5 +85,5 @@ risultato:e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468
 Esatto, le due transazioni hanno lo stesso identico transaction data, ecco perchè hanno lo stesso txid! 
 Per evitare questo problema è stato introdotto il [BIP-34](https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki), che obbliga ad inserire l’altezza del blocco all’interno dello scriptSig, risolvendo così il problema.
 
-![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](https://cdn-images-1.medium.com/max/1200/1*Zb2RB6CyI0_vELiO44iqmQ.png)
+![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/due-transazioni-con-lo-stesso-txid-2.png)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*

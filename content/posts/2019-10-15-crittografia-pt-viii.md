@@ -41,7 +41,7 @@ Per questo motivo la chiave pubblica ha questo nome, in quanto può essere distr
 Questa scoperta ha inaugurato l’era dell’autenticazione e della firma digitale. 
 Pensate che l’algoritmo è utilizzato nel SSL (Secure Socket Layer) da Visa e Mastercard :)
 
-#### **Come viene utilizzata per nascondere il messaggio**?![codificare il messaggio con la chiave pubblica.](https://cdn-images-1.medium.com/max/1200/1*y4KWfnXwvyCiGobOkHmAcw.gif)
+#### **Come viene utilizzata per nascondere il messaggio**?![codificare il messaggio con la chiave pubblica.](/img/posts/crittografia-pt-viii-1.webp)
 *codificare il messaggio con la chiave pubblica.*
 
 Ipotizziamo che Bob voglia mandare ad Alice una messaggio cifrato.  
@@ -60,7 +60,7 @@ Asserendo che la chiave privata è **segreta** abbiamo la certezza che solo una 
 
 Questo non fornisce nessuna **cifratura segreta** in quanto la chiave pubblica può essere distribuita in un canale non sicuro, ma **autentica** il mittente dandoci la sicurezza che il messaggio provenga esattamente da quella persona.
 
-![Autenticazione ottenuta con la chiave privata del mittente](https://cdn-images-1.medium.com/max/1200/1*YaGsjK2oG5-m9mpnywJALw.gif)
+![Autenticazione ottenuta con la chiave privata del mittente](/img/posts/crittografia-pt-viii-2.webp)
 *Autenticazione ottenuta con la chiave privata del mittente*
 
 Con l’aiuto dell’immagine si può spiegare più facilmente: 
@@ -75,7 +75,7 @@ Con l’aiuto dell’immagine si può spiegare più facilmente:
 
 Per ottenere anche la segretezza è possibile cifrare il messaggio con la chiave pubblica del destinatario proprio come abbiamo visto nel primo esempio.
 
-![Autenticazione e segretezza del messaggio](https://cdn-images-1.medium.com/max/1200/1*NOEowUB9XpOcZVtLNdZePA.gif)
+![Autenticazione e segretezza del messaggio](/img/posts/crittografia-pt-viii-3.webp)
 *Autenticazione e segretezza del messaggio*
 
 Con l’aiuto dell’immagine si può spiegare più facilmente: 
@@ -94,7 +94,7 @@ Utilizzando un algoritmo di hash otteniamo una dimensione fissa da una dimension
 Ad esempio Bitcoin utilizza molto spesso l’algoritmo **SHA256**, che da una dimensione variabile restituisce sempre una dimensione di **256bit** (64 caratteri esadecimali). 
 Così la firma digitale è rappresentata dal messaggio hash cifrato.
 
-![Firma digitale](https://cdn-images-1.medium.com/max/1200/1*dCSS4jFsbHBGZdS4UytOwA.gif)
+![Firma digitale](/img/posts/crittografia-pt-viii-4.webp)
 *Firma digitale*
 
 Con l’aiuto dell’immagine si può spiegare più facilmente: 

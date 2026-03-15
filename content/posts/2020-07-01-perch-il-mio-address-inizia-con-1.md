@@ -5,7 +5,7 @@ slug: "perch-il-mio-address-inizia-con-1"
 draft: false
 author: "Alessio Barnini"
 description: "Video completo disponibile su youtube."
-cover: "https://cdn-images-1.medium.com/max/2560/1*LyqNYSJeztGL50AZZF0zLw.png"
+cover: "/img/posts/perch-il-mio-address-inizia-con-1-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -20,7 +20,7 @@ categories:
 
 #### Video completo disponibile su [youtube](https://youtu.be/--oq3SbK2xQ).
 
-![](https://cdn-images-1.medium.com/max/2560/1*LyqNYSJeztGL50AZZF0zLw.png)
+![](/img/posts/perch-il-mio-address-inizia-con-1-1.webp)
 
 Ciao,
 

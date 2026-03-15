@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="post">
+    <h1 class="post-title">Tags</h1>
+    <p>Tutti i tag trattati, ordinati per numero di articoli.</p>
+
+    <div class="terms-list">
+      {{ $type := .Type }}
+      {{ range .Data.Terms.ByCount }}
+        {{ $name := .Name }}
+        {{ $count := .Count }}
+        {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+          <a class="term-item" href="{{ .Permalink }}">
+            #{{ .Name }}<span class="term-count">{{ $count }}</span>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

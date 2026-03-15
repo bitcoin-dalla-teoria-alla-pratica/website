@@ -5,7 +5,7 @@ slug: "i-nostri-libri-alla-libreria-hoepli-di-milano"
 draft: false
 author: "Alessio Barnini"
 description: "Siamo euforici!"
-cover: "https://cdn-images-1.medium.com/max/1200/1*9_0XvU4L4hu_s5EbmgklqA.jpeg"
+cover: "/img/posts/i-nostri-libri-alla-libreria-hoepli-di-milano-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -26,7 +26,7 @@ Perché siamo **euforici**? Beh semplice!
 - Oltre 40 metri lineari di vetrine.
 - 2 chilometri di scaffali pieni di libri.
 - Più di 100.000 libri, di cui circa il 20% in lingua straniera.
-- **La Grande Libreria Internazionale Hoepli è una tra le più grandi librerie in Italia e in Europa**.![Bitcoin dalla teoria alla praticaeBitcoin 199 domande— Milano libreria Hoepli](https://cdn-images-1.medium.com/max/1200/1*LkwpqPYnt7awE-_IeEqmeQ.jpeg)
+- **La Grande Libreria Internazionale Hoepli è una tra le più grandi librerie in Italia e in Europa**.![Bitcoin dalla teoria alla praticaeBitcoin 199 domande— Milano libreria Hoepli](/img/posts/i-nostri-libri-alla-libreria-hoepli-di-milano-2.webp)
 *Bitcoin dalla teoria alla praticaeBitcoin 199 domande— Milano libreria Hoepli*
 
 I testi inerenti a **Bitcoin** e **Blockchain** sono tutti nella sezione economia, ma fortunatamente il personale dopo aver preso visione dei nostri testi, ha deciso di inserirli nel reparto informatica.
@@ -39,13 +39,13 @@ Essere affiancati a testi del calibro di “Mastering Ethereum” e la *bibbia* 
 
 Per l’occasione i libri sono stati aggiornati con l’errata corrige segnalata dai nostri lettori nel [repository Github](https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi), è stata migliorata l’impaginazione e abbiamo creato delle nuove grafiche social, grazie alla società **BAR** ([civediamoalbar.com](http://civediamoalbar.com)).
 
-![Gli autori —Alessandro AgliettieAlessio Barnini](https://cdn-images-1.medium.com/max/1200/1*c4tZaVVTrCrqjxE7Gib5PQ.jpeg)
+![Gli autori —Alessandro AgliettieAlessio Barnini](/img/posts/i-nostri-libri-alla-libreria-hoepli-di-milano-3.webp)
 *Gli autori —Alessandro AgliettieAlessio Barnini*
 
 Il nostro progetto non ha intenzione di fermarsi, tutt’altro! È in fase di revisione la versione in inglese “Bitcoin From theory to practice”, la stesura di un nuovo libro e altre novità che condivideremo al più presto!
 
-![Il bizantino alla libreria InternazionaleHoepli.](https://cdn-images-1.medium.com/max/1200/1*bFVzVg3-xQWtkQTa-e7KFg.jpeg)
+![Il bizantino alla libreria InternazionaleHoepli.](/img/posts/i-nostri-libri-alla-libreria-hoepli-di-milano-4.webp)
 *Il bizantino alla libreria InternazionaleHoepli.*
 
-![Il bizantino al duomo di Milano.](https://cdn-images-1.medium.com/max/1200/1*9_0XvU4L4hu_s5EbmgklqA.jpeg)
+![Il bizantino al duomo di Milano.](/img/posts/i-nostri-libri-alla-libreria-hoepli-di-milano-1.webp)
 *Il bizantino al duomo di Milano.*

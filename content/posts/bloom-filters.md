@@ -5,7 +5,7 @@ slug: "bloom-filters"
 draft: false
 author: "Alessio Barnini"
 description: "Personalmente sono rimasto molto affascinato da questa struttura dati probabilistica creata da Burton Howard Bloom nel 1970."
-cover: "https://cdn-images-1.medium.com/max/1200/0*9B009Yc2BZJGb3h8"
+cover: "/img/posts/bloom-filters-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -58,7 +58,7 @@ Con un esempio pratico sarà più chiaro capire come funzionano i bloom filters.
 
 Cercando di semplificare possiamo dire che il bloom filters si presenta così, ovvero con un array di zeri
 
-![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](https://cdn-images-1.medium.com/max/1200/0*9B009Yc2BZJGb3h8)
+![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/bloom-filters-1.webp)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*
 
 L’obiettivo è quello di verificare se alcune parole fanno parte dell’insieme. 

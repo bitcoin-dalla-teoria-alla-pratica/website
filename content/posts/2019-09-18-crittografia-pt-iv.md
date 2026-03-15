@@ -5,7 +5,7 @@ slug: "crittografia-pt-iv"
 draft: false
 author: "Alessio Barnini"
 description: "L’arte del nascondere —  Guerra fredda e Che Guevara"
-cover: "https://cdn-images-1.medium.com/max/1200/0*1ysWidjOb4gN32p8.jpg"
+cover: "/img/posts/crittografia-pt-iv-1.webp"
 tags:
   - "Crittografia"
 categories:
@@ -25,7 +25,7 @@ Questo portò velocemente a sviluppare nuovi sistemi **polialfabetici** e mandar
 
 Nel 1917 [**Gilbert Vernam**](https://it.wikipedia.org/wiki/Gilbert_Vernam) allora impiegato alla AT&T inventò un sistema di cifratura da utilizzare con il telegrafo.
 
-![Il telegrafo permette la trasmissione di dati a distanza](https://cdn-images-1.medium.com/max/1200/0*ObLS3t0Uxkg4tZJ4.jpg)
+![Il telegrafo permette la trasmissione di dati a distanza](/img/posts/crittografia-pt-iv-2.webp)
 *Il telegrafo permette la trasmissione di dati a distanza*
 
 Il cifrario di **Vernam** consisteva nel sostituire le lettere con dei numeri che venivano a loro volta *sommati* con una chiave lunga quanto il messaggio da codificare.
@@ -34,14 +34,14 @@ La chiave era OTP, **One time pad**, usa e getta.
 
 Il sistema Vernam fu etichettato come sistema di **cifratura perfetto** il che vuol dire che non si può ottenere il testo in chiaro avvalendosi della crittoanalisi, ma serve la chiave di cifratura per decifrare il messaggio.
 
-![Il telefono rosso](https://cdn-images-1.medium.com/max/1200/0*jYf5n-1sJ6SDQGHV.png)
+![Il telefono rosso](/img/posts/crittografia-pt-iv-3.webp)
 *Il telefono rosso*
 
 Fu utilizzato durante la guerra fredda con l’utilizzo del [telefono rosso](https://it.wikipedia.org/wiki/Linea_rossa), la linea che collegava Washington e Mosca.
 
 Questa linea di comunicazione doveva evitare il rischio di una **guerra atomica**.
 
-![Ernesto Che Guevara](https://cdn-images-1.medium.com/max/1200/0*1ysWidjOb4gN32p8.jpg)
+![Ernesto Che Guevara](/img/posts/crittografia-pt-iv-1.webp)
 *Ernesto Che Guevara*
 
 Anche [Che Guevara](https://it.wikipedia.org/wiki/Che_Guevara) e [Fidel Castro](https://it.wikipedia.org/wiki/Fidel_Castro) utilizzavano il sistema Vernam per le loro comunicazioni.
@@ -57,7 +57,7 @@ Facciamo un esempio con la parola BARNO.
 Prendiamo l’alfabeto e numeriamolo. Prendiamo anche una chiave random **APWQM**. Ovviamente il mittente e il destinatario dovevano conoscere la chiave.  
 Qui abbiamo il problema delle distribuzioni delle chiavi che si presenta nella [crittografia simmetrica](https://it.wikipedia.org/wiki/Crittografia_simmetrica), che vedremo più avanti.
 
-![scusate l’immagine un pò artigianale :)](https://cdn-images-1.medium.com/max/1200/1*ow5fMr843GsSO-k0fL31tw.png)
+![scusate l’immagine un pò artigianale :)](/img/posts/crittografia-pt-iv-4.webp)
 *scusate l’immagine un pò artigianale :)* **Testo chiaro ….**. `B A R N O` **Chiave………....**. `A P W Q M` **Testo crittato ….**. `B P N D A`
 
 La prima lettera del testo in chiaro è la **B** che ha come valore numerico 1. 
@@ -103,5 +103,5 @@ La quinta lettera della chiave è **M** che ha come valore numerico 12.
 
 Il risultato è `B A R N O`. **Incredibile**. ---
 
-![Alcuni appunti presi durante lo studio](https://cdn-images-1.medium.com/max/1200/1*-oiJYatLZF-ZFCkKHN2Ong.png)
+![Alcuni appunti presi durante lo studio](/img/posts/crittografia-pt-iv-5.webp)
 *Alcuni appunti presi durante lo studio*

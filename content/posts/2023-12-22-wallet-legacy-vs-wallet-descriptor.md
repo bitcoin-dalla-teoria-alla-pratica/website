@@ -54,7 +54,7 @@ Ciò implicava la possibilità di ottenere ogni chiave derivabile da essa, sia h
 
 Per ulteriori approfondimenti sulla tematica hardned e non hardned, si consiglia di libro [Bitcoin dalla Teoria alla Pratica](https://amzn.to/2Ldym0F)
 
-![Bitcoin dalla Teoria alla Pratica](https://cdn-images-1.medium.com/max/1200/1*akOVx54flkLJDFyLTuD4uA.png)
+![Bitcoin dalla Teoria alla Pratica](/img/posts/wallet-legacy-vs-wallet-descriptor-2.webp)
 *Bitcoin dalla Teoria alla Pratica*
 
 #### Il Futuro dei Wallet Bitcoin

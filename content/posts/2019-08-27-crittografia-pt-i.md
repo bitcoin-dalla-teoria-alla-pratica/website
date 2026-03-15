@@ -5,7 +5,7 @@ slug: "crittografia-pt-i"
 draft: false
 author: "Alessio Barnini"
 description: "L’arte del nascondere"
-cover: "https://cdn-images-1.medium.com/max/1200/1*IKLt0hEEbWr0RbuNG_klMA.gif"
+cover: "/img/posts/crittografia-pt-i-1.webp"
 tags:
   - "Bitcoin"
   - "Crittografia"
@@ -25,7 +25,7 @@ Ma quali sono state le tappe fondamentali che la storia ha percorso per arrivare
 
 La prima volta che ho avuto a che fare con la **cifratura** e la **decifratura** è stato da piccolo, a mia insaputa, durante il caricamento di [Monkey Island](https://www.youtube.com/watch?v=GGCzZdmZgIw), o ancora durante il gioco [Indiana Jones and the Fate of Atlantis](https://youtu.be/LZZXJ3zCRDQ?t=9585).
 
-![Guarda, dietro di te!!! una scimmia a tre teste!!!](https://cdn-images-1.medium.com/max/1200/1*IKLt0hEEbWr0RbuNG_klMA.gif)
+![Guarda, dietro di te!!! una scimmia a tre teste!!!](/img/posts/crittografia-pt-i-1.webp)
 *Guarda, dietro di te!!! una scimmia a tre teste!!!*
 
 Entrambi ricordano la tecnica utilizzata da [Enea il tattico](https://it.wikipedia.org/wiki/Enea_Tattico) che utilizzava un sistema meccanico di dischi forati.
@@ -69,7 +69,7 @@ Ecco che da qui è nata la necessità della **crittografia**. Il suo scopo non �
 
 Riporto le tecniche che mi hanno maggiormente emozionato.
 
-![Scitala utilizzata nell’antica Grecia](https://cdn-images-1.medium.com/max/1200/0*xcPT_qg2p2DSfqTq.jpg)
+![Scitala utilizzata nell’antica Grecia](/img/posts/crittografia-pt-i-2.webp)
 *Scitala utilizzata nell’antica Grecia*
 
 La tecnica della **scitala**, utilizzati dai magistrati di Sparta.
@@ -89,7 +89,7 @@ In questo modo anche se veniva intercettato da un nemico, quest’ultimo non era
 Solo il destinatario con la scitala identica al mittente poteva decifrarlo. 
 Possiamo paragonarla alla crittografia **simmetrica** dei giorni nostri. Geniale.
 
-![Cifrario di Enea il tattico.](https://cdn-images-1.medium.com/max/1200/1*syXHjOKKVlgFx5sRJcgTIA.png)
+![Cifrario di Enea il tattico.](/img/posts/crittografia-pt-i-3.webp)
 *Cifrario di Enea il tattico.*
 
 Altra tecnica menzionata all’inizio di questo articolo è quella utilizzata da **Enea il tattico**.

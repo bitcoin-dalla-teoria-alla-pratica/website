@@ -5,7 +5,7 @@ slug: "bitcoin-in-action-come-replicare-gli-esempi"
 draft: false
 author: "Alessio Barnini"
 description: "Ciao, come sapete abbiamo rilasciato il nostro terzo libro — Bitcoin in Action, SegWit, Bitcoin script & smart contracts."
-cover: "https://cdn-images-1.medium.com/max/1200/1*HKex9kyVdls9X3ItKtxVug.png"
+cover: "/img/posts/bitcoin-in-action-come-replicare-gli-esempi-2.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -18,7 +18,7 @@ categories:
 
 ### **Bitcoin In Action — Come replicare gli esempi** Ciao, come sapete abbiamo rilasciato il nostro terzo libro —[**Bitcoin in Action**,* SegWit, Bitcoin script & smart contracts*](https://amzn.to/3pJcXj1).
 
-![Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts](https://cdn-images-1.medium.com/max/1200/1*HKex9kyVdls9X3ItKtxVug.png)
+![Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts](/img/posts/bitcoin-in-action-come-replicare-gli-esempi-2.webp)
 *Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts*
 
 Come per il libro precedente — [Bitcoin dalla teoria alla pratica](https://amzn.to/2MOj1av) — abbiamo deciso di spiegare tutta la teoria utilizzando la pratica, così da facilitare l’utente alla comprensione della teoria stessa.
@@ -106,7 +106,7 @@ Per essere certi che tutto sia corretto, possiamo spostarci nella root del nostr
 $ ls -l
 ```
 
-![Collegamento Simbolico con la Datadir di Bitcoin](https://cdn-images-1.medium.com/max/1200/1*9jRlhIJxuOXY4b5P-_MIkw.png)
+![Collegamento Simbolico con la Datadir di Bitcoin](/img/posts/bitcoin-in-action-come-replicare-gli-esempi-2.webp)
 *Collegamento Simbolico con la Datadir di Bitcoin*
 
 L’ultimo passaggio è inserire nel $PATH la cartella Utility, la quale contiene delle utility appunto, necessarie per evitare di scrivere più e più volte lo stesso snippet di codice durante la pratica
@@ -275,7 +275,7 @@ Dopo aver seguito le istruzione descritte nel loro [repository](https://github.c
 $ sh tx_mall.sh debug
 ```
 
-![Stack ottenuto con il parametro debug](https://cdn-images-1.medium.com/max/1200/1*DoNy93ODlmML1yxiwHTeog.png)
+![Stack ottenuto con il parametro debug](/img/posts/bitcoin-in-action-come-replicare-gli-esempi-4.webp)
 *Stack ottenuto con il parametro debug*
 
 Non è obbligatorio aver installato [btcdeb](https://github.com/bitcoin-core/btcdeb), ma lo consigliamo, nonostante nel libro siano comunque riportati tutti gli stack. 

@@ -5,7 +5,7 @@ slug: "pizza-day-in-segwit"
 draft: false
 author: "Alessio Barnini"
 description: "Scopri il video su youtube — Bitcoin in Action"
-cover: "https://cdn-images-1.medium.com/max/1200/1*ssfH4XuAreWhL68CbjGvNw.png"
+cover: "/img/posts/pizza-day-in-segwit-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -18,14 +18,14 @@ categories:
 
 ### **Pizza day in SegWit** #### Scopri il video su youtube — Bitcoin in Action
 
-![Scopri il video su Bitcoin in Action](https://cdn-images-1.medium.com/max/1200/1*ssfH4XuAreWhL68CbjGvNw.png)
+![Scopri il video su Bitcoin in Action](/img/posts/pizza-day-in-segwit-1.webp)
 *Scopri il video su Bitcoin in Action*
 
 Oggi, 22 Maggio 2020, è il 10° anniversario del pizza day.
 
 Di che cosa si tratta? L’utente Laszlo scrisse su [bitcoin talk](https://bitcointalk.org/index.php?topic=137.msg1141) che avrebbe pagato 10.000 bitcoin per chi gli avesse consegnato 2 pizze belle grandi, così da mangiarla anche il giorno dopo.
 
-![Post originale di Laszlo](https://cdn-images-1.medium.com/max/1200/0*UFgCaXGXQDLufHHU.png)
+![Post originale di Laszlo](/img/posts/pizza-day-in-segwit-2.webp)
 *Post originale di Laszlo*
 
 Il messaggio “provocatorio” fu accettato da un utente, che noi chiameremo Luigi, stereotipo del pizzaiolo italiano all’estero.

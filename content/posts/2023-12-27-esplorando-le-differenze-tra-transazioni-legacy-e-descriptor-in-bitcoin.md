@@ -52,7 +52,7 @@ docker exec -it bitcoin-in-action-youtube zsh
 
 I nostri esempi si basano sempre sulla regtest, sia qui che nei nostri libri [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](https://amzn.to/3pJcXj1)e [Libro Bitcoin dalla teoria alla pratica](https://amzn.to/2Ldym0F)
 
-![https://linktr.ee/satoshiwantsyou](https://cdn-images-1.medium.com/max/1200/1*QfBGF4Pcd3vgzH4Fx_wP5Q.jpeg)
+![https://linktr.ee/satoshiwantsyou](/img/posts/esplorando-le-differenze-tra-transazioni-legacy-e-descriptor-in-bitcoin-2.webp)
 *https://linktr.ee/satoshiwantsyou*
 
 Dopo aver lanciado docker compo

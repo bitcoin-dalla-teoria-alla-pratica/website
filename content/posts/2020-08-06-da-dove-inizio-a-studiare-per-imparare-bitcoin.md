@@ -5,7 +5,7 @@ slug: "da-dove-inizio-a-studiare-per-imparare-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Dai subito un’occhiata al nostro canale youtube!"
-cover: "https://cdn-images-1.medium.com/max/1200/1*9JVLiWGHuyoL6U8OTaXN_Q.png"
+cover: "/img/posts/da-dove-inizio-a-studiare-per-imparare-bitcoin-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -49,7 +49,7 @@ Il tascabile si chiama “[Bitcoin 199 domande](https://www.amazon.it/dp/1098612
 
 Le domande e le risposte sono di poche righe.
 
-![Bitcoin 199 domande](https://cdn-images-1.medium.com/max/1200/1*GKoscXkl7_2t9W_6Mf-HGA.png)
+![Bitcoin 199 domande](/img/posts/da-dove-inizio-a-studiare-per-imparare-bitcoin-3.webp)
 *Bitcoin 199 domande*
 
 Ma se la domanda ci viene fatta da una persona tecnica, le risorse sono molteplici.
@@ -76,7 +76,7 @@ Spiega e dimostra come viene creato un wallet deterministico, partendo dalla see
 
 Analizza byte per byte la transazione P2PKH e lo stack.
 
-![Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*9JVLiWGHuyoL6U8OTaXN_Q.png)
+![Bitcoin dalla teoria alla pratica](/img/posts/da-dove-inizio-a-studiare-per-imparare-bitcoin-1.webp)
 *Bitcoin dalla teoria alla pratica*
 
 Il codice utilizzato è versionato nel nostro repository [GitHub](https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi)

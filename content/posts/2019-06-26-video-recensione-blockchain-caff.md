@@ -5,7 +5,7 @@ slug: "video-recensione-blockchain-caff"
 draft: false
 author: "Alessio Barnini"
 description: "Marco Crotta presenta il libro Bitcoin dalla teoria alla pratica."
-cover: "https://cdn-images-1.medium.com/max/1200/1*7wyyHlQEZuHxAusTHQKFvw.png"
+cover: "/img/posts/video-recensione-blockchain-caff-1.png"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -25,7 +25,7 @@ Non nascondiamo che i primi giorni lo abbiamo guardato in loop! :)
 
 ---
 
-![Presentazione dellibro Bitcoin dalla teoria alla praticaa cura diMarco Crotta Blockchain Caffè](https://cdn-images-1.medium.com/max/1200/1*7wyyHlQEZuHxAusTHQKFvw.png)
+![Presentazione dellibro Bitcoin dalla teoria alla praticaa cura diMarco Crotta Blockchain Caffè](/img/posts/video-recensione-blockchain-caff-1.png)
 *Presentazione dellibro Bitcoin dalla teoria alla praticaa cura diMarco Crotta Blockchain Caffè*
 
 Il libro Bitcoin dalla teoria alla pratica è disponibile su [Amazon](https://www.amazon.it/gp/product/B07SNNNL2P/) in formato cartaceo e digitale, e sul nostro [sito ufficiale (corsobitcoin.com)](https://corsobitcoin.com/negozio/) con la possibilità di pagamento in bitcoin.

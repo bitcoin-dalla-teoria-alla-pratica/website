@@ -5,7 +5,7 @@ slug: "come-formata-una-transazione-bitcoin-p2sh-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "Video disponibile sul canale YouTube Bitcoin in Action"
-cover: "https://cdn-images-1.medium.com/max/1200/1*VY-lgsCkckkuF8obuEAh8A.jpeg"
+cover: "/img/posts/come-formata-una-transazione-bitcoin-p2sh-p2pk-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -22,7 +22,7 @@ Ciao,
 
 Negli articoli precedenti abbiamo analizzato come è costruito un [address P2SH-P2PK](https://bitcoin-in-action.medium.com/come-creare-un-address-p2sh-p2pk-bitcoin-2ed875f9fd7e), e in questa introduzione andremo invece ad analizzare come è costruita la transazione.
 
-![Frame del video Bitcoin in Action —Come è formata una transazione P2SH-P2PK](https://cdn-images-1.medium.com/max/1200/1*VY-lgsCkckkuF8obuEAh8A.jpeg)
+![Frame del video Bitcoin in Action —Come è formata una transazione P2SH-P2PK](/img/posts/come-formata-una-transazione-bitcoin-p2sh-p2pk-1.webp)
 *Frame del video Bitcoin in Action —Come è formata una transazione P2SH-P2PK*
 
 Nell’immagine della lavagna è riportata una simil transazione, ovvero come poi verrà eseguito lo script.
@@ -60,7 +60,7 @@ Se tutto va a buon fine il redeem script viene *deserializzato* e viene validata
 
 La transazione validata step by step è spiegata nel libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](prodotti/bitcoin-in-action/).
 
-![Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](https://cdn-images-1.medium.com/max/1200/1*imG__98FnJWdFN9KT0cgRQ.jpeg)
+![Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](/img/posts/come-formata-una-transazione-bitcoin-p2sh-p2pk-2.webp)
 *Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts*
 
 Ciao e alla prossima!

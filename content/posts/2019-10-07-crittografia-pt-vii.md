@@ -13,8 +13,6 @@ categories:
   - "Bitcoin"
 ---
 
----
-
 ### Crittografia Pt VII
 
 #### Hello computer.
@@ -40,7 +38,7 @@ Per fortuna non utilizza Lucifer, perchè venne crackato grazie all’utilizzo d
 
 Questo evento portò prima alla nascita del **3-DES** e successivamente di un nuovo standard [**AES**](https://it.wikipedia.org/wiki/Advanced_Encryption_Standard) con la scelta di un nuovo algoritmo di [cifratura a blocchi](https://it.wikipedia.org/wiki/Cifratura_a_blocchi), l’algoritmo di Rijndael.
 
-Tutti i sistemi di cifratura affrontati (DES, 3-DES, AES) fino ad adesso, dalla scitala all’algoritmo di Rijndael avevano un funzionamento **simmetrico**, chiamato anche **cifratura a chiave privata**.![Cifratura simmetrica](https://cdn-images-1.medium.com/max/1200/0*DI-DsTV4lvJEZqp-.jpg)
+Tutti i sistemi di cifratura affrontati (DES, 3-DES, AES) fino ad adesso, dalla scitala all’algoritmo di Rijndael avevano un funzionamento **simmetrico**, chiamato anche **cifratura a chiave privata**.![Cifratura simmetrica](/img/posts/crittografia-pt-vii-1.webp)
 *Cifratura simmetrica*
 
 Quali sono i suoi problemi noti?

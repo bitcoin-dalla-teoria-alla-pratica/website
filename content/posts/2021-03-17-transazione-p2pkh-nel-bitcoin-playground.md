@@ -92,11 +92,11 @@ Grazie al nostro docker, è possibile visualizzare la blockchain locale a anche 
 
 In questo caso la nostra transazione ha come ID `49021cb4a1ebb0c74feaa3a9df2ea7e3e74afeb50df9a630023e8822786add73`, inserendola nel campo di ricerca otteniamo un qualcosa di simile:
 
-![](https://cdn-images-1.medium.com/max/1200/0*bN27G2JpbjEX9q8R)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-2.webp)
 
 Enter a caption for this image (optional)
 
-![](https://cdn-images-1.medium.com/max/1200/0*T39vSZow5NCYPzat)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-3.webp)
 
 Enter a caption for this image (optional)
 
@@ -120,7 +120,7 @@ Successivamente abbiamo lo scriptPubKey.
 
 Il primo elemento che inseriamo è `OP_DUP`, che come abbiamo visto nelle precedenti lezioni, duplica l'elemento on top, quindi la nostra chiave pubblica non compressa.
 
-![](https://cdn-images-1.medium.com/max/1200/0*LuBMgRKdTVUj5RE3)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-5.webp)
 
 Successivamente, l’operazione che si effettua è `HASH160`, che ha il compito di prendere l'elemento on top e applicare la funzione crittografica `SHA256` e `RIPEMD160`.
 
@@ -128,7 +128,7 @@ Successivamente, l’operazione che si effettua è `HASH160`, che ha il compito 
 
 ‌Successivamente si inserisce l’hash della chiave pubblica compressa.
 
-![](https://cdn-images-1.medium.com/max/1200/0*5E9nmNLjOesNnZeM)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-7.webp)
 
 La prossima OP_CODE è `OP_EQUALVERIFY`, la quale ha il compito di verificare due elementi, e se sono uguale non inserire niente, altrimenti invalida lo stack.
 
@@ -148,7 +148,7 @@ Le operazioni che abbiamo fatto, sono le stesse che abbiamo visto nel video [“
 
 Di seguito è riportata la lavagna utilizzata durante quel video:
 
-![](https://cdn-images-1.medium.com/max/1200/0*kJbcJz7xmccihlbU)
+![](/img/posts/transazione-p2pkh-nel-bitcoin-playground-10.webp)
 
 Che cosa ci rimane da fare?‌
 
@@ -166,7 +166,7 @@ Se volete divertivi con il nostro playground, ecco il link! [https://app.gitbook
 
 Ciao alla Prossima!
 
-![Bitcoin In Action — SegWit, Bitcoin Script e Smart ContractseBitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*xJ46DzU4Jtgee-KGw6ezFA.jpeg)
+![Bitcoin In Action — SegWit, Bitcoin Script e Smart ContractseBitcoin dalla teoria alla pratica](/img/posts/transazione-p2pkh-nel-bitcoin-playground-12.webp)
 *Bitcoin In Action — SegWit, Bitcoin Script e Smart ContractseBitcoin dalla teoria alla pratica*
 
 –––––

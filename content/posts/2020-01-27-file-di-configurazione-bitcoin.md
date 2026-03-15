@@ -5,7 +5,7 @@ slug: "file-di-configurazione-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Cerchiamo di mantenere pulito"
-cover: "https://cdn-images-1.medium.com/max/1200/1*GulUDJxcumDlTzZVU_yNww.png"
+cover: "/img/posts/file-di-configurazione-bitcoin-1.webp"
 tags:
   - "Bitcoin"
   - "Nodi"
@@ -59,5 +59,5 @@ Otteniamo lo stesso risultato del [tutorial precedente](https://medium.com/@bitc
 
 Nel prossimo tutorial vedremo come far comunicare due o più nodi sullo stesso computer!
 
-![configurazione base per bitcoin.conf](https://cdn-images-1.medium.com/max/1200/1*GulUDJxcumDlTzZVU_yNww.png)
+![configurazione base per bitcoin.conf](/img/posts/file-di-configurazione-bitcoin-1.webp)
 *configurazione base per bitcoin.conf*

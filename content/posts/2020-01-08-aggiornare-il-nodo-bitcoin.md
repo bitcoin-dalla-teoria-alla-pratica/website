@@ -5,7 +5,7 @@ slug: "aggiornare-il-nodo-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Versione 0.19.0.1"
-cover: "https://cdn-images-1.medium.com/max/1200/1*vqgkXcmfVzbVpoo58NQ2HQ.png"
+cover: "/img/posts/aggiornare-il-nodo-bitcoin-1.webp"
 tags:
   - "Bitcoin"
   - "Halving"
@@ -140,5 +140,5 @@ $ exit$ rm -Rf /home/pi/download/*
 
 Semplice no?
 
-![Nodo Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*vqgkXcmfVzbVpoo58NQ2HQ.png)
+![Nodo Bitcoin dalla teoria alla pratica](/img/posts/aggiornare-il-nodo-bitcoin-1.webp)
 *Nodo Bitcoin dalla teoria alla pratica*

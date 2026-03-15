@@ -6,7 +6,7 @@ slug: "come-si-utilizza-un-nodo-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Seguici sul canale youtube — Bitcoin in Action"
-cover: "https://cdn-images-1.medium.com/max/1200/1*ntVRWlB4LDRPQQTyh8qEcQ.png"
+cover: "/img/posts/come-si-utilizza-un-nodo-bitcoin-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -22,7 +22,7 @@ Bitcoin?
 
 #### Seguici sul canale youtube — [Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
 
-![](https://cdn-images-1.medium.com/max/1200/1*ntVRWlB4LDRPQQTyh8qEcQ.png)
+![](/img/posts/come-si-utilizza-un-nodo-bitcoin-1.webp)
 
 Ciao,
 

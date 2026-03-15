@@ -5,7 +5,7 @@ slug: "bitcoin-in-action"
 draft: false
 author: "Alessio Barnini"
 description: "Il nuovo canale youtube"
-cover: "https://cdn-images-1.medium.com/max/1200/1*BUvYiQhwO7qss7OfYvzcyg.jpeg"
+cover: "/img/posts/bitcoin-in-action-4.webp"
 tags:
   - "Bitcoin"
   - "Chiave Privata"
@@ -34,5 +34,5 @@ Oltre a una piccola spiegazione, abbiamo messo in pratica il dimezzamento del re
 
 Tutti gli esempi sono replicabili, potete scaricare il codice sorgente dal nostro repository [GitHub](https://github.com/bitcoin-dalla-teoria-alla-pratica/Bitcoin-in-Action)! **Che dire, seguiteci in questa nuova avventura** 🚀
 
-![Canale youtube —Bitcoin in Action](https://cdn-images-1.medium.com/max/1200/1*BUvYiQhwO7qss7OfYvzcyg.jpeg)
+![Canale youtube —Bitcoin in Action](/img/posts/bitcoin-in-action-4.webp)
 *Canale youtube —Bitcoin in Action*

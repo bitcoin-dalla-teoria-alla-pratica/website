@@ -5,7 +5,7 @@ slug: "che-cosa-la-proof-of-work"
 draft: false
 author: "Alessio Barnini"
 description: "Una delle parti fondamentali di Bitcoin è la Proof of Work (PoW)."
-cover: "https://cdn-images-1.medium.com/max/1200/1*H73RAozblI4FlhzcHwDjUw.png"
+cover: "/img/posts/che-cosa-la-proof-of-work-2.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -24,7 +24,7 @@ In che cosa consiste la PoW ?
 
 La proof of work è il processo con il quale il miner inserisce le transazioni all’interno del blocco e riesce ad ottenere un** block header hash** minore della difficoltà (**target**) imposta in quel momento storico dalla rete, aggiudicandosi così un *posto* nella blockchain, ed il reward.
 
-![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](https://cdn-images-1.medium.com/max/1200/1*C50yTKsDThJw_8lmSvuYOA.gif)
+![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/che-cosa-la-proof-of-work-3.webp)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*
 
 La difficoltà viene “*tarata*” ogni 2016 blocchi, in modo tale che un blocco sia minato in media ogni 10 minuti.

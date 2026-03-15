@@ -5,7 +5,7 @@ slug: "bitcoin-in-action-che-cosa-l-halving"
 draft: false
 author: "Alessio Barnini"
 description: "Scoprilo su Youtube – Bitcoin in Action"
-cover: "https://cdn-images-1.medium.com/max/1200/1*khpaS8EmVgG7xOpRKg4Q_Q.png"
+cover: "/img/posts/bitcoin-in-action-che-cosa-l-halving-1.webp"
 tags:
   - "Bitcoin"
   - "Halving"
@@ -20,7 +20,7 @@ categories:
 
 #### [Scoprilo su Youtube – Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
 
-![Che cosa è l’halving? — Bitcoin in Action](https://cdn-images-1.medium.com/max/1200/1*khpaS8EmVgG7xOpRKg4Q_Q.png)
+![Che cosa è l’halving? — Bitcoin in Action](/img/posts/bitcoin-in-action-che-cosa-l-halving-1.webp)
 *Che cosa è l’halving? — Bitcoin in Action*
 
 Oggi (11 maggio 2020) è un giorno importante per Bitcoin, oggi avviene il cosiddetto halving.

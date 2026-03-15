@@ -5,7 +5,7 @@ slug: "crittografia-pt-ii"
 draft: false
 author: "Alessio Barnini"
 description: "L’arte del nascondere"
-cover: "https://cdn-images-1.medium.com/max/1200/0*-0Pz_T4ItiEkI9mH.png"
+cover: "/img/posts/crittografia-pt-ii-1.webp"
 tags:
   - "Bitcoin"
   - "Crittografia"
@@ -35,7 +35,7 @@ Era un metodo veramente semplice, si trattava di traslare le lettere di 3 posti 
 
 Quindi la A diventava la D, la B diventava la E, la Z diventava la C, proprio perchè “riniziare” l’alfabeto.
 
-![Cifrario di cesare](https://cdn-images-1.medium.com/max/1200/0*vAbWArNqQ0dQS4PR.jpg)
+![Cifrario di cesare](/img/posts/crittografia-pt-ii-2.webp)
 *Cifrario di cesare*
 
 Quindi il mio diminutivo **BARNO** si tramutava in **EDUQR**.
@@ -53,7 +53,7 @@ Si crea una matrice 5x5 e in ogni casella si inserisce una lettera.
 
 Spesso la I e la J sono nella stessa casella.
 
-![Cifrario di Polibio.](https://cdn-images-1.medium.com/max/1200/1*JNNNrYRbfQSncVbE7BndeQ.png)
+![Cifrario di Polibio.](/img/posts/crittografia-pt-ii-3.webp)
 *Cifrario di Polibio.*
 
 Cosi per scrivere BARNO si prendono le coordinate della riga e della colonna e si ottiene il risultato 12 11 42 33 34. 
@@ -82,5 +82,5 @@ Lo scopriremo nella prossima puntata!
 
 ---
 
-![Cifrario di Giulio Cesare](https://cdn-images-1.medium.com/max/1200/0*-0Pz_T4ItiEkI9mH.png)
+![Cifrario di Giulio Cesare](/img/posts/crittografia-pt-ii-1.webp)
 *Cifrario di Giulio Cesare*

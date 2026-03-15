@@ -33,7 +33,7 @@ echo 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6
 
 Ma prima di quella data storica che cosa è successo?
 
-![40 anni di ricerca](https://cdn-images-1.medium.com/max/1200/1*QyDldh7abA7gL-AwLhI8HA.jpeg)
+![40 anni di ricerca](/img/posts/la-storia-di-bitcoin-1.webp)
 *40 anni di ricerca*
 
 Ho trovato in rete questa bellissima immagine che ripercorre dal 1973 al 2009 le tappe fondamentali del protocollo Bitcoin.
@@ -77,7 +77,7 @@ Da qui iniziarono ad entrare dei personaggi molto importanti
 
 ---
 
-![Adam Back—Hashcash](https://cdn-images-1.medium.com/max/1200/1*3uUGavAEpLeaRodP2_-8Yg.png)
+![Adam Back—Hashcash](/img/posts/la-storia-di-bitcoin-3.webp)
 *Adam Back—Hashcash*
 
 Già nel** 1997** si parlava di [**Proof of work**](https://en.bitcoin.it/wiki/Proof_of_work)** (PoW).**
@@ -94,7 +94,7 @@ Questo algoritmo suona famigliare ?
 
 ---
 
-![Wei Dai—b-money](https://cdn-images-1.medium.com/max/1200/1*NR0l12qvenI4RQQ4fQI0Tw.png)
+![Wei Dai—b-money](/img/posts/la-storia-di-bitcoin-4.webp)
 *Wei Dai—b-money*
 
 L’anno successivo, 1998, [**Wei Dai**](https://en.bitcoin.it/wiki/Wei_Dai), pubblicò il primo paper dove descriveva la sua idea di** criptovaluta**.
@@ -113,7 +113,7 @@ Il secondo, serviva per conteggiare l’ammontare di** b-money** posseduti.
 
 ---
 
-![Hal Finney—RPoW](https://cdn-images-1.medium.com/max/1200/1*PuXP0XzsUnKewCDIZfwEaQ.png)
+![Hal Finney—RPoW](/img/posts/la-storia-di-bitcoin-5.webp)
 *Hal Finney—RPoW*
 
 Nel 2004, [**Hal Finney**](https://en.wikipedia.org/wiki/Hal_Finney_%28computer_scientist%29), sulla base di** Hashcash**, creo [RPoW](https://cryptome.org/rpow.htm), Reusable Proof of work.
@@ -128,7 +128,7 @@ Questo progetto soffriva però di centralizzazione, in quanto le convalide per i
 
 ---
 
-![Nick Szabo](https://cdn-images-1.medium.com/max/1200/1*1egqMQYsvQn-3HqdLfPwZQ.png)
+![Nick Szabo](/img/posts/la-storia-di-bitcoin-6.webp)
 *Nick Szabo*
 
 Si arriva quindi a [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo), che pubblica** Bit gold.**

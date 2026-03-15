@@ -5,7 +5,7 @@ slug: "crittografia-pt-v"
 draft: false
 author: "Alessio Barnini"
 description: "L’arte del nascondere. Enigma."
-cover: "https://cdn-images-1.medium.com/max/1200/1*oPEthuxSMyNsY6rO6ZrrLQ.png"
+cover: "/img/posts/crittografia-pt-v-1.webp"
 tags:
   - "Bitcoin"
   - "Crittografia"
@@ -25,7 +25,7 @@ Fu una macchina utilizzata dai tedeschi nella seconda guerra mondiale ed era bas
 
 Ma prima di andare nel dettaglio è doveroso tornare all’inizio dell’800 con [**Thomas Jefferson**](https://it.wikipedia.org/wiki/Thomas_Jefferson), il quale non si fece *mancare niente, *è stato infatti uno degli autori della Dichiarazione d’indipendenza e presidente degli Stati Uniti.
 
-![Wheel cypher di Jefferson](https://cdn-images-1.medium.com/max/1200/0*q8cJsjrWSSq3JMsy.jpg)
+![Wheel cypher di Jefferson](/img/posts/crittografia-pt-v-2.webp)
 *Wheel cypher di Jefferson*
 
 Fu anche il primo a ideare un cifrario **polialfabetico** **meccanico** basato su un cilindro e dischi rotanti dove erano presenti le lettere dell’alfabeto. 
@@ -58,7 +58,7 @@ Il destinatario avrà il compito di mettere i dischi nella giusta sequenza (la c
 
 ---
 
-![La macchina Enigma](https://cdn-images-1.medium.com/max/1200/1*oPEthuxSMyNsY6rO6ZrrLQ.png)
+![La macchina Enigma](/img/posts/crittografia-pt-v-1.webp)
 *La macchina Enigma* **Enigma**, inventata nel 1918 di [Arthur Scherbius](https://it.wikipedia.org/wiki/Arthur_Scherbius), appariva come una macchina da scrivere ed era divisa in tre parti collegate tramite fili elettrici. 
 - Una tastiera per scrivere il messaggio in chiaro 
 - Un’unità di scambio (rotore) 
@@ -67,7 +67,7 @@ Il mittente per ottenere il testo cifrato, doveva semplicemente scrivere il test
 
 Le lettere si illuminavano grazie ai collegamenti elettrici all’interno del rotore stesso.
 
-![Rotore della macchina Enigma](https://cdn-images-1.medium.com/max/1200/1*QWJRBncDiKzOrvgMCkv7Kg.png)
+![Rotore della macchina Enigma](/img/posts/crittografia-pt-v-3.webp)
 *Rotore della macchina Enigma*
 
 Una delle parti fondamentali della macchina **Enigma** erano i rotori, che possiamo immaginare come a degli ingranaggi, i quali potevano assumere 26 posizioni (lettere dell’alfabeto) e, ad ogni lettera premuta, il primo rotore faceva un “passo”, ovvero cambiava posizione.
@@ -84,7 +84,7 @@ I soldati tedeschi ricevano insieme alla macchina Enigma anche un cifrario e un 
 Proprio grazie a delle fotografie di questi manuali che vendette [Hans Thilo Schmidt](https://en.wikipedia.org/wiki/Hans-Thilo_Schmidt) che Enigma cominciò a essere decodificata. 
 Prima di utilizzare Enigma l’operatore doveva impostare la chiave di cifratura dei tre rotori attenendosi alla chiave giornaliera e posizionare gli spinotti frontali per la permutazione delle lettere.
 
-![La chiave di Enigma](https://cdn-images-1.medium.com/max/1200/1*QQmXAVqr3cWYTPvZUKHVBg.png)
+![La chiave di Enigma](/img/posts/crittografia-pt-v-4.webp)
 *La chiave di Enigma*
 
 L’addetto alla decodifica, riceveva il messaggio crittato in [codice morse](https://it.wikipedia.org/wiki/Codice_Morse).

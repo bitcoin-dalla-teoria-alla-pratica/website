@@ -20,7 +20,7 @@ Ciao,
 
 nell’articolo precedente abbiamo analizzato come avviene una transazione utilizzando il P2SH-P2PK.
 
-![](https://cdn-images-1.medium.com/max/1200/1*dJZptxYmKPy_9PZO2Ufm-A.jpeg)
+![](/img/posts/come-validata-una-transazione-p2sh-p2pk-2.webp)
 
 In questo articolo vogliamo andare ad analizzare come questa viene validata.
 
@@ -89,7 +89,7 @@ Nel libro [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](p
 
 Successivamente perchè confrontare due stringhe è sicuramente più veloce e ottimizzato che eseguire lo stack, perchè se l’hash del redeem script è diverso dall’hash del redeem script ottenuto dal redeem script in chiaro, è evidente che le operazioni al suo interno siano diverse, proprio perchè non è possibile ottenere digest uguali da input differenti.
 
-![](https://cdn-images-1.medium.com/max/1200/1*JR3NFiPTqBVnirnBCB4img.png)
+![](/img/posts/come-validata-una-transazione-p2sh-p2pk-5.webp)
 
 Se tuto va a buon fine, vedremo uno 01, ovvero il risultato ottenuto da OP_EQUAL, il quale poi viene rimosso dallo stack (pop) per eseguire il redeem script, e quindi il controllo vero e proprio, che risulta essere un normale P2PK, come già analizzato nei video precedenti.
 

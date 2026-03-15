@@ -138,7 +138,7 @@ Sappiamo inoltre che la public key che lèggiamo dalla chiamata getaddressinfo, 
 
 Vi ricordate come si ottiene l’address P2PKH? Ecco la lavagna di qualche lezione precedente.
 
-![](https://cdn-images-1.medium.com/max/1200/1*0Ivg36SaVDiAs8DcUOWsVA.png)
+![](/img/posts/ottenere-un-address-p2pkh-e-come-costruito-in-action-2.webp)
 
 Adesso abbiamo a disposizione, , l’address prefix e la chiave pubblica compressa. Applicando la funzione crittografica
 

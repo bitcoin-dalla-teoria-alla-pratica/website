@@ -5,7 +5,7 @@ slug: "merkle-tree-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Lo sprint che serviva per il libro Bitcoin dalla teoria alla pratica"
-cover: "https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png"
+cover: "/img/posts/merkle-tree-bitcoin-1.webp"
 tags:
   - "Bitcoin"
   - "Hash"
@@ -22,7 +22,7 @@ categories:
 
 Durante lo studio di Bitcoin ci siamo imbattuti nel **Merkle tree** e dopo esser riusciti a capirlo e a replicarlo, abbiamo raggiunto il nostro obiettivo.
 
-![Le prime prove (sbagliate) di “ricorstruzione” del merkle tree.](https://cdn-images-1.medium.com/max/1200/1*ACnsmvs8_EzEaiZV-YiS7Q.png)
+![Le prime prove (sbagliate) di “ricorstruzione” del merkle tree.](/img/posts/merkle-tree-bitcoin-2.webp)
 *Le prime prove (sbagliate) di “ricorstruzione” del merkle tree.*
 
 Ma vediamo che cosa è il **Merkle tree**. ---
@@ -50,7 +50,7 @@ Vediamo un caso base per capire di cosa stiamo parlando.
 
 > Estratto del capitolo 4 di Bitcoin dalla teoria alla pratica
 
-![Figura 4.1 — Merkle tree — Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*FKCPGyCIV9oD1CBMQ_2psQ.png)
+![Figura 4.1 — Merkle tree — Bitcoin dalla teoria alla pratica](/img/posts/merkle-tree-bitcoin-3.webp)
 *Figura 4.1 — Merkle tree — Bitcoin dalla teoria alla pratica*
 
 Immaginiamo di avere un merkle tree con 4 foglie, che rappresentano 4 transazioni (figura 4.1).
@@ -82,5 +82,5 @@ Dobbiamo cambiare l’ordine dei bytes in **little endian**, e infine cambiare n
 
 Possiamo tranquillamente dire che dal Merkle root è nato il nostro progetto!
 
-![Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png)
+![Bitcoin dalla teoria alla pratica](/img/posts/merkle-tree-bitcoin-1.webp)
 *Bitcoin dalla teoria alla pratica*

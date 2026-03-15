@@ -5,7 +5,7 @@ slug: "la-prima-copia-acquistata-con-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Il libro Bitcoin dalla teoria alla pratica acquistato dal nostro sito con bitcoin."
-cover: "https://cdn-images-1.medium.com/max/1200/1*-t5t4uBssgmP0vy_5UGBEQ.png"
+cover: "/img/posts/la-prima-copia-acquistata-con-bitcoin-1.webp"
 tags:
   - "Bitcoin"
   - "Transazioni"
@@ -31,7 +31,7 @@ La transazione raw è:
 0100000001cf27c205c39400338f196789ae1f14a25cd74716cf3117d148cff253900b64fb560000006a473044022051b08370e993235686aaeac47e746025f3f353c9b23f785920961d41d793148d02201315ad31fc1e153607b608dc24b5312a34e698e8e1c07280e884be06fb5423ab0121038477302e8c4d464005f851412d0c90c713ea7f7b33ead039f7651a32f8c16ff0ffffffff025cb603000000000016001427724d7c520ac6b0b58bac3d1afa7e5d9e051cee60200900000000001976a9148252e9cb9611bd58a2b44c4fbe2c67843a6dc0dd88ac00000000
 ```
 
-![Esempio delvideo corsoe dellibro Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*CCCJ5QkbFs7X-5L3hvjtag.png)
+![Esempio delvideo corsoe dellibro Bitcoin dalla teoria alla pratica](/img/posts/la-prima-copia-acquistata-con-bitcoin-2.webp)
 *Esempio delvideo corsoe dellibro Bitcoin dalla teoria alla pratica*
 
 Il [libro Bitcoin dalla teoria alla pratica](prodotti/bitcoin-dalla-teoria-alla-pratica) spiega come leggere ogni singolo byte della transazione. 
@@ -77,5 +77,5 @@ Grazie! 🙏
 
 ---
 
-![Immagine del libroBitcoin dalla teoria alla Pratica](https://cdn-images-1.medium.com/max/1200/1*-t5t4uBssgmP0vy_5UGBEQ.png)
+![Immagine del libroBitcoin dalla teoria alla Pratica](/img/posts/la-prima-copia-acquistata-con-bitcoin-1.webp)
 *Immagine del libroBitcoin dalla teoria alla Pratica*

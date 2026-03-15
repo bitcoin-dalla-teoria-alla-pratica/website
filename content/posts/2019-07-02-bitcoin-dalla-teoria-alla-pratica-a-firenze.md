@@ -6,7 +6,7 @@ draft: false
 author: "Alessio Barnini"
 description: "Con enorme soddisfazione siamo presenti al Libraccio — ibs a Firenze in Via de’ Cerretani accanto al bellissimo Duomo.
 Quando il libro è…"
-cover: "https://cdn-images-1.medium.com/max/1200/1*Q2l42yliRv6krdeogp-1bA.jpeg"
+cover: "/img/posts/bitcoin-dalla-teoria-alla-pratica-a-firenze-1.jpeg"
 tags:
   - "Bitcoin"
 categories:
@@ -20,15 +20,15 @@ categories:
 Con **enorme** soddisfazione siamo presenti alla libreria Libraccio — ibs a Firenze in Via de’ Cerretani accanto al bellissimo Duomo. 
 Quando il libro è stato collocato nel reparto informatica devo dire che ci siamo emozionati e non poco!
 
-![Bitcoin dalla teoria alla pratica@ Libraccio Firenze](https://cdn-images-1.medium.com/max/1200/1*Q2l42yliRv6krdeogp-1bA.jpeg)
+![Bitcoin dalla teoria alla pratica@ Libraccio Firenze](/img/posts/bitcoin-dalla-teoria-alla-pratica-a-firenze-1.jpeg)
 *Bitcoin dalla teoria alla pratica@ Libraccio Firenze*
 
 Quindi per chi si trova nei paraggi di Firenze può sfogliare e, speriamo :) , acquistare il libro, altrimenti è possibile leggere l’estratto su [Amazon](https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P).
 
-![Stefania,Alessandro,Alessioed Eli 🐶 @ Libraccio Firenze](https://cdn-images-1.medium.com/max/1200/1*1dtmwvSEZKCej11CdRCyAQ.jpeg)
+![Stefania,Alessandro,Alessioed Eli 🐶 @ Libraccio Firenze](/img/posts/bitcoin-dalla-teoria-alla-pratica-a-firenze-2.jpeg)
 *Stefania,Alessandro,Alessioed Eli 🐶 @ Libraccio Firenze*
 
 > Rarissima foto in cui Eli *🐶* è in posa :) .
 
-![Bitcoin dalla teoria alla pratica@ Libraccio Firenze](https://cdn-images-1.medium.com/max/1200/1*euRfZVuFe03tbgvmwiKXBw.gif)
+![Bitcoin dalla teoria alla pratica@ Libraccio Firenze](/img/posts/bitcoin-dalla-teoria-alla-pratica-a-firenze-3.gif)
 *Bitcoin dalla teoria alla pratica@ Libraccio Firenze*

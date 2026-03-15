@@ -6,7 +6,7 @@ draft: false
 author: "Alessio Barnini"
 description: "L’immagine in copertina è stata realizzata da Stefania Pizzichi, visual designer freelance. 
 L’illustrazione è composta da un mosaico…"
-cover: "https://cdn-images-1.medium.com/max/1200/1*dSvQFl8wNVd8dgRI4Lz0AA.jpeg"
+cover: "/img/posts/la-copertina-del-libro-bitcoin-dalla-teoria-alla-pratica-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -22,14 +22,14 @@ categories:
 L’immagine in copertina è stata realizzata da [Stefania Pizzichi](https://www.linkedin.com/in/stefaniapizzichi), visual designer freelance.  
 L’illustrazione è composta da un mosaico che mostra elementi iconici e rappresentativi del mondo **Bitcoin**, in uno stile semplice e colorato.
 
-![Le prime bozze di copertina dellibro Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*PIifjm6F1HVklJwjy7lQ-w.jpeg)
+![Le prime bozze di copertina dellibro Bitcoin dalla teoria alla pratica](/img/posts/la-copertina-del-libro-bitcoin-dalla-teoria-alla-pratica-2.webp)
 *Le prime bozze di copertina dellibro Bitcoin dalla teoria alla pratica*
 
 Stefania grazie al supporto dei due autori, [Alessio](https://www.linkedin.com/in/alessiobarnini/) e [Alessandro](http://www.aqquadro.it) , ha capito fin da subito che cosa serviva per il libro.  
 Non voleva cadere nella banalità e limitarsi con il “classico” bitcoin, ma ha deciso che serviva una copertina che trasmettesse al lettore gli argomenti che andrà ad affrontare.  
 Personalmente credo che l’obiettivo sia stato più che raggiunto, il libro ha un’identità e una personalità molto forte grazie a questa, passatemi il termine e non credo di esagerare, opera d’arte.
 
-![Copertina dellibro Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*dSvQFl8wNVd8dgRI4Lz0AA.jpeg)
+![Copertina dellibro Bitcoin dalla teoria alla pratica](/img/posts/la-copertina-del-libro-bitcoin-dalla-teoria-alla-pratica-1.webp)
 *Copertina dellibro Bitcoin dalla teoria alla pratica*
 
 Ecco la spiegazione che ha dato Stefania: **Moneta bitcoin** — icona inevitabile usata per rappresentare i bitcoin nella forma di criptovaluta. **OP_HASH160** — il cuore delle transazioni, la sequenza degli Opcodes, OP_HASH160 uno di essi, rappresenta le istruzioni che ogni nodo deve eseguire durante la validazione di una transazione. **Fork** — il fork rappresenta un evento *particolare *nella storia di una blockchain. **Circuito** — anche se Bitcoin è un’astrazione complessa, i bit transitano sempre in circuiti elettronici, non dimenticarlo mai! **Banconota** — attenzione non è una banconota, è un paper wallet! Ebbene sì, per tenere al sicuro le tue chiavi è possibile utilizzare dei portafogli cartacei anziché applicazioni per smartphone. **Piccone** — altra icona tipica della subcultura delle criptovalute, il piccone è utilizzato per minare i blocchi contenenti nuovi bitcoin.

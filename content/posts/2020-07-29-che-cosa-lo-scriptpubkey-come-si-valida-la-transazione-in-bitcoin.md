@@ -5,7 +5,7 @@ slug: "che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Video completo nel nostro canale youtube Bitcoin in Action"
-cover: "https://cdn-images-1.medium.com/max/2560/1*tNj7YomLo9VjdIK_YWSuUA.png"
+cover: "/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-3.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -18,7 +18,7 @@ categories:
 
 ### **Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin**? #### Video completo nel nostro canale youtube [Bitcoin in Action](https://www.youtube.com/watch?v=HaZCpfc7Vbg&feature=youtu.be)
 
-![Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?](https://cdn-images-1.medium.com/max/2560/1*tNj7YomLo9VjdIK_YWSuUA.png)
+![Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-3.webp)
 *Che cosa è lo scriptPubKey? Come si valida la transazione in Bitcoin?*
 
 Ciao,
@@ -176,7 +176,7 @@ Come puoi vedere stiamo analizzando una transazione Pay to public key hash.
 
 Successivamente viene inserito nello stack **OP_DUP** che ha il compito di estrarre il primo elemento dallo stack, di duplicarlo e di fare push del risultato
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*LjE9B3RU4qNm5kCFuCUg3g.jpeg)
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-3.webp)
 *Slide del video corso Bitcoin dalla teoria alla pratica*
 
 Prossima operazione è **OP_HASH160**, la quale prende il primo elemento dello stack, quindi pop, e applica la funzione **SHA256** e **RIPEMD160** e fa push del risultato.
@@ -196,12 +196,12 @@ Ma guarda un pò, il risultato è esattamente lo stesso di quello della UTXO.
 
 Prossima operazione, push dell’elemento dello **scriptPubKey**, L’hash della chiave pubblica, ecco perchè si chiama Pay to Public key hash.
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*MAe0ZOkTyq7v9C-XSLl-Pw.jpeg)
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-6.webp)
 *Slide del video corso Bitcoin dalla teoria alla pratica*
 
 Prossima operazione **OP_EQUALVERIFY**.
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*D5G9xHJ_XgvIujt8JH7Ihw.jpeg)
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-7.webp)
 *Slide del video corso Bitcoin dalla teoria alla pratica*
 
 Esegue il pop dei due elementi in testa allo stack, li verifica, e se sono uguali non esegue nessun push nello stack, altrimenti fallisce.
@@ -216,7 +216,7 @@ Pop di due elementi dallo stack, verifica della firma, e se è la firma è valid
 
 Ed ecco che l’ultimo e unico valore dello stack è 1, validando la transazione.
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*cp9Gh1FBBkFCs3fyEvyrIg.jpeg)
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-8.webp)
 *Slide del video corso Bitcoin dalla teoria alla pratica*
 
 ---
@@ -227,8 +227,8 @@ Spero comunque di aver risposto alla tua domanda
 
 Ciao alla prossima!
 
-![Slide del video corso Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*Ie1fV9fLDKQhQ6yOkg82PA.gif)
+![Slide del video corso Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-8.webp)
 *Slide del video corso Bitcoin dalla teoria alla pratica*
 
-![Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*np_2Pm2tYyXmG5ozGQFxKA.jpeg)
+![Bitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin-9.webp)
 *Bitcoin dalla teoria alla pratica*

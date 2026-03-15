@@ -5,7 +5,7 @@ slug: "come-avere-un-fullnode-bitcoin-con-raspberry-pi"
 draft: false
 author: "Alessio Barnini"
 description: "Un lampone decentralizzato"
-cover: "https://cdn-images-1.medium.com/max/1200/1*zd6R6cKGNZFDOJjB2TEFGg.png"
+cover: "/img/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -27,7 +27,7 @@ Abbiamo quindi deciso di scrivere una guida per costruire e interagire con un pr
 Ovviamente il nodo può *vivere* anche nel vostro computer che solitamente usate, ma dovrebbe stare sempre connessi per essere up-to-date con la blockchain e dedicare un pò di spazio per il salvataggio della blockchain.  
 Oggi 2 Agosto 2018 la testnet *pesa circa 25 *gigabytes.
 
-![](https://cdn-images-1.medium.com/max/1200/1*yeB6nWHogv4zjyYi8vUvsw.png)
+![](/img/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi-2.webp)
 
 A questo [indirizzo](https://bitinfocharts.com/) potete trovare informazioni interessanti per la mainnet, e a oggi sono all’incirca 270 gigabytes.
 
@@ -41,7 +41,7 @@ A questo [indirizzo](https://bitinfocharts.com/) potete trovare informazioni int
 
 Invito chiunque a indicare un setup migliore del mio se è necessario :)
 
-![Setup finale: Raspberry + case + alimentatore + HDD +tappetino](https://cdn-images-1.medium.com/max/1200/1*DoX5T6trmF1hmUZRDj1hDg.png)
+![Setup finale: Raspberry + case + alimentatore + HDD +tappetino](/img/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi-3.webp)
 *Setup finale: Raspberry + case + alimentatore + HDD +tappetino*
 
 Benissimo appena costruito il nostro dispositivo scarichiamo il software necessario.
@@ -71,7 +71,7 @@ Se ottenete questo risultato:
 2019–07–10-raspbian-buster-lite.zip: OK
 ```
 
-![](https://cdn-images-1.medium.com/max/1200/1*NpMKM_xdZBVabSLec-DAYg.png)
+![](/img/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi-4.webp)
 
 la prova è andata a buon fine.
 
@@ -283,7 +283,7 @@ Nel mio caso ho associato l’IP statico 192.168.1.221.
 Un ulteriore passaggio fondamentale è aprire le opportune porte. 
 In questo caso apro sia la mainnet che la testnet e la porta 22 per SSH.
 
-![Configurazioni Porte.](https://cdn-images-1.medium.com/max/1200/1*fME80jLpzjRpcMERLLbFmQ.png)
+![Configurazioni Porte.](/img/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi-5.webp)
 *Configurazioni Porte.*
 
 Le porta **8333** (mainnet) e la porta **18333** (testnet) dobbiamo aprirle se vogliamo essere raggiunti dagli altri nodi. 
@@ -307,7 +307,7 @@ sudo raspi-config
 
 E vi troverete davanti a una schermata come questa
 
-![](https://cdn-images-1.medium.com/max/1200/1*3EVVvlIpcgCOi3A4krOWYA.png)
+![](/img/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi-6.webp)
 
 Come vedete ci sono un pò di opzioni.  
 Selezioniamo la voce 3 -> B1 -> B1.  
@@ -337,7 +337,7 @@ sudo lsblk -o UUID,NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,MODEL
 
 cosi da individuarlo, nel mio caso è sda.
 
-![](https://cdn-images-1.medium.com/max/1200/0*YQeZkMhZ1L11RWbF)
+![](/img/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi-7.webp)
 
 Bene, siamo pronti a formattarlo! 
 Attenzione questa operazione elimina tutti i file dal proprio hard disk, quindi siate certi che non contenga le chiavi private di Satoshi!
@@ -730,7 +730,7 @@ Il vantaggio di questa procedura è che la username e la password sono *hashati*
 
 Si trova all’interno della datadir, che nel nostro caso avendo scaricato la blockchain di test, è all’interno di testnet3.
 
-![](https://cdn-images-1.medium.com/max/1200/1*lNnWz6pFisaShfIAiJA58Q.png)
+![](/img/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi-8.webp)
 
 Anche nel client deve essere dentro la cartella testnet3, oppure possiamo specificare un percorso. 
 Usando il comando [scp](https://en.wikipedia.org/wiki/Secure_copy), copiamo il cookie dal Raspberry al nostro client. 
@@ -890,7 +890,7 @@ Bene adesso avete tutto a disposizione per tenere attivo il vostro nodo.
 
 Potete tranquillamente fare esperimenti, oppure seguire senza problemi il [libro Bitcoin dalla teoria alla pratica](prodotti/bitcoin-dalla-teoria-alla-pratica) :)
 
-![Il mio nodo in funzione.](https://cdn-images-1.medium.com/max/1200/1*zd6R6cKGNZFDOJjB2TEFGg.png)
+![Il mio nodo in funzione.](/img/posts/come-avere-un-fullnode-bitcoin-con-raspberry-pi-1.webp)
 *Il mio nodo in funzione.*
 
 Ogni **suggerimento** o modifica è sempre benvenuta. 

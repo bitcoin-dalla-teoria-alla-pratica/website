@@ -5,7 +5,7 @@ slug: "due-nodi-bitcoin-sullo-stesso-computer"
 draft: false
 author: "Alessio Barnini"
 description: "Non essere asociale."
-cover: "https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png"
+cover: "/img/posts/due-nodi-bitcoin-sullo-stesso-computer-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -95,7 +95,7 @@ bitcoind -datadir=$PWD/regtest2 -regtest -debug=1 -rpcport=28443 -port=28444 -ad
 
 Per avere informazioni sui parametri da utilizzare, potete sempre utilizzare **bitcoind -help** ---
 
-![Le porte utilizzabili.](https://cdn-images-1.medium.com/max/1200/1*FT9Rm6eZoiAv6702qzWMtA.png)
+![Le porte utilizzabili.](/img/posts/due-nodi-bitcoin-sullo-stesso-computer-2.webp)
 *Le porte utilizzabili.*
 
 - **-port** Listen for connections on < **port** > (default: 8333, testnet: 18333, 18444 regtest)
@@ -189,5 +189,5 @@ Il secondo demone utilizza la -datadir specificata nel file di conf.
 Potrebbe essere interessante iniziare a fare delle transazioni tra due nodi? 
 Direi di si!
 
-![Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png)
+![Bitcoin dalla teoria alla pratica](/img/posts/due-nodi-bitcoin-sullo-stesso-computer-1.webp)
 *Bitcoin dalla teoria alla pratica*

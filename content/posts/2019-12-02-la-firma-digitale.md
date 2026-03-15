@@ -5,7 +5,7 @@ slug: "la-firma-digitale"
 draft: false
 author: "Alessio Barnini"
 description: "Che cosa è e come si ottiene?"
-cover: "https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png"
+cover: "/img/posts/la-firma-digitale-1.webp"
 tags:
   - "Bitcoin"
   - "Chiave Privata"
@@ -43,7 +43,7 @@ In realtà è possibile derivare la chiave privata partendo dalla chiave pubblic
 Dobbiamo anche dire che è come trovare un atomo nell’universo.  
 Per dare un’idea di grandezza stiamo parlando di 1 su 150,000 miliardi miliardi miliardi miliardi miliardi miliardi miliardi miliardi.
 
-![](https://cdn-images-1.medium.com/max/1200/1*S0ExYaXFuVJkV9_Bd__2Zg.png)
+![](/img/posts/la-firma-digitale-2.webp)
 
 ---
 

@@ -5,7 +5,7 @@ slug: "bitcoin-199-questions"
 draft: false
 author: "Alessio Barnini"
 description: "The pocket book that you were looking for!"
-cover: "https://cdn-images-1.medium.com/max/1200/1*hB85AL6hq4coFROUqatKUQ.png"
+cover: "/img/posts/bitcoin-199-questions-2.webp"
 tags:
   - "BIP"
   - "Bitcoin"
@@ -29,7 +29,7 @@ For example you will be able to handle a transaction from scratch, know more abo
 With the help of this book you can figure out how Bitcoin works using a real node. 
 Check this [video](https://www.youtube.com/watch?v=mFmOo8m6wlU) to understand what you can learn!
 
-![Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png)
+![Bitcoin dalla teoria alla pratica](/img/posts/bitcoin-199-questions-3.webp)
 *Bitcoin dalla teoria alla pratica*
 
 The second one is called [Bitcoin 199 questions](https://www.amazon.it/Bitcoin-199-questions-Alessio-Barnini/dp/1078155585).
@@ -45,7 +45,7 @@ The book is made of 4 parts.
 
 - **Nerd Level**: My favourite level! Why does my address starts with the number 1? And why does it sometimes starts with the number 3? What is *P2PKH*?
 
-![Bitcoin 199 questions](https://cdn-images-1.medium.com/max/1200/1*hB85AL6hq4coFROUqatKUQ.png)
+![Bitcoin 199 questions](/img/posts/bitcoin-199-questions-2.webp)
 *Bitcoin 199 questions*
 
 As you may imagine, we never talk about the price of bitcoin or technical analysis, for us the price doesn’t exist!

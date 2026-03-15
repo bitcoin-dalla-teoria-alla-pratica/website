@@ -59,7 +59,7 @@ Il nodo di Michela invece riceve per primo il blocco di Marco e verifica che sia
 
 Se Michela adesso ricevesse il blocco di Alessio** non potrà considerarlo valido** in quanto il padre di Alessio è lo stesso padre di Marco, ovvero il blocco celeste, e invece il nodo Michela sta tentando di aggiungerlo come figlio del blocco di Marco, cioè il blocco rosso.
 
-![](https://cdn-images-1.medium.com/max/1200/1*29ayutDqaiTWRfJaaO3-IA.jpeg)
+![](/img/posts/bitcoin-blockchain-fork-3.webp)
 
 Entrambi i blocchi, verdi e rossi sono validi al momento, entrambi hanno il **previousBlockhash** il valore hash del blocco celeste, quindi hanno lo stesso padre.
 

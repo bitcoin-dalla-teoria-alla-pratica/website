@@ -5,7 +5,7 @@ slug: "che-cosa-lo-scriptsig"
 draft: false
 author: "Alessio Barnini"
 description: "Video disponibile nel nostro canale Bitcoin in Action!"
-cover: "https://cdn-images-1.medium.com/max/2560/1*BHyLAA4oht2qRz67aIPE8g.png"
+cover: "/img/posts/che-cosa-lo-scriptsig-2.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -18,7 +18,7 @@ categories:
 
 #### [Video disponibile nel nostro canale Bitcoin in Action!](https://www.youtube.com/BitcoinInAction)
 
-![Che cosa è lo scriptSig?](https://cdn-images-1.medium.com/max/2560/1*BHyLAA4oht2qRz67aIPE8g.png)
+![Che cosa è lo scriptSig?](/img/posts/che-cosa-lo-scriptsig-2.webp)
 *Che cosa è lo scriptSig?*
 
 Ciao,
@@ -30,7 +30,7 @@ Abbiamo ricevuto una domanda da parte di Luca, che ci chiede.
 Bene Luca, lo **scriptSig** è parte della transazione di Bitcoin. 
 Puoi immaginare la transazione **non SegWit** cosi strutturata.
 
-![Immagine estratta dalvideocorsoe dal libroBitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*SyzHAwvw2nTMrL7W3IYG6w.png)
+![Immagine estratta dalvideocorsoe dal libroBitcoin dalla teoria alla pratica](/img/posts/che-cosa-lo-scriptsig-2.webp)
 *Immagine estratta dalvideocorsoe dal libroBitcoin dalla teoria alla pratica*
 
 - La versione della transazione

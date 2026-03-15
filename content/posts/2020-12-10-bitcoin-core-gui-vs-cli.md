@@ -5,7 +5,7 @@ slug: "bitcoin-core-gui-vs-cli"
 draft: false
 author: "Alessio Barnini"
 description: "Vantaggi e svantaggi."
-cover: "https://cdn-images-1.medium.com/max/1200/1*E-j9ZAcRsnblOB5BTDZHCA.png"
+cover: "/img/posts/bitcoin-core-gui-vs-cli-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -20,7 +20,7 @@ categories:
 
 #### Vantaggi e svantaggi.
 
-![](https://cdn-images-1.medium.com/max/1200/1*E-j9ZAcRsnblOB5BTDZHCA.png)
+![](/img/posts/bitcoin-core-gui-vs-cli-1.webp)
 
 Ciao,
 
@@ -79,7 +79,7 @@ $ bitcoin-qt
 
 Dato che ho spostato l’eseguibile nel mio file $PATH. Se non sai come fare, guarda [questo video](https://youtu.be/keeEdwPigZs)
 
-![Bitcoin Core](https://cdn-images-1.medium.com/max/1200/1*Ew9VRJsUSi0OMBrkjdhoUw.png)
+![Bitcoin Core](/img/posts/bitcoin-core-gui-vs-cli-2.webp)
 *Bitcoin Core*
 
 La regtest è vuota, quindi la blockchain contiene un solo blocco, il **genesis block**.  
@@ -292,7 +292,7 @@ dde7dc0f4dca1c83fc86ac64a1c5522ecfeedb8f9c64bc013bf4cffce52cf4b7
 
 La transazione è stata inviata, quindi adesso si trova nella **mempool**. Nella GUI, nella sezione transaction, possiamo verificare tutte le informazioni della transazione.
 
-![Bitcoin Core — Mempool](https://cdn-images-1.medium.com/max/1200/1*YukiMmh7Er5mhYxkCypJig.png)
+![Bitcoin Core — Mempool](/img/posts/bitcoin-core-gui-vs-cli-8.webp)
 *Bitcoin Core — Mempool*
 
 Come è possibile ottenere le stesse informazioni dal nodo2? Utilizzando la chiamata **getrawtransaction** specificando una risultato più verboso, utilizzando la **txid** ottenuta dalla chiamata sendtoaddress.
@@ -420,7 +420,7 @@ Questo indirizzo sarà il nostro miner. **bcrt1qcad9r6cn037p3una2fum7v5jwgc2zgm8
 
 ![](https://cdn-images-1.medium.com/max/1200/1*YlB_EouKjkXK1RzQk7bv9g.png)
 
-![Bitcoin Core — 10 blocchi minati](https://cdn-images-1.medium.com/max/1200/1*_ckpT1CBlNeKuWpZRZPtQg.png)
+![Bitcoin Core — 10 blocchi minati](/img/posts/bitcoin-core-gui-vs-cli-11.webp)
 *Bitcoin Core — 10 blocchi minati*
 
 Abbiamo minato 10 blocchi! Adesso mi aspetto di vedere il la transazione fatta dal nodo2 confermata!
@@ -521,7 +521,7 @@ Facendo nuovamente doppio click sulla transazione possiamo leggere che la transa
 
 Verifichiamo l’homepage della GUI.
 
-![Bitcoin Core GUI — Homepage](https://cdn-images-1.medium.com/max/1200/1*2qprT9XRLKsaJ3dffMuauA.png)
+![Bitcoin Core GUI — Homepage](/img/posts/bitcoin-core-gui-vs-cli-17.webp)
 *Bitcoin Core GUI — Homepage*
 
 Abbiamo un saldo disponibile di 0.49 bitcoin e un 250 bitcoin + fees immaturi. A questo punto sappiamo perchè!

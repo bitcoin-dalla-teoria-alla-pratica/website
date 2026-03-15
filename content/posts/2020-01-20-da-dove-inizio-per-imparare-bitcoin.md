@@ -5,7 +5,7 @@ slug: "da-dove-inizio-per-imparare-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Regtest, la blockchain locale"
-cover: "https://cdn-images-1.medium.com/max/1200/1*vMKtqIdukfjht87ZxSkL0A.png"
+cover: "/img/posts/da-dove-inizio-per-imparare-bitcoin-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -26,7 +26,7 @@ Noi siamo sempre stati convinti che per capire realmente una qualsiasi tecnologi
 
 Abbiamo già scritto una guida per permettere di sincronizzare l’intera blockchain in un dispositivo esterno come [Raspberry](https://medium.com/@bitcoindallateoriallapratica/tutorial-fullnode-raspberry-bitcoin-blockchain-9c8de546657f), ma per prove più “quick and dirty” vi consigliamo di utilizzare la [**regtest**](https://bitcoin.org/en/glossary/regression-test-mode).
 
-![La sandbox, dove puoi fare le tue prove senza farti male :)](https://cdn-images-1.medium.com/max/1200/0*g9gy-LbFVEdi76OR)
+![La sandbox, dove puoi fare le tue prove senza farti male :)](/img/posts/da-dove-inizio-per-imparare-bitcoin-2.webp)
 *La sandbox, dove puoi fare le tue prove senza farti male :)*
 
 Che cosa è la regtest? 
@@ -137,5 +137,5 @@ Hai la lista di comandi da utilizzare per iniziare a divertirti!
 
 Con questo piccolo tutorial puoi anche seguire il nostro libro [Bitcoin dalla teoria alla pratica](prodotti/bitcoin-dalla-teoria-alla-pratica) disponibile sia su [Amazon](https://amzn.to/2MOj1av) sia sul nostro [sito ufficiale corsobitcoin.com.](prodotti/bitcoin-dalla-teoria-alla-pratica)
 
-![Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*vMKtqIdukfjht87ZxSkL0A.png)
+![Bitcoin dalla teoria alla pratica](/img/posts/da-dove-inizio-per-imparare-bitcoin-1.webp)
 *Bitcoin dalla teoria alla pratica*

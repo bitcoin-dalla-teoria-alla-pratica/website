@@ -5,7 +5,7 @@ slug: "libro-bitcoin-199-domande"
 draft: false
 author: "Alessio Barnini"
 description: "Il tascabile delle risposte Bitcoin"
-cover: "https://cdn-images-1.medium.com/max/1200/1*2TfRVTUsJD4JjzzvCmaoqA.png"
+cover: "/img/posts/libro-bitcoin-199-domande-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -26,7 +26,7 @@ Ci siamo accorti che per iniziare a usare e capire **Bitcoin** dobbiamo risponde
 Chi non ricorda il Bignami de “I Promessi sposi”? Anche tu lo usavi sotto il banco velocemente? :) 
 L’idea è venuta proprio dalla nostra adolescenza, quel piccolo libro che spesso ci ha aiutato durante una verifica.
 
-![](https://cdn-images-1.medium.com/max/1200/1*2TfRVTUsJD4JjzzvCmaoqA.png)
+![](/img/posts/libro-bitcoin-199-domande-1.webp)
 
 Il libro infatti si divide in 4 sezioni:
 

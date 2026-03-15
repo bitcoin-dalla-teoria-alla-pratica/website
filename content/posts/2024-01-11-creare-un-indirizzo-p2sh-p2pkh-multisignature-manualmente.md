@@ -5,7 +5,7 @@ slug: "creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente"
 draft: false
 author: "Alessio Barnini"
 description: "In Bitcoin in Action, siamo appassionati di svelare i segreti di Bitcoin. Oggi, ci immergeremo nelle profondità del protocollo, creando…"
-cover: "https://cdn-images-1.medium.com/max/1200/0*tTDhT_QA5Euio5Jo.png"
+cover: "/img/posts/creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -68,7 +68,7 @@ printf $SCRIPT > redeem_script.txt
 
 #### **Redeem Script: Applicazione di SHA256 e RIPEMD160** In una fase successiva del nostro percorso, applicheremo l’hash SHA256 e RIPEMD160 al redeem script che abbiamo creato. Questa è una parte cruciale del processo di creazione di un indirizzo Bitcoin P2SH-P2PKH.
 
-![P2SH — Guarda il video completo sul canale Youtube Bitcoin in Action](https://cdn-images-1.medium.com/max/1200/0*tTDhT_QA5Euio5Jo.png)
+![P2SH — Guarda il video completo sul canale Youtube Bitcoin in Action](/img/posts/creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente-1.webp)
 *P2SH — Guarda il video completo sul canale Youtube Bitcoin in Action*
 
 ```bash
@@ -110,7 +110,7 @@ Per esempi più approfonditi, unisciti a noi nel nostro libro:
 
 📕 [Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](https://amzn.to/3pJcXj1)
 
-![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](https://cdn-images-1.medium.com/max/1200/1*imG__98FnJWdFN9KT0cgRQ.jpeg)
+![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts](/img/posts/creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente-2.webp)
 *📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts*
 
 ---

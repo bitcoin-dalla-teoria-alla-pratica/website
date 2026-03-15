@@ -5,7 +5,7 @@ slug: "seed-phrase-come-si-ottiene"
 draft: false
 author: "Alessio Barnini"
 description: "Vi siete mai domandati su come si ottiene il seed phrase?"
-cover: "https://cdn-images-1.medium.com/max/1200/1*E6-6HpKgGjhaes12D9qCRQ.png"
+cover: "/img/posts/seed-phrase-come-si-ottiene-1.png"
 tags:
   - "BIP"
   - "Bitcoin"
@@ -52,7 +52,7 @@ Prendiamo i valori corrispondenti dei bits accesi, cioè dove è presente il num
 
 Il risultato che otteniamo è un numero, che mappato al dizionario inglese dato dalle 2048 parole, da come risultato **accident**.
 
-![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](https://cdn-images-1.medium.com/max/1200/1*d7Aw_ItVnw9EJFCWvnzcbA.gif)
+![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/seed-phrase-come-si-ottiene-2.gif)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*
 
 Partiamo dall’entropia
@@ -108,10 +108,10 @@ La parola che troviamo è **accident**. **Attenzione**, la lista parte da 1, qui
 
 Abbiamo la possibilità di verificare il nostro risultato utilizzando il sito [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/#english) ed inserire l’entropia che abbiamo utilizzato
 
-![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](https://cdn-images-1.medium.com/max/1200/1*tMGrMNPYtagKst9HmQvtqQ.png)
+![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/seed-phrase-come-si-ottiene-3.png)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*
 
 ---
 
-![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](https://cdn-images-1.medium.com/max/1200/1*E6-6HpKgGjhaes12D9qCRQ.png)
+![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/seed-phrase-come-si-ottiene-1.png)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*

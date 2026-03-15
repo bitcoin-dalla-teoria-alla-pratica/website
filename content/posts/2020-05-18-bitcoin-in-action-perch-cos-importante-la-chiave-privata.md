@@ -5,7 +5,7 @@ slug: "bitcoin-in-action-perch-cos-importante-la-chiave-privata"
 draft: false
 author: "Alessio Barnini"
 description: "Canale youtube Bitcoin in Action"
-cover: "https://cdn-images-1.medium.com/max/1200/1*KZ5XKmo-TENn7qA5STH8HA.png"
+cover: "/img/posts/bitcoin-in-action-perch-cos-importante-la-chiave-privata-1.webp"
 tags:
   - "Bitcoin"
   - "Chiave Privata"
@@ -20,7 +20,7 @@ categories:
 
 #### [Scoprilo su Youtube — Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
 
-![Perché è così importante la chiave privata?](https://cdn-images-1.medium.com/max/1200/1*KZ5XKmo-TENn7qA5STH8HA.png)
+![Perché è così importante la chiave privata?](/img/posts/bitcoin-in-action-perch-cos-importante-la-chiave-privata-1.webp)
 *Perché è così importante la chiave privata?*
 
 Benvenuto nel canale youtube [**Bitcoin in Action**](https://www.youtube.com/BitcoinInAction?sub_confirmation=1), io sono [Alessio](https://www.linkedin.com/in/alessiobarnini/), ma per tutti Barno.

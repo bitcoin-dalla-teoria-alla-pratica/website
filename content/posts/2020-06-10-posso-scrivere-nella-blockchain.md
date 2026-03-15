@@ -5,7 +5,7 @@ slug: "posso-scrivere-nella-blockchain"
 draft: false
 author: "Alessio Barnini"
 description: "Video completo nel canale youtube Bitcoin in Action"
-cover: "https://cdn-images-1.medium.com/max/1200/1*ZcxKPepq9_InlwDZ8sjnXQ.png"
+cover: "/img/posts/posso-scrivere-nella-blockchain-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -18,7 +18,7 @@ categories:
 
 #### Video completo nel [canale youtube Bitcoin in Action](https://www.youtube.com/BitcoinInAction)
 
-![Video completo nelcanale youtube Bitcoin in Action](https://cdn-images-1.medium.com/max/1200/1*ZcxKPepq9_InlwDZ8sjnXQ.png)
+![Video completo nelcanale youtube Bitcoin in Action](/img/posts/posso-scrivere-nella-blockchain-1.webp)
 *Video completo nelcanale youtube Bitcoin in Action*
 
 Ciao, 
@@ -161,7 +161,7 @@ Ottenendo cosi la transaction id.
 
 Adesso possiamo utilizzare un qualsiasi explorer per verificare la transazione, ad esempio [https://tbtc.bitaps.com/](https://tbtc.bitaps.com/) e inseriamo la [transaction id](https://tbtc.bitaps.com/edee419f93521f43259b763ffb42e4b882504534494381b7e18057015a27c548) appena ottenuta.
 
-![Il messaggio nella blockchain di Bitcoin — corsocompleto.bitcoininaction.com](https://cdn-images-1.medium.com/max/2560/1*bWjvjfmi4xHYFa1cU38wWw.jpeg)
+![Il messaggio nella blockchain di Bitcoin — corsocompleto.bitcoininaction.com](/img/posts/posso-scrivere-nella-blockchain-2.webp)
 *Il messaggio nella blockchain di Bitcoin — corsocompleto.bitcoininaction.com*
 
 La transazione è stata inviata correttamente ed è in attesa di essere minata. Contiene giustamente due output, uno verso il destinatario e l’altro è un OP_RETURN con il nostro messaggio.

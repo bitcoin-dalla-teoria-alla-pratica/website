@@ -58,7 +58,7 @@ Prendendo come riferimento l’esempio precedente, vediamo come è interpretiamo
 
 Piu semplicemente, ogni elemento viene moltiplicata per la sua posizione, per questo si chiama anche sistema di [numerazione posizionale](https://it.wikipedia.org/wiki/Sistema_di_numerazione_posizionale).
 
-![](https://cdn-images-1.medium.com/max/1200/1*HrTLyo5KJezcj5HWqDeYGA.png)
+![](/img/posts/come-si-riconosce-la-firma-digitale-in-bitcoin-2.webp)
 
 ```bash
 5*1000 + 2*100 + 0*10 + 1*1 = 5201
@@ -80,7 +80,7 @@ Il sistema esadecimale, o **base16** o **hex**, è formato da 16 simboli
 
 Ad esempio il numero 52 corrisponde a 0x34
 
-![il numero 52 corrisponde a 34 in esadecimale.](https://cdn-images-1.medium.com/max/1200/1*PObtuBMb7_9rArVU9gJAsg.png)
+![il numero 52 corrisponde a 34 in esadecimale.](/img/posts/come-si-riconosce-la-firma-digitale-in-bitcoin-3.webp)
 *il numero 52 corrisponde a 34 in esadecimale.*
 
 Il numero 52 in base due è rappresentato da 0011 0100, in totale 1 byte, 8 bit. 
@@ -181,7 +181,7 @@ Quindi viene inserito nello stack.
 
 Successivamente, come abbiamo affrontato nel [precedente video](https://youtu.be/SMDeoY9x3HY), lo stack viene validato.
 
-![Estratto dell’articolohttps://bitcoin-in-action.medium.com/transazione-p2pk-bitcoin-e9bc4dc7870d](https://cdn-images-1.medium.com/max/1200/1*GmQvCWRuqQyg3aUhYKo5Ug.png)
+![Estratto dell’articolohttps://bitcoin-in-action.medium.com/transazione-p2pk-bitcoin-e9bc4dc7870d](/img/posts/come-si-riconosce-la-firma-digitale-in-bitcoin-4.webp)
 *Estratto dell’articolohttps://bitcoin-in-action.medium.com/transazione-p2pk-bitcoin-e9bc4dc7870d*
 
 ![I nostri libri disponibili su corsobitcoin.com](https://cdn-images-1.medium.com/max/1200/1*QfBGF4Pcd3vgzH4Fx_wP5Q.jpeg)

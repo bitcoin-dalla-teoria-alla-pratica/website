@@ -6,7 +6,7 @@ draft: false
 author: "Alessio Barnini"
 description: "Ciao a tutti,
 abbiamo pensato di creare un repository per facilitare gli esempi che troviamo nei due nostri libri, Bicoin dalla teoria alla…"
-cover: "https://cdn-images-1.medium.com/max/1200/1*1hBErngCdIgVlHtojL1r4w.png"
+cover: "/img/posts/utilizzare-gli-esempi-dei-libri-con-docker-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -24,7 +24,7 @@ abbiamo pensato di creare un **repository per facilitare** gli esempi che trovia
 
 Per questo andremo ad utilizzare Docker!
 
-![Il nostro Repositoryhttps://github.com/bitcoin-dalla-teoria-alla-pratica/Docker-bitcoin](https://cdn-images-1.medium.com/max/1200/1*1hBErngCdIgVlHtojL1r4w.png)
+![Il nostro Repositoryhttps://github.com/bitcoin-dalla-teoria-alla-pratica/Docker-bitcoin](/img/posts/utilizzare-gli-esempi-dei-libri-con-docker-1.webp)
 *Il nostro Repositoryhttps://github.com/bitcoin-dalla-teoria-alla-pratica/Docker-bitcoin*
 
 #### Che cosa è Docker?

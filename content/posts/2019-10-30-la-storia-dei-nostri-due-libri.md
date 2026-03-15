@@ -5,7 +5,7 @@ slug: "la-storia-dei-nostri-due-libri"
 draft: false
 author: "Alessio Barnini"
 description: "Bitcoin dalla teoria alla pratica e Bitcoin 199 domande"
-cover: "https://cdn-images-1.medium.com/max/1200/1*Cs6Orht_Yjq5AkbiVWlgfQ.jpeg"
+cover: "/img/posts/la-storia-dei-nostri-due-libri-1.webp"
 tags:
   - "Bitcoin"
   - "Fee"
@@ -32,7 +32,7 @@ Abbiamo utilizzato [Code blocks](https://gsuite.google.com/marketplace/app/code_
 - Il plug-in Code blocks quasi inutilizzabile all’aumentare delle pagine. 
 - Google doc non offre tutte le opzioni che ci servivano a noi, ad esempio gestione margini, stili griglie. Oppure siamo noi che non lo sappiamo usare :)
 
-![Durante la scrittura delLibro Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*rr-RphWnFHTwy4QU8mv72A.png)
+![Durante la scrittura delLibro Bitcoin dalla teoria alla pratica](/img/posts/la-storia-dei-nostri-due-libri-2.webp)
 *Durante la scrittura delLibro Bitcoin dalla teoria alla pratica* **Problema n°2: ISBN**. ISBN è l'acronimo di International Standard Book Number. 
 Grazie a questo standard è possibile riconoscere in modo univoco un libro. 
 Amazon offre gratuitamente ISBN, però ci siamo detti “Associare i nostri nomi al libro è importante”.  
@@ -63,18 +63,18 @@ Noi abbiamo creato due file PDF, uno per il cartaceo e uno per kindle. L’antep
 -** Tool di Amazon ben fatto. **Contro**: - Due copie diverse, uno per il cartaceo e uno per kindle.  
 - L’impaginazione è la parte più difficile.
 
-![Impaginazione delLibro Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*UamXuKAsO3S7ozEedrLuyg.jpeg)
+![Impaginazione delLibro Bitcoin dalla teoria alla pratica](/img/posts/la-storia-dei-nostri-due-libri-3.webp)
 *Impaginazione delLibro Bitcoin dalla teoria alla pratica* **Problema n°7: Copia bozza**. Questo in realtà non è un problema ma un utilissimo servizio che Amazon offre prima di mettere in vendita il proprio libro. È possibile richiedere la copia bozza e vedere fisicamente il risultato finale. 
 Per noi è stato utile per il libro [Bitcoin 199 domande](/prodotti/bitcoin-199-domande/).
 
 Volevamo un formato più piccolo rispetto alla copia bozza. **Pro** - Velocità di spedizione, richiesto un giovedì notte, ricevuto il martedì mattina.
 
-![Il primo formato (scartato) del libro Bitcoin 199 domande](https://cdn-images-1.medium.com/max/1200/1*Cs6Orht_Yjq5AkbiVWlgfQ.jpeg)
+![Il primo formato (scartato) del libro Bitcoin 199 domande](/img/posts/la-storia-dei-nostri-due-libri-1.webp)
 *Il primo formato (scartato) del libro Bitcoin 199 domande*
 
 ---
 
 Questo è stato il percorso che abbiamo affrontato per pubblicare i nostri due libri, speriamo che le nostre informazioni siano utili a chi, come noi, vuole esaudire lo stesso desiderio.
 
-![Copie dellibro Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*2_KwKKEaMR4ZBmHTjJh0Nw.jpeg)
+![Copie dellibro Bitcoin dalla teoria alla pratica](/img/posts/la-storia-dei-nostri-due-libri-4.webp)
 *Copie dellibro Bitcoin dalla teoria alla pratica*

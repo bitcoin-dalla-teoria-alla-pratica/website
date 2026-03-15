@@ -16,7 +16,7 @@
     <img src="{{ absURL . }}" class="product-cover" alt="{{ $.Title }}" />
   {{ end }}
 
-  <div class="post-content">
+  <div class="post-content" data-pagefind-body>
     {{- with .Content -}}
       <div>
         {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">#</a> ${3}` | safeHTML }}

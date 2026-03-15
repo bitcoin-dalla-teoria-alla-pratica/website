@@ -5,7 +5,7 @@ slug: "come-creare-una-transazione-p2sh-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "Come inviare la transazione step by step"
-cover: "https://cdn-images-1.medium.com/max/1200/1*imG__98FnJWdFN9KT0cgRQ.jpeg"
+cover: "/img/posts/come-creare-una-transazione-p2sh-p2pk-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -149,7 +149,7 @@ Nel prossimo articolo andremo, step by step nella validazione, il codice è disp
 
 Ciao e alla prossima!
 
-![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)](https://cdn-images-1.medium.com/max/1200/1*imG__98FnJWdFN9KT0cgRQ.jpeg)
+![📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)](/img/posts/come-creare-una-transazione-p2sh-p2pk-1.webp)
 *📕Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)*
 
 

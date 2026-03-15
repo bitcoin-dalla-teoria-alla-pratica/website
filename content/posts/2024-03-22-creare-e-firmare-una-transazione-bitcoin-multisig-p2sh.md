@@ -5,7 +5,7 @@ slug: "creare-e-firmare-una-transazione-bitcoin-multisig-p2sh"
 draft: false
 author: "Alessio Barnini"
 description: "Nel precedente articolo abbiamo visto come creare un address P2SH Multisig, in questo articolo vedremo come firmarlo"
-cover: "https://cdn-images-1.medium.com/max/1200/1*rFN2eXhjNLHZqewT86Xe9g.png"
+cover: "/img/posts/creare-e-firmare-una-transazione-bitcoin-multisig-p2sh-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -142,11 +142,11 @@ Analizziamo adesso grazie a [btcdeb](https://github.com/bitcoin-core/btcdeb) ([h
  btcdeb --tx=$TX_SIGNED --txin=$(bitcoin-cli getrawtransaction $TXID)
 ```
 
-![](https://cdn-images-1.medium.com/max/1200/1*rFN2eXhjNLHZqewT86Xe9g.png)
+![](/img/posts/creare-e-firmare-una-transazione-bitcoin-multisig-p2sh-1.webp)
 
 con il comando step, possiamo proseguire
 
-![](https://cdn-images-1.medium.com/max/1200/1*MLr9UUCRliJtMZcCd38TAg.png)
+![](/img/posts/creare-e-firmare-una-transazione-bitcoin-multisig-p2sh-2.webp)
 
 vengono inserite le due chiavi pubbliche e il redeem script. 
 I piu attenti avranno visti 0x come primo elemento dello stack, ecco il motivo:

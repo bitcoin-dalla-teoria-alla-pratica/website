@@ -5,7 +5,7 @@ slug: "dove-posso-leggere-il-famoso-titolo-de-the-times"
 draft: false
 author: "Alessio Barnini"
 description: "Seguici sul canale youtube — Bitcoin in Action"
-cover: "https://cdn-images-1.medium.com/max/1200/1*eMz70QEkdqz4elk9WnzdaA.png"
+cover: "/img/posts/dove-posso-leggere-il-famoso-titolo-de-the-times-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -114,5 +114,5 @@ Abbiamo utilizzato [#IPFS](https://www.youtube.com/results?search_query=%23IPFS)
 
 Ciao alla prossima
 
-![A destra il titolo storico del The Times — a sinistra Il giornale 10 anni dopo.](https://cdn-images-1.medium.com/max/1200/1*eMz70QEkdqz4elk9WnzdaA.png)
+![A destra il titolo storico del The Times — a sinistra Il giornale 10 anni dopo.](/img/posts/dove-posso-leggere-il-famoso-titolo-de-the-times-1.webp)
 *A destra il titolo storico del The Times — a sinistra Il giornale 10 anni dopo.*

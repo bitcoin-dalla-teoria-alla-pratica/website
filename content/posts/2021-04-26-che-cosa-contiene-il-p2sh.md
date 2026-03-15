@@ -5,7 +5,7 @@ slug: "che-cosa-contiene-il-p2sh"
 draft: false
 author: "Alessio Barnini"
 description: "Video completo sul nostro canale YouTube – Bitcoin in Action!"
-cover: "https://cdn-images-1.medium.com/max/1200/1*-o58BCJ57BSBk18DFlpo9A.jpeg"
+cover: "/img/posts/che-cosa-contiene-il-p2sh-1.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -18,7 +18,7 @@ categories:
 
 ### **Che cosa contiene il P2SH**? #### [Video completo sul nostro canale YouTube – Bitcoin in Action!](https://www.youtube.com/BitcoinInAction)
 
-![P2SH: Come è costruito?](https://cdn-images-1.medium.com/max/1200/1*-o58BCJ57BSBk18DFlpo9A.jpeg)
+![P2SH: Come è costruito?](/img/posts/che-cosa-contiene-il-p2sh-1.webp)
 *P2SH: Come è costruito?*
 
 Entriamo nel vivo dell’address **Pay to script Hash**. Come dicevamo nel precedente [video](https://youtu.be/Aa1pTzC67Io), l’utente andrà a pagare ad un **hash** di uno script.

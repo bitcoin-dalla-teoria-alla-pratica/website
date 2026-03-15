@@ -5,7 +5,7 @@ slug: "bitcoin-in-action"
 draft: false
 author: "Alessio Barnini"
 description: "Segwit, Bitcoin script & smart contracts"
-cover: "https://cdn-images-1.medium.com/max/1200/1*p_9QQNXVIAfCTu75l_1ndg.png"
+cover: "/img/posts/bitcoin-in-action-7.webp"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -23,7 +23,7 @@ categories:
 Ciao!  
 Dopo [Bitcoin dalla teoria alla pratica](https://amzn.to/2MOj1av) e [Bitcoin 199 Domande](https://amzn.to/3ckIkJj), abbiamo completato la nostra terza fatica – [**Bitcoin in Action** * SegWit, Bitcoin script & Smart Contracts*](https://amzn.to/3pJcXj1).
 
-![Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts](https://cdn-images-1.medium.com/max/1200/1*p_9QQNXVIAfCTu75l_1ndg.png)
+![Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts](/img/posts/bitcoin-in-action-7.webp)
 *Bitcoin In Action — SegWit, Bitcoin Script & Smart Contracts*
 
 Per seguire questo nuovo testo è indispensabile il primo libro, [Bitcoin dalla teoria alla pratica](https://amzn.to/2MOj1av), proprio perchè non saranno spiegati concetti già affrontati precedentemente, come ad esempio il mining, quindi la [proof of work](https://medium.com/@satoshiwantsyou/che-cosa-e-la-proof-of-work-e-il-mining-bitcoin-8401c0d3c149), il problema dei generai bizantini o la blockchain, quindi hard fork e soft fork, ma abbiamo deciso di andare giù nella buca del Bianconiglio 🐰.
@@ -63,7 +63,7 @@ Un libro molto corposo che porta due novità fondamentali rispetto al precedente
 
 La prima sono le **mappe mentali**, strumento che uso quotidianamente e che serviranno a fine capitolo per avere un quadro completo di quanto affrontato.
 
-![Mappe mentali disponibili nel repository GitHub](https://cdn-images-1.medium.com/max/1200/1*Jr8xsOOK2MjmM_cHwByHCQ.png)
+![Mappe mentali disponibili nel repository GitHub](/img/posts/bitcoin-in-action-2.webp)
 *Mappe mentali disponibili nel repository GitHub*
 
 La seconda è la **pratica**.
@@ -76,7 +76,7 @@ Come fare a replicarli quindi?
 
 Semplice, si clonerà il repository, si seguiranno le istruzioni descritte nel libro, o nel video tutorial che trovate nel nostro [canale YouTube](https://www.youtube.com/BitcoinInAction), e con l’avvio di un semplice file, replicherete tutto l’esempio.
 
-![Come replicare gli esempi del libro con un semplice file sh](https://cdn-images-1.medium.com/max/1200/1*KVxYtZCtD3pSr4_1osxVCg.png)
+![Come replicare gli esempi del libro con un semplice file sh](/img/posts/bitcoin-in-action-3.webp)
 *Come replicare gli esempi del libro con un semplice file sh*
 
 Spenderai dei bitcoin per replicare l’esempio?

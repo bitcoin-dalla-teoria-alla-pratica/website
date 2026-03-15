@@ -5,7 +5,7 @@ slug: "presentazione-a-milano"
 draft: false
 author: "Alessio Barnini"
 description: "Blockchain Devs & Crafted Software"
-cover: "https://cdn-images-1.medium.com/max/1200/1*652iVQR77_lhESz6tBIr0w.jpeg"
+cover: "/img/posts/presentazione-a-milano-1.webp"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -24,8 +24,8 @@ Siamo molto contenti di come sia andata la serata e speriamo che sia la prima di
 
 Slide: [http://bit.ly/2k80t7m](https://t.co/iZtMp28Jjl?amp=1)
 
-![Merkle TreeBitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*652iVQR77_lhESz6tBIr0w.jpeg)
+![Merkle TreeBitcoin dalla teoria alla pratica](/img/posts/presentazione-a-milano-1.webp)
 *Merkle TreeBitcoin dalla teoria alla pratica*
 
-![Child key derivationBitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*X7Z3-quYrSWhe04G_lYBGg.png)
+![Child key derivationBitcoin dalla teoria alla pratica](/img/posts/presentazione-a-milano-2.webp)
 *Child key derivationBitcoin dalla teoria alla pratica*
