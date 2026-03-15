@@ -37,7 +37,7 @@ L’algoritmo secp256k1 è parte della crittografia delle curve ellittiche, spes
 Troviamo anche l’acronimo **ECDSA** che ci indica Elliptic **Curve Digital Signature Algorithm**.
 
 > **ECC**: **Elliptic Curve Cryptography 
-> ECDSA:Curve Digital Signature Algorithm** La chiave privata deve rispettare le direttive **DER**, [**Distinguished Encoding Rules**](https://en.wikipedia.org/wiki/X.690#DER_encoding). Brevemente, la chiave viene interpretata come un coding binario e non contiene plain text come le chiavi **PEM**, come ad esempio — — -BEGIN EC PRIVATE KEY — — -
+> ECDSA:Curve Digital Signature Algorithm **La chiave privata deve rispettare le direttive **DER**, [**Distinguished Encoding Rules**](https://en.wikipedia.org/wiki/X.690#DER_encoding). Brevemente, la chiave viene interpretata come un coding binario e non contiene plain text come le chiavi **PEM**, come ad esempio — — -BEGIN EC PRIVATE KEY — — -
 
 ```bash
 -----BEGIN EC PRIVATE KEY-----

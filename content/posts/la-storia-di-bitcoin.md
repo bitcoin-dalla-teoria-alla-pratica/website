@@ -21,9 +21,9 @@ categories:
 
 ### La storia di Bitcoin
 
-Quest’anno (2019) abbiamo festeggiato 10 anni di Bitcoin, ovvero dal suo primo blocco creato da** Satoshi Nakamoto**.
+Quest’anno (2019) abbiamo festeggiato 10 anni di Bitcoin, ovvero dal suo primo blocco creato da **Satoshi Nakamoto**.
 
-Nella** coinbase** si può leggere il titolo del Times del 3 Gennaio 2009
+Nella **coinbase** si può leggere il titolo del Times del 3 Gennaio 2009
 
 ```bash
 echo 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73 | xxd -r -p
@@ -39,13 +39,13 @@ Ma prima di quella data storica che cosa è successo?
 
 Ho trovato in rete questa bellissima immagine che ripercorre dal 1973 al 2009 le tappe fondamentali del protocollo Bitcoin.
 
-Abbiamo elementi come il** Merkle Tree**, nel 1980l Merkle tree elemento fondamentale per l’indicizzazione delle transazioniermette ai nodi SPV di fare delle ricerche senza scaricare l’intera blockchain, ed è anche elemento fondamentale per il PoW.
+Abbiamo elementi come il **Merkle Tree**, nel 1980l Merkle tree elemento fondamentale per l’indicizzazione delle transazioniermette ai nodi SPV di fare delle ricerche senza scaricare l’intera blockchain, ed è anche elemento fondamentale per il PoW.
 
-1985** Elliptic Curve** Cryptography, la crittografia utilizzata da Bitcoin per firmare le transazioni.
+1985 **Elliptic Curve** Cryptography, la crittografia utilizzata da Bitcoin per firmare le transazioni.
 
 Ma più che tecnologie mi vorrei soffermare sulle persone e su quei progetti che hanno fatto diventare Bitcoin quello che è adesso.
 
-Tutti conosciamo** Satoshi Nakamoto** come il creatore di Bitcoin, ma nessuno sa la sua vera identità.
+Tutti conosciamo **Satoshi Nakamoto** come il creatore di Bitcoin, ma nessuno sa la sua vera identità.
 
 Molti sostengono che non sia una persona soltanto, ma bensì, un gruppo di persone ad aver creato Bitcoin, e forse è l’ipotesi più plausibile.
 
@@ -55,7 +55,7 @@ Alla fine degli anni 80 nacque un movimento, Cypherpunks.
 
 Che cosa è un movimento [**Cypherpunks**](https://it.wikipedia.org/wiki/Cypherpunk)?
 
-Un movimento** Cypherpunks** è un movimento che si pone come obiettivo quello di aumentare la privacy tramite la crittografia al fine di ottenere un cambiamento socio politico.
+Un movimento **Cypherpunks** è un movimento che si pone come obiettivo quello di aumentare la privacy tramite la crittografia al fine di ottenere un cambiamento socio politico.
 
 Un movimento molto ambizioso.
 
@@ -66,13 +66,13 @@ Un movimento molto ambizioso.
 
 *Security without Identification: Transaction Systems to Make Big Brother Obsolete*, cosi [**David Chaum**](https://en.wikipedia.org/wiki/David_Chaum), pubblicò il suo pensiero.
 
-Chaum nel** 1989** crea una società [**DigiCash Inc**](https://en.wikipedia.org/wiki/DigiCash)a quale aveva come obiettivo quello di portare le sue “monete” nel mondo bancario.
+Chaum nel **1989** crea una società [**DigiCash Inc**](https://en.wikipedia.org/wiki/DigiCash)a quale aveva come obiettivo quello di portare le sue “monete” nel mondo bancario.
 
 Era una forma di pagamento elettronico anticipato, infatti l’utente doveva prelevare banconote dalla banca ed assegnare chiavi (pubblica e privata) da inviare al destinatarion questo modo sarebbe stato impossibile per le banche e per i governi rintracciare gli utenti , dato che gli utenti erano identificati con una stringa alfanumerica…ricorda qualcosa?
 
 Purtroppo questo soffriva di centralizzazione in quanto la banca doveva rilasciare un nullaosta per utilizzarle, e dopo innumerevoli tentativi di colmare questo gap, la società andò in fallimento.
 
-Ma questo fu l’inizio della** rivoluzione**. 👊
+Ma questo fu l’inizio della **rivoluzione**. 👊
 
 Da qui iniziarono ad entrare dei personaggi molto importanti
 
@@ -81,7 +81,7 @@ Da qui iniziarono ad entrare dei personaggi molto importanti
 ![Adam Back—Hashcash](/img/posts/la-storia-di-bitcoin-3.webp)
 *Adam Back—Hashcash*
 
-Già nel** 1997** si parlava di [**Proof of work**](https://en.bitcoin.it/wiki/Proof_of_work)** (PoW).**
+Già nel **1997** si parlava di [**Proof of work**](https://en.bitcoin.it/wiki/Proof_of_work) **(PoW).**
 
 Infatti [**Adam Back**](https://en.wikipedia.org/wiki/Adam_Back) creò [**Hashcash**](https://it.wikipedia.org/wiki/Hashcash), basato appunto sul Proof of work, per limitare lo spam email e attacchi DoS.
 
@@ -98,7 +98,7 @@ Questo algoritmo suona famigliare ?
 ![Wei Dai—b-money](/img/posts/la-storia-di-bitcoin-4.webp)
 *Wei Dai—b-money*
 
-L’anno successivo, 1998, [**Wei Dai**](https://en.bitcoin.it/wiki/Wei_Dai), pubblicò il primo paper dove descriveva la sua idea di** criptovaluta**.
+L’anno successivo, 1998, [**Wei Dai**](https://en.bitcoin.it/wiki/Wei_Dai), pubblicò il primo paper dove descriveva la sua idea di **criptovaluta**.
 
 La [**b-money**](https://en.bitcoin.it/wiki/B-money).
 
@@ -110,20 +110,20 @@ Il Primo serviva per mantenere un database sincronizzato, dove registrare tutte 
 
 Proprio come fanno i full node di Bitcoin che hanno la copia esatta della blockchain nel database [**LevelDb**](https://en.bitcoin.it/wiki/Bitcoin_Core_0.11_%28ch_2%29:_Data_Storage)
 
-Il secondo, serviva per conteggiare l’ammontare di** b-money** posseduti.
+Il secondo, serviva per conteggiare l’ammontare di **b-money** posseduti.
 
 ---
 
 ![Hal Finney—RPoW](/img/posts/la-storia-di-bitcoin-5.webp)
 *Hal Finney—RPoW*
 
-Nel 2004, [**Hal Finney**](https://en.wikipedia.org/wiki/Hal_Finney_%28computer_scientist%29), sulla base di** Hashcash**, creo [RPoW](https://cryptome.org/rpow.htm), Reusable Proof of work.
+Nel 2004, [**Hal Finney**](https://en.wikipedia.org/wiki/Hal_Finney_%28computer_scientist%29), sulla base di **Hashcash**, creo [RPoW](https://cryptome.org/rpow.htm), Reusable Proof of work.
 
 Permetteva lo scambio di token e garantiva che ogni token potesse essere speso solo una volta.
 
-Si chiamava RPoW, perchè oltre al PoW, utilizzava anche una crittografia** RSA** **asimmetrica** per firmare le Transazioni, quindi RPoW.
+Si chiamava RPoW, perchè oltre al PoW, utilizzava anche una crittografia **RSA** **asimmetrica** per firmare le Transazioni, quindi RPoW.
 
-R di** RSA** e PoW di Proof of work
+R di **RSA** e PoW di Proof of work
 
 Questo progetto soffriva però di centralizzazione, in quanto le convalide per il double spending, venivano fatte da un server centralizzato
 
@@ -132,13 +132,13 @@ Questo progetto soffriva però di centralizzazione, in quanto le convalide per i
 ![Nick Szabo](/img/posts/la-storia-di-bitcoin-6.webp)
 *Nick Szabo*
 
-Si arriva quindi a [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo), che pubblica** Bit gold.**
+Si arriva quindi a [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo), che pubblica **Bit gold.**
 
 Una valuta digitale basata su RPoW.
 
 Bit gold proponeva un sistema decentralizzato, dove gli utenti grazie alla loro coppia di chiavi, firmavano la transazione, ovvero utilizzavano la firma digitale.
 
-Anche se** BitGold** non ha mai visto luce, è da molti considerato il** precursore del Bitcoin**, anche perchè introduceva argomenti come [Byzantine fault-tolerant](https://en.wikipedia.org/wiki/Byzantine_fault) , il timestamping e la risoluzione di puzzle criptografici da parte degli utenti.
+Anche se **BitGold** non ha mai visto luce, è da molti considerato il **precursore del Bitcoin**, anche perchè introduceva argomenti come [Byzantine fault-tolerant](https://en.wikipedia.org/wiki/Byzantine_fault) , il timestamping e la risoluzione di puzzle criptografici da parte degli utenti.
 
 A differenza di bitcoin, questa moneta non avrebbe avuto una supply
 

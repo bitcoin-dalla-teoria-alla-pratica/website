@@ -24,13 +24,13 @@ Per proseguire dobbiamo chiarire anche la differenza tra Nodo e Miner
 
 **I Full node** come sappiano hanno l’intera blockchain scaricata.
 
-Stanno in ascolto su altri nodi e verificano che una transazione sia valida confrontandola proprio con la blockchain che hannoer essere più precisi con LevelDb** Chainstate**
+Stanno in ascolto su altri nodi e verificano che una transazione sia valida confrontandola proprio con la blockchain che hannoer essere più precisi con LevelDb **Chainstate**
 
-Se tale transazione viene verificata viene passata ad un altro nodo, e aggiorna la propria** mempool**, dove sono “ospitate” tutte le transazioni** unconfirmed**na transazione è** unconfirmed** quando non è ancora inclusa nel blocco, di fatto non fa ancora parte della blockchain
+Se tale transazione viene verificata viene passata ad un altro nodo, e aggiorna la propria **mempool**, dove sono “ospitate” tutte le transazioni **unconfirmed**na transazione è **unconfirmed** quando non è ancora inclusa nel blocco, di fatto non fa ancora parte della blockchain
 
 ---
 
-**I miners** stanno in ascolto sulle nuove transazioni, prendendo le transazioni da includere nel blocco dalla** mempool**
+**I miners** stanno in ascolto sulle nuove transazioni, prendendo le transazioni da includere nel blocco dalla **mempool**
 
 Il loro compito è creare blocchi di transazioni valide e risolvere il PoW dietro ricompensa BTCna volta risolto mandano il blocco in broadcast, cioè nella rete
 
@@ -40,9 +40,9 @@ Il loro compito è creare blocchi di transazioni valide e risolvere il PoW dietr
 
 Come sappiamo la blockchain è un sistema decentralizzato e come dicevamo i nodi hanno al suo interno la replica esatta della blockchain.
 
-Essendo un sistema decentralizzato può essere che il nodo A abbia ricevuto il** tip**, ovvero il blocco più in alto, il più nuovo, mentre il nodo B non abbia ancora ricevuto lo stesso blocco, proprio perchè essendo una rete decentralizzata,** le informazioni si propagano come dei cerchi nell’acqua e quindi non simultaneamente**.
+Essendo un sistema decentralizzato può essere che il nodo A abbia ricevuto il **tip**, ovvero il blocco più in alto, il più nuovo, mentre il nodo B non abbia ancora ricevuto lo stesso blocco, proprio perchè essendo una rete decentralizzata, **le informazioni si propagano come dei cerchi nell’acqua e quindi non simultaneamente**.
 
-Il miner per creare il blocco deve risolvere il** Proof Of Work.**(PoW)
+Il miner per creare il blocco deve risolvere il **Proof Of Work.**(PoW)
 
 ![Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”](/img/posts/bitcoin-blockchain-fork-3.webp)
 *Slide del corso “Bitcoin dalla teoria alla pratica — corso completo”*
@@ -57,7 +57,7 @@ Il nodo Paolo riceve il blocco di Alessio e verifica che sia corretto, una volta
 
 Il nodo di Michela invece riceve per primo il blocco di Marco e verifica che sia corretto, una volta verificato lo inoltra ai nodi vicini
 
-Se Michela adesso ricevesse il blocco di Alessio** non potrà considerarlo valido** in quanto il padre di Alessio è lo stesso padre di Marco, ovvero il blocco celeste, e invece il nodo Michela sta tentando di aggiungerlo come figlio del blocco di Marco, cioè il blocco rosso.
+Se Michela adesso ricevesse il blocco di Alessio **non potrà considerarlo valido** in quanto il padre di Alessio è lo stesso padre di Marco, ovvero il blocco celeste, e invece il nodo Michela sta tentando di aggiungerlo come figlio del blocco di Marco, cioè il blocco rosso.
 
 ![](/img/posts/bitcoin-blockchain-fork-3.webp)
 
