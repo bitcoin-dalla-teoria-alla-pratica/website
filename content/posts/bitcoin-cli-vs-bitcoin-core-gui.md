@@ -3,14 +3,10 @@ title: "Bitcoin Core Gui Vs Cli ⚔️"
 date: 2020-12-09T18:52:24+01:00
 draft: false
 
-
 tags:
   - "Nodo & Network"
   - "SegWit"
 ---
-
-
-
 
 <img class="aligncenter wp-image-13476 size-large" src="/img/bitcoin-core-gui-vs-cli-1.png" alt="Bitcoin Cli VS GUI" width="640" height="360" />
 <p class="graf graf--p">Ciao,</p>
@@ -337,7 +333,7 @@ La GUI facilita alcune operazioni ma ne nasconde altre, la riga di comando è si
 </section>
 <p class="graf graf--p"> — — –</p>
 <p class="graf graf--p">🎥 <a class="markup--anchor markup--p-anchor" href="https://www.youtube.com/BitcoinInAction" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/BitcoinInAction">Bitcoin in Action (YouTube)</a></p>
-<p class="graf graf--p">—</p>
+
 <p class="graf graf--p">🐙 GitHub:<a class="markup--anchor markup--p-anchor" href="https://bit.ly/2Lj3yeY" target="_blank" rel="noopener noreferrer" data-href="https://bit.ly/2Lj3yeY"> https://bit.ly/2Lj3yeY</a></p>
 <p class="graf graf--p"> — –</p>
 <p class="graf graf--p">📕 <a class="markup--anchor markup--p-anchor" href="https://amzn.to/3pJcXj1" target="_blank" rel="noopener noreferrer" data-href="https://amzn.to/3pJcXj1">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)</a></p>
@@ -357,8 +353,5 @@ La GUI facilita alcune operazioni ma ne nasconde altre, la riga di comando è si
 —
 ► ITA: <a class="markup--anchor markup--p-anchor" href="https://twitter.com/satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://twitter.com/satoshiwantsyou">Twitter</a> , <a class="markup--anchor markup--p-anchor" href="https://www.facebook.com/satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://www.facebook.com/satoshiwantsyou">Facebook</a>, <a class="markup--anchor markup--p-anchor" href="https://bitcoin-in-action.medium.com/" target="_blank" rel="noopener noreferrer" data-href="https://bitcoin-in-action.medium.com/">Medium</a>, <a class="markup--anchor markup--p-anchor" href="https://www.instagram.com/satoshiwantsyou/" target="_blank" rel="noopener noreferrer" data-href="https://www.instagram.com/satoshiwantsyou/">Instagram</a>, <a class="markup--anchor markup--p-anchor" href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>, <a class="markup--anchor markup--p-anchor" href="https://github.com/bitcoin-dalla-teoria-alla-pratica" target="_blank" rel="noopener noreferrer" data-href="https://github.com/bitcoin-dalla-teoria-alla-pratica">GitHub</a></p>
 <p class="graf graf--p">► ENG: <a class="markup--anchor markup--p-anchor" href="https://twitter.com/btc_in_action" target="_blank" rel="noopener noreferrer" data-href="https://twitter.com/btc_in_action">Twitter</a> , <a class="markup--anchor markup--p-anchor" href="https://www.facebook.com/bitcoininaction/" target="_blank" rel="noopener noreferrer" data-href="https://www.facebook.com/bitcoininaction/">Facebook</a>, <a class="markup--anchor markup--p-anchor" href="https://medium.com/@bitcoin_in_action" target="_blank" rel="noopener noreferrer" data-href="https://medium.com/@bitcoin_in_action">Medium</a>, <a class="markup--anchor markup--p-anchor" href="https://www.instagram.com/bitcoin_in_action/" target="_blank" rel="noopener noreferrer" data-href="https://www.instagram.com/bitcoin_in_action/">Instagram</a>, <a class="markup--anchor markup--p-anchor" href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>, <a class="markup--anchor markup--p-anchor" href="https://github.com/bitcoin-dalla-teoria-alla-pratica" target="_blank" rel="noopener noreferrer" data-href="https://github.com/bitcoin-dalla-teoria-alla-pratica">GitHub</a></p>
-<p class="graf graf--p">Television isn’t a good idea (Radio Stations)
-Email isn’t a good idea (Post offices)
-Amazon isn’t a good idea (Retail stores)
-Bitcoin isn’t a good idea (Central banks)</p>
+
 <p class="graf graf--p">In <strong class="markup--strong markup--p-strong">crypto</strong> we trust</p>

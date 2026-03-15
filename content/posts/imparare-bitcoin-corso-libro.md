@@ -3,14 +3,10 @@ title: "Da dove inizio a studiare per imparare Bitcoin?"
 date: 2020-08-06T19:44:29+01:00
 draft: false
 
-
 tags:
   - "Script"
   - "Crittografia"
 ---
-
-
-
 
 <section>
 <section>
@@ -96,10 +92,5 @@ Ciao!
 —
 ► <a href="https://twitter.com/btc_in_action" target="_blank" rel="noopener noreferrer" data-href="https://twitter.com/btc_in_action">Twitter</a>&nbsp;, <a href="https://www.facebook.com/bitcoininaction/" target="_blank" rel="noopener noreferrer" data-href="https://www.facebook.com/bitcoininaction/">Facebook</a>, <a href="https://medium.com/@bitcoin_in_action" target="_blank" rel="noopener noreferrer" data-href="https://medium.com/@bitcoin_in_action">Medium</a>, <a href="https://www.instagram.com/bitcoin_in_action/" target="_blank" rel="noopener noreferrer" data-href="https://www.instagram.com/bitcoin_in_action/">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>, <a href="https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi" target="_blank" rel="noopener noreferrer" data-href="https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi">GitHub</a>
 
-Television isn’t a good idea (Radio Stations)
-Email isn’t a good idea (Post offices)
-Amazon isn’t a good idea (Retail stores)
-Bitcoin isn’t a good idea (Central banks)
-
-In <strong>crypto</strong> we trust</figure>
+</figure>
 </section></section></section></section></section></section>

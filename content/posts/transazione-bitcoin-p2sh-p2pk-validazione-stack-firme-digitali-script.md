@@ -3,14 +3,10 @@ title: "Validazione di una transazione P2SH-P2PK: il processo di verifica."
 date: 2023-12-06T17:58:23+01:00
 draft: false
 
-
 tags:
   - "Script"
   - "Crittografia"
 ---
-
-
-
 
 <p>Salve, nell'articolo precedente abbiamo esaminato il processo di transazione utilizzando il P2SH-P2PK. In questo nuovo articolo, ci concentreremo sulla procedura di validazione. Come nelle discussioni precedenti, esploreremo lo stack utilizzando la libreria btcdeb e faremo riferimento al codice del libro "Bitcoin In Action - SegWit, Bitcoin Script e Smart Contracts", disponibile sul nostro GitHub. La logica adottata in questo libro prevede di passare uno specifico parametro di debug allo script (DEBUG=1) per invocare la libreria btcdeb. Ora, procediamo con l'analisi pratica.</p>
 
@@ -22,11 +18,9 @@ tags:
 
 <p>Il nostro compito è avviare il file sh con il comando:</p>
 
-
 ```bash
 $ ./main.sh debug=1
 ```
-
 
 <p>Il codice è disponibile nel nostro repository e nel libro "Bitcoin In Action - SegWit, Bitcoin Script e Smart Contracts".</p>
 
@@ -56,23 +50,15 @@ $ ./main.sh debug=1
 
 <p>Ciao!</p>
 
-<p id="7acd">— — –</p>
-
 <p id="1ecf">🐳&nbsp;<a href="https://app.gitbook.com/@corsobitcoin/s/bitcoin-in-action-playground" rel="noreferrer noopener" target="_blank">Playground Bitcoin in Action</a></p>
 
 <p id="3d46">🎥&nbsp;<a href="https://www.youtube.com/BitcoinInAction" rel="noreferrer noopener" target="_blank">Bitcoin in Action (YouTube)</a></p>
 
-<p id="d410">—</p>
-
 <p id="3832">🐙 GitHub:<a href="https://bit.ly/2Lj3yeY" rel="noreferrer noopener" target="_blank">&nbsp;https://bit.ly/2Lj3yeY</a></p>
-
-<p id="979b">— –</p>
 
 <p id="478b">📕&nbsp;<a href="https://amzn.to/3pJcXj1" rel="noreferrer noopener" target="_blank">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)</a></p>
 
 <p id="31ee">📕&nbsp;<a href="https://bit.ly/38RtF9x" rel="noreferrer noopener" target="_blank">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)</a></p>
-
-<p id="5753">— –</p>
 
 <p id="8f81">📒&nbsp;<a href="https://amzn.to/2MOj1av" rel="noreferrer noopener" target="_blank">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br>📒&nbsp;<a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" rel="noreferrer noopener" target="_blank">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a><br>📒&nbsp;<a href="https://amzn.to/2Ym4gz6" rel="noreferrer noopener" target="_blank">Book Bitcoin from theory to practice (Amazon)</a></p>
 
@@ -83,7 +69,5 @@ $ ./main.sh debug=1
 <p id="e740">📙&nbsp;<a href="https://amzn.to/3fB4Kbs" rel="noreferrer noopener" target="_blank">Pocket Book Bitcoin 199 questions (Amazon)</a><br>📙&nbsp;<a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" rel="noreferrer noopener" target="_blank">Pocket&nbsp;</a><a href="https://www.amazon.it/dp/1078155585" rel="noreferrer noopener" target="_blank">Book&nbsp;</a><a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/" rel="noreferrer noopener" target="_blank">Bitcoin 199 questions (accept bitcoin)</a><br>—<br>► ITA:&nbsp;<a href="https://twitter.com/satoshiwantsyou" rel="noreferrer noopener" target="_blank">Twitter</a>&nbsp;,&nbsp;<a href="https://www.facebook.com/satoshiwantsyou" rel="noreferrer noopener" target="_blank">Facebook</a>,&nbsp;<a href="https://bitcoin-in-action.medium.com/">Medium</a>,&nbsp;<a href="https://www.instagram.com/satoshiwantsyou/" rel="noreferrer noopener" target="_blank">Instagram</a>,&nbsp;<a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" rel="noreferrer noopener" target="_blank">Youtube</a>,&nbsp;<a href="https://github.com/bitcoin-dalla-teoria-alla-pratica" rel="noreferrer noopener" target="_blank">GitHub</a></p>
 
 <p id="dc1e">► ENG:&nbsp;<a href="https://twitter.com/btc_in_action" rel="noreferrer noopener" target="_blank">Twitter</a>&nbsp;,&nbsp;<a href="https://www.facebook.com/bitcoininaction/" rel="noreferrer noopener" target="_blank">Facebook</a>,&nbsp;<a href="https://medium.com/@bitcoin_in_action">Medium</a>,&nbsp;<a href="https://www.instagram.com/bitcoin_in_action/" rel="noreferrer noopener" target="_blank">Instagram</a>,&nbsp;<a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" rel="noreferrer noopener" target="_blank">Youtube</a>,&nbsp;<a href="https://github.com/bitcoin-dalla-teoria-alla-pratica" rel="noreferrer noopener" target="_blank">GitHub</a></p>
-
-<p id="476f">Television isn’t a good idea (Radio Stations)<br>Email isn’t a good idea (Post offices)<br>Amazon isn’t a good idea (Retail stores)<br>Bitcoin isn’t a good idea (Central banks)</p>
 
 <p id="34d8">In&nbsp;<strong>crypto</strong>&nbsp;we trust</p>

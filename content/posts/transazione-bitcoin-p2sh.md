@@ -3,14 +3,10 @@ title: "La transazione Bitcoin P2SH-P2PK"
 date: 2021-06-01T10:14:58+01:00
 draft: false
 
-
 tags:
   - "Script"
   - "SegWit"
 ---
-
-
-
 
 <h5><a href="https://youtu.be/wMvFm2GJtcI" target="_blank" rel="noreferrer noopener">Video disponibile sul canale YouTube Bitcoin in Action</a></h5>
 
@@ -56,23 +52,15 @@ https://youtu.be/wMvFm2GJtcI
 
 <figure class="wp-block-image size-large"><img src="https://www.corsobitcoin.com/wp-content/uploads/2021/06/Bitcoin-Italiano-in-action-Segwit.jpg" alt="Bitcoin-Italiano-in-action-Segwit" class="wp-image-13648"/><figcaption><a href="https://bit.ly/38RtF9x" target="_blank" rel="noreferrer noopener">Bitcoin in Action - SegWit, Bitcoin Script &amp; Smart Contracts</a></figcaption></figure>
 
-<p id="f08e">— — –</p>
-
 <p id="3acd">🐳&nbsp;<a href="https://app.gitbook.com/@corsobitcoin/s/bitcoin-in-action-playground">Playground Bitcoin in Action</a></p>
 
 <p id="6e67">🎥&nbsp;<a href="https://www.youtube.com/BitcoinInAction">Bitcoin in Action (YouTube)</a></p>
 
-<p id="a79d">—</p>
-
 <p id="5780">🐙 GitHub:<a href="https://bit.ly/2Lj3yeY">&nbsp;https://bit.ly/2Lj3yeY</a></p>
-
-<p id="03a0">— –</p>
 
 <p id="1c89">📕&nbsp;<a href="https://amzn.to/3pJcXj1">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)</a></p>
 
 <p id="f459">📕&nbsp;<a href="https://bit.ly/38RtF9x">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)</a></p>
-
-<p id="4c21">— –</p>
 
 <p id="5d58">📒&nbsp;<a href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br>📒&nbsp;<a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a><br>📒&nbsp;<a href="https://amzn.to/2Ym4gz6">Book Bitcoin from theory to practice (Amazon)</a></p>
 
@@ -83,7 +71,5 @@ https://youtu.be/wMvFm2GJtcI
 <p id="a02b">📙&nbsp;<a href="https://amzn.to/3fB4Kbs">Pocket Book Bitcoin 199 questions (Amazon)</a><br>📙&nbsp;<a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Pocket&nbsp;</a><a href="https://www.amazon.it/dp/1078155585">Book&nbsp;</a><a href="https://www.corsobitcoin.com/prodotti/book-bitcoin-199-questions/">Bitcoin 199 questions (accept bitcoin)</a><br>—<br>► ITA:&nbsp;<a href="https://twitter.com/satoshiwantsyou">Twitter</a>&nbsp;,&nbsp;<a href="https://www.facebook.com/satoshiwantsyou">Facebook</a>,&nbsp;<a href="https://bitcoin-in-action.medium.com/">Medium</a>,&nbsp;<a href="https://www.instagram.com/satoshiwantsyou/">Instagram</a>,&nbsp;<a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>,&nbsp;<a href="https://github.com/bitcoin-dalla-teoria-alla-pratica">GitHub</a></p>
 
 <p id="ac8c">► ENG:&nbsp;<a href="https://twitter.com/btc_in_action">Twitter</a>&nbsp;,&nbsp;<a href="https://www.facebook.com/bitcoininaction/">Facebook</a>,&nbsp;<a href="https://medium.com/@bitcoin_in_action">Medium</a>,&nbsp;<a href="https://www.instagram.com/bitcoin_in_action/">Instagram</a>,&nbsp;<a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>,&nbsp;<a href="https://github.com/bitcoin-dalla-teoria-alla-pratica">GitHub</a></p>
-
-<p id="263a">Television isn’t a good idea (Radio Stations)<br>Email isn’t a good idea (Post offices)<br>Amazon isn’t a good idea (Retail stores)<br>Bitcoin isn’t a good idea (Central banks)</p>
 
 <p id="ed2a">In&nbsp;<strong>crypto</strong>&nbsp;we trust</p>

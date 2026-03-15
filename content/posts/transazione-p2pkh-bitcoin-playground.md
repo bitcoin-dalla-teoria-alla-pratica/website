@@ -3,14 +3,10 @@ title: "Transazione P2PKH nel Bitcoin Playground!"
 date: 2021-03-17T10:21:28+01:00
 draft: false
 
-
 tags:
   - "Script"
   - "Crittografia"
 ---
-
-
-
 
 <figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="/img/transazione-p2pkh-nel-bitcoin-playground-1.png" alt="Transazione P2PKH nel Bitcoin Playground!" data-id="13537" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-2.png" data-link="https://www.corsobitcoin.com/?attachment_id=13537" class="wp-image-13537"/></figure></li></ul></figure>
 
@@ -151,8 +147,6 @@ tags:
 
 <p>🎥 <a href="https://www.youtube.com/BitcoinInAction" rel="noreferrer noopener" target="_blank">Bitcoin in Action (YouTube)</a></p>
 
-<p>—</p>
-
 <p>🐙 GitHub:<a href="https://bit.ly/2Lj3yeY" rel="noreferrer noopener" target="_blank"> https://bit.ly/2Lj3yeY</a></p>
 
 <p>–––</p>
@@ -175,4 +169,3 @@ tags:
 
 <p>Television isn’t a good idea (Radio Stations)<br>&nbsp;Email isn’t a good idea (Post offices)<br>&nbsp;Amazon isn’t a good idea (Retail stores)<br>&nbsp;Bitcoin isn’t a good idea (Central banks)</p>
 
-<p>In <strong>crypto</strong> we trust</p>

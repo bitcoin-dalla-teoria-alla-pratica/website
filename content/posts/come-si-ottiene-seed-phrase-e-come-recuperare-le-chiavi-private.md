@@ -3,13 +3,9 @@ title: "Seed Phrase, come si ottiene?"
 date: 2019-04-02T12:37:55+01:00
 draft: false
 
-
 tags:
   - "Crittografia"
 ---
-
-
-
 
 <p></p>
 <p>Vi siete mai domandati come si ottiene il <a href="https://en.bitcoin.it/wiki/Seed_phrase" target="_blank" rel="noreferrer noopener">seed phrase</a>?</p>
@@ -91,6 +87,6 @@ echo "ibase=2; 00000001011" | bc
 										</figure>
 			<a href="https://tinyurl.com/yy8otosv"><img alt="Seed Phrase, come si ottiene?" src="https://cdn-images-1.medium.com/max/800/0*j-onAjAGFzIje-QT"></a>		
 		<p>► <a href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica</a> (Amazon)<br />► <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (sito ufficiale con pagamento in bitcoin)</a><br />► <a href="https://tinyurl.com/yxe8b8cs">Video corso disponibile su Udemy</a></p>
-<p>I nostri social:</p>
+
 <p>► <a href="https://twitter.com/satoshiwantsyou">Twitter</a> , <a href="https://www.facebook.com/bitcoin.corso.completo/">Facebook</a>, <a href="https://www.linkedin.com/company/bitcoin-dalla-teoria-alla-pratica">Linkedin</a>, <a href="https://medium.com/@bitcoindallateoriallapratica">Medium</a>, <a href="https://www.instagram.com/BitcoinDallaTeoriaAllaPratica">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a></p>
 <p>In <b>crypto</b> we trust</p>

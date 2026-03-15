@@ -3,14 +3,10 @@ title: "Perché il mio address inizia con 1?"
 date: 2020-07-01T12:26:24+01:00
 draft: false
 
-
 tags:
   - "Script"
   - "Crittografia"
 ---
-
-
-
 
 <section><section><section><section><section>
 <section>
@@ -117,7 +113,7 @@ tags:
 <p>► Linkedin: <a href="https://www.linkedin.com/company/bitcoin-dalla-teoria-alla-pratica" target="_blank" rel="noopener noreferrer" data-href="https://www.linkedin.com/company/bitcoin-dalla-teoria-alla-pratica">https://www.linkedin.com/company/bitcoin-dalla-teoria-alla-pratica</a></p>
 <p>► Medium: <a href="https://medium.com/@satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://medium.com/@satoshiwantsyou">https://medium.com/@satoshiwantsyou</a></p>
 <p>► Instagram: <a href="https://www.instagram.com/satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://www.instagram.com/satoshiwantsyou">https://www.instagram.com/satoshiwantsyou</a></p>
-<p>In crypto we trust</p>
+
 </section>
 <section>
 </section>

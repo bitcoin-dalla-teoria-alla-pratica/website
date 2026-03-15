@@ -44,7 +44,7 @@ OP_0 Signature Signature 2 PB PB PB 3 OP_CHECKMULTISIG.
 ```
 
 
-<figure class="wp-block-image size-full"><img src="https://www.corsobitcoin.com/wp-content/uploads/2023/12/image.png" alt="P2SH " class="wp-image-13741"/></figure>
+<figure class="wp-block-image size-full"><img src="/img/image.png" alt="P2SH " class="wp-image-13741"/></figure>
 
 <p>Per ulteriori dettagli sul bug e sulle dinamiche coinvolte, puoi fare riferimento alla <a href="http://documentazione script">documentazione</a> script di Bitcoin.</p>
 

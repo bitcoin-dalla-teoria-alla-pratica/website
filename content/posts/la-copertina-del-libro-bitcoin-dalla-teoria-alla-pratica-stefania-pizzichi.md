@@ -3,14 +3,10 @@ title: "La copertina del libro “Bitcoin dalla teoria alla pratica”"
 date: 2019-07-19T09:04:28+01:00
 draft: false
 
-
 tags:
   - "Crittografia"
   - "Nodo & Network"
 ---
-
-
-
 
 <p>L’immagine in copertina è stata realizzata da <a href="https://www.linkedin.com/in/stefaniapizzichi" target="_blank" rel="noopener noreferrer">Stefania Pizzichi</a>, visual designer freelance. <br />L’illustrazione è composta da un mosaico che mostra elementi iconici e rappresentativi del mondo <strong>Bitcoin</strong>, in uno stile semplice e colorato.</p>		
 							<figure>
@@ -31,4 +27,4 @@ tags:
 			<a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" target="_blank" role="button" rel="noopener noreferrer">
 						OTTIENI LA TUA COPIA SUL NOSTRO SHOP
 					</a>
-		<p>► <a href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br />► <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (sito ufficiale con pagamento in bitcoin)</a></p><p>— <br />► <a href="https://www.amazon.it/dp/1098612639">Libro Bitcoin 199 domande (Amazon)</a><br />► <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande">Libro Bitcoin 199 domande (sito ufficiale con pagamento in bitcoin)</a><br />— <br />► <a href="https://tinyurl.com/yxe8b8cs">Video corso disponibile su Udemy</a></p><p>I nostri social:<br />► <a href="https://twitter.com/satoshiwantsyou">Twitter</a> , <a href="https://www.facebook.com/bitcoin.corso.completo/">Facebook</a>, <a href="https://www.linkedin.com/company/bitcoin-dalla-teoria-alla-pratica">Linkedin</a>, <a href="https://medium.com/@bitcoindallateoriallapratica">Medium</a>, <a href="https://www.instagram.com/BitcoinDallaTeoriaAllaPratica">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a></p><p>In <b>crypto</b> we trust</p>
+		<p>► <a href="https://amzn.to/2MOj1av">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br />► <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/">Libro Bitcoin dalla teoria alla pratica (sito ufficiale con pagamento in bitcoin)</a></p><p>— <br />► <a href="https://www.amazon.it/dp/1098612639">Libro Bitcoin 199 domande (Amazon)</a><br />► <a href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande">Libro Bitcoin 199 domande (sito ufficiale con pagamento in bitcoin)</a><br />— <br />► <a href="https://tinyurl.com/yxe8b8cs">Video corso disponibile su Udemy</a></p><br />► <a href="https://twitter.com/satoshiwantsyou">Twitter</a> , <a href="https://www.facebook.com/bitcoin.corso.completo/">Facebook</a>, <a href="https://www.linkedin.com/company/bitcoin-dalla-teoria-alla-pratica">Linkedin</a>, <a href="https://medium.com/@bitcoindallateoriallapratica">Medium</a>, <a href="https://www.instagram.com/BitcoinDallaTeoriaAllaPratica">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a></p><p>In <b>crypto</b> we trust</p>

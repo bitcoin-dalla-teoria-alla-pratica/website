@@ -3,14 +3,10 @@ title: "Address Bitcoin"
 date: 2020-12-22T18:16:07+01:00
 draft: false
 
-
 tags:
   - "Script"
   - "Crittografia"
 ---
-
-
-
 
 <h4>Che cosa è lo stack?</h4>
 
@@ -58,14 +54,14 @@ tags:
 <section class="dd fh fi cy fj">
 <div class="n p">
 <div class="aj ak al am an fk ap w">
-<p id="9b12" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">— — –</p>
+
 <p id="bd12" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">🎥 <a class="bq jr" href="https://www.youtube.com/BitcoinInAction" rel="noopener nofollow">Bitcoin in Action (YouTube)</a></p>
-<p id="5c99" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">—</p>
+
 <p id="2b2d" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">🐙 GitHub:<a class="bq jr" href="https://bit.ly/2Lj3yeY" rel="noopener nofollow"> https://bit.ly/2Lj3yeY</a></p>
-<p id="5e34" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">— –</p>
+
 <p id="3da5" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">📕 <a class="bq jr" href="https://amzn.to/3pJcXj1" rel="noopener nofollow">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)</a></p>
 <p id="c6ee" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">📕 <a class="bq jr" href="https://bit.ly/38RtF9x" rel="noopener nofollow">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)</a></p>
-<p id="033a" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">— –</p>
+
 <p id="8d9a" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">📒 <a class="bq jr" href="https://amzn.to/2MOj1av" rel="noopener nofollow">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br />📒 <a class="bq jr" href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" rel="noopener nofollow">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a><br />📒 <a class="bq jr" href="https://amzn.to/2Ym4gz6" rel="noopener nofollow">Book Bitcoin from theory to practice (Amazon)</a></p>
 <p id="4f4f" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">📒 <a class="bq jr" href="https://bit.ly/3ijAyC4" rel="noopener nofollow">Book Bitcoin from theory to practice (accept bitcoin)</a><br />—<br />🎥 <a class="bq jr" href="https://bit.ly/3cUJDyZ" rel="noopener nofollow">Video Corso Bitcoin dalla teoria alla pratica</a></p>
 <p id="e640" class="iw ix fm av b gj iy iz ja gm jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq dd ef" data-selectable-paragraph="">—<br />📙 <a class="bq jr" href="https://amzn.to/3ckIkJj" rel="noopener nofollow">Tascabile Bitcoin 199 domande (Amazon)</a><br />📙 <a class="bq jr" href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande" rel="noopener nofollow">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a></p>

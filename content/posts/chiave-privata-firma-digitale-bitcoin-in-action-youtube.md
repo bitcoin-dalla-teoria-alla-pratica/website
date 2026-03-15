@@ -3,13 +3,9 @@ title: " Perché è così importante la chiave privata?"
 date: 2020-05-17T21:20:09+01:00
 draft: false
 
-
 tags:
   - "Crittografia"
 ---
-
-
-
 
 <section>
 <section>Benvenuto nel canale youtube <a href="https://www.youtube.com/BitcoinInAction?sub_confirmation=1" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/BitcoinInAction?sub_confirmation=1"><strong>Bitcoin in Action</strong></a>, io sono <a href="https://www.linkedin.com/in/alessiobarnini/" target="_blank" rel="noopener noreferrer" data-href="https://www.linkedin.com/in/alessiobarnini/">Alessio</a>, ma per tutti Barno.
@@ -75,15 +71,7 @@ Ciao!
 —
 🎥 <a href="http://bit.ly/38gGmYr" target="_blank" rel="noopener noreferrer" data-href="http://bit.ly/38gGmYr">Video corso disponibile su Udemy</a>
 
-I nostri social:
 ► <a href="https://twitter.com/satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://twitter.com/satoshiwantsyou">Twitter</a>&nbsp;, <a href="https://www.facebook.com/satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://www.facebook.com/satoshiwantsyou">Facebook</a>, <a href="https://www.linkedin.com/company/satoshiwantsyou" target="_blank" rel="noopener noreferrer" data-href="https://www.linkedin.com/company/satoshiwantsyou">Linkedin</a>, <a href="https://medium.com/@satoshiwantsyou/" target="_blank" rel="noopener noreferrer" data-href="https://medium.com/@satoshiwantsyou/">Medium</a>, <a href="https://www.instagram.com/satoshiwantsyou/" target="_blank" rel="noopener noreferrer" data-href="https://www.instagram.com/satoshiwantsyou/">Instagram</a>, <a href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA" target="_blank" rel="noopener noreferrer" data-href="https://www.youtube.com/channel/UCPsuu94QAXZ0fDYN0Zlo-RA">Youtube</a>, <a href="https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi" target="_blank" rel="noopener noreferrer" data-href="https://github.com/bitcoin-dalla-teoria-alla-pratica/errata-corrige-e-sorgente-esempi">GitHub</a>
-
-Television isn’t a good idea (Radio Stations)
-Email isn’t a good idea (Post offices)
-Amazon isn’t a good idea (Retail stores)
-Bitcoin isn’t a good idea (Central banks)
-
-In <strong>crypto</strong> we trust
 
 </section>
 </section>

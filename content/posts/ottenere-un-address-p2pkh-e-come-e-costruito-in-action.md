@@ -3,14 +3,10 @@ title: "Ottenere un address P2PKH e come è costruito (In Action!)"
 date: 2021-03-10T11:30:43+01:00
 draft: false
 
-
 tags:
   - "Script"
   - "Crittografia"
 ---
-
-
-
 
 <figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="/img/ottenere-un-address-p2pkh-e-come--costruito-in-action-1.png" alt="Ottenere un address P2PKH e come è costruito (In Action!)" data-id="13532" data-full-url="https://www.corsobitcoin.com/wp-content/uploads/2021/03/Youtube-1.png" data-link="https://www.corsobitcoin.com/?attachment_id=13532" class="wp-image-13532"/></figure></li></ul></figure>
 
@@ -91,14 +87,14 @@ tags:
 <pre class="il im in io ip jl jm jn"><span id="07ef" class="ee jo jp fu jq b dd jr js s jt" data-selectable-paragraph="">$ bitcoin-cli getaddressinfo $ADDR | jq -r '.scriptPubKey'</span><span id="2214" class="ee jo jp fu jq b dd jv jw jx jy jz js s jt" data-selectable-paragraph="">76a914<strong class="jq cp">002736d4bb3c8a6bed4957a92047a46acbcc5aa9</strong>88ac</span></pre>
 <p id="8d1b" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">Infatti troviamo corrispondenza!<br />Nel prossimo video vedremo come creare una transazione e come questa viene validata!</p>
 <p id="0587" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">Ciao e alla prossima!</p>
-<p id="a0f6" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">— — –</p>
+
 <p id="2b87" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">🎥 <a class="bq ij" href="https://www.youtube.com/BitcoinInAction" rel="noopener nofollow">Bitcoin in Action (YouTube)</a></p>
-<p id="5ea4" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">—</p>
+
 <p id="a42b" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">🐙 GitHub:<a class="bq ij" href="https://bit.ly/2Lj3yeY" rel="noopener nofollow"> https://bit.ly/2Lj3yeY</a></p>
-<p id="701b" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">— –</p>
+
 <p id="46e3" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">📕 <a class="bq ij" href="https://amzn.to/3pJcXj1" rel="noopener nofollow">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (Amazon)</a></p>
 <p id="8c0b" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">📕 <a class="bq ij" href="https://bit.ly/38RtF9x" rel="noopener nofollow">Bitcoin In Action — SegWit, Bitcoin Script e Smart Contracts (pagamento in bitcoin)</a></p>
-<p id="7641" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">— –</p>
+
 <p id="7b49" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">📒 <a class="bq ij" href="https://amzn.to/2MOj1av" rel="noopener nofollow">Libro Bitcoin dalla teoria alla pratica (Amazon)</a><br />📒 <a class="bq ij" href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-dalla-teoria-alla-pratica/" rel="noopener nofollow">Libro Bitcoin dalla teoria alla pratica (pagamento in bitcoin)</a><br />📒 <a class="bq ij" href="https://amzn.to/2Ym4gz6" rel="noopener nofollow">Book Bitcoin from theory to practice (Amazon)</a></p>
 <p id="1090" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">📒 <a class="bq ij" href="https://bit.ly/3ijAyC4" rel="noopener nofollow">Book Bitcoin from theory to practice (accept bitcoin)</a><br />—<br />🎥 <a class="bq ij" href="https://bit.ly/3cUJDyZ" rel="noopener nofollow">Video Corso Bitcoin dalla teoria alla pratica</a></p>
 <p id="844c" class="hl hm fu av b hn ie ho hp hq if hr hs ht ig hu hv hw ih hx hy hz ii ia ib id dc ee" data-selectable-paragraph="">—<br />📙 <a class="bq ij" href="https://amzn.to/3ckIkJj" rel="noopener nofollow">Tascabile Bitcoin 199 domande (Amazon)</a><br />📙 <a class="bq ij" href="https://www.corsobitcoin.com/prodotti/libro-bitcoin-199-domande" rel="noopener nofollow">Tascabile Bitcoin 199 domande (pagamento in bitcoin)</a></p>
