@@ -4,6 +4,7 @@ date: 2020-01-01T12:00:00+01:00
 draft: false
 weight: 2
 tipo: "Video Corso"
+cover: "img/videocorso-bitcoin-dalla-teoria-alla-pratica.webp"
 ---
 
 Segui il video corso completo che affronta le tematiche principali del protocolloetti in pratica la teoria utilizzando veri nodi! 

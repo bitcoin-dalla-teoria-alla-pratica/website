@@ -5,6 +5,7 @@ draft: false
 price: "9,99€"
 weight: 5
 tipo: "Libro"
+cover: "img/Bitcoin-199-questions.webp"
 ---
 
 We cannot stand stille cannot be witnesses of history, just watching this train passing by.It is not acceptable to be parasites of this technology.This is the moment to try to understand how the greatest payment revolution worksitcoin is the answer to the eternal question, is the change that society has been waiting for since the dawn of time.How we can be really free from any bonds, independent from institutions, masters of our own life.In order to truly understand how some bits can turn the world upside down, we need to take the path towards knowledge, starting from scratch.We are sure that this short book will arouse both beginners’ and experts’ curiosity and provide the answers everyone needs.

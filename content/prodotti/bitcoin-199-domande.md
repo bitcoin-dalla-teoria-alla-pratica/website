@@ -5,6 +5,7 @@ draft: false
 price: "9,99€"
 weight: 6
 tipo: "Libro"
+cover: "img/Bitcoin-199-domande.webp"
 ---
 
 Viviamo in una società in continua evoluzione, internet è entrato in maniera prepotente nelle nostre vite, l’email è diventata uno strumento indispensabile per la comunicazione, il mondo dei pagamenti sta cambiando, spazzando via il vecchio per far spazio al nuovo.

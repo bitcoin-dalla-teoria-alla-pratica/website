@@ -20,10 +20,6 @@ categories:
 
 In questo articolo, esploreremo concretamente le differenze apportate dall’introduzione dell’aggiornamento descriptor a partire da Bitcoin Core 0.17.0 nel 2018.
 
-Se non sei familiare con questo argomento, ti consiglio di dare un’occhiata a [questo articolo](https://medium.com/@bitcoin-in-action/wallet-bitcoin-differenze-tra-wallet-legacy-vs-wallet-descriptor-513b0faa4dd4).
-
-![](https://cdn-images-1.medium.com/max/1200/1*yX_9bACo1yXipSMncoJgPw.png)
-
 Come sempre, gli esempi possono essere replicati utilizzando il nostro docker e il nostro repository.
 
 Con l’aggiornamento descriptor, non è più possibile utilizzare `dumpprivkey` e quindi utilizzare la chiave privata per firmare le transazioni raw con il comando `signrawtransactionwithkey`.

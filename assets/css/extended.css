@@ -2,3 +2,8 @@
   max-height: 300px;
   object-fit: cover;
 }
+
+.product-cover {
+  max-height: 600px;
+  object-fit: cover;
+}

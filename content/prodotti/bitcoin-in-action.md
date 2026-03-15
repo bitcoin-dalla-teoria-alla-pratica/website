@@ -1,10 +1,11 @@
 ---
-title: "Bitcoin in action"
+title: "Bitcoin In Action: SegWit, Bitcoin Script & Smart Contracts"
 date: 2020-01-01T12:00:00+01:00
 draft: false
 price: "41,90€"
 weight: 1
 tipo: "Libro"
+cover: "img/libro-bitcoin-segwit-script-smart-contracts.webp"
 ---
 
 Bitcoin In Action accompagna il lettore attraverso l’aggiornamento di Bitcoin SegWit e l’utilizzo del linguaggio di programmazione Bitcoin Script.
@@ -23,17 +24,28 @@ Un libro molto corposo che porta due novità fondamentali rispetto al precedente
 
 ## Capitoli
 
-0. **I bit del mestiere**: Prepariamo il nostro banco di lavoro
-1. **Transaction malleability**: Che cosa è la transaction malleability? Come posso replicarla?
-2. **P2MS – Pay to Multi Signature**: Gli albori del multisig
-3. **P2SH – Pay to Script Hash**: Che cosa è il Pay to Script Hash?
-4. **P2SH Multisig – Pay To Script Hash**: Tutto quello che c'è da sapere sul multisig
-5. **Firmare una transazione legacy**: Come si firma una transazione legacy?
-6. **Firmare una transazione P2SH Multisig**: Come si firma una transazione multisig?
-7. **SegWit**: Tutto quello che c'è da sapere sull'aggiornamento SegWit
-8. **Firmare una transazione SegWit**: Come si firma una transazione SegWit?
-9. **Timelocks**: Presto che è tardi! Che cosa sono i timelocks? Come si può bloccare una transazione in base al tempo?
-10. **Advanced Script**: Che cosa sono gli smart contracts?
+1. **I bit del mestiere: Prepariamo il nostro banco di lavoro**: Prima di sporcarci le mani con transazioni reali, dobbiamo configurare gli strumenti giusti. In questo capitolo prepariamo l'ambiente di lavoro: librerie, terminale, e tutto ciò che serve per seguire gli esempi pratici del corso senza inciampare nei dettagli tecnici.
+
+2. **Transaction malleability**: Una transazione Bitcoin firmata può essere modificata da terzi prima di essere confermata, senza invalidare la firma. In questo capitolo scopriamo come funziona questo bug storico, perché ha bloccato lo sviluppo di Lightning Network per anni e come SegWit lo ha risolto definitivamente.
+
+3. **P2MS – Pay to Multi Signature**: Il multisig nella sua forma più primitiva. In questo capitolo analizziamo il primo script multifirma di Bitcoin, come funziona il meccanismo M-di-N, i suoi limiti pratici — dimensione dello script, costi elevati e mancanza di privacy — e perché è stato rapidamente superato da soluzioni più eleganti.
+
+4. **P2SH – Pay to Script Hash**: Con P2SH l'onere di fornire lo script di spesa passa dal mittente al destinatario. In questo capitolo vediamo come funziona questo cambiamento architetturale, come l'hash dello script diventa l'indirizzo di ricezione e perché P2SH ha reso il multisig praticabile per il mondo reale.
+
+5. **P2SH Multisig – Pay To Script Hash**: Il multisig moderno, quello che trovi nei cold wallet e nei servizi di custodia. In questo capitolo costruiamo un indirizzo P2SH 2-di-3 da zero, analizziamo il redeem script, vediamo come viene risolto lo stack durante la verifica e perché questo standard è ancora oggi ampiamente usato.
+
+6. **Firmare una transazione legacy**: In questo capitolo firmiamo una transazione legacy passo per passo: selezione degli UTXO, costruzione degli input e output, calcolo del sighash, firma ECDSA e serializzazione finale. Un percorso completo che ti permette di capire esattamente cosa succede dietro le quinte di ogni wallet.
+
+7. **Firmare una transazione P2SH Multisig**: Firmare una transazione multisig richiede la coordinazione di più chiavi private. In questo capitolo vediamo come raccogliere le firme, come assemblarle nello scriptSig nel corretto ordine, come gestire il bug di OP_CHECKMULTISIG con OP_0 e come trasmettere la transazione alla rete.
+
+8. **SegWit – Segregated Witness**: SegWit è l'aggiornamento più importante nella storia di Bitcoin dopo il genesis block. In questo capitolo analizziamo perché è stato necessario, cosa significa separare il witness dagli input, come cambia la struttura della transazione, il nuovo calcolo del peso in vbyte e tutti i vantaggi che ha portato alla rete.
+
+9. **Firmare una transazione SegWit**: Il processo di firma di una transazione SegWit è diverso da quello legacy: il sighash include il valore dell'input, risolvendo la transaction malleability. In questo capitolo costruiamo e firmiamo una transazione P2WPKH da zero, analizzando il nuovo formato di serializzazione witness campo per campo.
+
+10. **Timelocks: Presto che è tardi!**: I timelocks permettono di bloccare i bitcoin fino a un certo momento nel tempo o a una certa altezza di blocco. In questo capitolo analizziamo i quattro tipi di timelock — nLockTime, nSequence, CLTV e CSV — le loro differenze, come vengono verificati dal protocollo e i casi d'uso reali come i payment channel di Lightning Network.
+
+11. **Advanced Script: Gli smart contracts di Bitcoin**: Bitcoin Script non è solo per pagamenti semplici. In questo capitolo esploriamo gli script avanzati: HTLC, script condizionali con OP_IF, contratti con timelock combinati e le basi degli smart contract su Bitcoin. Scopriamo fino a dove si può spingere il linguaggio stack-based più robusto e battle-tested della storia.
+
 
 *101110, 01, 0x.*
 *01000111 01110010 01100001 01111010 01101001 01100101*

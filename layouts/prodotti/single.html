@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="post">
+  <h1 class="post-title">
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <div class="post-meta">
+    {{- with .Params.tipo -}}
+      <span>{{ . }}</span> &nbsp;·&nbsp;
+    {{- end -}}
+    {{- with .Params.price -}}
+      <span>{{ . }}</span>
+    {{- end -}}
+  </div>
+
+  {{ with .Params.cover }}
+    <img src="{{ absURL . }}" class="product-cover" alt="{{ $.Title }}" />
+  {{ end }}
+
+  <div class="post-content">
+    {{- with .Content -}}
+      <div>
+        {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">#</a> ${3}` | safeHTML }}
+      </div>
+    {{- end -}}
+  </div>
+</article>
+{{ end }}

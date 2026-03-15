@@ -18,6 +18,10 @@
 
 
 
+        {{ with .Params.cover }}
+          <img src="{{ absURL . }}" class="product-cover" alt="{{ $.Title }}" />
+        {{ end }}
+
         <div class="post-content">
             {{ .Summary }}
         </div>
