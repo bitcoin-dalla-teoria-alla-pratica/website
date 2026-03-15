@@ -1,6 +1,6 @@
 baseURL = "https://corsobitcoin.com/"
 languageCode = "it-it"
-title = "Il mio sito Hugo"
+title = "Corso Bitcoin"
 theme = "terminal"
 pagination.pagerSize = 5
 summaryLength = 70
@@ -34,7 +34,7 @@ enableRobotsTXT = true
     title = "Corso Bitcoin"
 
     [languages.it.params]
-      subtitle = "Libri, articoli e risorse tecniche su Bitcoin"
+      subtitle = "Come funziona Bitcoin: protocollo, crittografia, transazioni e script — libri e articoli tecnici"
       owner = ""
       keywords = ""
       copyright = "© 2026 Bitcoin In Action"
@@ -49,7 +49,7 @@ enableRobotsTXT = true
       words = "parole"
 
       [languages.it.params.logo]
-        logoText = "Corso Bitcoin"
+        logoText = "Corso ₿itcoin"
         logoHomeLink = "/"
 
       [languages.it.menu]
