@@ -93,7 +93,9 @@ Bob può verificare se il messaggio d’amore sia stato veramente inviato dalla 
 
 ```bash
 openssl dgst -sha256 -verify public.pem -signature signature.bin messaggio_amore.txt
-``` **Verifica confermata**! Bob adesso è sicuro che il mittente sia proprio Alice!  
+```
+
+**Verifica confermata**! Bob adesso è sicuro che il mittente sia proprio Alice!  
 Perchè? 
 Perchè Alice è l’unica che può fornire una firma che sia comprovata dalla sua chiave pubblica!
 
