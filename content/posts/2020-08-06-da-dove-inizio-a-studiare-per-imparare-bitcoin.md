@@ -5,7 +5,7 @@ slug: "da-dove-inizio-a-studiare-per-imparare-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Dai subito un’occhiata al nostro canale youtube!"
-images: ["https://cdn-images-1.medium.com/max/1200/1*9JVLiWGHuyoL6U8OTaXN_Q.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*9JVLiWGHuyoL6U8OTaXN_Q.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

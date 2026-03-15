@@ -5,7 +5,7 @@ slug: "introduzione-a-p2sh-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Pay to Public Key"
-images: ["https://cdn-images-1.medium.com/max/1200/1*onMS1jDT-JnfSzISNd59hw.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*onMS1jDT-JnfSzISNd59hw.jpeg"
 tags:
   - "BIP"
   - "Bitcoin"

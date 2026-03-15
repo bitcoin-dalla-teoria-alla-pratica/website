@@ -5,7 +5,7 @@ slug: "due-nodi-bitcoin-sullo-stesso-computer"
 draft: false
 author: "Alessio Barnini"
 description: "Non essere asociale."
-images: ["https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -149,7 +149,9 @@ $ ADDR=`bitcoin-cli getnewaddress`
 
 Lo salvo direttamente nella variabile d’ambiente **ADDR** così da agevolare la scrittura dei comandi successivi.
 
-Per visualizzare il valore di $ADDR, possiamo utilizzare **echo** ```bash
+Per visualizzare il valore di $ADDR, possiamo utilizzare **echo** 
+
+```bash
 $ echo $ADDR
 
 2N6yRwpVGdFsD1gBBhGTE8ijVmNwiVz6myZ

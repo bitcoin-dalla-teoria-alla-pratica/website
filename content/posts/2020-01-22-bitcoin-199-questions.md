@@ -5,7 +5,7 @@ slug: "bitcoin-199-questions"
 draft: false
 author: "Alessio Barnini"
 description: "The pocket book that you were looking for!"
-images: ["https://cdn-images-1.medium.com/max/1200/1*hB85AL6hq4coFROUqatKUQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*hB85AL6hq4coFROUqatKUQ.png"
 tags:
   - "BIP"
   - "Bitcoin"

@@ -5,7 +5,7 @@ slug: "presentazione-a-milano"
 draft: false
 author: "Alessio Barnini"
 description: "Blockchain Devs & Crafted Software"
-images: ["https://cdn-images-1.medium.com/max/1200/1*652iVQR77_lhESz6tBIr0w.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*652iVQR77_lhESz6tBIr0w.jpeg"
 tags:
   - "Bitcoin"
   - "Blockchain"

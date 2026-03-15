@@ -5,7 +5,7 @@ slug: "bloom-filters"
 draft: false
 author: "Alessio Barnini"
 description: "Personalmente sono rimasto molto affascinato da questa struttura dati probabilistica creata da Burton Howard Bloom nel 1970."
-images: ["https://cdn-images-1.medium.com/max/1200/0*9B009Yc2BZJGb3h8"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*9B009Yc2BZJGb3h8"
 tags:
   - "Bitcoin"
   - "Blockchain"

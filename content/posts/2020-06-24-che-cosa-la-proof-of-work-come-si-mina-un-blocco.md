@@ -5,7 +5,7 @@ slug: "che-cosa-la-proof-of-work-come-si-mina-un-blocco"
 draft: false
 author: "Alessio Barnini"
 description: "Video completo su Bitcoin in Action!"
-images: ["https://cdn-images-1.medium.com/max/2560/1*Uy45T1_19bYs4zh6DG6quw.png"]
+cover: "https://cdn-images-1.medium.com/max/2560/1*Uy45T1_19bYs4zh6DG6quw.png"
 tags:
   - "Bitcoin"
   - "Blockchain"

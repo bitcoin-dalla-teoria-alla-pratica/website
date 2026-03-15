@@ -5,7 +5,7 @@ slug: "come-creare-un-address-p2sh-p2pk-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Pay To Script Hash — Pay To Public Key"
-images: ["https://cdn-images-1.medium.com/max/1200/1*yEKjjBRycOiHC-8JELET4Q.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*yEKjjBRycOiHC-8JELET4Q.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

@@ -6,7 +6,7 @@ slug: "come-si-utilizza-un-nodo-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Seguici sul canale youtube — Bitcoin in Action"
-images: ["https://cdn-images-1.medium.com/max/1200/1*ntVRWlB4LDRPQQTyh8qEcQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*ntVRWlB4LDRPQQTyh8qEcQ.png"
 tags:
   - "Bitcoin"
   - "Blockchain"

@@ -5,7 +5,7 @@ slug: "bitcoin-in-action-che-cosa-l-halving"
 draft: false
 author: "Alessio Barnini"
 description: "Scoprilo su Youtube – Bitcoin in Action"
-images: ["https://cdn-images-1.medium.com/max/1200/1*khpaS8EmVgG7xOpRKg4Q_Q.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*khpaS8EmVgG7xOpRKg4Q_Q.png"
 tags:
   - "Bitcoin"
   - "Halving"

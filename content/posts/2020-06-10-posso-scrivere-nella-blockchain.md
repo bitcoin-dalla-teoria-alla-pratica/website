@@ -5,7 +5,7 @@ slug: "posso-scrivere-nella-blockchain"
 draft: false
 author: "Alessio Barnini"
 description: "Video completo nel canale youtube Bitcoin in Action"
-images: ["https://cdn-images-1.medium.com/max/1200/1*ZcxKPepq9_InlwDZ8sjnXQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*ZcxKPepq9_InlwDZ8sjnXQ.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

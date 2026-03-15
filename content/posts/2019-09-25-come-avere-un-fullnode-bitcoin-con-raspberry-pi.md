@@ -5,7 +5,7 @@ slug: "come-avere-un-fullnode-bitcoin-con-raspberry-pi"
 draft: false
 author: "Alessio Barnini"
 description: "Un lampone decentralizzato"
-images: ["https://cdn-images-1.medium.com/max/1200/1*zd6R6cKGNZFDOJjB2TEFGg.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*zd6R6cKGNZFDOJjB2TEFGg.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -808,15 +808,29 @@ sudo shutdown -r now
 
 Adesso al vostro login dovreste avere già il nodo attivo!
 
-Comandi utili per i servizi **enable** ```bash
+Comandi utili per i servizi **enable** 
+```bash
 sudo systemctl enable bitcoind.service
-``` **restart** ```bash
+``` 
+**restart** 
+
+```bash
 sudo systemctl restart bitcoind.service
-``` **start** ```bash
+``` 
+
+**start** 
+
+```bash
 sudo systemctl start bitcoind.service
-``` **stop** ```bash
+``` 
+**stop** 
+
+```bash
 sudo systemctl stop bitcoind.service
-``` **status** ```bash
+``` 
+**status** 
+
+```bash
 sudo systemctl status bitcoind.service
 ```
 

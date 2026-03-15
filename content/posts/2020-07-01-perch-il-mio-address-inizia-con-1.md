@@ -5,7 +5,7 @@ slug: "perch-il-mio-address-inizia-con-1"
 draft: false
 author: "Alessio Barnini"
 description: "Video completo disponibile su youtube."
-images: ["https://cdn-images-1.medium.com/max/2560/1*LyqNYSJeztGL50AZZF0zLw.png"]
+cover: "https://cdn-images-1.medium.com/max/2560/1*LyqNYSJeztGL50AZZF0zLw.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -176,11 +176,15 @@ Come premesso all’inizio del video, l’address è il digest dello **SHA256** 
 
 Nella wiki di [Bitcoin](https://en.bitcoin.it/wiki/List_of_address_prefixes) vediamo che per ottenere un address per l’ambiente mainnet dobbiamo utilizzare un byte di 0.
 
-Quindi con l’aiuto di variabili d’ambiente, salvo il digest dello **SHA256** della chiave pubblica compressa all’interno della variabile d’ambiente **ADDR_SHA** ```bash
+Quindi con l’aiuto di variabili d’ambiente, salvo il digest dello **SHA256** della chiave pubblica compressa all’interno della variabile d’ambiente **ADDR_SHA** 
+
+```bash
 $ ADDR_SHA=`printf 02413df2a3977bb663c4fc7418e7e004129c5cfc2d3d2bb6c9210ea8ee13769610 | xxd -r -p | openssl sha256| sed ‘s/^.* //’`
 ```
 
-Utilizzo il **digest** appena ottenuto per ottenere il digest della funzione crittografica **ripemd160** ```bash
+Utilizzo il **digest** appena ottenuto per ottenere il digest della funzione crittografica **ripemd160** 
+
+```bash
 $ ADDR_RIPEMD160=`printf $ADDR_SHA |xxd -r -p | openssl ripemd160 | sed ‘s/^.* //’`
 ```
 

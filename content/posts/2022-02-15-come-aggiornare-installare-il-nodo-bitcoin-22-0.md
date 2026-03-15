@@ -7,7 +7,7 @@ author: "Alessio Barnini"
 description: "Ciao!
 Oggi vediamo come aggiornare o installare il nodo Bitcoin versione 22.0.
 Questa verisone porta diversi cambiamenti che potete leggere…"
-images: ["https://cdn-images-1.medium.com/max/1200/1*dMhLMdoHDWxi0rilipr6lQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*dMhLMdoHDWxi0rilipr6lQ.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

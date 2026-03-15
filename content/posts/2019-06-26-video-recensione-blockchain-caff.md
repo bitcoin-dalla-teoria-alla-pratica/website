@@ -5,7 +5,7 @@ slug: "video-recensione-blockchain-caff"
 draft: false
 author: "Alessio Barnini"
 description: "Marco Crotta presenta il libro Bitcoin dalla teoria alla pratica."
-images: ["https://cdn-images-1.medium.com/max/1200/1*7wyyHlQEZuHxAusTHQKFvw.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*7wyyHlQEZuHxAusTHQKFvw.png"
 tags:
   - "Bitcoin"
   - "Blockchain"

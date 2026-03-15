@@ -5,7 +5,7 @@ slug: "i-nostri-libri-alla-libreria-hoepli-di-milano"
 draft: false
 author: "Alessio Barnini"
 description: "Siamo euforici!"
-images: ["https://cdn-images-1.medium.com/max/1200/1*9_0XvU4L4hu_s5EbmgklqA.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*9_0XvU4L4hu_s5EbmgklqA.jpeg"
 tags:
   - "Bitcoin"
   - "Blockchain"

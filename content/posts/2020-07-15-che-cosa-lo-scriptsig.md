@@ -5,7 +5,7 @@ slug: "che-cosa-lo-scriptsig"
 draft: false
 author: "Alessio Barnini"
 description: "Video disponibile nel nostro canale Bitcoin in Action!"
-images: ["https://cdn-images-1.medium.com/max/2560/1*BHyLAA4oht2qRz67aIPE8g.png"]
+cover: "https://cdn-images-1.medium.com/max/2560/1*BHyLAA4oht2qRz67aIPE8g.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

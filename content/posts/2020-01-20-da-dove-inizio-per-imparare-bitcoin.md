@@ -5,7 +5,7 @@ slug: "da-dove-inizio-per-imparare-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Regtest, la blockchain locale"
-images: ["https://cdn-images-1.medium.com/max/1200/1*vMKtqIdukfjht87ZxSkL0A.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*vMKtqIdukfjht87ZxSkL0A.png"
 tags:
   - "Bitcoin"
   - "Blockchain"

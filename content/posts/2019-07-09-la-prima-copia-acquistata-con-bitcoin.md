@@ -5,7 +5,7 @@ slug: "la-prima-copia-acquistata-con-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Il libro Bitcoin dalla teoria alla pratica acquistato dal nostro sito con bitcoin."
-images: ["https://cdn-images-1.medium.com/max/1200/1*-t5t4uBssgmP0vy_5UGBEQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*-t5t4uBssgmP0vy_5UGBEQ.png"
 tags:
   - "Bitcoin"
   - "Transazioni"

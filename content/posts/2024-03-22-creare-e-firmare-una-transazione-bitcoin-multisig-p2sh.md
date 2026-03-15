@@ -5,7 +5,7 @@ slug: "creare-e-firmare-una-transazione-bitcoin-multisig-p2sh"
 draft: false
 author: "Alessio Barnini"
 description: "Nel precedente articolo abbiamo visto come creare un address P2SH Multisig, in questo articolo vedremo come firmarlo"
-images: ["https://cdn-images-1.medium.com/max/1200/1*rFN2eXhjNLHZqewT86Xe9g.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*rFN2eXhjNLHZqewT86Xe9g.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

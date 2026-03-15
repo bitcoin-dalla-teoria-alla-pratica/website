@@ -5,7 +5,7 @@ slug: "come-costruito-un-address-multisignature-p2sh"
 draft: false
 author: "Alessio Barnini"
 description: "Ciao,"
-images: ["https://cdn-images-1.medium.com/max/1200/1*MDt92rabXRQfxc96rDzXdQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*MDt92rabXRQfxc96rDzXdQ.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

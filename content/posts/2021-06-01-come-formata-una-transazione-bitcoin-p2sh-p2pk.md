@@ -5,7 +5,7 @@ slug: "come-formata-una-transazione-bitcoin-p2sh-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "Video disponibile sul canale YouTube Bitcoin in Action"
-images: ["https://cdn-images-1.medium.com/max/1200/1*VY-lgsCkckkuF8obuEAh8A.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*VY-lgsCkckkuF8obuEAh8A.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

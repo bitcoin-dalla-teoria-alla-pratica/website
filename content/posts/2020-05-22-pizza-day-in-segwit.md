@@ -5,7 +5,7 @@ slug: "pizza-day-in-segwit"
 draft: false
 author: "Alessio Barnini"
 description: "Scopri il video su youtube — Bitcoin in Action"
-images: ["https://cdn-images-1.medium.com/max/1200/1*ssfH4XuAreWhL68CbjGvNw.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*ssfH4XuAreWhL68CbjGvNw.png"
 tags:
   - "Bitcoin"
   - "Blockchain"

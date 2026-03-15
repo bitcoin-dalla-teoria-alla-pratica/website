@@ -5,7 +5,7 @@ slug: "bitcoin-blockchain-fork"
 draft: false
 author: "Alessio Barnini"
 description: "Forse vi potrà sorprendere che la blockchain Bitcoin subisce dei fork molto frequentemente."
-images: ["https://cdn-images-1.medium.com/max/1200/1*Gi8vxZkxEiGQtqqmqE_SsA.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*Gi8vxZkxEiGQtqqmqE_SsA.png"
 tags:
   - "Bitcoin"
   - "Blockchain"

@@ -5,7 +5,7 @@ slug: "come-si-ottiene-l-address-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "O per meglio dire la chiave privata e la chiave pubblica?"
-images: ["https://cdn-images-1.medium.com/max/1200/1*H3Q8jIKujYwdD6lz7cvFOQ.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*H3Q8jIKujYwdD6lz7cvFOQ.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

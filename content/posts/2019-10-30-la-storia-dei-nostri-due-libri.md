@@ -5,7 +5,7 @@ slug: "la-storia-dei-nostri-due-libri"
 draft: false
 author: "Alessio Barnini"
 description: "Bitcoin dalla teoria alla pratica e Bitcoin 199 domande"
-images: ["https://cdn-images-1.medium.com/max/1200/1*Cs6Orht_Yjq5AkbiVWlgfQ.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*Cs6Orht_Yjq5AkbiVWlgfQ.jpeg"
 tags:
   - "Bitcoin"
   - "Fee"

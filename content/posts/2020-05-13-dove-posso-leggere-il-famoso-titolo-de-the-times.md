@@ -5,7 +5,7 @@ slug: "dove-posso-leggere-il-famoso-titolo-de-the-times"
 draft: false
 author: "Alessio Barnini"
 description: "Seguici sul canale youtube — Bitcoin in Action"
-images: ["https://cdn-images-1.medium.com/max/1200/1*eMz70QEkdqz4elk9WnzdaA.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*eMz70QEkdqz4elk9WnzdaA.png"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -46,7 +46,8 @@ bitcoin-cli getblockhash 0
 
 Quindi utilizziamo la chiamata getblockhash e otteniamo il suo hash.
 
-Adesso che abbiamo il suo hash possiamo ottenere più dettagli con la chiamata **getblock**. ```bash
+Adesso che abbiamo il suo hash possiamo ottenere più dettagli con la chiamata **getblock**. 
+```bash
 bitcoin-cli getblock 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 ```
 

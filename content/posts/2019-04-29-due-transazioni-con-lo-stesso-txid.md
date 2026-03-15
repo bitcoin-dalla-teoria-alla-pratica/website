@@ -6,7 +6,7 @@ draft: false
 author: "Alessio Barnini"
 description: "Un pò di tempo fa il protocollo Bitcoin fece nascere due transazioni con lo stesso identificativo. 
 Cercando la transazione con id…"
-images: ["https://cdn-images-1.medium.com/max/1200/1*bJPPcNzZUvTdh3qJrcOgCA.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*bJPPcNzZUvTdh3qJrcOgCA.jpeg"
 tags:
   - "BIP"
   - "Bitcoin"

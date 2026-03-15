@@ -5,7 +5,7 @@ slug: "file-di-configurazione-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Cerchiamo di mantenere pulito"
-images: ["https://cdn-images-1.medium.com/max/1200/1*GulUDJxcumDlTzZVU_yNww.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*GulUDJxcumDlTzZVU_yNww.png"
 tags:
   - "Bitcoin"
   - "Nodi"

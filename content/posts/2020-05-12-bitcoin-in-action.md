@@ -5,7 +5,7 @@ slug: "bitcoin-in-action"
 draft: false
 author: "Alessio Barnini"
 description: "Il nuovo canale youtube"
-images: ["https://cdn-images-1.medium.com/max/1200/1*BUvYiQhwO7qss7OfYvzcyg.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*BUvYiQhwO7qss7OfYvzcyg.jpeg"
 tags:
   - "Bitcoin"
   - "Chiave Privata"

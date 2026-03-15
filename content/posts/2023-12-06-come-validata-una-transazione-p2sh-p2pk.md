@@ -5,7 +5,7 @@ slug: "come-validata-una-transazione-p2sh-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "Ciao,"
-images: ["https://cdn-images-1.medium.com/max/1200/0*__hAs5XcMI8LHyl-.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*__hAs5XcMI8LHyl-.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

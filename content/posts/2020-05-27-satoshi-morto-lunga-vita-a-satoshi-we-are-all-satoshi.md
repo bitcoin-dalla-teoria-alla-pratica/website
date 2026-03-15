@@ -5,7 +5,7 @@ slug: "satoshi-morto-lunga-vita-a-satoshi-we-are-all-satoshi"
 draft: false
 author: "Alessio Barnini"
 description: "Scopri il video sul nostro canale youtube Bitcoin in action"
-images: ["https://cdn-images-1.medium.com/max/2560/1*iipGi_rhXuFtc1UvFkEkPw.png"]
+cover: "https://cdn-images-1.medium.com/max/2560/1*iipGi_rhXuFtc1UvFkEkPw.png"
 tags:
   - "BIP"
   - "Bitcoin"

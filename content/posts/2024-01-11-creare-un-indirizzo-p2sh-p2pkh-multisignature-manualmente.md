@@ -5,7 +5,7 @@ slug: "creare-un-indirizzo-p2sh-p2pkh-multisignature-manualmente"
 draft: false
 author: "Alessio Barnini"
 description: "In Bitcoin in Action, siamo appassionati di svelare i segreti di Bitcoin. Oggi, ci immergeremo nelle profondità del protocollo, creando…"
-images: ["https://cdn-images-1.medium.com/max/1200/0*tTDhT_QA5Euio5Jo.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*tTDhT_QA5Euio5Jo.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

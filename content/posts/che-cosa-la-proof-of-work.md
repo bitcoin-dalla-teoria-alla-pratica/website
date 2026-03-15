@@ -5,7 +5,7 @@ slug: "che-cosa-la-proof-of-work"
 draft: false
 author: "Alessio Barnini"
 description: "Una delle parti fondamentali di Bitcoin è la Proof of Work (PoW)."
-images: ["https://cdn-images-1.medium.com/max/1200/1*H73RAozblI4FlhzcHwDjUw.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*H73RAozblI4FlhzcHwDjUw.png"
 tags:
   - "Bitcoin"
   - "Blockchain"

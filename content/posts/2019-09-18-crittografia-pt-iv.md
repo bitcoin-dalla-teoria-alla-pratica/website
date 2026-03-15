@@ -5,7 +5,7 @@ slug: "crittografia-pt-iv"
 draft: false
 author: "Alessio Barnini"
 description: "L’arte del nascondere —  Guerra fredda e Che Guevara"
-images: ["https://cdn-images-1.medium.com/max/1200/0*1ysWidjOb4gN32p8.jpg"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*1ysWidjOb4gN32p8.jpg"
 tags:
   - "Crittografia"
 categories:

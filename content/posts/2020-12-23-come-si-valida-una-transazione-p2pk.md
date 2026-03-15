@@ -5,7 +5,7 @@ slug: "come-si-valida-una-transazione-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "I 3 concetti base da conoscere"
-images: ["https://cdn-images-1.medium.com/max/1200/1*yeFVeMUJlY8jeHJMFYmmzg.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*yeFVeMUJlY8jeHJMFYmmzg.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

@@ -5,7 +5,7 @@ slug: "bitcoin-core-gui-vs-cli"
 draft: false
 author: "Alessio Barnini"
 description: "Vantaggi e svantaggi."
-images: ["https://cdn-images-1.medium.com/max/1200/1*E-j9ZAcRsnblOB5BTDZHCA.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*E-j9ZAcRsnblOB5BTDZHCA.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

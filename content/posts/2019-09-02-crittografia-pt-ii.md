@@ -5,7 +5,7 @@ slug: "crittografia-pt-ii"
 draft: false
 author: "Alessio Barnini"
 description: "L’arte del nascondere"
-images: ["https://cdn-images-1.medium.com/max/1200/0*-0Pz_T4ItiEkI9mH.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*-0Pz_T4ItiEkI9mH.png"
 tags:
   - "Bitcoin"
   - "Crittografia"

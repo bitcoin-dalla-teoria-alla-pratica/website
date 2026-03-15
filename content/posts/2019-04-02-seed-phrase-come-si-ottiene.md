@@ -5,7 +5,7 @@ slug: "seed-phrase-come-si-ottiene"
 draft: false
 author: "Alessio Barnini"
 description: "Vi siete mai domandati su come si ottiene il seed phrase?"
-images: ["https://cdn-images-1.medium.com/max/1200/1*E6-6HpKgGjhaes12D9qCRQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*E6-6HpKgGjhaes12D9qCRQ.png"
 tags:
   - "BIP"
   - "Bitcoin"

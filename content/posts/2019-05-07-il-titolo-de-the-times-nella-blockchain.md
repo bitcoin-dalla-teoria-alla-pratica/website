@@ -5,7 +5,7 @@ slug: "il-titolo-de-the-times-nella-blockchain"
 draft: false
 author: "Alessio Barnini"
 description: "Abbiamo spesso sentito che un titolo del celebre giornale “The Times” è inserito dentro la blockchain Bitcoin."
-images: ["https://cdn-images-1.medium.com/max/1200/0*GUPMgH6fiEInMGs4"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*GUPMgH6fiEInMGs4"
 tags:
   - "Bitcoin"
   - "Blockchain"

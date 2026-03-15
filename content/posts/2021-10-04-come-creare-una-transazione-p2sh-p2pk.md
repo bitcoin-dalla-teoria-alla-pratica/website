@@ -5,7 +5,7 @@ slug: "come-creare-una-transazione-p2sh-p2pk"
 draft: false
 author: "Alessio Barnini"
 description: "Come inviare la transazione step by step"
-images: ["https://cdn-images-1.medium.com/max/1200/1*imG__98FnJWdFN9KT0cgRQ.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*imG__98FnJWdFN9KT0cgRQ.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

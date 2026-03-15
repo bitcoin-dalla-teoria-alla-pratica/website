@@ -6,7 +6,7 @@ draft: false
 author: "Alessio Barnini"
 description: "L’immagine in copertina è stata realizzata da Stefania Pizzichi, visual designer freelance. 
 L’illustrazione è composta da un mosaico…"
-images: ["https://cdn-images-1.medium.com/max/1200/1*dSvQFl8wNVd8dgRI4Lz0AA.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*dSvQFl8wNVd8dgRI4Lz0AA.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

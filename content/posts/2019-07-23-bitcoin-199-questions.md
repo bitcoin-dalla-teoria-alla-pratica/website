@@ -5,7 +5,7 @@ slug: "bitcoin-199-questions"
 draft: false
 author: "Alessio Barnini"
 description: "The pocket-sized paperback book on Bitcoin answers."
-images: ["https://cdn-images-1.medium.com/max/1200/1*omENmYhCjBhBcE5ydevDuQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*omENmYhCjBhBcE5ydevDuQ.png"
 tags:
   - "Bitcoin"
   - "Blockchain"

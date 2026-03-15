@@ -5,7 +5,7 @@ slug: "wallet-legacy-vs-wallet-descriptor"
 draft: false
 author: "Alessio Barnini"
 description: "In questo articolo, ci immergeremo nell’analisi delle differenze tra i wallet legacy e i wallet descriptor di Bitcoin. Potresti non…"
-images: ["https://cdn-images-1.medium.com/max/1200/0*gmKbASHkI79mPZaa.jpg"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*gmKbASHkI79mPZaa.jpg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

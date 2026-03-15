@@ -5,7 +5,7 @@ slug: "libri-2-0-su-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Libro Bitcoin dalla teoria alla pratica e il tascabile Bitcoin 199 domande"
-images: ["https://cdn-images-1.medium.com/max/1200/1*vMKtqIdukfjht87ZxSkL0A.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*vMKtqIdukfjht87ZxSkL0A.png"
 tags:
   - "Bitcoin"
 categories:

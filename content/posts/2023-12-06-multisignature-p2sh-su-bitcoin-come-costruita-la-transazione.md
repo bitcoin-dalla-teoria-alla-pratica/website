@@ -5,7 +5,7 @@ slug: "multisignature-p2sh-su-bitcoin-come-costruita-la-transazione"
 draft: false
 author: "Alessio Barnini"
 description: "Ciao,"
-images: ["https://cdn-images-1.medium.com/max/1200/1*cq7lzrOb0ERo4u8QnISjKA.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*cq7lzrOb0ERo4u8QnISjKA.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

@@ -5,7 +5,7 @@ slug: "bitcoin-in-action-come-replicare-gli-esempi"
 draft: false
 author: "Alessio Barnini"
 description: "Ciao, come sapete abbiamo rilasciato il nostro terzo libro — Bitcoin in Action, SegWit, Bitcoin script & smart contracts."
-images: ["https://cdn-images-1.medium.com/max/1200/1*HKex9kyVdls9X3ItKtxVug.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*HKex9kyVdls9X3ItKtxVug.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

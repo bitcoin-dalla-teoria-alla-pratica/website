@@ -6,7 +6,7 @@ draft: false
 author: "Alessio Barnini"
 description: "Ciao a tutti,
 abbiamo pensato di creare un repository per facilitare gli esempi che troviamo nei due nostri libri, Bicoin dalla teoria alla…"
-images: ["https://cdn-images-1.medium.com/max/1200/1*1hBErngCdIgVlHtojL1r4w.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*1hBErngCdIgVlHtojL1r4w.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

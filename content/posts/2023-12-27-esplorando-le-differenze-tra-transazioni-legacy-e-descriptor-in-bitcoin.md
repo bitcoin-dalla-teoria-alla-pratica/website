@@ -5,7 +5,7 @@ slug: "esplorando-le-differenze-tra-transazioni-legacy-e-descriptor-in-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "In questo articolo, esploreremo concretamente le differenze apportate dall’introduzione dell’aggiornamento descriptor a partire da Bitcoin…"
-images: ["https://cdn-images-1.medium.com/max/1200/1*yX_9bACo1yXipSMncoJgPw.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*yX_9bACo1yXipSMncoJgPw.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

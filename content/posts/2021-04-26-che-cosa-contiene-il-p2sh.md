@@ -5,7 +5,7 @@ slug: "che-cosa-contiene-il-p2sh"
 draft: false
 author: "Alessio Barnini"
 description: "Video completo sul nostro canale YouTube – Bitcoin in Action!"
-images: ["https://cdn-images-1.medium.com/max/1200/1*-o58BCJ57BSBk18DFlpo9A.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*-o58BCJ57BSBk18DFlpo9A.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

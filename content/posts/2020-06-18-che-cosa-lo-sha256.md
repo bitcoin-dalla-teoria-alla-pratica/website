@@ -5,7 +5,7 @@ slug: "che-cosa-lo-sha256"
 draft: false
 author: "Alessio Barnini"
 description: "Scopri il video sul canale Bitcoin in Action!"
-images: ["https://cdn-images-1.medium.com/max/1200/1*zU6Md7J1cTqpbZ13EYnPAw.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*zU6Md7J1cTqpbZ13EYnPAw.png"
 tags:
   - "Bitcoin"
   - "Blockchain"
@@ -41,7 +41,9 @@ Cerchiamo di fare chiarezza con un esempio.
 
 > In Action
 
-Bene, creiamo subito un digest, utilizzando il messaggio in chiaro **bitcoininaction** ```bash
+Bene, creiamo subito un digest, utilizzando il messaggio in chiaro **bitcoininaction** 
+
+```bash
 $ printf bitcoininaction | openssl dgst -sha256
 
 (stdin)= b76b7041106a75de9fa4fbf880b3886cc114cbfd570e1a17adb58b937afee351

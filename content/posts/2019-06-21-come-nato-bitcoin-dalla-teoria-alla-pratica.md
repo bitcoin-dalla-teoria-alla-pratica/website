@@ -6,7 +6,7 @@ draft: false
 author: "Alessio Barnini"
 description: "Se ci avessero detto che nel 2019 avremmo scritto un libro, probabilmente entrambi ci avremmo messi a ridere. 
 Sì, dietro a questo profilo…"
-images: ["https://cdn-images-1.medium.com/max/1200/1*wOT0hgDbh0bPXH-Ao9r2gw.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*wOT0hgDbh0bPXH-Ao9r2gw.jpeg"
 tags:
   - "Bitcoin"
   - "Mining"

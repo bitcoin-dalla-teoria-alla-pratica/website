@@ -5,7 +5,7 @@ slug: "ottenere-un-address-p2pkh-e-come-costruito-in-action"
 draft: false
 author: "Alessio Barnini"
 description: "Negli articoli precedenti abbiamo visto come un address P2PKH viene generato e come una transazione viene validata. È arrivato il momento…"
-images: ["https://cdn-images-1.medium.com/max/1200/1*yGricoohTXDxTqZrN3VRlA.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*yGricoohTXDxTqZrN3VRlA.jpeg"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

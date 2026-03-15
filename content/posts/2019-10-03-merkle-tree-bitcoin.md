@@ -5,7 +5,7 @@ slug: "merkle-tree-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Lo sprint che serviva per il libro Bitcoin dalla teoria alla pratica"
-images: ["https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png"
 tags:
   - "Bitcoin"
   - "Hash"

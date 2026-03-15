@@ -5,7 +5,7 @@ slug: "pretty-good-privacy"
 draft: false
 author: "Alessio Barnini"
 description: "PGP/GPG come verificare i pacchetti Bitcoin e Electrum."
-images: ["https://cdn-images-1.medium.com/max/1200/0*O0l-9eGBSVdJVL99.jpg"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*O0l-9eGBSVdJVL99.jpg"
 tags:
   - "Bitcoin"
   - "Chiave Pubblica"
@@ -120,7 +120,11 @@ $ gpg --keyserver hkps://keyserver.ubuntu.com --receive-keys “01EA 5486 DE18 A
 
 ```python
 $ wget https://bitcoin.org/laanwj-releases.asc$ gpg --import laanwj-releases.asc
-``` **Metodo 3**: A questo link [https://bitcoincore.org/en/download/](https://bitcoincore.org/en/download/) è possibile trovare l’id chiavi **01EA5486DE18A882D4C2684590C8019E36C2E964** ```bash
+``` 
+
+**Metodo 3**: A questo link [https://bitcoincore.org/en/download/](https://bitcoincore.org/en/download/) è possibile trovare l’id chiavi **01EA5486DE18A882D4C2684590C8019E36C2E964** 
+
+```bash
 $ gpg --keyserver keys.gnupg.net --search-key 01EA5486DE18A882D4C2684590C8019E36C2E964
 ```
 
@@ -136,7 +140,9 @@ pub rsa4096 2015–06–24 [SC] [expires: 2022–02–10]
 uid [ unknown] Wladimir J. van der Laan (Bitcoin Core binary release signing key) <laanwj@gmail.com>
 ```
 
-Possiamo finalmente **verificare di aver scaricato il pacchetto corretto**. ```bash
+Possiamo finalmente **verificare di aver scaricato il pacchetto corretto**. 
+
+```bash
 $ gpg --verify SHA256SUMS.asc
 ```
 

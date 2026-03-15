@@ -5,7 +5,7 @@ slug: "transazioni-in-regtest"
 draft: false
 author: "Alessio Barnini"
 description: "Come posso creare una transazioni tra due nodi?"
-images: ["https://cdn-images-1.medium.com/max/1200/1*EdeMc64B2AWgAXx2ODJNsw.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*EdeMc64B2AWgAXx2ODJNsw.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
@@ -101,7 +101,9 @@ $ echo $TX_DATA
 
 NB: Nel libro [**Bitcoin dalla teoria alla pratica**](prodotti/bitcoin-dalla-teoria-alla-pratica) e nel [**video-corso**](https://www.udemy.com/course/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?referralCode=AAC8EB895142D8301C13) viene analizzato byte per byte la **transaction data**.
 
-Quello che dobbiamo fare adesso è firmare la transazione con la chiave privata di $ADDR che posso ottenere con il comando **dumpprivkey**. ```bash
+Quello che dobbiamo fare adesso è firmare la transazione con la chiave privata di $ADDR che posso ottenere con il comando **dumpprivkey**. 
+
+```bash
 $ PK=`bitcoin-cli dumpprivkey $ADDR`
 ```
 
@@ -157,7 +159,9 @@ $ bitcoin-cli -conf=$PWD/bitcoin_nodo2.conf getrawmempool
 ]
 ```
 
-Esatto, entrambi i nodi hanno a disposizione la transazione ed entrambi potrebbero minarla. Per verificare il candidate block il comando è **getblocktemplate**. ```bash
+Esatto, entrambi i nodi hanno a disposizione la transazione ed entrambi potrebbero minarla. Per verificare il candidate block il comando è **getblocktemplate**. 
+
+```bash
 $ bitcoin-cli getblocktemplate '{"rules": ["segwit"]}'
 ```
 

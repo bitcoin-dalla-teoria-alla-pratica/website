@@ -5,7 +5,7 @@ slug: "bitcoin-in-action-perch-cos-importante-la-chiave-privata"
 draft: false
 author: "Alessio Barnini"
 description: "Canale youtube Bitcoin in Action"
-images: ["https://cdn-images-1.medium.com/max/1200/1*KZ5XKmo-TENn7qA5STH8HA.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*KZ5XKmo-TENn7qA5STH8HA.png"
 tags:
   - "Bitcoin"
   - "Chiave Privata"

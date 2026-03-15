@@ -5,7 +5,7 @@ slug: "aggiornare-il-nodo-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Versione 0.19.0.1"
-images: ["https://cdn-images-1.medium.com/max/1200/1*vqgkXcmfVzbVpoo58NQ2HQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*vqgkXcmfVzbVpoo58NQ2HQ.png"
 tags:
   - "Bitcoin"
   - "Halving"

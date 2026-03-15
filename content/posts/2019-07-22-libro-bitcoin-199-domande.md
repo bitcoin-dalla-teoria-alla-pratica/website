@@ -5,7 +5,7 @@ slug: "libro-bitcoin-199-domande"
 draft: false
 author: "Alessio Barnini"
 description: "Il tascabile delle risposte Bitcoin"
-images: ["https://cdn-images-1.medium.com/max/1200/1*2TfRVTUsJD4JjzzvCmaoqA.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*2TfRVTUsJD4JjzzvCmaoqA.png"
 tags:
   - "Bitcoin"
   - "Blockchain"

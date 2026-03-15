@@ -5,7 +5,7 @@ slug: "la-firma-digitale"
 draft: false
 author: "Alessio Barnini"
 description: "Che cosa è e come si ottiene?"
-images: ["https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png"
 tags:
   - "Bitcoin"
   - "Chiave Privata"
@@ -78,9 +78,12 @@ Creiamo un messaggio da inviare a **Bob** e lo salviamo dentro messaggio_amore.t
 echo “Bob ti Amo! By la tua Alice” > messaggio_amore.txt
 ```
 
-Abbiamo tutto il necessario per creare la firma digitale. **La chiave privata e il messaggio**. ```bash
+Abbiamo tutto il necessario per creare la firma digitale. **La chiave privata e il messaggio**. 
+
+```bash 
 openssl dgst -sha256 -sign private.pem messaggio_amore.txt > signature.bin
 ```
+
 
 Abbiamo ottenuto la firma, salvandola nel file **signature.bin (** ECDSA: Elliptic Curve Digital Signature Algorithm). 
 Adesso possiamo inviare la firma, il messaggio e la nostra chiave pubblica a Bob, cosi da metterlo in condizione di verificare il messaggio!
@@ -104,11 +107,5 @@ Non ci credete? Modificate il messaggio e applicate di nuovo la verifica!
 ---
 
 È necessario conoscere le basi per imparare e capire il protocollo Bitcoin! 
-Questo tipo di approccio è stato utilizzato nel nostro [**libro** **Bitcoin dalla teoria alla pratica**](https://www.corsobitcoin.com/) **,** acquistabile su [Amazon](https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P/) e sul nostro sito [corsobitcoin.com](https://www.corsobitcoin.com/) e nei corsi [Udemy](https://www.udemy.com/course/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?referralCode=AAC8EB895142D8301C13).
+Questo tipo di approccio è stato utilizzato nel nostro [**libro** **Bitcoin dalla teoria alla pratica**](https://www.corsobitcoin.com/) acquistabile su [Amazon](https://www.amazon.it/Bitcoin-Dalla-teoria-alla-pratica/dp/B07SNNNL2P/) e nei corsi [Udemy](https://www.udemy.com/course/bitcoin-blockchain-corso-completo-teoria-pratica-esempi-tutorial/?referralCode=AAC8EB895142D8301C13).
 
-Per pochi giorni abbiamo i nostri prodotti in promozione, scopri come ottenere un ottimo sconto!
-
-[https://medium.com/@bitcoindallateoriallapratica/coupon-sconto-corso-bitcoin-black-friday-57ceb6233f9d](https://medium.com/@bitcoindallateoriallapratica/coupon-sconto-corso-bitcoin-black-friday-57ceb6233f9d)
-
-![Bitcoin dalla teoria alla pratica](https://cdn-images-1.medium.com/max/1200/1*mJwJypYxRp-ooQl_NZKhsw.png)
-*Bitcoin dalla teoria alla pratica*

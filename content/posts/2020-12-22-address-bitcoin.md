@@ -5,7 +5,7 @@ slug: "address-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Che cosa è lo stack?"
-images: ["https://cdn-images-1.medium.com/max/1200/0*DQgE6OUhAceAOw2Y"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*DQgE6OUhAceAOw2Y"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

@@ -5,7 +5,7 @@ slug: "transazione-p2pkh-nel-bitcoin-playground"
 draft: false
 author: "Alessio Barnini"
 description: "Dopo alcuni articoli di teoria, siamo arrivati alla pratica. In questo video analizzeremo come sia possibile creare una transazione P2PKH…"
-images: ["https://cdn-images-1.medium.com/max/1200/1*z7ismtgHXw2TVJziHX2KjQ.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*z7ismtgHXw2TVJziHX2KjQ.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

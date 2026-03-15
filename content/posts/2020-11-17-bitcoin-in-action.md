@@ -5,7 +5,7 @@ slug: "bitcoin-in-action"
 draft: false
 author: "Alessio Barnini"
 description: "Segwit, Bitcoin script & smart contracts"
-images: ["https://cdn-images-1.medium.com/max/1200/1*p_9QQNXVIAfCTu75l_1ndg.png"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*p_9QQNXVIAfCTu75l_1ndg.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

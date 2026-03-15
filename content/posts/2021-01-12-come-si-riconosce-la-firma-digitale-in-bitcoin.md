@@ -5,7 +5,7 @@ slug: "come-si-riconosce-la-firma-digitale-in-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Nel video precedente, abbiamo analizzato con la pratica come la transazione viene P2PK viene validata."
-images: ["https://cdn-images-1.medium.com/max/1200/0*wPevf8FfVyo0eNl8"]
+cover: "https://cdn-images-1.medium.com/max/1200/0*wPevf8FfVyo0eNl8"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"

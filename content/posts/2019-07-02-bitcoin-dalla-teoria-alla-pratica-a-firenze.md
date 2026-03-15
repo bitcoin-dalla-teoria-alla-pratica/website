@@ -6,7 +6,7 @@ draft: false
 author: "Alessio Barnini"
 description: "Con enorme soddisfazione siamo presenti al Libraccio — ibs a Firenze in Via de’ Cerretani accanto al bellissimo Duomo.
 Quando il libro è…"
-images: ["https://cdn-images-1.medium.com/max/1200/1*Q2l42yliRv6krdeogp-1bA.jpeg"]
+cover: "https://cdn-images-1.medium.com/max/1200/1*Q2l42yliRv6krdeogp-1bA.jpeg"
 tags:
   - "Bitcoin"
 categories:

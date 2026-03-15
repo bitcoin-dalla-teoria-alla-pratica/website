@@ -5,7 +5,7 @@ slug: "che-cosa-lo-scriptpubkey-come-si-valida-la-transazione-in-bitcoin"
 draft: false
 author: "Alessio Barnini"
 description: "Video completo nel nostro canale youtube Bitcoin in Action"
-images: ["https://cdn-images-1.medium.com/max/2560/1*tNj7YomLo9VjdIK_YWSuUA.png"]
+cover: "https://cdn-images-1.medium.com/max/2560/1*tNj7YomLo9VjdIK_YWSuUA.png"
 tags:
   - "Bitcoin"
   - "Bitcoin Script"
