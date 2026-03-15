@@ -6,7 +6,7 @@
 # Hugo
 # Generated site
 public/
-# Generated resources (some people prefer to commit this if they don't want to run PostCSS etc. on CI)
+# Generated resources (some people prefer to commit this if they don't want to run PostCSS etcn CI)
 resources/_gen/
 # Build lock file
 .hugo_build.lock
@@ -22,3 +22,5 @@ yarn-error.log*
 .idea/
 *.swp
 *.swo
+
+medium_to_hugo.py

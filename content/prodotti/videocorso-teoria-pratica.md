@@ -6,7 +6,7 @@ weight: 2
 tipo: "Video Corso"
 ---
 
-Segui il video corso completo che affronta le tematiche principali del protocollo. Metti in pratica la teoria utilizzando veri nodi! 
+Segui il video corso completo che affronta le tematiche principali del protocolloetti in pratica la teoria utilizzando veri nodi! 
 
 *   **7 ore di video on-demand su Udemy**
 *   **7 risorse scaricabili**

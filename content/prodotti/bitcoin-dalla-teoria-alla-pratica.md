@@ -7,18 +7,18 @@ weight: 3
 tipo: "Libro"
 ---
 
-Siamo sempre stati convinti che per capire veramente il potenziale di una qualsiasi tecnologia dobbiamo provarla con mano, vedendo con i nostri occhi i risultati che possiamo ottenere. Questo libro analizza dettagliatamente il protocollo Bitcoin, mettendo in pratica la teoria con esempi concreti e reali.
+Siamo sempre stati convinti che per capire veramente il potenziale di una qualsiasi tecnologia dobbiamo provarla con mano, vedendo con i nostri occhi i risultati che possiamo ottenereuesto libro analizza dettagliatamente il protocollo Bitcoin, mettendo in pratica la teoria con esempi concreti e reali.
 
 Non è necessario essere un programmatore per capire che è arrivato il momento di unirsi alla rivoluzione tecnologica.
 
 *The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.*
 
-Bitcoin. Denaro dei nerds? Oro digitale?
+Bitcoinenaro dei nerds? Oro digitale?
 Forse, sicuramente rivoluzione sociale.
 
 Questo il pensiero dei due autori dopo aver messo in pratica, con esempi reali e concreti, il protocollo Bitcoin.
 Il loro mantra è: “Per comprendere profondamente una qualsiasi tecnologia dobbiamo toccarla con mano, vedendo con i nostri occhi i risultati che possiamo ottenere”.
-Non si sono accontentati di sapere superficialmente che cosa è una transazione e come viene identificata nella blockchain, oppure perché viene utilizzato il merkle tree, o ancora come sono gestite le chiavi private nel wallet deterministico. Hanno voluto ottenere i risultati passo passo spiegandone tutte le sfumature.
+Non si sono accontentati di sapere superficialmente che cosa è una transazione e come viene identificata nella blockchain, oppure perché viene utilizzato il merkle tree, o ancora come sono gestite le chiavi private nel wallet deterministicoanno voluto ottenere i risultati passo passo spiegandone tutte le sfumature.
 
 Allacciate le cinture, state per intraprendere un viaggio nel cypherspazio, al vostro ritorno sarete consapevoli, vi renderete conto del perché Bitcoin ha le carte in regola per spostare gli equilibri.
 
@@ -28,9 +28,9 @@ Il treno sta fischiando: investite l’asset più prezioso a vostra disposizione
 
 ## Capitoli
 
-1. **Storia e termini base**: In questo capitolo parleremo della storia di Bitcoin e dei termini base. Capiremo che cos'è un movimento cypherpunk, che cos'è un sistema centralizzato e una rete P2P. Per capire la rivoluzione dobbiamo partire dalle basi e dare merito a tutte le persone che hanno reso questa tecnologia il futuro.
-2. **Crittografia**: Crittografia proviene dal greco e significa scrittura nascosta. Può essere usata per cifrare dei messaggi, quindi nasconderli, oppure può essere usata per verificare che un messaggio non sia stato manomesso e che sia stato inviato dal mittente voluto.
-3. **Blockchain**: Come possiamo definire la blockchain? Le definizioni più gettonate sono "un libro mastro distribuito" oppure "un database immutabile", o ancora un "raccoglitore di transazioni ordinate temporalmente". Queste definizioni hanno tutte qualcosa di vero, perché effettivamente la blockchain è immutabile, raccoglie delle transazioni, è distribuita, e ogni blocco è "marcato" temporalmente.
+1. **Storia e termini base**: In questo capitolo parleremo della storia di Bitcoin e dei termini baseapiremo che cos'è un movimento cypherpunk, che cos'è un sistema centralizzato e una rete P2Per capire la rivoluzione dobbiamo partire dalle basi e dare merito a tutte le persone che hanno reso questa tecnologia il futuro.
+2. **Crittografia**: Crittografia proviene dal greco e significa scrittura nascostauò essere usata per cifrare dei messaggi, quindi nasconderli, oppure può essere usata per verificare che un messaggio non sia stato manomesso e che sia stato inviato dal mittente voluto.
+3. **Blockchain**: Come possiamo definire la blockchain? Le definizioni più gettonate sono "un libro mastro distribuito" oppure "un database immutabile", o ancora un "raccoglitore di transazioni ordinate temporalmente"ueste definizioni hanno tutte qualcosa di vero, perché effettivamente la blockchain è immutabile, raccoglie delle transazioni, è distribuita, e ogni blocco è "marcato" temporalmente.
 4. **Merkle tree**
 5. **Bloom filters**
 6. **Big endian – Little endian**

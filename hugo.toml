@@ -3,6 +3,7 @@ languageCode = "it-it"
 title = "Il mio sito Hugo"
 theme = "terminal"
 pagination.pagerSize = 5
+summaryLength = 70
 
 [markup.highlight]
   noClasses = false
