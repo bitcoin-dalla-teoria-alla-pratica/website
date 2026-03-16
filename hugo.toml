@@ -43,10 +43,11 @@ enableRobotsTXT = true
       readOtherPosts = "Leggi altri articoli"
       newerPosts = "Articoli più recenti"
       olderPosts = "Articoli più vecchi"
-      missingContentMessage = "Pagina non trovata..."
-      missingBackButtonLabel = "Torna alla home"
+      missingContentMessage = "Blocco non trovato..."
+      missingBackButtonLabel = "Torna al Gensis Block"
       minuteReadingTime = "min di lettura"
       words = "parole"
+      readingTime = true
 
       [languages.it.params.logo]
         logoText = "Corso ₿itcoin"

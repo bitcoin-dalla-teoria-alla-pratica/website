@@ -1,8 +1,9 @@
 ---
-title: "Il mio sito Hugo"
+title: "Corso Bitcoin"
 date: 2026-03-14T20:38:00+01:00
 draft: false
 framed: true
+cover: "/img/bizantino.jpg"
 ---
 
 Adoriamo perseguire allucinazioni e le loro conseguenti idee, come scrivere questo libri.
