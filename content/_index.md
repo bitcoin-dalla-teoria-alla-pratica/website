@@ -6,7 +6,7 @@ framed: true
 cover: "/img/bizantino.jpg"
 ---
 
-Adoriamo perseguire allucinazioni e le loro conseguenti idee, come scrivere questo libri.
+Adoriamo perseguire allucinazioni e le loro conseguenti idee, come scrivere questi libri.
 Leggendoli non troverete né un saggio, né un’analisi economica, né una ricerca accademica sulla crittografia.
 
 Troverete l’esperienza di chi, davanti ad articoli che narrano di leggendarie stregonerie digitali, non si accontenta del luccichio mistico e, sentendosi inspiegabilmente attratto dalla curiosità di strofinare una lampada di Aladino per scoprire cosa ne esce, scoperchia il vaso di Pandora con l’intenzione di non lasciarsi dietro alcun amletico dubbio.
